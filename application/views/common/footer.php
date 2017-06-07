@@ -372,6 +372,14 @@
 <script src="<?php echo base_url('assets/js/jquery-ui.js')?>"></script>
 <script src="<?php echo base_url('assets/js/jquery.timepicker.min.js')?>"></script>
 <script src="<?php echo base_url('assets/js/multichoice.min.js')?>"></script>
+<script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+
+<script>
+    window.sr = ScrollReveal({ reset: false  });
+
+    sr.reveal('.slide_left', { duration: 1000,scale: 1,origin: 'left',distance: '100px'});
+    sr.reveal('.slide_right', { duration: 1000,scale: 1,origin: 'right',distance: '100px'});
+</script>
 </body>
 
 </html>
