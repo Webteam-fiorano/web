@@ -333,7 +333,7 @@
 
 
 
-                <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>docs/whitepapers_fmq.pdf">
+                <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>/docs/whitepapers_fmq.pdf">
                     <li class=" col-sm-4">
                         <ul class="whitePanel panel5" id="">
                             <li>
