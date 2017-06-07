@@ -17,13 +17,7 @@ $layout_data = array(
 
 <?php // CONTENT ?>
 
-[sfdgkp[k hg;d hk k
 
-
-<section id="what_we_do">
-<section id="what_we_do">
-<section id="what_we_do">
-<section id="what_we_do">
 <section id="what_we_do">
         <div class="container">
             <div class="row">
