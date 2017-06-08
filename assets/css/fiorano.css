@@ -1302,7 +1302,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
     background-color: #222;
     background-image: url(../images/products/banner_mq.jpg);
     background-position: center;
-
+    background-size: cover;
 }
 .section-contact{
     background-image: url(../images/home/banner-about.jpg);
@@ -1322,69 +1322,84 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
     background-color: #222;
     background-image: url(../images/products/banner_integration.jpg);
     background-position: center;
+    background-size: cover;
 }
 .microservice-section{
     background-color: #222;
     background-image: url(../images/products/banner-microservices.jpg);
     background-position: center;
+    background-size: cover;
+
 }
 .intro-sectionApi_service{
     background-color: #222;
     background-image: url(../images/services/banner-image-service.jpg);
-    background-position: center
+    background-position: center;
+    background-size: cover;
 }
 .intro-sectionCustomer{
     background-color: #222;
     background-image: url(../images/company/customers/customer-banner.jpg);
     background-position: center;
+    background-size: cover;
 }
 .intro-sectionresources{
     background-color: #222;
     background-image: url(../images/resources/banner-image-resources.jpg);
   //  background-position: center;
+    background-size: cover;
 }
 .bannersectionsolutions{
     background-color: #222;
     background-image: url(../images/solutions/banner-solution-1600x400px.jpg);
     background-position: center;
+    background-size: cover;
 
 }
 .bannersectionsolutions-gov{
     background-image: url(../images/solutions/govermment-banner.jpg);
     background-position: center;
+    background-size: cover;
 }
 .bannersectionsolutions-health{
     background-image: url(../images/solutions/healthcare-banner.jpg);
     background-position: center;
+    background-size: cover;
 }
 .coreBank-section{
     background-color: #222;
     background-image: url(../images/solutions/banner-core-Banking-Integration.jpg);
     background-position: center;
+    background-size: cover;
 }
 .commuity-section{
     background-color: #222;
     background-image: url(../images/products/banner-enterprise-Messaging.jpg);
     background-position: center;
+    background-size: cover;
 }
 .about-section-banner{
     background-color: #222;
     background-image: url(../images/home/banner-about-v2.jpg);
     background-position: center;
+    background-size: cover;
 
 }
 .apiIntegration-Section{
     background-color: #222;
     background-image: url(../images/products/banner-api-Management.jpg);
     background-position: center;
+    background-size: cover;
 }
 .section-Integration{
     background-image: url(../images/products/banner-integration.jpg);
     background-position: center;
+    background-size: cover;
 }
 .section-studioTool{
     background-image: url(../images/products/banner-studio-tool.jpg);
     background-position: center;
+    background-size: cover;
 }
 .solutionBanner{
     height:380px;
@@ -4513,11 +4528,30 @@ and (max-device-width: 767px) {
     }
 }
 */
-
-
+.video-micro{
+    width: 94%;margin: 0px 16px;
+}
+.micro-youtube-frame{
+    margin-top:-20% !important;  opacity: 999 ;width:117%;
+}
+.youtube-frame{
+    position:absolute;position: absolute;
+    width: 80%;
+    height: 69%;
+    left: 0;
+    margin-left: 19%;
+}
+.youtube-frameDiv{
+    margin-top: -62% !important; opacity: 99999; padding-top: 0; padding-bottom: 0;
+}
+.youtube-frameDiv1{
+    position:relative;
+    height:0;
+    padding-bottom:75.0%;
+}
 /*Close Customer Home*/
 @media only screen
-and (min-device-width: 320px)
+
 and (max-device-width: 767px) {
 
     .imagHead{
@@ -4568,7 +4602,70 @@ and (max-device-width: 767px) {
         font-size: 16px;
     }
 
+    .productBanner{
+        height:auto;
+    }
+    .video-micro{
+        width: 92%;
+        margin: 10px 14px;
+    }
+
+        .micro-youtube-frame{
+        margin-top: 0% !important;
+        opacity: 999;
+        width: 100%;
+
+    }
+        .youtube-frame{
+            width: 75%;
+            height: 60%;
+            left: 0;
+            margin-left: 13%;
+        }
+    .youtube-frameDiv{
+        margin-top: -53% !important;
+    }
+    .youtube-frameDiv1{
+        padding-bottom: 78%;
+    }
 }
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 992px) {
+    .video-micro{
+        width: 92%;
+        margin: 10px 14px;
+    }
+}
+@media only screen
+and (min-device-width: 570px)
+and (max-device-width: 650px) {
+    .video-micro{
+        width: 92%;
+        margin: 2px 20px;
+    }
+}
+@media only screen
+and (max-device-width: 570px) {
+    .video-micro{
+        width: 93%;
+        margin: 10px 11px;
+    }
+    .youtube-frame{
+        width: 75%;
+        height: 60%;
+        left: 0;
+        margin-left: 13%;
+    }
+    .youtube-frameDiv{
+        margin-top: -53% !important;
+    }
+    .youtube-frameDiv1{
+        padding-bottom: 78%;
+    }
+}
+
+
 /*----------From prateek---------------*/
 
 /*newly designed pages*/
