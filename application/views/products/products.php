@@ -39,9 +39,9 @@
                             <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
                                 <img src="<?php echo base_url('assets/images/products/banner-api-Management.jpg')?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                                 <div class="tp-caption lft" data-x="30" data-y="100" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
-                                    <h2 class="white bannerDec"><span style="color:#8baad8; font-size: 32px;"><b>Modernize</b></span>, <span style="color:#8baad8; font-size: 32px;"><b>innovate</b></span>, and <span style="color:#FFC107; font-size: 32px;"><b>monetize</b> </span> <br> existing data and open up new <br>revenue channels. </h2>
+                                    <h2 class="white bannerDec"><span style="color:#8baad8; font-size: 32px;"><b>Modernize</b></span>, <span style="color:#8baad8; font-size: 32px;"><b>Innovate</b></span>, and <span style="color:#8baad8; font-size: 32px;"><b>Monetize</b> </span> <br> existing data and open up new <br>revenue channels. </h2>
                                 </div>
-                            </li>
+                            </li><!--00BCD4 FFC107-->
                             <!-- SLIDE  -->
                             <!-- SLIDE  -->
                         </ul>
