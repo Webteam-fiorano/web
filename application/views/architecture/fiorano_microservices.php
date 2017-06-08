@@ -40,7 +40,7 @@
 
                 <img class="col-xs-12" src="<?php echo base_url('assets/images/architecture/mac-demo.png')?>"/>
                 <div  class="col-xs-12" style="margin-top:-77% !important; opacity: 99999; padding-top: 0; padding-bottom: 0;">
-                    <video  controls class="" style="width: 94%;margin: 0px 16px;">
+                    <video  controls class="video-micro" style="">
                         <source src="<?php echo base_url('assets/videos/architecture/microservices.mp4');?>" type="video/mp4" >
                         <!--<source src="mov_bbb.ogg" type="video/ogg">-->
 
@@ -74,14 +74,10 @@
         </div>
 
         <div class="col-sm-7 padding-bottom-50">
-            <img style="margin-top:-20% !important;  opacity: 999 ;width:117%" class="" src="<?php echo base_url('assets/images/architecture/macbookair.png')?>"/>
+            <img style="" class="micro-youtube-frame" src="<?php echo base_url('assets/images/architecture/macbookair.png')?>"/>
 
-           <div  class="col-xs-12" style=" margin-top: -62% !important; opacity: 99999; padding-top: 0; padding-bottom: 0;">
-               <div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/r-OTx6P2XsY?ecver=2" width="100" height="80" frameborder="0" style="position:absolute;position: absolute;
-width: 80%;
-height: 69%;
-left: 0;
-margin-left: 19%;" allowfullscreen></iframe></div>
+           <div  class="col-xs-12" class="youtube-frameDiv">
+               <div  class="youtube-frameDiv1" ><iframe clas=="youtube-frame" src="https://www.youtube.com/embed/r-OTx6P2XsY?ecver=2" width="100" height="80" frameborder="0" style="" allowfullscreen></iframe></div>
               <!-- <video  controls class="" style="width: 491px;
     height: 313px;
 
