@@ -135,4 +135,21 @@ class Resources extends CI_Controller
         $this->load->view('resources/documentation');
         $this->load->view('common/footer');
     }
+    function download_fiorano()
+    {
+        $data['heading']=" Fiorano Product Documentation | Fiorano";
+        $data['title']="Fiorano Product Documentation | Fiorano";
+        $this->load->view('common/header',$data);
+        $this->load->view('resources/download_fiorano');
+        $this->load->view('common/footer');
+    }
+    function Temenos_T24_Fiorano_ESB_Integration()
+    {
+        $data['heading']=" Fiorano Product Documentation | Fiorano";
+        $data['title']="Fiorano Product Documentation | Fiorano";
+        $this->load->view('common/header',$data);
+        $this->load->view('resources/Temenos_T24_Fiorano_ESB_Integration');
+        $this->load->view('common/footer');
+    }
+
 }
