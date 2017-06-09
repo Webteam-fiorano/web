@@ -23,7 +23,7 @@
 
             <div id="slip" class="">
                 <a href="<?php echo __ROOT__?>/request/demo.php">
-                <button class="btn btn-primary">
+                <button class="btn btn-transparent">
                     <i class="fa fa-download"></i>
                     Request Demo</button>
                 </a>

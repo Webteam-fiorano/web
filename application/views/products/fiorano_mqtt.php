@@ -47,7 +47,7 @@
 
                 </div>
                 <div class="col-lg-7 col-sm-7 productRight ">
-                    <img class="img-responsive padding-top-50" src="<?php echo base_url('assets/images/products/MQTT-Solution-Overview.jpg')?>" alt="Fiorano SOA Platform">
+                    <img class="img-responsive padding-top-50 padding-top-hidxs" src="<?php echo base_url('assets/images/products/MQTT-Solution-Overview.jpg')?>" alt="Fiorano SOA Platform">
                 </div>
             </div>
 
@@ -63,7 +63,7 @@
             <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Fiorano MQTT – Key Features</h2>
             <p class="text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"> Fiorano MQTT is running on FioranoMQ server which is proven product for delivering the industry's lowest latency, highest throughput, real-time enterprise messaging.</p>
         </div>
-        <div class="row padding-bottom-50">
+        <div class="row padding-bottom-50 padding-bottom-hidxs">
             <div class="features">
                 <div class="col-xs-12 nopadding">
                     <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="0ms" style="visibility: visible; animation-duration: 300ms; animation-delay: 0ms; animation-name: fadeInUp;">
@@ -267,22 +267,22 @@
             <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Fiorano MQTT – Use Cases </h2>
         </div>
         <div class="row">
-            <div class="col-md-6 padding-top-50 padding-bottom-50">
+            <div class="col-md-6 padding-top-50 padding-bottom-50 padding-bottom-hidxs padding-top-hidxs">
 
                  <h4>IoT (messaging broker/hub between devices/sensors and back-end applications) </h4>
                 <br>
                 <p> Fiorano MQTT receives data (messages) from thousands of devices/sensors and the delivers them to MQTT and JMS based back-end processing. Fiorano MQTT can then pass this data to different enterprise
                     applications such as ERP, PLM, MES, CRM and/or Big Data processing systems, via Fiorano ESB.</p>
             </div>
-            <div class="col-md-6 padding-top-50 padding-bottom-50">
+            <div class="col-md-6 padding-top-50 padding-bottom-50 padding-bottom-hidxs padding-top-hidxs">
                 <img class="col-xs-12" src="<?php echo base_url('assets/images/products/IoT.png')?>"/>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6 padding-top-50 padding-bottom-50">
+            <div class="col-md-6 padding-top-50 padding-bottom-50 padding-bottom-hidxs padding-top-hidxs">
                 <img class="col-xs-12" src="<?php echo base_url('assets/images/products/M2M.png')?>"/>
             </div>
-            <div class="col-md-6 padding-top-50 padding-bottom-50">
+            <div class="col-md-6 padding-top-50 padding-bottom-50 padding-bottom-hidxs padding-top-hidxs">
                 <h4>M2M (broker/hub for Machine to Machine messaging and for mediating backend processing) </h4>
                 <br>
                 <p>Fiorano MQTT can be used as broker for machine to machine real-time messaging. A back-end processing system can be positioned (as shown in the figure)
@@ -291,14 +291,14 @@
 
         </div>
         <div class="row">
-            <div class="col-md-6 padding-top-50 padding-bottom-50">
+            <div class="col-md-6 padding-top-50 padding-bottom-50 padding-bottom-hidxs padding-top-hidxs">
 
                 <h4>Local Hub (simple hub for devices/sensors messaging) </h4>
                 <br>
                 <p> Fiorano MQTT can be used as a simple messaging hub between devices/sensors.</p>
             </div>
-            <div class="col-md-6 padding-top-50 padding-bottom-50">
-                <img class="" src="<?php echo base_url('assets/images/products/Local-Hub.png')?>" width="350"/>
+            <div class="col-md-6 padding-top-50 padding-bottom-50 padding-bottom-hidxs padding-top-hidxs">
+                <img class="img-responsive" src="<?php echo base_url('assets/images/products/Local-Hub.png')?>" width="350"/>
             </div>
 
         </div>
@@ -310,7 +310,7 @@
         <div class="section-header">
             <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Fiorano MQTT – Real world applications</h2>
         </div>
-        <div class="row padding-top-50 padding-bottom-50">
+        <div class="row padding-top-50 padding-bottom-50 padding-bottom-hidxs padding-top-hidxs">
 
             <div class="col-md-3 col-sm-6">
                 <div class="single-feature row">

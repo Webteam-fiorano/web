@@ -2,7 +2,7 @@
     <div class="container">
         <div class="col-xs-12 productBanner ">
             <div class="productHead col-sm-8">
-                <h1 class="productHeadTitle">FioranoMQ<sup>®</sup></h1>
+                <h1 class="productHeadTitle">FioranoMQ<sup class="sup-val">®</sup></h1>
                 <div class="col-sm-8 hidden-xs nopadding">
                 <p class="productHeadDesc hidden-xs" >
                     Bring the power of seamless messaging to your enterprise with the industry’s fastest JMS messaging engine.
@@ -36,14 +36,14 @@
         <div class="container">
             <div class="row">
                 <div class="section-header">
-                    <h1 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">FioranoMQ<sup>®</sup>  Enterprise Messaging </h1>
+                    <h1 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">FioranoMQ<sup class="sup-val">®</sup>  Enterprise Messaging </h1>
                     <!--<p class="text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>-->
                 </div>
                 <div class="col-sm-6 col-sm-offset-1 productLeft">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
 
-                    <p class="productDesc padding-top-50">Fiorano's enterprise messaging backbone seamlessly integrates heterogeneous IT systems improving operational efficiency, business agility and performance. With comprehensive support for standards-based communication, connectivity and transformation, the FioranoMQ JMS server minimizes proprietary dependencies while providing a powerful communication backbone that can be extended easily, allowing real-time delivery of data spanning multiple applications, platforms, partners and customers. Fiorano is the messaging middleware of choice supporting mission-critical operations for Global Leaders worldwide.</p>
+                    <p class="productDesc padding-top-50 padding-top-hidxs">Fiorano's enterprise messaging backbone seamlessly integrates heterogeneous IT systems improving operational efficiency, business agility and performance. With comprehensive support for standards-based communication, connectivity and transformation, the FioranoMQ JMS server minimizes proprietary dependencies while providing a powerful communication backbone that can be extended easily, allowing real-time delivery of data spanning multiple applications, platforms, partners and customers. Fiorano is the messaging middleware of choice supporting mission-critical operations for Global Leaders worldwide.</p>
 
                 </div>
                 <div class="col-sm-5 productRight padding-bottom-50 padding-top-50">
@@ -174,7 +174,7 @@
                     <!-- <p class="text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>-->
                 </div>
 
-                <div class="col-md-6 padding-bottom-50 padding-top-50">
+                <div class="col-md-6 padding-bottom-50 padding-top-50 padding-top-hidxs padding-bottom-hidxs">
 
                     <p class="text-justify">
                         MQTT is a light weight event and message oriented protocol that allows devices/sensors to communicate with remote systems in an efficient and asynchronous fashion;
@@ -194,7 +194,7 @@
                     </p>
                 </div>
                 <div class="col-md-6 padding-top-50">
-                    <img src="<?php echo base_url('assets/images/products/MQTT_Solution_Overview.png')?>"/>
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/products/MQTT_Solution_Overview.png')?>"/>
                 </div>
 
             </div>
@@ -258,12 +258,11 @@
                             </div>
                         </div>
                         </a>
-                        <div class="offer-details ">
+                        <div class="offer-details " style="margin-bottom: -6px;">
 
                             <h4><a href="<?php echo __ROOT__?>/whitepapers/mm/messaging_infrastructure.php" >How Well Does Your Messaging Infrastructure Scale?
                           </a></h4>
                             <p>Learn how Standards-based Messaging products can solve complex enterprise integration problems</p>
-                            <br>
                             <h4><a href="<?php echo __ROOT__?>whitepapers/ia/fiorano_fioranomq_scalability.php" >Highly Scalable Java Messaging
 
                                 </a></h4>
@@ -318,7 +317,7 @@
                 <div class="col-md-6">
                     <a href="" title="Download Performance Sheet"><img  src="<?php echo base_url('assets/images/products/MQperformance.png')?>" width="200"/></a>
                 </div>
-                <div class="col-md-6 padding-bottom-50 padding-top-50">
+                <div class="col-md-6 padding-bottom-50 padding-top-50 padding-bottom-hidxs padding-top-hidxs">
                     <h3> Executive Summary</h3>
                     <p class="text-left alignleft align-left">This paper presents a performance analysis of publish/subscribe and PTP messaging throughput of the following JMS Servers:</p>
 

@@ -55,7 +55,7 @@
                 <div class="col-sm-7">
                     <p>Banks around the world face significant economic and regulatory changes along with continuously expanding data volumes. Banking processes over the time have become increasingly dependent on many inter-related applications.</p>
 
-                    <p>Fiorano has over the years helped many banks integrate their core banking system with disparate applications, boosting operational efficiency and productivity across processes, customers and partners. Fiorano provides an <br/>'<b>out of the box</b>' integration solution for the T24 core banking system, making it an ideal choice for T24 clients who do not have an incumbent ESB as well as those implementing a '<b>bank in a box</b>' solution.
+                    <p>Fiorano has over the years helped many banks integrate their core banking system with disparate applications, boosting operational efficiency and productivity across processes, customers and partners. Fiorano provides an '<b>out of the box</b>' integration solution for the T24 core banking system, making it an ideal choice for T24 clients who do not have an incumbent ESB as well as those implementing a '<b>bank in a box</b>' solution.
                     </p>
 
                     <p>With Fiorano's integration solution, banks can;</p>
@@ -214,14 +214,14 @@
 </section>
 
 
-<section class="even-section">
+<!--<section class="even-section">
     <div class="container">
         <div class="row">
             <div class="section-header padding-bottom-50">
                 <h1 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">T24 Core Banking user</h1>
                 <p class="text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">If you are a T24 Core Banking user, we can show how you can maximize your business by seamless integration of your core banking system. Call us at +1-650-326-1136 or contact us with your requirement.</p>
-                <a href="<?php echo __ROOT__ ?>/solutions/banking/temenos-t24-core-banking-integration.php"  class="checkdownload text-center center-block"><button class="btn btn-primary">Contact US</button></a>
-            </div>
+                <a href="<?php /*echo __ROOT__ */?>/solutions/banking/temenos-t24-core-banking-integration.php"  class="checkdownload text-center center-block"><button class="btn btn-primary">Contact US</button></a>
+            </div>-->
             <!--data-toggle="modal"  data-id="download_contact" data-target="#myModal"-->
         <!--div class="col-xs-12 padding-bottom-50">
             <?php /*$att= array('type'=>"POST", 'name'=> "contact"); echo form_open('http://www.fiorano.com/solutions/banking/temenos-t24-core-banking-integration.php',$att)*/?>
@@ -278,10 +278,10 @@
         </div>-->
 
 
-
+<!--
         </div>
     </div>
-</section>
+</section>-->
 
 
 <div id="myModal" class="modal fade" role="dialog">

@@ -74,10 +74,10 @@
         </div>
 
         <div class="col-sm-7 padding-bottom-50">
-            <img style="" class="micro-youtube-frame" src="<?php echo base_url('assets/images/architecture/macbookair.png')?>"/>
+            <img  class="micro-youtube-frame" src="<?php echo base_url('assets/images/architecture/macbookair.png')?>"/>
 
-           <div  class="col-xs-12" class="youtube-frameDiv">
-               <div  class="youtube-frameDiv1" ><iframe clas=="youtube-frame" src="https://www.youtube.com/embed/r-OTx6P2XsY?ecver=2" width="100" height="80" frameborder="0" style="" allowfullscreen></iframe></div>
+           <div  class="col-xs-12 youtube-frameDiv" >
+               <div class="youtube-frameDiv1"><iframe class=" youtube-frame" src="https://www.youtube.com/embed/r-OTx6P2XsY?ecver=2" width="100" height="80" frameborder="0" style="" allowfullscreen></iframe></div>
               <!-- <video  controls class="" style="width: 491px;
     height: 313px;
 

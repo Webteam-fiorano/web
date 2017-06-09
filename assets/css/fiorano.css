@@ -1169,9 +1169,11 @@ div.bhoechie-tab-menu{
 }
 div.bhoechie-tab-menu div.list-group{
     margin-bottom: 0;
+    min-width: 105px;
 }
 div.bhoechie-tab-menu div.list-group>a{
     margin-bottom: 0;
+    min-width: 105px;
 }
 div.bhoechie-tab-menu div.list-group>a .glyphicon,
 div.bhoechie-tab-menu div.list-group>a .fa {
@@ -1191,6 +1193,7 @@ div.bhoechie-tab-menu div.list-group>a.active .fa{
     background-color: #337ab7;
    // background-image: #337ab7;
     color: #ffffff;
+
 }
 div.bhoechie-tab-menu div.list-group>a.active:after{
     content: '';
@@ -4535,7 +4538,7 @@ and (max-device-width: 767px) {
     margin-top:-20% !important;  opacity: 999 ;width:117%;
 }
 .youtube-frame{
-    position:absolute;position: absolute;
+    position:absolute;
     width: 80%;
     height: 69%;
     left: 0;
@@ -4545,10 +4548,18 @@ and (max-device-width: 767px) {
     margin-top: -62% !important; opacity: 99999; padding-top: 0; padding-bottom: 0;
 }
 .youtube-frameDiv1{
-    position:relative;
-    height:0;
-    padding-bottom:75.0%;
+    position:relative;height:0;padding-bottom:75.0%;
 }
+.btn-transparent{
+    color:#fff;
+    background-color: rgba(0, 0, 0, 0.46);
+}
+.sup-val{
+    font-size: 15px;
+    top: -1.5em;
+}
+
+
 /*Close Customer Home*/
 @media only screen
 
@@ -4609,24 +4620,11 @@ and (max-device-width: 767px) {
         width: 92%;
         margin: 10px 14px;
     }
-
-        .micro-youtube-frame{
-        margin-top: 0% !important;
-        opacity: 999;
-        width: 100%;
-
+    .padding-top-hidxs{
+        padding-top: 0px;
     }
-        .youtube-frame{
-            width: 75%;
-            height: 60%;
-            left: 0;
-            margin-left: 13%;
-        }
-    .youtube-frameDiv{
-        margin-top: -53% !important;
-    }
-    .youtube-frameDiv1{
-        padding-bottom: 78%;
+    .padding-bottom-hidxs{
+        padding-bottom: 0px;
     }
 }
 @media only screen
@@ -4651,6 +4649,13 @@ and (max-device-width: 570px) {
         width: 93%;
         margin: 10px 11px;
     }
+
+    .micro-youtube-frame{
+        margin-top: 0% !important;
+        opacity: 999;
+        width: 100%;
+
+    }
     .youtube-frame{
         width: 75%;
         height: 60%;
@@ -4663,6 +4668,16 @@ and (max-device-width: 570px) {
     .youtube-frameDiv1{
         padding-bottom: 78%;
     }
+    .tp-caption .btn-white {
+       font-size: 11px;
+        padding: 4px 8px 4px 8px;
+
+    }
+    .tp-caption .btn-theme{
+        font-size: 11px;
+        padding: 4px 8px 4px 8px;
+    }
+
 }
 
 

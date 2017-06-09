@@ -118,7 +118,7 @@
             <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Free Adapters</h2>
            <!-- <p class="text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Adapters that fall in this category are </p>-->
         </div>
-        <div class="row padding-bottom-50 padding-top-50">
+        <div class="row padding-bottom-50 padding-top-50 padding-top-hidxs">
             <div class="col-xs-12 nopadding">
                 <div class="col-sm-12">
                 <div class="col-sm-4 col-lg-3 adapterDiv">
@@ -527,7 +527,7 @@
                 </div>
                 <div class="col-sm-4 col-lg-3 adapterDiv">
                     <a class="adapterViewHead" data-toggle="collapse" data-target="#vbchat">
-                        <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/Chat_Vb.gif')?>"/></div>
+                        <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/Chat_VB.gif')?>"/></div>
                         <div class="col-xs-7"> <h4>  VB Chat</h4></div>
                     </a>
                     <div class="col-xs-12 padding-top-20 collapse" id="vbchat">
@@ -538,7 +538,7 @@
                 </div>
                 <div class="col-sm-4 col-lg-3 adapterDiv">
                     <a class="adapterViewHead" data-toggle="collapse" data-target="#chatvc">
-                        <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/Chat_Vc.gif')?>"/></div>
+                        <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/Chat_VC.gif')?>"/></div>
                         <div class="col-xs-7"> <h4> VC Chat </h4></div>
                     </a>
                     <div class="col-xs-12 padding-top-20 collapse" id="chatvc">
@@ -693,7 +693,7 @@
             <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"> Base Adapters</h2>
            <!-- <p class="text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Adapters that fall in this category are </p>-->
         </div>
-        <div class="row padding-bottom-50 padding-top-50">
+        <div class="row padding-bottom-50 padding-top-50 padding-top-hidxs">
             <div class="col-xs-12">
                 <!--1 st ROW start-->
                 <div class="col-sm-12">
@@ -1094,7 +1094,7 @@
             <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Professional Adapters</h2>
             <!--<p class="text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Adapters that fall in this category are </p>-->
         </div>
-        <div class="row padding-bottom-50 padding-top-50">
+        <div class="row padding-bottom-50 padding-top-50 padding-top-hidxs">
             <div class="col-xs-12">
 
                 <!--1 st ROW start-->
@@ -1381,7 +1381,7 @@
                     </div>
                     <div class="col-sm-4 col-lg-3 adapterDiv">
                         <a class="adapterViewHead" data-toggle="collapse" data-target="#Iway">
-                            <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/Iway.png')?>"/></div>
+                            <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/iWay.gif')?>"/></div>
                             <div class="col-xs-7"> <h4>  Iway</h4></div>
                         </a>
                         <div class="col-xs-12 padding-top-20 collapse" id="Iway">
