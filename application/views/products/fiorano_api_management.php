@@ -24,18 +24,7 @@
         </ul>
     </div>
 </section>
-<section id="integration" class="about-section ">
-    <div class="content-section-a">
-        <div class="container">
-            <div class="row padding-top-50">
-                <div class="section-header">
-                    <!--<h1 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Events</sup></h1>-->
-                </div>
-            </div>
 
-        </div>
-    </div>
-</section>
 <section id="integration" class="about-section">
 
     <div class="content-section-a">
