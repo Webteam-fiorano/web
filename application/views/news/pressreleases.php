@@ -113,7 +113,7 @@
                 <p>Cambodia Post Bank (CPB) has selected Fiorano ESB to integrate its Temenos T24 core banking system with National Bank of Cambodia (NBC)'s FAST </a> .
                 </p>
                 <img   class="col-xs-3 pull-right"  src="<?php echo base_url('assets/images/company/news/logo_cpb.png') ?>" alt="Cambodia Post Bank"/>
-                <a href="" target="_blank" class="cd-read-more">Read more</a>
+                <a href="<?php site_url('pressreleases/cpb_fiorano_for_temenos_t24_integration')?>" target="_blank" class="cd-read-more">Read more</a>
             </div>
         </div>
 
