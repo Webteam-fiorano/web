@@ -130,7 +130,7 @@
 
         <table border="0" cellPadding="5" cellSpacing="0" width="100%">
             <tr>
-                <td valign="top" width="100"  align="center" ><a href="https://451research.com/report-short?entityId=91335" target="_blank"><img src="<?php echo base_url('assets/images/company/news')?>/451_research.png" width="100" /></a></td>
+                <td valign="top" width="100"  align="center" ><a href="https://451research.com/report-short?entityId=91335" target="_blank"><img class="img-responsive" src="<?php echo base_url('assets/images/company/news')?>/451_research.png" width="100" /></a></td>
                 <td valign="top">&nbsp;</td>
                 <td valign="top">
                    <a href="https://451research.com/report-short?entityId=91335" target="_blank"><strong>Fiorano staying the course in the hybrid integration race</strong></a><br/>
@@ -142,7 +142,7 @@
             </tr>
 
             <tr>
-                <td valign="top" width="100"  align="center" ><a href="http://api.cioreview.com/vendor/2015/fiorano" target="_blank"><img src="<?php echo base_url('assets/images/company/news')?>/cio-magazine-edition.png" width="100" /></a></td>
+                <td valign="top" width="100"  align="center" ><a href="http://api.cioreview.com/vendor/2015/fiorano" target="_blank"><img class="img-responsive" src="<?php echo base_url('assets/images/company/news')?>/cio-magazine-edition.png" width="100" /></a></td>
                 <td valign="top">&nbsp;</td>
                 <td valign="top">
 
@@ -159,7 +159,7 @@
             </tr>
 
             <tr>
-                <td valign="top" width="100"  align="center" ><a href="http://intellyx.com/2015/03/11/microservices-avoiding-dumb-pipes/" target="_blank"><img src="<?php echo base_url('assets/images/company/news')?>/Intellyx-logo.jpg"  width="100" /></a></td>
+                <td valign="top" width="100"  align="center" ><a href="http://intellyx.com/2015/03/11/microservices-avoiding-dumb-pipes/" target="_blank"><img class="img-responsive" src="<?php echo base_url('assets/images/company/news')?>/Intellyx-logo.jpg"  width="100" /></a></td>
                 <td valign="top">&nbsp;</td>
                 <td valign="top">
                     <p>
@@ -175,7 +175,7 @@
             </tr>
 
             <tr>
-                <td valign="top" align="center" ><a href="http://www.fiorano.com/docs/Intellyx_BrainBlog_WhitePaper_for_Fiorano.pdf" target="_blank"><img src="<?php echo base_url('assets/images/company/news')?>/Intellyx-logo.jpg" width="100" /></a></td>
+                <td valign="top" align="center" ><a href="http://www.fiorano.com/docs/Intellyx_BrainBlog_WhitePaper_for_Fiorano.pdf" target="_blank"><img class="img-responsive" src="<?php echo base_url('assets/images/company/news')?>/Intellyx-logo.jpg" width="100" /></a></td>
                 <td valign="top">&nbsp;</td>
                 <td valign="top">
                     <p>
@@ -185,7 +185,7 @@
                 </td>
             </tr>
             <tr>
-                <td valign="top" align="center" ><a href="http://www.fiorano.com/news/pressreleases.php"><img src="<?php echo base_url('assets/images/company/news')?>/gartner_logo.jpg" width="100px" /></a></td>
+                <td valign="top" align="center" ><a href="http://www.fiorano.com/news/pressreleases.php"><img class="img-responsive" src="<?php echo base_url('assets/images/company/news')?>/gartner_logo.jpg" width="100px" /></a></td>
                 <td valign="top">&nbsp;</td>
                 <td valign="top">
                     <p>
@@ -195,7 +195,7 @@
                 </td>
             </tr>
             <tr>
-                <td valign="top" align="center" ><a href="http://www.fiorano.com/news/pressreleases.php"><img src="<?php echo base_url('assets/images/company/news')?>/gartner_logo.jpg" width="100px" /></a></td>
+                <td valign="top" align="center" ><a href="http://www.fiorano.com/news/pressreleases.php"><img class="img-responsive" src="<?php echo base_url('assets/images/company/news')?>/gartner_logo.jpg" width="100px" /></a></td>
                 <td valign="top">&nbsp;</td>
                 <td valign="top">
                     <p>
@@ -205,7 +205,7 @@
                 </td>
             </tr>
             <tr>
-                <td valign="top" align="center" ><a href="http://www.wintergreenroi.com/Fiorano/SOA-Stack/" rel="nofollow" target="_blank"><img src="<?php echo base_url('assets/images/company/news')?>/logo_wintergreen.gif" /></a></td>
+                <td valign="top" align="center" ><a href="http://www.wintergreenroi.com/Fiorano/SOA-Stack/" rel="nofollow" target="_blank"><img class="img-responsive" src="<?php echo base_url('assets/images/company/news')?>/logo_wintergreen.gif" /></a></td>
                 <td valign="top">&nbsp;</td>
                 <td valign="top">                        <p>
                         <a href="http://www.wintergreenroi.com/Fiorano/SOA-Stack/" rel="nofollow" target="_blank" ><strong>Independent ROI Calculator for SOA</strong></a><br/>
@@ -219,7 +219,7 @@
                 </td>
             </tr>
             <tr>
-                <td valign="top" align="center" ><a href="http://www.fiorano.com/docs/On_the_Radar_Fiorano.pdf" target="_blank"><img src="<?php echo base_url('assets/images/company/news')?>/on_the_ovum_radar.jpg" /></a></td>
+                <td valign="top" align="center" ><a href="http://www.fiorano.com/docs/On_the_Radar_Fiorano.pdf" target="_blank"><img class="img-responsive" src="<?php echo base_url('assets/images/company/news')?>/on_the_ovum_radar.jpg" /></a></td>
                 <td valign="top">&nbsp;</td>
                 <td valign="top">                        <p>
                         <a href="http://www.fiorano.com/docs/On_the_Radar_Fiorano.pdf" target="_blank" ><strong>On the Radar: Fiorano</strong><br/>
@@ -231,7 +231,7 @@
                 </td>
             </tr>
             <tr>
-                <td valign="top" align="center" ><a href="http://www.zapthink.com/2009/12/03/what-to-do-when-your-soa-initiative-gets-cancelled/" target="_blank" rel="nofollow"><img src="<?php echo base_url('assets/images/company/news')?>/sys_con_logosmall.gif" /></a></td>
+                <td valign="top" align="center" ><a href="http://www.zapthink.com/2009/12/03/what-to-do-when-your-soa-initiative-gets-cancelled/" target="_blank" rel="nofollow"><img class="img-responsive" src="<?php echo base_url('assets/images/company/news')?>/sys_con_logosmall.gif" /></a></td>
                 <td valign="top">&nbsp;</td>
                 <td valign="top">                        <p>
                         <a href="http://www.sys-con.com/node/2190046" target="_blank" rel="nofollow"><strong>BPM in the Cloud: Disruptive Technology
@@ -243,7 +243,7 @@
                 </td>
             </tr>
             <tr>
-                <td valign="top" align="center" ><a href="http://www.zapthink.com/2009/12/03/what-to-do-when-your-soa-initiative-gets-cancelled/" target="_blank" rel="nofollow"><img src="<?php echo base_url('assets/images/company/news')?>/zapthink_small.gif" /></a></td>
+                <td valign="top" align="center" ><a href="http://www.zapthink.com/2009/12/03/what-to-do-when-your-soa-initiative-gets-cancelled/" target="_blank" rel="nofollow"><img class="img-responsive" src="<?php echo base_url('assets/images/company/news')?>/zapthink_small.gif" /></a></td>
                 <td valign="top">&nbsp;</td>
                 <td valign="top">                        <p>
                         <a href="http://www.zapthink.com/2011/08/04/rest-based-soa-an-iconoclastic-approach/" target="_blank" rel="nofollow"><strong>REST-Based SOA: an Iconoclastic Approach</strong></a><br/>
@@ -256,7 +256,7 @@
                 </td>
             </tr>
             <tr>
-                <td valign="top" align="center" ><a href="http://www.fiorano.com/downloads/login.php?action=message_driven_SOA&s=whitepapers"  rel="nofollow"><img src="<?php echo base_url('assets/images/company/news')?>/lustratus_logo.jpg" /></a></td>
+                <td valign="top" align="center" ><a href="http://www.fiorano.com/downloads/login.php?action=message_driven_SOA&s=whitepapers"  rel="nofollow"><img class="img-responsive" src="<?php echo base_url('assets/images/company/news')?>/lustratus_logo.jpg" /></a></td>
                 <td valign="top" >&nbsp;</td>
                 <td valign="top" >                        <p>
                         <a href="http://www.fiorano.com/downloads/login.php?action=message_driven_SOA&s=whitepapers" ><strong>Message Driven SOA - Getting rapid results with SOA  </strong></a><br/>
@@ -266,7 +266,7 @@
             </tr>
 
             <tr>
-                <td valign="top" align="center" ><a href="http://www.fiorano.com/docs/fiorano_simon.pdf" target="_blank"><img src="<?php echo base_url('assets/images/company/news')?>/bloor_logo.jpg" /></a></td>
+                <td valign="top" align="center" ><a href="http://www.fiorano.com/docs/fiorano_simon.pdf" target="_blank"><img class="img-responsive" src="<?php echo base_url('assets/images/company/news')?>/bloor_logo.jpg" /></a></td>
                 <td valign="top" >&nbsp;</td>
                 <td valign="top" >
                     <p>
@@ -279,7 +279,7 @@
 
             <tr>
                 <td valign="top" align="center" >
-                    <a href="http://www.fiorano.com/docs/aberdeen.pdf" target="_blank"><img src="<?php echo base_url('assets/images/company/news')?>/aberdeen.jpg" /></a>
+                    <a href="http://www.fiorano.com/docs/aberdeen.pdf" target="_blank"><img class="img-responsive" src="<?php echo base_url('assets/images/company/news')?>/aberdeen.jpg" /></a>
                 </td>
                 <td valign="top" >&nbsp;</td>
                 <td valign="top" >                        <p>
@@ -295,7 +295,7 @@
             </tr>
             <tr>
                 <td valign="top" align="center">
-                    <a href="http://www.fiorano.com/docs/German Univ - FMQ review.pdf" target="_blank"><img src="<?php echo base_url('assets/images/company/news')?>/univ_werzburg_logo_news.jpg" /></a>
+                    <a href="http://www.fiorano.com/docs/German Univ - FMQ review.pdf" target="_blank"><img class="img-responsive" src="<?php echo base_url('assets/images/company/news')?>/univ_werzburg_logo_news.jpg" /></a>
                 </td>
                 <td valign="top" >&nbsp;</td>
                 <td valign="top" >
@@ -310,10 +310,10 @@
             <tr>
                 <td valign="top" align="center" height="58">
                     <a href="http://www.fiorano.com/docs/soawebservices.pdf" target="_blank">
-                        <img src="<?php echo base_url('assets/images/company/news')?>/soaws.jpg" /></a>
+                        <img class="img-responsive" src="<?php echo base_url('assets/images/company/news')?>/soaws.jpg" /></a>
                 </td>
                 <td valign="top" height="58">
-                    <img alt="" height=1 src="<?php echo base_url('assets/images/company/news')?>/spacer.gif" width=8>
+                    <img class="img-responsive" alt="" height=1 src="<?php echo base_url('assets/images/company/news')?>/spacer.gif" width=8>
                 </td>
                 <td valign="top" height="58">
                     <p>
@@ -327,11 +327,11 @@
             <tr>
                 <td valign="top" align="center" height="58">
                     <a href="http://www.fiorano.com/docs/nwc.pdf" target="_blank">
-                        <img src="<?php echo base_url('assets/images/company/news')?>/nwc.jpg" width="104" height="27" />
+                        <img class="img-responsive" src="<?php echo base_url('assets/images/company/news')?>/nwc.jpg" width="104" height="27" />
                     </a>
                 </td>
                 <td valign="top" height="58">
-                    <img alt="" height=1 src="<?php echo base_url('assets/images/company/news')?>/spacer.gif" width=8>
+                    <img class="img-responsive" alt="" height=1 src="<?php echo base_url('assets/images/company/news')?>/spacer.gif" width=8>
                 </td>
                 <td valign="top" height="58">
                     <p>
@@ -344,10 +344,10 @@
 
             <tr>
                 <td valign="top" align="center" >
-                    <a href="http://www.fiorano.com/whitepapers/fiorano_butlergroup_ta.php" target="_blank"></a><a href="http://www.fiorano.com/whitepapers/fiorano_butlergroup_ta.php" target="_blank"><img src="<?php echo base_url('assets/images/company/news')?>/butler_group_logo.gif" /></a>
+                    <a href="http://www.fiorano.com/whitepapers/fiorano_butlergroup_ta.php" target="_blank"></a><a href="http://www.fiorano.com/whitepapers/fiorano_butlergroup_ta.php" target="_blank"><img class="img-responsive" src="<?php echo base_url('assets/images/company/news')?>/butler_group_logo.gif" /></a>
                 </td>
                 <td valign="top" >
-                    <img alt="" height=1 src="<?php echo base_url('assets/images/company/news')?>/spacer.gif" width=8>
+                    <img class="img-responsive" alt="" height=1 src="<?php echo base_url('assets/images/company/news')?>/spacer.gif" width=8>
                 </td>
                 <td valign="top" >
                     <p>
@@ -360,10 +360,10 @@
 
             <tr>
                 <td valign="top" align="center" height="70">
-                    <a href="http://www.fiorano.com/whitepapers/butlergroup_mlr.php" target="_blank"><img src="<?php echo base_url('assets/images/company/news')?>/butler_group_logo.gif" /></a>
+                    <a href="http://www.fiorano.com/whitepapers/butlergroup_mlr.php" target="_blank"><img class="img-responsive" src="<?php echo base_url('assets/images/company/news')?>/butler_group_logo.gif" /></a>
                 </td>
                 <td valign="top" height="70">
-                    <img alt="" height=1 src="<?php echo base_url('assets/images/company/news')?>/spacer.gif" width=8>
+                    <img class="img-responsive" alt="" height=1 src="<?php echo base_url('assets/images/company/news')?>/spacer.gif" width=8>
                 </td>
                 <td valign="top" height="70">
                     <p>
@@ -376,10 +376,10 @@
 
             <tr>
                 <td valign="top" align="center" height="70">
-                    <a href="http://www.fiorano.com/whitepapers/bi/fiorano_zapthink.php" target="_blank"><img src="<?php echo base_url('assets/images/company/news')?>/zapthink_small.gif" width="90" height="25" /></a>
+                    <a href="http://www.fiorano.com/whitepapers/bi/fiorano_zapthink.php" target="_blank"><img class="img-responsive" src="<?php echo base_url('assets/images/company/news')?>/zapthink_small.gif" width="90" height="25" /></a>
                 </td>
                 <td valign="top" height="70">
-                    <img alt="" height=1 src="<?php echo base_url('assets/images/company/news')?>/spacer.gif" width=8>
+                    <img class="img-responsive" alt="" height=1 src="<?php echo base_url('assets/images/company/news')?>/spacer.gif" width=8>
                 </td>
                 <td valign="top" height="70">
                     <p>
@@ -394,12 +394,12 @@
                 <td valign="top" align="center" height="70">
                     <a href="http://www.fiorano.com/docs/nwc5111_final.pdf" target="_blank">
                         <b>
-                            <img src="<?php echo base_url('assets/images/company/news')?>/network_comp_90.jpg" />
+                            <img class="img-responsive" src="<?php echo base_url('assets/images/company/news')?>/network_comp_90.jpg" />
                         </b>
                     </a>
                 </td>
                 <td valign="top" height="70">
-                    <img alt="" height=1 src="<?php echo base_url('assets/images/company/news')?>/spacer.gif" width=8>
+                    <img class="img-responsive" alt="" height=1 src="<?php echo base_url('assets/images/company/news')?>/spacer.gif" width=8>
                 </td>
                 <td valign="top" height="70">
                     <p>
@@ -412,10 +412,10 @@
 
             <tr>
                 <td valign="top" align="center" height="70">
-                    <a href="http://www.fiorano.com/docs/bij_mar04_fesb.pdf" target="_blank"></a><a href="http://www.fiorano.com/docs/bij_mar04_fesb.pdf" target="_blank"><img src="<?php echo base_url('assets/images/company/news')?>/bij_90.gif" border="0" width="90" height="14"></a></b>
+                    <a href="http://www.fiorano.com/docs/bij_mar04_fesb.pdf" target="_blank"></a><a href="http://www.fiorano.com/docs/bij_mar04_fesb.pdf" target="_blank"><img class="img-responsive" src="<?php echo base_url('assets/images/company/news')?>/bij_90.gif" border="0" width="90" height="14"></a></b>
                 </td>
                 <td valign="top" height="70">
-                    <img alt="" height=1 src="<?php echo base_url('assets/images/company/news')?>/spacer.gif" width=8>
+                    <img class="img-responsive" alt="" height=1 src="<?php echo base_url('assets/images/company/news')?>/spacer.gif" width=8>
                 </td>
                 <td valign="top" height="70">
                     <p>
@@ -428,10 +428,10 @@
 
             <tr>
                 <td valign="top" align="center" height="70">
-                    <a href="http://sys-con.com/webservices/article.cfm?id=732" target="_blank" rel="nofollow"><img src="<?php echo base_url('assets/images/company/news')?>/wsj_small.gif" width="90" height="30" /></a>
+                    <a href="http://sys-con.com/webservices/article.cfm?id=732" target="_blank" rel="nofollow"><img class="img-responsive" src="<?php echo base_url('assets/images/company/news')?>/wsj_small.gif" width="90" height="30" /></a>
                 </td>
                 <td valign="top" height="70">
-                    <img alt="" height=1 src="<?php echo base_url('assets/images/company/news')?>/spacer.gif" width=8>
+                    <img class="img-responsive" alt="" height=1 src="<?php echo base_url('assets/images/company/news')?>/spacer.gif" width=8>
                 </td>
                 <td valign="top" height="70">
                     <p>
@@ -444,10 +444,10 @@
 
             <tr>
                 <td valign="top" align="center" height="70">
-                    <a href="http://www.fiorano.com/docs/Fiorano_ZapNote.pdf" target="_blank"><img src="<?php echo base_url('assets/images/company/news')?>/zapthink_small.gif" width="90" height="25" /></a>
+                    <a href="http://www.fiorano.com/docs/Fiorano_ZapNote.pdf" target="_blank"><img class="img-responsive" src="<?php echo base_url('assets/images/company/news')?>/zapthink_small.gif" width="90" height="25" /></a>
                 </td>
                 <td valign="top" height="70">
-                    <img alt="" height=1 src="<?php echo base_url('assets/images/company/news')?>/spacer.gif" width=8>
+                    <img class="img-responsive" alt="" height=1 src="<?php echo base_url('assets/images/company/news')?>/spacer.gif" width=8>
                 </td>
                 <td valign="top" height="70">
                     <p>
@@ -460,10 +460,10 @@
 
             <tr>
                 <td valign="top" align="center" height="70">
-                    <a href="http://www.fiorano.com/whitepapers/fiorano_butlergroup_ta.php" target="_blank"><img src="<?php echo base_url('assets/images/company/news')?>/butler_group_logo.gif" /></a>
+                    <a href="http://www.fiorano.com/whitepapers/fiorano_butlergroup_ta.php" target="_blank"><img class="img-responsive" src="<?php echo base_url('assets/images/company/news')?>/butler_group_logo.gif" /></a>
                 </td>
                 <td valign="top" height="70">
-                    <img alt="" height=1 src="<?php echo base_url('assets/images/company/news')?>/spacer.gif" width=8>
+                    <img class="img-responsive" alt="" height=1 src="<?php echo base_url('assets/images/company/news')?>/spacer.gif" width=8>
                 </td>
                 <td valign="top" height="70">
                     <p>

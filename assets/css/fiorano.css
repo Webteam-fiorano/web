@@ -218,7 +218,6 @@ p{
     }
 }
 
-@media(max-width:766px) {
 
     .hasSubMenu {
         display: none;
@@ -250,7 +249,7 @@ p{
     .navbar{
         margin-bottom:0 !important;
     }
-}
+
 
 .hasSubMenu a {
      color: #222;
@@ -390,7 +389,7 @@ productHeadTitle{
     text-align: right;
 
 }
-.downHeadBtn{
+/*.downHeadBtn{
     padding: 10px;
 
 }
@@ -403,7 +402,7 @@ productHeadTitle{
     margin-left: 5px;
     font-size: 20px;
 }
-@media(max-width:766px) {
+*/@media(max-width:766px) {
     .productHead{padding-top: 0px;}
     .productHeadDownload{padding-top: 0px;}
 }
@@ -490,7 +489,6 @@ padding-top:3% !important;
     //text-transform: uppercase;
     position: relative;
     padding-bottom: 20px;
-    margin: 0 0 20px;
 }
 
 .section-header .section-title:before {
@@ -1237,6 +1235,23 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
     font-size:35px;
     margin-top:50px;
 }
+.padding-sideways-0{
+    padding-left:0;
+    padding-right:0;
+}
+.padding-sideways-20{
+    padding: 0 20px 0 20px;
+    
+}
+.padding-sideways-50{
+    padding: 0 50px 0 50px;
+}
+.padding-sideways-70{
+    padding: 0 70px 0 70px;
+}
+.padding-bottom-70{
+    padding-bottom: 70px;
+}
 .padding-bottom-50{
      padding-bottom: 50px;
  }
@@ -1754,6 +1769,7 @@ h2.zero,p.zero {
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-position: 5px 210px;
+    //background-size:cover; 
     height:400px;
 }
 #demo2:hover{
@@ -1762,6 +1778,7 @@ h2.zero,p.zero {
     background-attachment: inherit;
     background-position: 50% 75%;
     cursor:pointer;
+    background-size:initial;; 
     opacity: 999999;
 }
 
@@ -1923,7 +1940,7 @@ h2.zero,p.zero {
 .whitePanel{
     position:relative;
     width:100%;
-    height:290px;
+    height:350px;
     overflow:hidden;
     float:left;
     color:#fff;
@@ -1984,11 +2001,33 @@ h2.zero,p.zero {
 }
 .panel4{
     background-color: #009daa;
-    height:350px;
+        height: 400px;
 }
 .panel5{
     background-color: #006199;
-    height:350px;
+        height: 400px;
+}
+@media only screen
+and (max-device-width: 767px)
+ {
+.whitePanel{
+    height:auto;
+    padding-bottom:40px;
+}
+.panel4, .panel5{
+    height:auto;
+}
+}
+@media only screen
+and (min-device-width: 767px)
+and (max-device-width: 991px)
+ {
+.whitePanel{
+    height:550px;
+}
+.panel4,.panel5{
+    height:600px;
+}
 }
 .dsDiv{
     height:200px;
@@ -2243,7 +2282,22 @@ h2.zero,p.zero {
 }
 .tableData tr td{
    min-height:150px;
-    //color:#fff;
+    background: white;
+    padding: 7px;
+}
+.tableDatax tr td{
+    min-height:150px;
+    background: white;
+    padding: 7px;
+    word-break: break-all;
+}
+.tableDatay tr td,.tableDatay thead tr th{
+    font-size:1.3vw;
+}
+@media (max-width: 767px) {
+    .tableDatay tr td,.tableDatay thead tr th{
+        font-size:2.5vw;
+    }
 }
 .cs-logo {
     text-align: center;
@@ -2288,7 +2342,7 @@ h2.zero,p.zero {
 .rightSap{
     border-radius: 8px;
     border: 1px solid #337ab7;
-    padding: 20px;
+    padding: 40px;
 }
 
 /*Rev slider Home*/
@@ -3142,7 +3196,7 @@ tp-rightarrow.default:hover,
     color:#555555;
     border-top:1px solid #ccc;
     border-bottom:1px solid #ccc;
-    width:350px;
+    width:100%;
     text-align:left;
     padding-left:5px;
     padding-right:5px;
@@ -3753,7 +3807,7 @@ table .title {
 .demo-partner{
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 700px;
     overflow: hidden;
     float: left;
 // padding-bottom: 5px;
@@ -3763,6 +3817,7 @@ table .title {
     background-color: #fff;
     border-radius: 10px;
     border: none;
+    padding-bottom: 40px;
 }
 .ProdDiv h2{
     display: none;
@@ -3792,9 +3847,11 @@ table .title {
 }
 #partDIv1 li ul {
     background-image: url(../images/partner/partner-block-01.jpg) ;
+    background-size: 100% 100%;
 }
 #partDIv2 li ul {
     background-image: url(../images/partner/partner-block-02.jpg) ;
+    background-size: 100% 100%;
 }
 
 
@@ -3825,9 +3882,13 @@ time .day{
     height:150px;
 }
 .panel-footer{
-    height: 210px;
+    height: 250px;
 }
-
+@media only screen and (min-width: 767px) {
+  .panel-footer{
+    height: 300px;
+}  
+}
 #success-contact{
     display: none;
 }
@@ -4085,8 +4146,8 @@ ul.flags li{
 }
 
 .col-xs-offset-1half{
-    margin-left: 14%;
-}
+     margin-left: 14%;
+ }
 .margintop-50{
     margin-top: 50px;
 }
@@ -4274,7 +4335,7 @@ and (max-device-width: 980px) {
 }
 .contact-bg{
     background-image: url("../images/company/World-map-bg.jpg");
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -4285,7 +4346,7 @@ and (max-device-width: 980px) {
 .contact-bottom{
     background-image: url("../images/company/Sales-enquiry-bg.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: 0px 0px;
     background-repeat: no-repeat;
 }
 /*about section new design close*/
@@ -4626,6 +4687,10 @@ and (max-device-width: 767px) {
     .padding-bottom-hidxs{
         padding-bottom: 0px;
     }
+     #demo2{
+        background-size: cover;
+    }
+
 }
 @media only screen
 and (min-device-width: 768px)
@@ -4676,6 +4741,9 @@ and (max-device-width: 570px) {
     .tp-caption .btn-theme{
         font-size: 11px;
         padding: 4px 8px 4px 8px;
+    }
+    #demo2{
+        background-size: cover;
     }
 
 }
@@ -4854,63 +4922,9 @@ and (max-device-width: 767px) {
     }
 }
 
-/*standards*/
-.squareBase{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 8vw;
-    height: 8vw;
-    border-radius: 50%;
-    background: #005BA1;
-    color:white;
-}
-.join_left{
-    height: 3vw;
-    border-right: 2px solid #005BA1;
-    padding: none;
-}
-.join_right{
-    height: 3vw;
-    border-left: 2px solid #005BA1;
-    padding: none;
-}
-
-
-@media only screen
-and (max-device-width: 767px) {
-    .squareBase{
-    }
-}
-@media only screen
-and (max-device-width: 1370px) {
-    .join_left, .join_right{
-        border:none;
-    }
-}
-
 /*Temenos_T24_Fiorano_ESB_Integration*/
 #Temenos_T24_Fiorano_ESB_Integration {
-    background: url("/assets/images/resources/background.jpg") no-repeat;
-    background-size: 100% 100%;
-    color: white;
     padding: 40px;
-}
-
-.myIframe {
-    position: relative;
-    padding-bottom: 65.25%;
-    overflow: auto;
-    -webkit-overflow-scrolling:touch;
-    border: solid black 1px;
-    box-shadow: 0px 0px 7px grey;
-}
-.myIframe iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
 
 /*esb_enterprise_service_bus*/
@@ -4991,12 +5005,32 @@ and (max-device-width: 767px) {
     }
 }
 /* FOR e_GIF*/
-
-#e_GIF{
-    padding: 100px 0 100px 0;
-    background: #16365D;
+#e_gif{
+    background: url("/assets/images/resources/grey_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.e_gif_blue{
+    background: rgba(0,91,161,.7);
+    color:white;
+}
+.e_gif_blue a{
+    color: white;
+    font-weight:bold;
+}
+.e_gif_white{
+    background: white;
+}
+.egif_bottom .well{
+    background: rgba(52,113,163,1);
+    border: none;
     color: white;
 }
+.egif_bottom .well h4{
+    color: white;
+}
+
 /*devzone*/
 
 #devzone{
@@ -5081,15 +5115,42 @@ and (max-device-width: 767px) {
     .devzone_bottomost_right{
         padding-right: 15px;
     }
+    .about_btn{
+        padding:10px 0 10px 0;
+    }
 }
-/*------------End --------------*/
+/*for products/standards*/
+#standards{
+    background: url("/assets/images/resources/grey_background.jpg");
+    background-repeat: no-repeat;
+}
+.standards_top{
+    background: rgba(0,91,161,.9);
+    color:white;
+}
+.standards_top h4{
+    color:white;
+}
+.standards_bottom{
+    background: white;
+}
+table.well{
+    background:white;
+}
+@media only screen
+and (max-device-width: 982px)
+ {
+.col-xs-offset-1half{
+    margin-left:0%;;
+}}
+
 
 /*Hari added new sectoion for press releases*/
 
 .pressrelease-banner{
     background-image: url(../images/company/press-release-banner.jpg);
     background-position: center;
-   -webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -5164,11 +5225,11 @@ and (max-device-width: 767px) {
     transform: scale(1);
 }
 .social-btns {
-    //height: 90px;
+//height: 90px;
     margin: auto;
     font-size: 0;
     text-align: center;
-  // position: absolute;
+// position: absolute;
 
 }
 .social-btns .btn {
@@ -5204,3 +5265,5 @@ and (max-device-width: 767px) {
     padding-top:30px;
     margin-top:50px;
 }
+
+/*------------End --------------*/

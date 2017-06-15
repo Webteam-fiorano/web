@@ -13,18 +13,19 @@
    .info-box .wrapper:before {
        content: "";
        display: block;
-       width: 144px;
+       width: 94px;
        height: 96%;
        position: absolute;
        z-index: 0;
        background:#023765;
        left: -10px;
        top: 10px;
+
    }
    .info-box .wrapper:after {
        content: "";
        display: block;
-       width: 144px;
+       width: 94px;
        height: 100%;
        position: absolute;
        z-index: 0;
@@ -38,6 +39,9 @@
        box-sizing: border-box;
        position: relative;
        height: 290px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
    }
    .info-box article h2,
    .info-box article p {
@@ -45,12 +49,9 @@
        position: relative;
    }
    .info-box article h2 {
-       font-size: 23px;
+       font-size: 1.5vw;
        line-height: 30px;
        font-weight: 700;
-       padding-top: 19px;
-       margin-top: 112px;
-       margin-bottom: 9px;
    }
    .info-box article h2:before {
        font-family: 'FontAwesome';
@@ -177,13 +178,37 @@
    .info-box article:hover .button-figure {
        top: 94%;
    }
+    @media(max-width:767px) {
 
-
+       .info-box article h2 {
+           font-size: 2.5vw;
+       }
+     }
+   @media(max-width:430px) {
+       .info-box article{
+           width:100%;
+           height:50%;
+           margin-bottom:20px;
+       }
+       .info-box .wrapper:before {
+           height:240%;
+       }
+       .info-box .wrapper:after {
+           height:250%;
+       }
+       .info-box{
+           padding-left: 50px;
+           padding-right: 50px;
+       }
+       .info-box article h2 {
+           font-size: 4vw;
+       }
+   }
 </style>
 
 <section id="intro" class="intro-sectionresources">
     <div class="container">
-        <div class="col-xs-12 resourceBanner ">
+        <div class="col-sm-12 resourceBanner ">
             <div class="productHead col-sm-8">
                 <h1 class="productHeadTitle">Fiorano Resources</h1>
                 <div class="col-sm-8 hidden-xs nopadding">
@@ -214,7 +239,7 @@
 <div class="info-box">
     <div class="container">
 
-        <div class="wrapper col-xs-12">
+        <div class="wrapper col-sm-12">
             <a href="<?php echo site_url('resources/downloads'); ?>">
                 <article class="ib-col-3 col-sm-2-half" id="art6">
                     <h2>Product Downloads</h2>
@@ -263,7 +288,7 @@
 <section class="even-section">
 <div class="info-box art-New">
     <div class="container padding-bottom-50 padding-top-50">
-        <div class="wrapper col-xs-12">
+        <div class="wrapper col-sm-12">
 
 
             <a href="<?php echo site_url('resources/twominute_explainers'); ?>">
@@ -324,7 +349,7 @@
         </div>
 
         <div class="row  padding-top-50 padding-bottom-50" id="vid-thumb">
-            <ul class="col-xs-12">
+            <ul class="col-sm-12">
                 <li class=" col-sm-4">
                     <ul class="demo-2 effect">
                         <li>
@@ -368,7 +393,7 @@
 
             </ul>
         </div>
-        <div class="col-xs-12 "> <button class="btn btn-submit pull-right"> Know More</button></div>
+        <div class="col-sm-12 "> <button class="btn btn-submit pull-right"> Know More</button></div>
     </div>
 </section>
 
@@ -382,7 +407,7 @@
 
         <div class="row">
             <div class="ofer-items">
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-md-4 col-sm-6 col-sm-12">
                     <div class="single-offer-item row">
                         <h3>Integration Demos & Videos</h3>
                         <div class="offer-icon">
@@ -409,7 +434,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-md-4 col-sm-6 col-sm-12">
                     <div class="single-offer-item row">
                         <h3>Whitepapers </h3>
                         <div class="offer-icon">
@@ -436,7 +461,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="col-md-4 col-sm-6 col-sm-12">
                     <div class="single-offer-item row">
                         <h3>Casestudies</h3>
                         <div class="offer-icon">
@@ -466,3 +491,4 @@
 
 
 */?>
+

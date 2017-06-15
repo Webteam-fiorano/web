@@ -31,7 +31,7 @@
         <div class="row  padding-top-50 padding-bottom-50" id="vid-thumb">
             <ul class="col-xs-12">
                 <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>/docs/fiorano_soa_brochure.pdf">
-                    <li class=" col-sm-4">
+                    <li class="col-sm-4 col-xs-12 padding-bottom-20">
                         <ul class="whitePanel dsDiv" id="">
                             <li>
                                 <h2 class="zero">
@@ -44,7 +44,7 @@
                     </li>
                 </a>
                 <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>/docs/fiorano_esb_brochure.pdf">
-                    <li class=" col-sm-4">
+                    <li class=" col-sm-4 col-xs-12 padding-bottom-20">
                         <ul class="whitePanel dsDiv" id="">
                             <li>
                                 <h2 class="zero">
@@ -59,7 +59,7 @@
                 </a>
 
                 <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>/docs/FioranoAPI_Management_DataSheet_Web.pdf">
-                    <li class=" col-sm-4">
+                    <li class=" col-sm-4 col-xs-12">
                         <ul class="whitePanel dsDiv" id="">
                             <li>
                                 <h2 class="zero">
@@ -76,7 +76,7 @@
                 <li class="col-sm-12 padding-top-20"></li>
                 <li class="col-sm-2 hidden-xs"></li>
                 <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>/docs/fioranomq_brochure.pdf">
-                    <li class=" col-sm-4">
+                    <li class=" col-sm-4 col-xs-12 padding-bottom-20">
                         <ul class="whitePanel dsDiv" id="">
                             <li>
                                 <h2 class="zero">
@@ -90,7 +90,7 @@
                     </li>
                 </a>
                 <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>/docs/fiorano_cloud_brochure.pdf">
-                    <li class=" col-sm-4">
+                    <li class=" col-sm-4 col-xs-12 padding-bottom-20">
                         <ul class="whitePanel dsDiv" id="">
                             <li>
                                 <h2 class="zero">

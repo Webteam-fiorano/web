@@ -20,7 +20,7 @@
 <section class="odd-section">
     <div class="container">
         <div class="section-header">
-            <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Digital Business Backplane & Cloud Computing  </h2>
+            <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Digital Business Backplane & Cloud Computing </h2>
 
         </div>
         <div class="row  padding-top-50 padding-bottom-50" id="vid-thumb">
@@ -175,7 +175,7 @@
                     </li>
                 </a>
 
-                <li class="col-sm-12 padding-top-20"></li>
+                <li class="col-sm-12 padding-top-20 hidden-xs"></li>
                 <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>/downloads/login.php?action=message_driven_SOA&s=whitepapers">
                     <li class=" col-sm-4">
                         <ul class="whitePanel panel3" id="">
@@ -347,7 +347,7 @@
                         </ul>
                     </li>
                 </a>
-                <li class="col-sm-12 padding-top-20"></li>
+                <li class="col-sm-12 padding-top-20 hidden-xs"></li>
                 <li class="col-sm-2 hidden-xs"></li>
                 <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>/downloads/login.php?action=fmq_smq_flow_analysis&s=whitepapers">
                     <li class=" col-sm-4">
@@ -384,3 +384,5 @@
 
     </div>
 </section>
+
+

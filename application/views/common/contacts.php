@@ -27,13 +27,12 @@
                 <h1 class="productHeadTitle">Contact Us</h1>
 
             </div>
-            <div class=" col-sm-8 padding-top-50 ">
-                <div class="col-sm-3 col-xs-7">
+            <div class=" col-sm-8 padding-top-50">
+                <div class="col-sm-12 padding-bottom-20">
 
-                    <a  style="" href="#" data-toggle="modal" data-target="#contact_us" class="download-binaries btn-danger btn btn-large downHeadBtn"><i class="fa fa-large fa-user-o"></i> Sales Enquiries</a>
+                    <button type="button" style="" href="#" data-toggle="modal" data-target="#contact_us" class="download-binaries btn-danger btn btn-large downHeadBtn"><i class="fa fa-large fa-user-o"></i> Sales Enquiries</button>
                 </div>
-                <div class="col-xs-12 hidden-md hidden-sm hidden-lg"> &nbsp;</div>
-                <div class="col-sm-3 col-xs-7 ">
+                <div class="col-sm-12 padding-bottom-20">
                     <a href="<?php echo __ROOT__?>/devzone/support.php" target="_blank" class="btn-success btn btn-large downHeadBtn"><i class="fa fa-large fa-user"></i> Technical Support</a>
                 </div>
 
@@ -52,7 +51,7 @@
             <div class="col-xs-12 padding-bottom-50">
                 <div class="col-sm-6 padding-top-20 col-xs-12">
                     <div class="col-md-3 hidden-sm hidden-xs"></div>
-                    <div class="col-md-9 pull-right">
+                    <div class="col-md-9 pull-right col-xs-12">
                         <p  class="">
                         <h4><strong >Fiorano Software, Inc.</strong></h4>
                         </p>
@@ -74,16 +73,14 @@
                 <div class="col-sm-1 hidden-xs" style="border-left: #C0C0C0 2px solid;height:230px;">
                     &nbsp;
                 </div>
-                <div class="col-sm-5 col-xs-12 padding-top-20">
-                    <div class="col-xs-12 socialIcon padding-top-50">
+                <div class="col-sm-5 col-xs-12 padding-top-20 padding-sideways-0">
+                    <div class="col-xs-12 socialIcon padding-top-50 padding-top-hidxs padding-sideways-0">
 
-                        <div class="col-sm-12">
-
-
-                            <a href="https://www.facebook.com/Fiorano.Global/" title="Facebook" target="_blank" class="fa fa-facebook"></a>
-                            <a href="https://twitter.com/FioranoGlobal" title="Twitter" target="_blank" class="fa fa-twitter"></a>
-                            <a href="#" class="fa fa-google"></a>
-                            <a href="https://www.linkedin.com/company-beta/19105/?pathWildcard=19105" title="Linkedin" target="_blank" class="fa fa-linkedin"></a>
+                        <div class="col-sm-12 nopadding text-center">
+                            <a href="https://www.facebook.com/Fiorano.Global/" title="Facebook" target="_blank" class="fa fa-facebook-square"></a>
+                            <a href="https://twitter.com/FioranoGlobal" title="Twitter" target="_blank" class="fa fa-twitter-square"></a>
+                            <a href="#" class="fa fa-google-plus-square"></a>
+                            <a href="https://www.linkedin.com/company-beta/19105/?pathWildcard=19105" title="Linkedin" target="_blank" class="fa fa-linkedin-square"></a>
                         </div>
 
                     </div>
@@ -113,7 +110,7 @@
 
 
 
-                    <div class="col-sm-4 col-xs-12 white text-center align-center">
+                    <div class="col-sm-4 col-xs-12 white text-center align-center padding-top-50">
                         <img src="<?php echo base_url('assets/images/company/UK_Icon.png')?>" class="text-center align-center"/>
                         <h3><b>UNITED
                                 KINGDOM</b></h3>
@@ -133,7 +130,7 @@
 
 
                     </div>
-                    <div class="col-sm-4 col-xs-12 white text-center align-center">
+                    <div class="col-sm-4 col-xs-12 white text-center align-center padding-top-50">
                         <img src="<?php echo base_url('assets/images/company/France_Icon.png')?>" class="text-center align-center"/>
                         <h3><b>FRANCE</b></h3>
 
@@ -154,7 +151,7 @@
 
 
                     </div>
-                    <div class="col-sm-4 col-xs-12 white text-center align-center">
+                    <div class="col-sm-4 col-xs-12 white text-center align-center padding-top-50">
                         <img src="<?php echo base_url('assets/images/company/Germany_Icon.png')?>" class="text-center align-center"/>
                         <h3><b>GERMANY</b></h3>
 

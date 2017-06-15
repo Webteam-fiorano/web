@@ -26,7 +26,7 @@
     <div class="row  padding-top-50 padding-bottom-50" id="vid-thumb">
         <ul class="col-xs-12">
             <a href="javascript:void(0);" onclick='return window.open("<?php echo __ROOT__?>/downloads/login.php?action=salesforce-integration-tutorial.html&s=flashdemo&name=Salesforce_Demo","Salesforce Integration", "fullscreen=yes, scrollbars=yes")'>
-                <li class=" col-sm-4">
+                <li class=" col-sm-4 padding-bottom-20">
                     <ul class="demo-2 effect demo-3" id="demo1">
                         <li>
                             <h2 class="zero"> Salesforce Integration - 5 Min </h2>
@@ -38,7 +38,7 @@
                 </li>
             </a>
             <a href="javascript:void(0);" onclick='return window.open("<?php echo __ROOT__?>/downloads/login.php?action=db_demo.htm&s=flashdemo&name=Database_Synchronization","Database Synchronization", "fullscreen=yes, scrollbars=yes")'>
-                <li class=" col-sm-4">
+                <li class=" col-sm-4 padding-bottom-20">
                     <ul class="demo-2 effect demo-3" id="demo2">
                         <li>
                             <h2 class="zero"> Database Synchronization - 8 Min</h2>
@@ -49,7 +49,7 @@
             </a>
 
             <a href="javascript:void(0);" onclick='return window.open("<?php echo __ROOT__?>/downloads/login.php?action=HL7-integration-flow.htm&s=flashdemo&name=HL7","HL7", "fullscreen=yes, scrollbars=yes")'>
-                <li class=" col-sm-4">
+                <li class=" col-sm-4 padding-bottom-20">
                     <ul class="demo-2 effect demo-3" id="demo3">
                         <li>
                             <h2 class="zero">HL7 Integration Flow - 6 Min</h2>
@@ -62,7 +62,7 @@
                 <li class=" col-sm-2 hidden-xs"></li>
 
             <a href="javascript:void(0);" onclick='return window.open("<?php echo __ROOT__?>/downloads/login.php?action=sap_demo.htm&s=flashdemo&name=SAP_Integration","SAP Integration", "fullscreen=yes, scrollbars=yes")'>
-                    <li class=" col-sm-4"  style="margin-top:50px">
+                    <li class=" col-sm-4 padding-bottom-20">
                         <ul class="demo-2 effect demo-3" id="demo4">
                             <li>
                                 <h2 class="zero"> SAP Integration - 5 Min</h2>
@@ -76,7 +76,7 @@
             <!--    <a href="javascript:void(0);" onclick='return window.open("<?php /*echo site_url('accounts/index/dtf/demo_temenos_t24')*/?>","Peer-to-Peer Architecture", ",type=fullWindow,fullscreen,scrollbars=yes,menubar=no,toolbar=no")'>-->
 
 
-                        <a href="<?php echo __ROOT__?>/resources/Temenos-T24-Fiorano-ESB-Integration.php"><li class=" col-sm-4"  style="margin-top:50px">
+                        <a href="<?php echo __ROOT__?>/resources/Temenos-T24-Fiorano-ESB-Integration.php"><li class=" col-sm-4 padding-bottom-20">
                         <ul class="demo-2 effect demo-3" id="demo5">
                             <li>
                                 <h2 class="zero">Temenos T24 - Fiorano ESB Integration - 23 Min </h2>
@@ -141,7 +141,7 @@
                     </li>
                 </a>
                 <a href="javascript:void(0);" onclick='return window.open("<?php echo __ROOT__?>/flash_demos/fiorano-restful-service.htm","Fiorano Tutorial: RESTful Service Demo", ",type=fullWindow,fullscreen,scrollbars=yes,menubar=no,toolbar=no")'>
-                    <li class=" col-sm-4" style="margin-top:50px">
+                    <li class=" col-sm-4 col-xs-12" style="margin-top:50px">
                         <ul class="demo-2 effect prod" id="prod3">
                             <li>
                                 <h2 class="zero">Fiorano Tutorial: RESTful Service demo</h2>
@@ -153,7 +153,7 @@
                     </li>
 
                     <a href="javascript:void(0);" onclick='return window.open("<?php echo __ROOT__?>/flash_demos/getting_started.htm","Getting Started", ",type=fullWindow,fullscreen,scrollbars=yes,menubar=no,toolbar=no")'>
-                        <li class=" col-sm-4"  style="margin-top:50px">
+                        <li class=" col-sm-4 col-xs-12"  style="margin-top:50px">
                             <ul class="demo-2 effect prod" id="prod4">
                                 <li>
                                     <h2 class="zero">
@@ -166,7 +166,7 @@
                     </a>
 
                     <a href="javascript:void(0);" onclick='return window.open("<?php echo __ROOT__?>/flash_demos/hello_world.htm","Hello World", ",type=fullWindow,fullscreen,scrollbars=yes,menubar=no,toolbar=no")'>
-                        <li class=" col-sm-4"  style="margin-top:50px">
+                        <li class=" col-sm-4 col-xs-12"  style="margin-top:50px">
                             <ul class="demo-2 effect prod" id="prod5">
                                 <li>
                                     <h2 class="zero">Create a simple "Hello World" flow</h2>
@@ -181,7 +181,7 @@
                         </li>
                     </a>
                     <a href="javascript:void(0);" onclick='return window.open("<?php echo __ROOT__?>/flash_demos/webservice_html.htm","Web Services", ",type=fullWindow,fullscreen,scrollbars=yes,menubar=no,toolbar=no")'>
-                        <li class=" col-sm-4"  style="margin-top:50px">
+                        <li class=" col-sm-4 col-xs-12"  style="margin-top:50px">
                             <ul class="demo-2 effect prod" id="prod6">
                                 <li>
                                     <h2 class="zero">Webservice To HTML</h2>

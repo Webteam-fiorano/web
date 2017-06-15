@@ -195,7 +195,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
                 <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="0ms" style="visibility: visible; animation-duration: 300ms; animation-delay: 0ms; animation-name: fadeInUp;">
                     <div class="media service-box">
                         <div class="pull-left">
@@ -234,6 +233,8 @@
                         </div>
                     </div>
                 </div>
+            </div>
+                
 
 
 

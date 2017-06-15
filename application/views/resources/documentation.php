@@ -16,41 +16,41 @@
         <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Product Documentation Center</h2>
         <p class="text-center"> This page contains information about the documentation set of Fiorano products, and how to get updated versions of these documents. </p>
     </div>
-<div class="col-xs-12">
-<div class="col-sm-6">
-    <a><h3>Fiorano<sup>®</sup>  <?php echo VERSION_SOA ?></h3></a>
-    <hr>
-    <ul class="col-xs-12">
-        <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/ESB<?php echo DIR_PLAIN_SOA ?>/Release+Notes" target="_blank"> Release Notes</a></li>
-        <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/ESB<?php echo DIR_PLAIN_SOA ?>/Installing" target="_blank">Installation Guide </a></li>
-        <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/ESB<?php echo DIR_PLAIN_SOA ?>/Developing" target="_blank">Getting Started</a></li>
-        <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/ESB<?php echo DIR_PLAIN_SOA ?>/Fiorano+Documentation" target="_blank">Online Documentation</a></li>
-        <li class="col-xs-4 pull-right" style="list-style: none"> <a href="http://www.fiorano.com/documentation/display/ESB<?php echo DIR_PLAIN_SOA ?>/Fiorano+Documentation" target="_blank">Read More</a></li>
-    </ul>
+    <div class="col-xs-12">
+        <div class="col-sm-6">
+            <a><h3>Fiorano<sup style="font-size:60%;">®</sup>  <?php echo VERSION_SOA ?></h3></a>
+            <hr>
+            <ul class="col-xs-12">
+                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/ESB<?php echo DIR_PLAIN_SOA ?>/Release+Notes" target="_blank"> Release Notes</a></li>
+                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/ESB<?php echo DIR_PLAIN_SOA ?>/Installing" target="_blank">Installation Guide </a></li>
+                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/ESB<?php echo DIR_PLAIN_SOA ?>/Developing" target="_blank">Getting Started</a></li>
+                <li class="col-xs-12 padding-bottom-20"> <a href="http://www.fiorano.com/documentation/display/ESB<?php echo DIR_PLAIN_SOA ?>/Fiorano+Documentation" target="_blank">Online Documentation</a></li>
+                <input class="col-sm-4 col-xs-6 btn btn-info" style="list-style: none" value="Read More"> <a style="color:white;" href="http://www.fiorano.com/documentation/display/ESB<?php echo DIR_PLAIN_SOA ?>/Fiorano+Documentation" target="_blank"></a></input>
+            </ul>
 
 
-</div>
-    <div class="col-sm-6">
-        <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/FioranoMQ" target="_blank"><h3>FioranoMQ<sup>®</sup> <?php echo VERSION_MQ ?></h3></a>
-        <hr>
-        <ul class="col-xs-12">
-            <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/Release+Notes" target="_blank">Release Notes</a></li>
-            <!--<li class="col-xs-12"> <a>Installation Guide </a></li>-->
-            <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/Getting+Started" target="_blank">Getting Started</a></li>
-            <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/Handbook" target="_blank">	FioranoMQ Handbook</a></li>
-            <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/Reference+Guide" target="_blank"> FioranoMQ Reference Guide</a></li>
-            <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/Concepts+Guide" target="_blank">Concepts Guide</a></li>
-            <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/Performance+Tuning+And+Deployment+Parameters+Guide" target="_blank">Performance Tuning And Deployment Parameters Guide</a></li>
-            <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/FioranoMQ+High+Availability+Guide" target="_blank">FioranoMQ High Availability Guide</a></li>
-            <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/Best+Practices+Guide" target="_blank">FioranoMQ Best Practices Guide</a></li>
-            <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/C-RTL+Guide" target="_blank"> FioranoMQ C-RTL Guide</a></li>
-            <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/pages/viewpage.action?pageId=7866738" target="_blank">FioranoMQ C++ RTL (Native) Guide</a></li>
-            <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/Native+C+Sharp+RTL+Sample+Application+Guide" target="_blank">FioranoMQ Native CSharp RTL Sample Application Guide</a></li>
-            <li class="col-xs-12"> <a href=" http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/JMX+APIs" target="_blank"> FioranoMQ JMX APIs Guide</a></li>
-            <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/FAQs" target="_blank">FioranoMQ FAQs</a></li>
-            <li class="col-xs-4 pull-right" style="list-style: none"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/FioranoMQ" target="_blank">Read More</a></li>
-        </ul>
-    </div>
+        </div>
+        <div class="col-sm-6">
+            <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/FioranoMQ" target="_blank"><h3>FioranoMQ<sup style="font-size:60%;">®</sup> <?php echo VERSION_MQ ?></h3></a>
+            <hr>
+            <ul class="col-xs-12">
+                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/Release+Notes" target="_blank">Release Notes</a></li>
+                <!--<li class="col-xs-12"> <a>Installation Guide </a></li>-->
+                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/Getting+Started" target="_blank">Getting Started</a></li>
+                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/Handbook" target="_blank">	FioranoMQ Handbook</a></li>
+                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/Reference+Guide" target="_blank"> FioranoMQ Reference Guide</a></li>
+                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/Concepts+Guide" target="_blank">Concepts Guide</a></li>
+                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/Performance+Tuning+And+Deployment+Parameters+Guide" target="_blank">Performance Tuning And Deployment Parameters Guide</a></li>
+                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/FioranoMQ+High+Availability+Guide" target="_blank">FioranoMQ High Availability Guide</a></li>
+                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/Best+Practices+Guide" target="_blank">FioranoMQ Best Practices Guide</a></li>
+                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/C-RTL+Guide" target="_blank"> FioranoMQ C-RTL Guide</a></li>
+                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/pages/viewpage.action?pageId=7866738" target="_blank">FioranoMQ C++ RTL (Native) Guide</a></li>
+                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/Native+C+Sharp+RTL+Sample+Application+Guide" target="_blank">FioranoMQ Native CSharp RTL Sample Application Guide</a></li>
+                <li class="col-xs-12"> <a href=" http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/JMX+APIs" target="_blank"> FioranoMQ JMX APIs Guide</a></li>
+                <li class="col-xs-12 padding-bottom-20"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/FAQs" target="_blank">FioranoMQ FAQs</a></li>
+                <input class="col-sm-4 col-xs-6 btn btn-info" style="list-style: none" value="Read More"> <a style="color:white;" href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/FioranoMQ" target="_blank">Read More</a></input>
+            </ul>
+        </div>
 
 </div>
     <div class="col-xs-12">
@@ -166,7 +166,7 @@
         <!--Third row-->
         <div class="col-xs-12">
             <div class="col-sm-4">
-                <h3>Fiorano SOA Platform® 9.5.1</h3>
+                <h3>Fiorano SOA Platform<sup style="font-size:60%;">®</sup> 9.5.1</h3>
 
                 <div  class=" col-xs-12">
                     <ul class="col-xs-12">
@@ -179,7 +179,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <h3 >Fiorano SOA Platform® 9.5.0</h3>
+                <h3 >Fiorano SOA Platform<sup style="font-size:60%;">®</sup> 9.5.0</h3>
                 <div class=" col-xs-12">
                     <ul class="col-xs-12">
                         <li class="col-xs-12"> <a href="http://www.fiorano.com/docs/fsoa/950/pdf/FioranoSOAUserGuide.pdf" target="_blank"> Fiorano SOA Platform User Guide</a></li>
@@ -191,7 +191,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <h3>Fiorano SOA Platform® 9.4.2</h3>
+                <h3>Fiorano SOA Platform<sup style="font-size:60%;">®</sup> 9.4.2</h3>
                 <div class=" col-xs-12">
                     <ul class="col-xs-12">
                         <li class="col-xs-12"> <a href="http://www.fiorano.com/docs/fsoa/942/pdf/FioranoSOAUserGuide.pdf" target="_blank"> Fiorano SOA Platform User Guide</a></li>
@@ -208,7 +208,7 @@
 
         <div class="col-xs-12">
             <div class="col-sm-4">
-                <h3>Fiorano SOA Platform® 9.4.1</h3>
+                <h3>Fiorano SOA Platform<sup style="font-size:60%;">®</sup> 9.4.1</h3>
 
                 <div  class=" col-xs-12">
                     <ul class="col-xs-12">
@@ -221,7 +221,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <h3 >Fiorano SOA Platform® 9.4.0</h3>
+                <h3 >Fiorano SOA Platform<sup style="font-size:60%;">®</sup> 9.4.0</h3>
                 <div class=" col-xs-12">
                     <ul class="col-xs-12">
                         <li class="col-xs-12"> <a href="http://www.fiorano.com/docs/fsoa/940/pdf/FioranoSOAUserGuide.pdf" target="_blank"> Fiorano SOA Platform User Guide</a></li>
@@ -233,7 +233,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <h3>Fiorano SOA Platform® 9.3.0</h3>
+                <h3>Fiorano SOA Platform<sup style="font-size:60%;">®</sup> 9.3.0</h3>
                 <div class=" col-xs-12">
                     <ul class="col-xs-12">
                         <li class="col-xs-12"> <a href="http://www.fiorano.com/docs/fsoa/930/pdf/FioranoSOAUserGuide.pdf" target="_blank"> Fiorano SOA Platform User Guide</a></li>
@@ -249,7 +249,7 @@
         <!--fifth row -->
         <div class="col-xs-12">
             <div class="col-sm-4">
-                <h3>Fiorano SOA Platform® 9.2.2</h3>
+                <h3>Fiorano SOA Platform<sup style="font-size:60%;">®</sup> 9.2.2</h3>
 
                 <div  class=" col-xs-12">
                     <ul class="col-xs-12">
@@ -262,7 +262,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <h3 >Fiorano SOA Platform® 9.2.1</h3>
+                <h3 >Fiorano SOA Platform<sup style="font-size:60%;">®</sup> 9.2.1</h3>
                 <div class=" col-xs-12">
                     <ul class="col-xs-12">
                         <li class="col-xs-12"> <a href="http://www.fiorano.com/docs/fsoa/921/pdf/FioranoSOAUserGuide.pdf" target="_blank"> Fiorano SOA Platform User Guide</a></li>
@@ -274,7 +274,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <h3>Fiorano SOA Platform® 9.2.0</h3>
+                <h3>Fiorano SOA Platform<sup style="font-size:60%;">®</sup> 9.2.0</h3>
                 <div class=" col-xs-12">
                     <ul class="col-xs-12">
                         <li class="col-xs-12"> <a href="http://www.fiorano.com/docs/fsoa/920/pdf/FioranoSOAUserGuide.pdf" target="_blank"> Fiorano SOA Platform User Guide</a></li>
@@ -291,7 +291,7 @@
         <!--sixth row -->
         <div class="col-xs-12">
             <div class="col-sm-4">
-                <h3>Fiorano SOA Platform® 9.1.0</h3>
+                <h3>Fiorano SOA Platform<sup style="font-size:60%;">®</sup> 9.1.0</h3>
 
                 <div  class=" col-xs-12">
                     <ul class="col-xs-12">
@@ -304,7 +304,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <h3 >Fiorano SOA Platform® 9.0.2</h3>
+                <h3 >Fiorano SOA Platform<sup style="font-size:60%;">®</sup> 9.0.2</h3>
                 <div class=" col-xs-12">
                     <ul class="col-xs-12">
                         <li class="col-xs-12"> <a href="http://www.fiorano.com/docs/fsoa/902/pdf/FioranoSOAUserGuide.pdf" target="_blank"> Fiorano SOA Platform User Guide</a></li>
@@ -316,7 +316,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <h3>Fiorano SOA Platform® 9.0.1</h3>
+                <h3>Fiorano SOA Platform<sup style="font-size:60%;">®</sup> 9.0.1</h3>
                 <div class=" col-xs-12">
                     <ul class="col-xs-12">
                         <li class="col-xs-12"> <a href="http://www.fiorano.com/docs/fsoa/901/pdf/FioranoSOAUserGuide.pdf" target="_blank"> Fiorano SOA Platform User Guide</a></li>
@@ -332,7 +332,7 @@
         <!--seventh row -->
         <div class="col-xs-12">
             <div class="col-sm-4">
-                <h3>Fiorano SOA Platform® 9.0</h3>
+                <h3>Fiorano SOA Platform<sup style="font-size:60%;">®</sup> 9.0</h3>
 
                 <div  class=" col-xs-12">
                     <ul class="col-xs-12">
@@ -351,13 +351,13 @@
 <section class="" id="">
     <div class="container">
         <div class="section-header">
-            <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Other Version of FioranoMQ® </h2>
+            <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Other Version of FioranoMQ<sup style="font-size:60%;">®</sup> </h2>
 
         </div>
         <!--first Row-->
         <div class="col-xs-12">
             <div class="col-sm-4">
-                <h3>FioranoMQ® 10.1.0 </h3>
+                <h3>FioranoMQ<sup style="font-size:60%;">®</sup> 10.1.0 </h3>
 
                 <div  class=" col-xs-12">
                     <ul class="col-xs-12">
@@ -380,7 +380,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <h3 >FioranoMQ® 10</h3>
+                <h3 >FioranoMQ<sup style="font-size:60%;">®</sup> 10</h3>
                 <div class=" col-xs-12">
                     <ul class="col-xs-12">
                         <li class="col-xs-12"> <a href="http://www.fiorano.com/docs/fmq/10/htm/Release_Notes.htm" target="_blank">  Release Notes</a></li>
@@ -402,7 +402,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <h3>Fiorano SOA Platform® 9.5.1</h3>
+                <h3>Fiorano SOA Platform<sup style="font-size:60%;">®</sup> 9.5.1</h3>
                 <div class=" col-xs-12">
                     <ul class="col-xs-12">
                         <li class="col-xs-12"> <a href="http://www.fiorano.com/docs/fmq/951/htm/Release_Notes.htm" target="_blank">  Release Notes</a></li>
@@ -425,7 +425,7 @@
         </div>
         <div class="col-xs-12">
             <div class="col-sm-4">
-                <h3>Fiorano SOA Platform® 9.5.0</h3>
+                <h3>Fiorano SOA Platform<sup style="font-size:60%;">®</sup> 9.5.0</h3>
                 <div class=" col-xs-12">
                     <ul class="col-xs-12">
 
@@ -445,7 +445,7 @@
             </div>
 
             <div class="col-sm-4">
-                <h3>Fiorano SOA Platform® 9.4.1</h3>
+                <h3>Fiorano SOA Platform<sup style="font-size:60%;">®</sup> 9.4.1</h3>
                 <div class=" col-xs-12">
                     <ul class="col-xs-12">
                         <li class="col-xs-12"> <a href="www.fiorano.com/docs/fmq/941/pdf/FioranoMQConceptsGuide.pdf" target="_blank">    Concepts Guide</a></li>
@@ -463,7 +463,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <h3>Fiorano SOA Platform® 9.4.0</h3>
+                <h3>Fiorano SOA Platform<sup style="font-size:60%;">®</sup> 9.4.0</h3>
                 <div class=" col-xs-12">
                     <ul class="col-xs-12">
                         <li class="col-xs-12"> <a href="www.fiorano.com/docs/fmq/940/pdf/FioranoMQConceptsGuide.pdf" target="_blank">    Concepts Guide</a></li>
@@ -483,7 +483,7 @@
         </div>
         <div class="col-xs-12">
             <div class="col-sm-4">
-                <h3>Fiorano SOA Platform® 9.3.0</h3>
+                <h3>Fiorano SOA Platform<sup style="font-size:60%;">®</sup> 9.3.0</h3>
                 <div class=" col-xs-12">
                     <ul class="col-xs-12">
                         <li class="col-xs-12"> <a href="www.fiorano.com/docs/fmq/930/pdf/FioranoMQConceptsGuide.pdf" target="_blank">    Concepts Guide</a></li>
@@ -501,7 +501,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <h3>Fiorano SOA Platform® 9.2.1</h3>
+                <h3>Fiorano SOA Platform<sup style="font-size:60%;">®</sup> 9.2.1</h3>
                 <div class=" col-xs-12">
                     <ul class="col-xs-12">
                         <li class="col-xs-12"> <a href="www.fiorano.com/docs/fmq/921/pdf/FioranoMQConceptsGuide.pdf" target="_blank">    Concepts Guide</a></li>
@@ -519,7 +519,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <h3>Fiorano SOA Platform® 9.2.0</h3>
+                <h3>Fiorano SOA Platform<sup style="font-size:60%;">®</sup> 9.2.0</h3>
                 <div class=" col-xs-12">
                     <ul class="col-xs-12">
                         <li class="col-xs-12"> <a href="www.fiorano.com/docs/fmq/920/pdf/FioranoMQConceptsGuide.pdf" target="_blank">    Concepts Guide</a></li>
@@ -539,7 +539,7 @@
         </div>
         <div class="col-xs-12">
             <div class="col-sm-4">
-                <h3>Fiorano SOA Platform® 9.1.1</h3>
+                <h3>Fiorano SOA Platform<sup style="font-size:60%;">®</sup> 9.1.1</h3>
                 <div class=" col-xs-12">
                     <ul class="col-xs-12">
                         <li class="col-xs-12"> <a href="www.fiorano.com/docs/fmq/911/pdf/FioranoMQConceptsGuide.pdf" target="_blank">    Concepts Guide</a></li>
@@ -558,7 +558,7 @@
             </div>
 
             <div class="col-sm-4">
-                <h3>Fiorano SOA Platform® 9.1.0</h3>
+                <h3>Fiorano SOA Platform<sup style="font-size:60%;">®</sup> 9.1.0</h3>
                 <div class=" col-xs-12">
                     <ul class="col-xs-12">
                         <li class="col-xs-12"> <a href="www.fiorano.com/docs/fmq/910/pdf/FioranoMQConceptsGuide.pdf" target="_blank">    Concepts Guide</a></li>
@@ -577,7 +577,7 @@
             </div>
 
             <div class="col-sm-4">
-                <h3>Fiorano SOA Platform® 9.0.1</h3>
+                <h3>Fiorano SOA Platform<sup style="font-size:60%;">®</sup> 9.0.1</h3>
                 <div class=" col-xs-12">
                     <ul class="col-xs-12">
                         <li class="col-xs-12"> <a href="www.fiorano.com/docs/fmq/901/pdf/FioranoMQConceptsGuide.pdf" target="_blank">    Concepts Guide</a></li>
@@ -608,7 +608,7 @@
         </div>
         <div class="col-xs-12">
             <div class="col-sm-6">
-                <h3 class="text-center"><a class="none-decoration" href="http://www.fiorano.com/documentation/display/PUB/Fiorano+Documentation" target="_blank">Fiorano Platform Documentation Center</a></h3>
+                <h3><a class="none-decoration" href="http://www.fiorano.com/documentation/display/PUB/Fiorano+Documentation" target="_blank">Fiorano Platform Documentation Center</a></h3>
                 <hr class="double-white">
                 <p class="align-left">
                     Fiorano Platform includes a comprehensive set of documentation that covers every aspect of its implementation. Besides the online help this includes detailed information on GUI tools provided with Fiorano Platform, the documentation includes
@@ -616,7 +616,7 @@
                 </p>
             </div>
             <div class="col-sm-6">
-                <h3 class="text-center"><a class="none-decoration" href="http://www.fiorano.com/documentation/display/PUB/Release+Notes" target="_blank">Release Notes</a></h3>
+                <h3><a class="none-decoration" href="http://www.fiorano.com/documentation/display/PUB/Release+Notes" target="_blank">Release Notes</a></h3>
                 <hr class="double-white">
                 <p class="align-left">
                     Besides enriching the Business Component model, Fiorano Platform delivers significant improvement in event throughput across the peer network, while exposing more JMS semantics at the Event Process Composition level. This

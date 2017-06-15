@@ -36,7 +36,7 @@
         <div class="row  padding-top-50 padding-bottom-50" id="vid-thumb">
             <ul class="col-xs-12">
                 <a href="javascript:void(0);" onclick='return window.open("<?php echo base_url()?>assets/videos/flash_demos/Fiorano_Cloud_Integration.html","SOA Explainer", ",type=fullWindow,fullscreen,scrollbars=yes,menubar=no,toolbar=no")'>
-                <li class=" col-sm-4">
+                <li class=" col-sm-4 col-xs-12 padding-top-50">
                     <ul class="demo-2 effect" id="min-first">
                         <li>
                             <h2 class="zero">Fiorano Cloud Integration & SOA </h2>
@@ -48,7 +48,7 @@
                 </li>
                 </a>
                 <a href="javascript:void(0);" onclick='return window.open("<?php echo base_url()?>assets/videos/flash_demos/fiorano_Message_Driven_SOA.html","Window2", ",type=fullWindow,fullscreen,scrollbars=yes,menubar=no,toolbar=no")'>
-                <li class=" col-sm-4">
+                <li class=" col-sm-4 col-xs-12 padding-top-50">
                     <ul class="demo-2 effect" id="min-second">
                         <li>
                             <h2 class="zero">Fiorano ESB – Simplifying Integration</h2>
@@ -60,7 +60,7 @@
                 </li>
                 </a>
                 <a href="javascript:void(0);" onclick='return window.open("<?php echo base_url()?>assets/videos/flash_demos/Spaghetti_Architecture.html","Window2", ",type=fullWindow,fullscreen,scrollbars=yes,menubar=no,toolbar=no")'>
-                <li class=" col-sm-4">
+                <li class=" col-sm-4 col-xs-12 padding-top-50">
                     <ul class="demo-2 effect" id="min-third">
                         <li>
                             <h2 class="zero">Fiorano ESB: Avoiding a Spaghetti Architecture</h2>
@@ -72,7 +72,7 @@
                 </li>
                 <li class=" col-sm-2 hidden-xs"></li>
                 <a href="javascript:void(0);" onclick='return window.open("<?php echo base_url()?>assets/videos/flash_demos/microservices.html","Fiorano Microservices", ",type=fullWindow,fullscreen,scrollbars=yes,menubar=no,toolbar=no")'>
-                    <li class=" col-sm-4"  style="margin-top:50px ;margin-bottom: 5px;">
+                    <li class=" col-sm-4 col-xs-12"  style="margin-top:50px ;margin-bottom: 5px;">
                         <ul class="demo-2 effect" id="min-fourth">
                             <li>
                                 <h2 class="zero">Fiorano Microservices </h2>
@@ -84,7 +84,7 @@
                 </a>
 
                 <a href="javascript:void(0);" onclick='return window.open("<?php echo base_url()?>assets/videos/flash_demos/peer-to-peer-architecture.html","Peer-to-Peer Architecture", ",type=fullWindow,fullscreen,scrollbars=yes,menubar=no,toolbar=no")'>
-                    <li class=" col-sm-4"  style="margin-top:50px">
+                    <li class=" col-sm-4 col-xs-12"  style="margin-top:50px">
                         <ul class="demo-2 effect" id="min-fifth">
                             <li>
                                 <h2 class="zero">Fiorano Peer-to-Peer Architecture </h2>

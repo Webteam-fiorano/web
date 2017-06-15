@@ -130,11 +130,11 @@
             </div>
         </div>
         <div class="col-xs-12 padding-bottom-50">
-            <table width="100%" cellpadding="0" cellspacing="0">
+            <table  class="tableDatay" width="100%" cellpadding="0" cellspacing="0">
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>Jun 09, 2016</strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/idev_logo.png" alt="Integration Developer News" style="padding-top:5px" width="100px"/></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/idev_logo.png" alt="Integration Developer News" style="padding-top:5px" width="100px"/></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://www.idevnews.com/stories/6803/Fiorano-Integration-Platform-Offers-Lifecycle-Support-for-Dynamic-Enterprise-Services" target="_blank" rel="nofollow"><strong>Fiorano Integration Platform Offers Lifecycle Support for 'Dynamic' Enterprise Services</strong></a><br/>
                         Fiorano is bringing together the best of SOA, APIs, microservices and real-time data architectures into a unified platform for code-free integration aimed at digital transformation projects.  IDN looks at how Fiorano delivers customers an &quot;infrastructure for dynamic enterprise services.&quot;
@@ -143,7 +143,7 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>Jan 14, 2016</strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/yahoo_finance_logo.jpg" alt="Yahoo Finance" style="padding-top:5px" width="100px"/></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/yahoo_finance_logo.jpg" alt="Yahoo Finance" style="padding-top:5px" width="100px"/></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://finance.yahoo.com/news/fiorano-software-expands-footprint-cambodian-030000720.html" target="_blank" rel="nofollow"><strong>Fiorano Software expands footprint into Cambodian Market. Canadia Bank selects Fiorano ESB to accelerate time-to-market for new services.</strong></a><br/>
                         Canadia Bank, one of the largest banks in Cambodia, has chosen Fiorano's technology to simplify the integration of heterogeneous satellite applications with their Temenos <a href="/solutions/banking/temenos-t24-core-banking-integration.php">T24</a> core banking system. Fiorano ESB, underpinned with its unique peer-to-peer architecture and complimented with a pre-built library of Microservices, empowers the bank to rapidly deploy new services for its customers.
@@ -152,7 +152,7 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>Sep 21, 2015</strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/cio-magazine-edition.png" alt="CIO" style="padding-top:5px" width="100px"/></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/cio-magazine-edition.png" alt="CIO" style="padding-top:5px" width="100px"/></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://api.cioreview.com/vendor/2015/fiorano" target="_blank" rel="nofollow"><strong>Fiorano features in the Top 20 most promising global API solution providers, 2015</strong></a><br/>
                         The Palo Alto-based company empowers real-time, digital enterprises with a bimodal integration and API management strategy
@@ -163,7 +163,7 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>June 16, 2015</strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/cio-magazine-edition.png" alt="CIO" style="padding-top:5px" width="100px"/></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/cio-magazine-edition.png" alt="CIO" style="padding-top:5px" width="100px"/></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="/pdf/intellyx.pdf" target="_blank" rel="nofollow"><strong>Digital breathes new life into service oriented architecture</strong></a><br/>
                         It turns out that what people are now starting to call microservices are precisely the Services that Fiorano implements and has been using since 2003
@@ -172,7 +172,7 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>May 13, 2015  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/forbes_logo.jpg" alt="Forbes" style="padding-top:5px" width="100px" height="42px"/></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/forbes_logo.jpg" alt="Forbes" style="padding-top:5px" width="100px" height="42px"/></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://www.forbes.com/sites/jasonbloomberg/2015/05/13/peanuts-popcorn-crackerjack-and-mobile-first-digital-soa/" target="_blank" rel="nofollow"><strong>Peanuts, Popcorn, Crackerjack - And Mobile-First, Digital SOA</strong></a><br/>
                         You may not recognize its name, but you're sure to have frequented one of its venues. Buffalo, NY-based Delaware North manages and provides food and beverage concessions, retail, and more at many large venues including sports stadiums, entertainment complexes, national and state parks, airports, and casinos, ranging from the Chicago White Sox to the Kennedy Space Center.
@@ -182,7 +182,7 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>Apr 16, 2015  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/TechBriefing_net_logo.JPG" alt="TechBriefing" style="padding-top:5px" width="100px" height="42px"/></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/TechBriefing_net_logo.JPG" alt="TechBriefing" style="padding-top:5px" width="100px" height="42px"/></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://techbriefing.net/modules.php?op=modload&name=News&file=article&sid=342021" target="_blank" rel="nofollow"><strong>Fujifilm achieves Real time integration of SAP to Salesforce.com with Fiorano</strong></a><br/>
                         With Fiorano's enterprise integration capabilities, Fujifilm's sales team productivity has improved manifold; we now have complete visibility into sales processes in real time as well as batch mode. Apart from the direct ROI, Fiorano has also allowed us to leverage our existing investments.
@@ -192,7 +192,7 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>Mar 17, 2015  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/yahoo_tech_logo.jpg" alt="Yahoo Tech" style="padding-top:5px" width="100px" height="42px"/></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/yahoo_tech_logo.jpg" alt="Yahoo Tech" style="padding-top:5px" width="100px" height="42px"/></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="https://www.yahoo.com/tech/s/fiorano-real-time-data-integration-164000023.html" target="_blank" rel="nofollow"><strong>Fiorano Real-time Data Integration Opens New Areas of Opportunity for Hospitality Leader Delaware North</strong></a><br/>
                         Fiorano Software, a leader in enterprise integration middleware solutions, announced that the Fiorano platform was deployed at Delaware North to integrate disparate systems and to aggregate and enable real-time data processing.
@@ -202,7 +202,7 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>Feb 09, 2015  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/forbes_logo.jpg" alt="Forbes" style="padding-top:5px" width="100px" height="42px"/></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/forbes_logo.jpg" alt="Forbes" style="padding-top:5px" width="100px" height="42px"/></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://www.forbes.com/sites/jasonbloomberg/2015/02/09/service-oriented-architecture-enabler-of-the-digital-world/" target="_blank" rel="nofollow"><strong>Service-Oriented Architecture: Enabler of the Digital World</strong></a><br/>
                         "The main change is that instead of going 'enterprise-wide' with a massive strategy and calling in Accenture and others to 'solve' the 'SOA problem' or lay out a grand architecture, the customer wants to solve tactical problems fast," according to Atul Saini, CEO of middleware vendor Fiorano Software. "The pressures of cloud, social computing and mobile devices make rapid delivery of projects even more critical."
@@ -218,7 +218,7 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>Dec 06, 2014  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/pw-logo.png" alt="Market Watch" style="padding-top:5px" width="100px" height="42px"/></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/pw-logo.png" alt="Market Watch" style="padding-top:5px" width="100px" height="42px"/></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://www.programmableweb.com/news/fiorano-api-management-released-to-increase-enterprise-data-value/press-release/2014/12/06" target="_blank" rel="nofollow"><strong>Fiorano API Management Released To Increase  Enterprise Data Value</strong></a><br/>
                         Fiorano Software, a leading provider of enterprise integration and messaging infrastructure technology today announced general availability of Fiorano API Management, enabling companies to expose Application Program Interfaces (APIs) to unique corporate data to create value that many companies have difficulty unlocking on their own.
@@ -228,7 +228,7 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>Nov 17, 2014  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/logo_sys-con.gif" alt="Market Watch" style="padding-top:5px" width="100px"/></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/logo_sys-con.gif" alt="Market Watch" style="padding-top:5px" width="100px"/></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://www.sys-con.com/node/3231562" target="_blank" rel="nofollow"><strong>Fiorano Software: API Management for Everyone</strong></a><br/>
                         This scrappy Palo Alto and Bengaluru-based vendor competed successfully in the Enterprise Service Bus (ESB) market with the middleware behemoths of the time, including IBM, Oracle, Software AG WebMethods, and TIBCO, to name a few. While other smaller vendors were either acquired or dropped off the radar, the secret to Fiorano's survival was a critical architectural decision that differentiated their ESB in fundamental ways.
@@ -238,27 +238,18 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>Oct 16, 2014  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/Market_watch_logo.jpg" alt="Market Watch" style="padding-top:5px" width="100px"/></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/Market_watch_logo.jpg" alt="Market Watch" style="padding-top:5px" width="100px"/></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://www.marketwatch.com/story/fiorano-software-partners-with-anabatic-technologies-2014-10-16" target="_blank" rel="nofollow"><strong>Fiorano Software Partners with Anabatic Technologies</strong></a><br/>
                         Fiorano Software, a leading provider of enterprise integration middleware, today announced that Anabatic Technologies, one of the leading IT companies in Indonesia has partnered with Fiorano Software to deliver business productivity solutions for the enterprise segment within Indonesia and South East Asia.
                         <a href="http://www.marketwatch.com/story/fiorano-software-partners-with-anabatic-technologies-2014-10-16 " target="_blank" rel="nofollow"> More&nbsp;<strong>&raquo;</strong></a><br/><br/></td>
                 </tr>
 
-                <!--             <tr>
-                <td valign="top" width="22%"><br />
-                    <strong>Oct 14, 2014  </strong> <br/>
-                    <img src="<?php echo base_url('assets/images/company/news') ?>/Market_watch_logo.jpg" alt="Market Watch" style="padding-top:5px" width="100px"/></td>
-                <td valign="top" style="padding-right: 10px;"><br/>
-                    <a href="http://www.marketwatch.com/story/nhs-wales-informatics-service-chooses-fiorano-integration-software-2014-10-14" target="_blank" rel="nofollow"><strong>NHS Wales Informatics Service chooses Fiorano Integration software</strong></a><br/>
-                     NHS Wales Informatics Service has selected Fiorano Software, a leader in enterprise integration middleware solutions, to provide the replacement of its current integration platform. NHS Wales is deploying the Fiorano solution to intelligently integrate its national systems, such as the Welsh Clinical Portal, Test Requesting and Results Reporting as well as providing multi-agency integration with a variety of NHS Wales organizations.
-                    <a href="http://www.marketwatch.com/story/nhs-wales-informatics-service-chooses-fiorano-integration-software-2014-10-14 " target="_blank" rel="nofollow"> More&nbsp;<strong>&raquo;</strong></a><br/><br/></td>
-            </tr>-->
-
+        
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>Oct 14, 2014  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/yahoo_finance_logo.jpg" alt="yahoo" style="padding-top:5px" width="100px"/></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/yahoo_finance_logo.jpg" alt="yahoo" style="padding-top:5px" width="100px"/></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="https://uk.finance.yahoo.com/news/nhs-wales-informatics-chooses-fiorano-214700618.html" target="_blank" rel="nofollow"><strong>NHS Wales Informatics Service chooses Fiorano Integration software</strong></a><br/>
                         NHS Wales Informatics Service has selected Fiorano Software, a leader in enterprise integration middleware solutions, to provide the replacement of its current integration platform. NHS Wales is deploying the Fiorano solution to intelligently integrate its national systems, such as the Welsh Clinical Portal, Test Requesting and Results Reporting as well as providing multi-agency integration with a variety of NHS Wales organizations.
@@ -268,7 +259,7 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>Sept 15, 2014  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/idevlogo.jpg" alt="forbes" style="padding-top:5px" width="100px"/></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/idevlogo.jpg" alt="forbes" style="padding-top:5px" width="100px"/></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://www.idevnews.com/stories/6347/Fioranos-Event-Driven-ESB-Powers-Quick-Accurate-Medical-Test-Delivery-Reporting" target="_blank" rel="nofollow"><strong>Fiorano's Event-Driven ESB Powers Quick, Accurate Medical Test Delivery, Reporting</strong></a><br/>
                         Fiorano is helping Canadian medical lab services firm bring speed and accuracy to tests and reporting for tens of thousands of samples daily. Fiorano ESB delivers business-critical integration benefits to IT and LOB is by combining an enterprise service bus, SOA and an extensible EDA (event-driven architecture) service model.
@@ -278,7 +269,7 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>August 29, 2014  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/forbes_logo.jpg" alt="forbes" style="padding-top:5px" width="100px"/></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/forbes_logo.jpg" alt="forbes" style="padding-top:5px" width="100px"/></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://www.forbes.com/sites/jasonbloomberg/2014/08/29/transforming-digital-business-in-real-time/" target="_blank" rel="nofollow"><strong>Transforming Digital Business in 'Real-Time'</strong></a><br/>
                         Enterprise Service Bus (ESB) middleware vendor Fiorano Software leverages an innovative architecture to achieve real-time performance both in and out of the Cloud. &#34;Fiorano implements peer-to-peer distributed ESB platform technology that allows enterprises to implement real-time systems in a linearly-scalable manner,&#34; explains Atul Saini, CEO of Fiorano.
@@ -287,7 +278,7 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>July 17, 2014  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/logo_sys-con.gif" alt="Sys Con" style="padding-top:5px" width="100px"/></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/logo_sys-con.gif" alt="Sys Con" style="padding-top:5px" width="100px"/></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://www.sys-con.com/node/3123674" target="_blank" rel="nofollow"><strong>Aboitiz Power Corporation Chooses Fiorano Middleware for Enterprise-Class IT Infrastructure</strong></a><br/>
                         Fiorano Software, a leader in enterprise integration middleware solutions, today announced that Fiorano ESB (Enterprise Service Bus) has been chosen by Aboitiz Power Corporation to integrate multiple applications and streamline business processes of its subsidiaries Visayan Electric Company and Davao Light & Power Corporation.
@@ -296,7 +287,7 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>June 30, 2014  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/logo_joyonline.png" alt="Joy Online" style="padding-top:5px" /></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/logo_joyonline.png" alt="Joy Online" style="padding-top:5px" /></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://www.myjoyonline.com/business/2014/june-30th/ghanas-banking-software-industry-gets-big-boost.php" target="_blank" rel="nofollow"><strong>Ghana's banking software industry gets big boost</strong></a><br/>
                         Global Solutions Limited/Inlaks Computers, distributors of TEMENOS banking software in West Africa, has announced a partnership with Fiorano which integrates complementary banking services such as ATM, SMS and internet banking with core banking services to boost operational efficiency and productivity among banks.
@@ -305,7 +296,7 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>April 16, 2014  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/agence-finance.jpg" alt="Agence Finance Press" style="padding-top:5px" width="110px" /></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/agence-finance.jpg" alt="Agence Finance Press" style="padding-top:5px" width="110px" /></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://www.afp.com/fr/professionnels/partenaires/business-wire/le-detaillant-francais-editions-atlas-utilise-fiorano-soa-pour-une-mise-en-oeuvre-en-temps-reel-de-ses-operations" target="_blank" rel="nofollow"><strong>French Retail, &Eacute;ditions Atlas Uses Fiorano SOA for Real-Time Enablement of its Global Operations</strong></a><br/>
                         Fiorano Software announced that &Eacute;ditions Atlas, a leading French retail company has deployed the Fiorano SOA platform to integrate applications across multiple European subsidiaries' yielding an unprecedented increase in productivity.<a href="http://www.afp.com/fr/professionnels/partenaires/business-wire/le-detaillant-francais-editions-atlas-utilise-fiorano-soa-pour-une-mise-en-oeuvre-en-temps-reel-de-ses-operations" target="_blank" rel="nofollow"> More&nbsp;<strong>&raquo;</strong></a><br/><br/></td>
@@ -313,7 +304,7 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>April 01, 2014  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/logo_marketwatch.jpg" alt="Market Watch" style="padding-top:5px" width="110px" /></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/logo_marketwatch.jpg" alt="Market Watch" style="padding-top:5px" width="110px" /></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://www.marketwatch.com/story/ig-index-migrates-to-fioranomq-to-scale-financial-transactions-2014-04-01" target="_blank" rel="nofollow"><strong>IG Index Migrates to FioranoMQ to Scale Financial Transactions : Replaces IBM MQ with faster, more robust JMS system</strong></a><br/>
                         Fiorano Software, a leader in enterprise integration middleware solutions, announced that FioranoMQ has been deployed at IG Index, the UK's number one financial spread betting and Forex services provider.<a href="http://www.marketwatch.com/story/ig-index-migrates-to-fioranomq-to-scale-financial-transactions-2014-04-01" target="_blank" rel="nofollow"> More&nbsp;<strong>&raquo;</strong></a></td>
@@ -321,7 +312,7 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>March 20, 2014  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/idev-logo.png" alt="Integration Developer News" style="padding-top:5px" width="135px" /></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/idev-logo.png" alt="Integration Developer News" style="padding-top:5px" width="135px" /></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://www.idevnews.com/stories/6161/Fiorano-Rolls-Out-ESB-Based-B2B-Gateway-To-Simplify-Secure-Business-To-Business-Communications" target="_blank" rel="nofollow"><strong>Fiorano Rolls Out ESB-Based B2B Gateway To Simplify, Secure Business To Business Communications</strong></a><br/>
                         Fiorano Software is shipping an enterprise-level B2B gateway to help users securely transact business with customers, partners and distributors. Fiorano B2B Gateway enables accurate, real-time information exchange across the extended enterprise.<a href="http://www.idevnews.com/stories/6161/Fiorano-Rolls-Out-ESB-Based-B2B-Gateway-To-Simplify-Secure-Business-To-Business-Communications" target="_blank" rel="nofollow"> More&nbsp;<strong>&raquo;</strong></a></td>
@@ -329,7 +320,7 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>March 18, 2014  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/soa_world_logo.jpg" alt="SOA World" style="padding-top:5px" width="135px" /></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/soa_world_logo.jpg" alt="SOA World" style="padding-top:5px" width="135px" /></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://soa.sys-con.com/node/3016301" target="_blank" rel="nofollow"><strong>Temenos Partners with Fiorano to Provide 'Out of the Box' Integration Solution for Banks</strong></a><br/>
                         Typically forty percent of the core banking implementation effort is involved in interfacing with multiple applications. We knew we need a partner to provide an 'Out of the Box' solution and we chose Fiorano to be that partner. <a href="http://soa.sys-con.com/node/3016301" target="_blank" rel="nofollow">More&nbsp;<strong>&raquo;</strong></a></td>
@@ -342,35 +333,35 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>September 30, 2013  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/ciol-logo.jpg" alt="ciol" width="110px" /></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/ciol-logo.jpg" alt="ciol" width="110px" /></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://www.ciol.com/ciol/interviews/197053/africa-cios-easily-embarrass-indian-cios-really" target="_blank" rel="nofollow"><strong>Mr. Atul Saini CEO &amp; CTO, Fiorano interviewed by CIOL, talks about experiences of doing business across the world.</strong></a><br/>Here's a CTO's point of view on how the 'baniya' mentality can be hurting Indian businesses more than they realize. More so on the technology pulse points. <a href="http://www.ciol.com/ciol/interviews/197053/africa-cios-easily-embarrass-indian-cios-really" target="_blank" rel="nofollow">More&nbsp;<strong>&raquo;</strong></a></td>
                 </tr>
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>September 24, 2013  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/reuters_logo.jpg" alt="Reuters" width="110px" /></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/reuters_logo.jpg" alt="Reuters" width="110px" /></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://www.reuters.com/article/2013/09/24/ca-fiorano-software-idUSnBw246749a+100+BSW20130924" target="_blank" rel="nofollow"><strong>Fiorano Announces Platform 10: B2B Integration, SWIFT Connectivity to Augment ESB Stack</strong></a><br/>Fiorano Software today announced general availability of the Fiorano Platform version 10 (Fiorano 10), realizing its vision in providing best-in-class enterprise integration solution. <a href="http://www.reuters.com/article/2013/09/24/ca-fiorano-software-idUSnBw246749a+100+BSW20130924" target="_blank" rel="nofollow">More&nbsp;<strong>&raquo;</strong></a></td>
                 </tr>
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>September 18, 2013  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/ciol-logo.jpg" alt="ciol" width="110px" /></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/ciol-logo.jpg" alt="ciol" width="110px" /></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://www.ciol.com/ciol/news/195936/loreal-soa" target="_blank" rel="nofollow"><strong>L&rsquo;Or&eacute;al gets a SOA make-over</strong></a><br/>L&rsquo;Or&eacute;al faced challenges since existing legacy systems proved to be a hindrance in growing and managing new product launches, manually collecting sales data from hundreds of distributors across the country and managing internal sales processes. <a href="http://www.ciol.com/ciol/news/195936/loreal-soa" target="_blank" rel="nofollow">More&nbsp;<strong>&raquo;</strong></a></td>
                 </tr>
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>July 18, 2013  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/logo_marketwatch.jpg" alt="MarketWatch" width="110px" /></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/logo_marketwatch.jpg" alt="MarketWatch" width="110px" /></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://www.marketwatch.com/story/fiorano-positioned-as-visionary-for-the-7th-time-in-gartners-application-integration-magic-quadrants-2013-07-18" target="_blank" rel="nofollow"><strong>Fiorano Positioned as "Visionary" for the 7th Time in Gartner's Application Integration Magic Quadrants</strong></a><br/>Fiorano Software has again been positioned by Gartner Inc., a leading industry analyst firm, in the &quot;Visionary&quot; quadrant of the newly-published &quot;Magic Quadrant for On-Premises Application Integration Suites&quot; which examined 17 vendors among many others whose products provide features addressing the needs of systematic application-to-application, B2B and cloud-based application integration. <a href="http://www.marketwatch.com/story/fiorano-positioned-as-visionary-for-the-7th-time-in-gartners-application-integration-magic-quadrants-2013-07-18" target="_blank" rel="nofollow">More&nbsp;<strong>&raquo;</strong></a></td>
                 </tr>
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>March 19, 2013  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/bloomberg-logo.png" alt="Bloomberg" width="110px" /></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/bloomberg-logo.png" alt="Bloomberg" width="110px" /></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://www.bloomberg.com/article/2013-03-19/aMu.fa33P8tc.html" target="_blank" rel="nofollow"><strong>Core Banking Integration with Fiorano ESB Enables Federal Bank</strong></a><br/>
                         Social payments of over a billion dollars through the network to benefit millions of beneficiaries. <a href="http://www.bloomberg.com/article/2013-03-19/aMu.fa33P8tc.html" target="_blank" rel="nofollow">More&nbsp;<strong>&raquo;</strong></a></td>
@@ -378,7 +369,7 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>February 19, 2013  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/the-wall-street-journal-logo.png" alt="THE WALL STREET JOURNAL" width="135px" /></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/the-wall-street-journal-logo.png" alt="THE WALL STREET JOURNAL" width="135px" /></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://online.wsj.com/article/PR-CO-20130219-908930.html?mod=crnews" target="_blank" rel="nofollow"><strong>Powered by Fiorano ESB, Commercial Bank of Africa revolutionizes mobile-banking</strong></a><br/>
                         M-Shwari logs 40,000 customers per day crossing Ksh1 billion in transactions a month with core banking integration from Fiorano. <a href="http://online.wsj.com/article/PR-CO-20130219-908930.html?mod=crnews" target="_blank" rel="nofollow">More&nbsp;<strong>&raquo;</strong></a></td>
@@ -386,7 +377,7 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>February 24, 2013  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/allafrica-logo.png" alt="allAfrica" style="padding-top:5px" /></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/allafrica-logo.png" alt="allAfrica" style="padding-top:5px" /></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://allafrica.com/stories/201302250147.html" target="_blank" rel="nofollow"><strong>Africa: Fiorano ESB Power's Commercial Bank of Africa's M-Shwari</strong></a><br/>
                         Fiorano Software, an enterprise integration and messaging middleware solutions provider, announced that Fiorano ESB, Enterprise Service Bus has been deployed by Commercial Bank of Africa (CBA) to enable M-Shwari, an innovative and revolutionary mobile savings and loan service product. <a href="http://allafrica.com/stories/201302250147.html" target="_blank" rel="nofollow">More&nbsp;<strong>&raquo;</strong></a></td>
@@ -394,7 +385,7 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>February 21, 2013  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/telecompaper-logo.png" alt="telecompaper" style="padding-top:5px" width="135px" /></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/telecompaper-logo.png" alt="telecompaper" style="padding-top:5px" width="135px" /></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://www.telecompaper.com/news/fiorano-powers-cbas-m-banking-services--926226" target="_blank" rel="nofollow"><strong>Fiorano powers CBA's m-banking services</strong></a><br/>
                         Fiorano Software, a provider of enterprise integration and messaging middleware services, has won a contract from East African financial institution Commercial Bank of Africa (CBA). CBA has deployed the Fiorano Enterprise Service Bus (Fiorano ESB) to power its M-Shwari mobile savings and loan service. <a href="http://www.telecompaper.com/news/fiorano-powers-cbas-m-banking-services--926226" target="_blank" rel="nofollow">More&nbsp;<strong>&raquo;</strong></a></td>
@@ -407,7 +398,7 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>September 05, 2012  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/cio_logo.png" alt="CIO" style="padding-top:5px"/></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/cio_logo.png" alt="CIO" style="padding-top:5px"/></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://www.cio.in/case-study/heading-towards-better-sales-management-nilkamal" target="_blank" rel="nofollow"><strong>Heading Towards Better Sales Management: Nilkamal</strong><br/>
                             A case study on ERP in Manufacturing</a><br/>
@@ -416,7 +407,7 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>August 22, 2012  </strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/kmworld.jpg" alt="KM World" style="padding-top:5px"/></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/kmworld.jpg" alt="KM World" style="padding-top:5px"/></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://www.kmworld.com/Articles/News/News/Commercial-bank-speeds-rollout-of-new-revenue-channels-84516.aspx" target="_blank" rel="nofollow"><strong>Commercial bank speeds rollout of new revenue channels</strong></a><br/>
                         Federal Bank, a large commercial bank headquartered in India, has chosen a solution from Fiorano Software to streamline its operations. Fiorano ESB is also expected to speed rollout of value-added services through multiple channels. <a href="http://www.kmworld.com/Articles/News/News/Commercial-bank-speeds-rollout-of-new-revenue-channels-84516.aspx" target="_blank" rel="nofollow">More&nbsp;<strong>&raquo;</strong></a></td>
@@ -424,7 +415,7 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>August 6, 2012</strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/bank_systems_tech.jpg" alt="Bank Systems & Technology" style="padding-top:5px"/></td>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/bank_systems_tech.jpg" alt="Bank Systems & Technology" style="padding-top:5px"/></td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://www.banktechindia.com/news/12-08-06/Federal_Bank_implements_Fiorano_ESB_for_CBS_and_retail_channel_integration.aspx" target="_blank" rel="nofollow"><strong>Federal Bank implements Fiorano ESB for CBS and retail channel integration</strong></a><br/>
                         The bank says that platform has allowed it to build a solid middleware infrastructure and given it the desired agility to respond to market conditions faster. <a href="http://www.banktechindia.com/news/12-08-06/Federal_Bank_implements_Fiorano_ESB_for_CBS_and_retail_channel_integration.aspx" target="_blank" rel="nofollow">More&nbsp;<strong>&raquo;</strong></a></td>
@@ -432,7 +423,7 @@
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>June 28, 2012</strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/cloud-strategy-magazine.jpg" alt="Cloud Strategy Magazine" width="135px" style="padding-top:5px"/>&nbsp; <br />
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/cloud-strategy-magazine.jpg" alt="Cloud Strategy Magazine" width="135px" style="padding-top:5px"/>&nbsp; <br />
                     </td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://www.cloud-strategy.com/2012/06/28/fiorano-positioned-visionary-quadrant-application-infrastructure-systematic-application-i?page=0,0" target="_blank" rel="nofollow"><strong>Fiorano Positioned in Visionary Quadrant for Application Infrastructure for Systematic Application Integration Projects</strong></a><br/>
@@ -442,7 +433,7 @@
                     <td width="21%" valign="top"><strong><br />
                             April 5, 2012</strong> <br/>
                         <div style="padding-top:15px;">
-                            <img src="<?php echo base_url('assets/images/company/news') ?>/digital_journal_logo.gif" alt="Department Of Health" width="100px" />
+                            <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/digital_journal_logo.gif" alt="Department Of Health" width="100px" />
                         </div>
                     </td>
 
@@ -454,7 +445,7 @@
                     <td width="21%" valign="top" ><strong><br />
                             March 8, 2012</strong> <br/>
                         <div style="padding-top:5px;">
-                            <img src="<?php echo base_url('assets/images/company/news') ?>/digital_manufacturing_logo.jpg" alt="Department Of Health" width="100px" />
+                            <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/digital_manufacturing_logo.jpg" alt="Department Of Health" width="100px" />
                         </div>
                     </td>
 
@@ -466,7 +457,7 @@
                     <td width="21%" valign="top" ><strong><br />
                             March 8, 2012</strong> <br/>
                         <div style="padding-top:5px;">
-                            <img src="<?php echo base_url('assets/images/company/news') ?>/supplydemandchain_logo.jpg" alt="Supply Demand Chain" width="100px" />
+                            <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/supplydemandchain_logo.jpg" alt="Supply Demand Chain" width="100px" />
                         </div>
                     </td>
 
@@ -483,7 +474,7 @@
                     <td width="21%" valign="top" ><strong><br />
                             November 18, 2011</strong> <br/>
                         <div style="padding-top:5px;">
-                            <img src="<?php echo base_url('assets/images/company/news') ?>/department_of_health_logo.jpg" alt="Department Of Health" width="100px" />
+                            <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/department_of_health_logo.jpg" alt="Department Of Health" width="100px" />
                         </div>
                     </td>
 
@@ -495,7 +486,7 @@
                 <tr>
                     <td valign="top" width="21%"><br />
                         <strong>August 4,&nbsp;2011</strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/zapthink_small.gif" alt="Unicel" width="100px"/>&nbsp; <br />
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/zapthink_small.gif" alt="Unicel" width="100px"/>&nbsp; <br />
                     </td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://www.zapthink.com/2011/08/04/rest-based-soa-an-iconoclastic-approach/" target="_blank" rel="nofollow"><strong>REST-Based SOA: an Iconoclastic Approach</strong></a> <br/>
@@ -507,7 +498,7 @@
                 <tr>
                     <td valign="top"><br />
                         <strong>July 29,&nbsp;2011</strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/unifiedmessaging_logo.jpg" alt="Unicel" width="100px"/>&nbsp; <br />
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/unifiedmessaging_logo.jpg" alt="Unicel" width="100px"/>&nbsp; <br />
                     </td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://unified-messaging.tmcnet.com/topics/unified-messaging/articles/202283-fioranos-saini-explains-middleware-best-options-integration.htm" target="_blank" rel="nofollow"><strong> Fiorano Software CEO - Atul Saini Explains Best Options in Middleware and Integration </strong></a><br/>
@@ -519,7 +510,7 @@
                 <tr>
                     <td valign="top"><br />
                         <strong>July 13,&nbsp;2011</strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/cloud_computing_journal.jpg" alt="Fiorano" />&nbsp; <br/>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/cloud_computing_journal.jpg" alt="Fiorano" />&nbsp; <br/>
                     </td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://cloudcomputing.sys-con.com/node/1900519" target="_blank" rel="nofollow"><strong>Leading Wireless Enterprise Mobility Solutions Provider Deploys Fiorano SOA for Messaging and Integration - Fiorano ESB Improves Message Processing Capability Five-fold and SLA Commitments by over 80% </strong></a><br/>
@@ -527,7 +518,7 @@
                 </tr>
                 <tr>
                     <td valign="top"> <br/><strong>June 06,&nbsp;2011</strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/atul_interview_cloudexpo.jpg" alt="Fiorano" />&nbsp; <br/>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/atul_interview_cloudexpo.jpg" alt="Fiorano" />&nbsp; <br/>
                     </td>
                     <td valign="top" style="padding-right: 10px;">
                         <br/>
@@ -536,7 +527,7 @@
                 </tr>
                 <tr>
                     <td valign="top"> <br/><strong>June 09,&nbsp;2011</strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/news_atul.jpg" alt="Fiorano" />&nbsp; <br/>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/news_atul.jpg" alt="Fiorano" />&nbsp; <br/>
                     </td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://www.tmcnet.com/tmc/videos/default.aspx?vid=4661" rel="nofollow"><strong>An exclusive interview with Atul Saini, CEO, Fiorano Software at Cloud Expo, NY</strong></a> <br/>
@@ -544,7 +535,7 @@
                 </tr>
                 <tr>
                     <td valign="top"> <br/><strong>May 29, 2011</strong><br />
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/cloud_computing_journal.jpg" alt="Fiorano" />&nbsp; <br/>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/cloud_computing_journal.jpg" alt="Fiorano" />&nbsp; <br/>
                     </td>
                     <td valign="top" style="padding-right: 10px;"><a href="http://cloudcomputing.sys-con.com/node/1852145" target="_blank" rel="nofollow"><strong><br />Cloud Computing: The Adoption of Cloud-Based Solutions - An exclusive Q&amp;A with Atul Saini, CEO &amp; CTO of Fiorano Software</strong></a>
                         <br />
@@ -555,7 +546,7 @@
                 <tr>
                     <td valign="top"><br />
                         <strong>May 04,&nbsp;2011</strong> <br/>
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/cloud_computing_journal.jpg" alt="Fiorano" />&nbsp; <br />
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/cloud_computing_journal.jpg" alt="Fiorano" />&nbsp; <br />
                     </td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://cloudcomputing.sys-con.com/node/1819458" target="_blank" rel="nofollow"><strong>Fiorano adds REST support, Eclipse Studio enhancements and other significant features to messaging and integration backbone infrastructure - announces GA of latest release V9.3 of Fiorano SOA Platform and FioranoMQ JMS Server</strong></a> <br/>
@@ -564,7 +555,7 @@
                 </tr>
                 <tr>
                     <td valign="top"> <br/><strong>April 9, 2011</strong><br />
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/cloud_expo_logo_media.jpg" alt="Cloud Expo" /> &nbsp; <br/>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/cloud_expo_logo_media.jpg" alt="Cloud Expo" /> &nbsp; <br/>
                     </td>
                     <td valign="top" style="padding-right: 10px;"><a href="http://cloudcomputing.sys-con.com/node/1786634" target="_blank" rel="nofollow"><strong><br />Fiorano to Exhibit at Cloud Expo 2011 New York</strong></a>
                         <p>SYS-CON Events announced today that <a href="http://www.fiorano.com/">Fiorano</a>, a leading provider of enterprise  class ESB-based Cloud integration, BPM and messaging infrastructure technology,  will exhibit at SYS-CON's 8th International <a href="http://www.cloudcomputingexpo.com/" target="_blank" rel="nofollow">Cloud Expo</a>, which will take place  on June 6&ndash;9, 2011, at the Javits Center in New York City, New York. <a href="http://cloudcomputing.sys-con.com/node/1786634" target="_blank" rel="nofollow">More&nbsp;<strong>&raquo;</strong></a><br />
@@ -573,7 +564,7 @@
                 <tr>
                     <td valign="top"><br />
                         <strong>March 28,&nbsp;2011</strong><br />
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/logo_federalcomputer_mc.jpg" /> &nbsp; <br/>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/logo_federalcomputer_mc.jpg" /> &nbsp; <br/>
                     </td>
                     <td valign="top" style="padding-right: 10px;"><br/>
                         <a href="http://fcw.com/articles/2011/03/28/feature-ryan-mike-coast-guard.aspx" target="_blank" rel="nofollow"><strong> Coast Guard makes waves with SOA &ndash;</strong> Federal 100 award winner Capt. Mike Ryan is using SOA technology to forge powerful links</a> <br/>
@@ -597,15 +588,15 @@
         //hide timeline blocks which are outside the viewport
         $timeline_block.each(function(){
             if($(this).offset().top > $(window).scrollTop()+$(window).height()*0.75) {
-                $(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
+                $(this).find('.cd-timeline-img class="img-responsive" , .cd-timeline-content').addClass('is-hidden');
             }
         });
 
         //on scolling, show/animate timeline blocks when enter the viewport
         $(window).on('scroll', function(){
             $timeline_block.each(function(){
-                if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) {
-                    $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
+                if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.75 && $(this).find('.cd-timeline-img class="img-responsive" ').hasClass('is-hidden') ) {
+                    $(this).find('.cd-timeline-img class="img-responsive" , .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
                 }
             });
         });

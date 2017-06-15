@@ -88,13 +88,13 @@
                 </li>-->
                 <a  class="sol-linkMain" href="<?php echo site_url('solutions/temenos_t24_core_banking_integration')?>">
 
-                <li class="col-xs-offset-1half col-sm-6 col-md-3 col-xs-12">
+                <li class="col-xs-offset-1half col-sm-6 col-md-3 col-xs-12 padding-bottom-50">
                     <ul class="demo-3 " title="Core Banking">
                         <li class="col-xs-12 sols">
                             <h2 class="zero">Core Banking </h2>
 
                         </li>
-                        <li class="col-xs-12 sols"><img class="sol-img-Main" src="<?php echo base_url('/assets/images/solutions/financial_services.png');?>"/>
+                        <li class="col-xs-12 sols"><img class="sol-img-Main" src="<?php echo base_url('/assets/images/solutions/financial_services.png');?>"></li>
                         <li class="col-xs-12 pull-right proDef sols" >
                             <p class="text-right sol_submtitle" ><b><i>Financial Solutions</i></b></p>
                         </li>
@@ -115,7 +115,7 @@
 
 
                 <a  class="sol-linkMain" href="<?php echo site_url('solutions/swift_integration')?>">
-                    <li class=" col-sm-6 col-md-3 col-xs-12">
+                    <li class=" col-sm-6 col-md-3 col-xs-12 padding-bottom-50">
                         <ul class="demo-3 " title="SWIFT Integration">
                             <li class="col-xs-12 sols">
                                 <h2 class="zero">SWIFT Integration</h2>
@@ -138,7 +138,7 @@
                 </a>
 
                 <a  class="sol-linkMain" href="<?php echo site_url('solutions/psd2')?>">
-            <li class="col-sm-6 col-md-3 col-xs-12">
+            <li class="col-sm-6 col-md-3 col-xs-12 padding-bottom-50">
                 <ul class="demo-3 " title="PSD2">
                     <li class="col-xs-12 sols">
                         <h2 class="zero">PSD2</h2>
@@ -182,10 +182,10 @@
             </li>
                 </a>-->
 
-            </ul>
-            <ul class="col-xs-12 padding-top-50">
+            <!--</ul>
+            <ul class="col-xs-12 padding-top-50">-->
                 <a  class="sol-linkMain" href="<?php echo site_url('solutions/health')?>">
-                <li class=" col-sm-3" title="Health Care">
+                <li class=" col-sm-6 col-md-3 col-xs-12 padding-bottom-50" title="Health Care">
                     <ul class="demo-3 ">
                         <li class="col-xs-12 sols">
                             <h2 class="zero">Health Care </h2>
@@ -216,7 +216,7 @@
                 </a>
 
                 <a  class="sol-linkMain" href="<?php echo site_url('solutions/government_defense')?>">
-                <li class=" col-sm-3">
+                <li class=" col-sm-6 col-md-3 col-xs-12 padding-bottom-50">
                     <ul class="demo-3 " title="Goverment & Defense">
                         <li class="col-xs-12 sols">
                             <h2 class="zero">Government & Defense</h2>
@@ -244,7 +244,7 @@
 
                 </a>
                 <a  class="sol-linkMain" href="<?php echo site_url('solutions/sap_solution')?>">
-                <li class=" col-sm-3">
+                <li class=" col-sm-6 col-md-3 col-xs-12 padding-bottom-50">
                     <ul class="demo-3 " title="SAP Integration">
                         <li class="col-xs-12 sols">
                             <h2 class="zero">SAP Integration</h2>
@@ -269,7 +269,7 @@
                 </li>
                 </a>
                 <a  class="sol-linkMain" href="<?php echo site_url('solutions/salesforce_integration')?>">
-                <li class=" col-sm-3">
+                <li class=" col-sm-6 col-md-3 col-xs-12 padding-bottom-50">
                     <ul class="demo-3 " title="Salesforce Integration">
                         <li class="col-xs-12 sols">
                             <h2 class="zero">Salesforce Integration</h2>

@@ -105,7 +105,7 @@
             <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Benefits of the Framework</h2>
             <!--<p class="text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>-->
         </div>
-        <div class="row padding-bottom-50">
+        <div class="row padding-bottom-20">
             <div class="features">
                 <div class="col-xs-12 nopadding">
                     <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="0ms" style="visibility: visible; animation-duration: 300ms; animation-delay: 0ms; animation-name: fadeInUp;">
@@ -119,15 +119,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="100ms" style="visibility: visible; animation-duration: 300ms; animation-delay: 100ms; animation-name: fadeInUp;">
+                    <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 300ms; animation-delay: 300ms; animation-name: fadeInUp;">
                         <div class="media service-box">
                             <div class="pull-left">
-                                <i class="fa fa-tv"></i>
+                                <i class="fa fa-cubes"></i>
                             </div>
                             <div class="media-body">
-
-                                <h4 class="media-heading"> Business Process Management</h4>
-                                <p>Existing or new business processes that require human interaction and complex rule processing for decisions can be mapped and then integrated into a solution.</p>
+                                <h4 class="media-heading">Peer-to-peer architecture for performance, scalability and reliability</h4>
+                                <p>At the core lies Fiorano's high performance message queuing system. This enables a peer-to-peer architecture with linear scalability and parallel processing with no single point of failure or need for a centralised control/data server. The built-in reliability of the queuing system means that messages are never lost.</p>
                             </div>
                         </div>
                     </div>
@@ -144,16 +143,16 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-xs-12 nopadding">
-                    <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 300ms; animation-delay: 300ms; animation-name: fadeInUp;">
+                    <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="100ms" style="visibility: visible; animation-duration: 300ms; animation-delay: 100ms; animation-name: fadeInUp;">
                         <div class="media service-box">
                             <div class="pull-left">
-                                <i class="fa fa-cubes"></i>
+                                <i class="fa fa-tv"></i>
                             </div>
                             <div class="media-body">
-                                <h4 class="media-heading">Peer-to-peer architecture for performance, scalability and reliability</h4>
-                                <p>At the core lies Fiorano's high performance message queuing system. This enables a peer-to-peer architecture with linear scalability and parallel processing with no single point of failure or need for a centralised control/data server. The built-in reliability of the queuing system means that messages are never lost.</p>
+
+                                <h4 class="media-heading"> Business Process Management</h4>
+                                <p>Existing or new business processes that require human interaction and complex rule processing for decisions can be mapped and then integrated into a solution.</p>
                             </div>
                         </div>
                     </div>
@@ -180,18 +179,19 @@
                         </div>
                     </div>
                 </div>
-
-
-                    <h3>Related Resources</h3>
-                    <p>
-                    <ul>
-                        <li class="col-sm-4"><a href="<?=__ROOT__?>/solutions/e-GIF.php">e-Government Interoperability Framework (e-GIF)</a></li>
-                        <li class="col-sm-4"><a href="<?=__ROOT__?>/solutions/fiorano-healthcare-framework-itk.php">HL7 - Healthcare Solutions</a></li>
-                        <li class="col-sm-4"><a href="<?=__ROOT__?>/docs/Fiorano_ITK_certificate.pdf" target="_blank" siz>Fiorano ITK V2.0 Accreditation </a> </li>
-                    </ul>
-                </p>
                 </div>
+
+
+
             </div>
+        <div class="container padding-bottom-50">
+        <h3 class="">Related Resources</h3>
+        <ul class="list-inline">
+            <li><a href="<?=__ROOT__?>/solutions/e-GIF.php">&bull; e-Government Interoperability Framework (e-GIF)</a></li>
+            <li><a href="<?=__ROOT__?>/solutions/fiorano-healthcare-framework-itk.php">&bull; HL7 - Healthcare Solutions</a></li>
+            <li><a href="<?=__ROOT__?>/docs/Fiorano_ITK_certificate.pdf" target="_blank" siz>&bull; Fiorano ITK V2.0 Accreditation </a> </li>
+        </ul>
+        </div>
         </div>
     </div>
 </section>

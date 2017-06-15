@@ -67,9 +67,9 @@
         <div class="col-xs-12 padding-bottom-20 padding-top-20">
             <p>More details on the different services and their classification as per support tiers is shown below:</p>
         </div>
-        <div class="col-xs-12 padding-bottom-50">
+        <div class="col-sm-12 padding-bottom-50 nopadding">
 
-            <table class="col-xs-12" style="border-color: #807F80; border-collapse: collapse">
+            <table class="col-sm-12 tableDatay" style="border-color: #807F80; border-collapse: collapse">
                 <tr class="">
                     <td class="title b l col-xs-4 padding-bottom-20 padding-top-20">Support Services</td>
                     <td class="title b c  col-xs-3 text-center">Standard </td>
@@ -234,7 +234,7 @@
                 </tr>
             </table>
         </div>
-        <div class="col-xs-12 padding-bottom-50">
+        <div class="col-xs-12 padding-bottom-50 padding-top-50">
             <p>
                 FPSS also includes standard technical support which is contracted through an Annual Maintenance Contract (AMC) by all customers and covers standard technical support. Click here for more details on Fiorano Technical support policies, together with SLAs for premium support.
             </p>

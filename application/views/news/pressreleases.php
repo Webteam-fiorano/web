@@ -705,12 +705,12 @@
 <section>
     <div class="container">
         <div class="row">
-            <div class="section-header aligncenter padding-bottom-20">
+            <div class="section-header aligncenter padding-bottom-50 padding-top-50 text-center">
 
-                <h3 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"> Know more Press releases about fiorano </sup>
+                <h3 class="padding-bottom-20" style="visibility: visible; animation-name: fadeInDown;"> Know more Press releases about fiorano </h3>
                     <a href="http://www.fiorano.com/news/pressreleases-archives.php" target="_blank" class=""><button class="btn btn-success  ">
                             Press releases Archives
-                        </button></a></h3>
+                        </button></a>
 
             </div>
         </div>

@@ -50,15 +50,15 @@
             <div class="col-sm-6">
                 <div class="b-x padding-top-50">
                     <div>
-                        <strong style="vertical-align: middle" >Engagement model</strong><img src="<?= __IMAGES__ ?>/dev_product_arrow.jpg" alt="-&gt;" />
+                        <strong style="display:flex;align-items:center;justify-content:center;vertical-align: middle; height:4em;" ><div>Engagement model</div></strong><img src="<?= __IMAGES__ ?>/dev_product_arrow.jpg" alt="-&gt;" />
                         <span style="vertical-align: middle">Time and Material. Estimation will be provided for all phases, but invoicing will be based on actual effort (i.e. time and material based).</span>
                     </div>
                     <div>
-                        <strong style="vertical-align: middle">Delivery mode</strong><img src="<?= __IMAGES__ ?>/dev_product_arrow.jpg" alt="-&gt;" />
+                        <strong style="display:flex;align-items:center;justify-content:center;vertical-align: middle; height:4em;"><div>Delivery mode</div></strong><img src="<?= __IMAGES__ ?>/dev_product_arrow.jpg" alt="-&gt;" />
                         <span style="vertical-align: middle">Onsite / Offshore engagement. Ratio of this engagement will be determined at the time of requirements sign-off.</span>
                     </div>
                     <div>
-                        <strong style="vertical-align: middle;padding-top:14px;">Resources recommended<br/>&nbsp;</strong><img src="<?= __IMAGES__ ?>/dev_product_arrow.jpg" alt="-&gt;" style="margin-bottom:10px" />
+                        <strong style="display:flex;align-items:center;justify-content:center;vertical-align: middle; height:4em;"><div>Resources recommended</div><br/>&nbsp;</strong><img src="<?= __IMAGES__ ?>/dev_product_arrow.jpg" alt="-&gt;" style="margin-bottom:10px" />
                         <span style="vertical-align: middle">Project Manager, Architect and Technical Specialist. Consultants from the product engineering team will be engaged at an additional cost, if necessary.</span>
                     </div>
                 </div>

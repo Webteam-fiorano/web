@@ -102,4 +102,12 @@ class Solutions extends CI_Controller
         $this->load->view('solutions/psd2');
         $this->load->view('common/footer');
     }
+    public function e_GIF()
+    {
+        $data['heading']= "Fiorano PSD2 | Fiorano Solutions";
+        $data['title']="Fiorano PSD2  | Fiorano Solutions";
+        $this->load->view('common/header',$data);
+        $this->load->view('solutions/e_GIF');
+        $this->load->view('common/footer');
+    }
 }

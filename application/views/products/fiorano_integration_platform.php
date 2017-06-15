@@ -142,7 +142,7 @@
                                     <p style="padding-top: 10px;"> Security & Governance</p>
                                 </a>
                                 <a href="#" class="list-group-item text-center">
-                                    <p style="padding-top: 10px;"> Standards-based</p>
+                                    <p style="padding-top: 10px;"> Standards - based</p>
                                 </a>
                             </div>
                         </div>

@@ -75,20 +75,38 @@
                         </div>
                         <div class="col-xs-12 nopadding">
                             <div class="social-btns nopadding  ">
+
+<!--                                facebook js-->
                                 <div id="fb-root"></div>
                                 <script>(function(d, s, id) {
                                         var js, fjs = d.getElementsByTagName(s)[0];
                                         if (d.getElementById(id)) return;
                                         js = d.createElement(s); js.id = id;
-                                        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9";
+                                        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=107010336512550";
                                         fjs.parentNode.insertBefore(js, fjs);
                                     }(document, 'script', 'facebook-jssdk'));</script>
-                                <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-size="small" data-mobile-iframe="true">
-                                    <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>
-                                <a class="btn facebook fb-share-button" data-href="http://lh-fiorano-ci/index.php/pressreleases/cpb_fiorano_for_temenos_t24_integration" href="http://lh-fiorano-ci/index.php/pressreleases/cpb_fiorano_for_temenos_t24_integrationu=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" ><i class="fa fa-facebook"></i></a>
-                                <a class="btn twitter" href="#"><i class="fa fa-twitter"></i></a>
-                                <a class="btn google" href="#"><i class="fa fa-google"></i></a>
-                                <a class="btn dribbble" href="#"><i class="fa fa-envelope"></i></a>
+<!--                                twitter js-->
+                                <div id="twitter-wjs"></div>
+                                <script>window.twttr = (function(d, s, id) {
+                                        var js, fjs = d.getElementsByTagName(s)[1],
+                                            t = window.twttr || {};
+                                        if (d.getElementById(id)) return t;
+                                        js = d.createElement(s);
+                                        js.id = id;
+                                        js.src = "https://platform.twitter.com/widgets.js";
+                                        fjs.parentNode.insertBefore(js, fjs);
+
+                                        t._e = [];
+                                        t.ready = function(f) {
+                                            t._e.push(f);
+                                        };
+
+                                        return t;
+                                    }(document, "script", "twitter-wjs"));</script>
+                                    <a class="fb-share-button btn facebook fb-xfbml-parse-ignore" target="_blank" data-href="http://www.fiorano.com/new/" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.fiorano.com%2Fnew%2F&amp;src=sdkpreparse" onclick="return !window.open(this.href, 'Facebook', 'width=600,height=500, left=24, top=24, scrollbars, resizable')"><i class="fa fa-facebook"></i></a>
+                                    <a class="twitter-share-button btn twitter" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.fiorano.com%2Fnew%2F" onclick="return !window.open(this.href, 'Twitter', 'width=600,height=500, left=24, top=24, scrollbars, resizable')"><i class="fa fa-twitter"></i></a>
+                                    <a class="btn google" href="https://plus.google.com/share?url=http://www.fiorano.com/new/" onclick="return !window.open(this.href, 'Google+', 'width=400,height=400, left=24, top=24, scrollbars, resizable')"><i class="fa fa-google"></i></a>
+                                    <a class="btn dribbble" href="mailto: ?Subject=Your%20Subject&amp;body=http%3A%2F%2Fwww.fiorano.com%2Fnew%2F"><i class="fa fa-envelope"></i></a>
                             </div>
                         </div>
                     </div>

@@ -10,8 +10,8 @@
 
             <div class="productHead col-sm-8">
                 <h1 class="productHeadTitle">Fiorano Professional Services </h1>
-                <div class="col-sm-8 hidden-xs nopadding">
-                <p class="productHeadDesc hidden-xs" >
+                <div class="col-sm-8 nopadding">
+                <p class="productHeadDesc" >
                     Fiorano's range of professional services, include Architecture Assessment and Design, Implementation, Performance Tuning, Training and Premium Support.
                 </p>
                 </div>

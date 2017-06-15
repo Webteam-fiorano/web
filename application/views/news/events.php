@@ -100,21 +100,22 @@
     <div class="container">
         <div class="row padding-bottom-50">
 
-                <div class="section-header">
-                    <h1 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Events </h1>
-                    <p class="text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown; line-height: 25px;">Meet us at the following events where we will be exhibiting Fiorano's leading technology solutions and giving presentations on how to use the Fiorano Platform and superior messaging technology that can meet your IT infrastructure and architectural challenges.
-                        Upcoming</p>
-                    <h1 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Upcoming Events </h1>
-                </div>
-            <div class="col-xs-12">
+            <div class="section-header">
+                <h1 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Events </h1>
+                <p class="text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown; line-height: 25px;">Meet us at the following events where we will be exhibiting Fiorano's leading technology solutions and giving presentations on how to use the Fiorano Platform and superior messaging technology that can meet your IT infrastructure and architectural challenges.
+                    Upcoming</p>
+                <h1 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Upcoming Events </h1>
+            </div>
+            <div class="col-sm-12">
 
 
                 <div class="col-sm-4  col-sm-offset-2 event-panel">
                     <div class="panel panel-primary event-primary">
-                        <div class="panel-heading"><h4><a href="http://www.arena-international.com/fintech" target="_blank">   Harnessing Fintech Innovation in Retail Banking </a></h4></div>
+                        <div class="panel-heading"><h4><a href="http://www.arena-international.com/fintech" target="_blank">   Harnessing Fintech Innovation in Retail Banking </a></h4>
+                        </div>
                         <div class="panel-body nopadding">
                             <div class="panel-Image">
-                                <img  class="col-xs-12" src="<?php echo base_url('assets/images/company/news/arena.png')?>" alt="Harnessing Fintech Innovation in Retail Banking ">
+                                <img class="col-xs-12" src="<?php echo base_url('assets/images/company/news/arena.png')?>" alt="Harnessing Fintech Innovation in Retail Banking ">
                             </div>
 
 
@@ -133,14 +134,14 @@
 
                                     </time>
                                 </div>
-                                <div class="col-xs-12 location">
+                                <div class="col-sm-12 location">
                                     <h4 class="align-center">
                                         <strong>Location:</strong> London, UK
                                     </h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="panel-footer panel-primary col-xs-12">
+                        <div class="panel-footer panel-primary col-sm-12">
                             <p>   Arena International is pleased to announce the 2nd Annual Harnessing Fintech Innovation in Retail Banking conference will take place in London on 7th-8th June 2017.
                                 This unique event is the only platform which puts retail banks at the centre of the fintech debate.
                                 <br>
@@ -151,54 +152,48 @@
                         </div>
                     </div>
                 </div>
-            <div class="col-sm-4 event-panel">
-            <div class="panel panel-primary event-primary">
-                <div class="panel-heading"><h4><a href="https://www.sibos.com/" target="_blank">   SIBOS 2017</a></h4></div>
-                <div class="panel-body nopadding">
-                    <div class="panel-Image">
-                        <img  class="col-xs-12" src="<?php echo __ROOT__ ?>/images/logo-sibos.jpg" alt="sibos">
+                <div class="col-sm-4 event-panel">
+                <div class="panel panel-primary event-primary">
+                    <div class="panel-heading"><h4><a href="https://www.sibos.com/" target="_blank">   SIBOS 2017</a></h4></div>
+                    <div class="panel-body nopadding">
+                        <div class="panel-Image">
+                            <img class="col-xs-12" src="<?php echo __ROOT__ ?>/images/logo-sibos.jpg" alt="sibos">
+                        </div>
+
+
+                        <div class="row nopadding">
+                            <div class="col-sm-6 nopadding">
+                                <time class="start ">
+                                    Start <span class="day">16</span>
+                                    <span class="month">Oct, 2017</span>
+
+                                </time>
+                            </div>
+                            <div class="col-sm-6 nopadding">
+                                <time class="end ">
+                                    End <span class="day">19</span>
+                                    <span class ="month">Oct, 2017</span>
+
+                                </time>
+                            </div>
+                            <div class="col-sm-12 location">
+                                <h4 class="align-center">
+                                    <strong>Location:</strong> Toronto, Canada
+                                </h4>
+                            </div>
+                        </div>
                     </div>
+                    <div class="panel-footer panel-primary col-sm-12">
+                        <p>  Sibos is the world's premier financial services event. What started out as a banking operations seminar in 1978, has grown into the premier business forum for the global financial community to debate and collaborate in the areas of payments, securities, cash management and trade.
+                            Fiorano is sponsoring the SIBOS 2017 event. Meet us during the event to see how Fiorano Integration solution will work going forward.
 
-
-                    <div class="row nopadding">
-                        <div class="col-sm-6 nopadding">
-                            <time class="start ">
-                                Start <span class="day">16</span>
-                                <span class="month">Oct, 2017</span>
-
-                            </time>
-                        </div>
-                        <div class="col-sm-6 nopadding">
-                            <time class="end ">
-                                End <span class="day">19</span>
-                                <span class ="month">Oct, 2017</span>
-
-                            </time>
-                        </div>
-                        <div class="col-xs-12 location">
-                            <h4 class="align-center">
-                                <strong>Location:</strong> Toronto, Canada
-                            </h4>
-                        </div>
+                        </p>
+                        <a href="https://www.sibos.com/" target="_blank" class="btn btn-success pull-right">Read more...</a>
                     </div>
-                </div>
-                <div class="panel-footer panel-primary col-xs-12">
-                    <p>  Sibos is the world's premier financial services event. What started out as a banking operations seminar in 1978, has grown into the premier business forum for the global financial community to debate and collaborate in the areas of payments, securities, cash management and trade.
-                        Fiorano is sponsoring the SIBOS 2017 event. Meet us during the event to see how Fiorano Integration solution will work going forward.
-
-                    </p>
-                    <a href="https://www.sibos.com/" target="_blank" class="btn btn-success pull-right">Read more...</a>
                 </div>
             </div>
-        </div>
 
     </div>
-            <div class="col-xs-12">
-
-
-
-            </div>
-
         </div>
     </div>
 
@@ -211,9 +206,9 @@
     </div>
 
         <div class="row padding-bottom-50">
-            <div class="col-xs-1"></div>
+            <div class="col-xs-1 hidden-xs"></div>
 
-            <div class="col-xs-10">
+            <div class="col-xs-12 col-sm-10">
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
             <td colspan="2"><a name="2017"></a>
@@ -231,7 +226,7 @@
                 <br/>
                 <strong>Date:</strong> May 10-11, 2017 <br/>
                 <div><a href="http://www.arena-international.com/ebf-car/sponsors/" target="_blank" rel="nofollow">
-                        <img src="<?php echo __ROOT__ ?>/images/EBFCAR.jpg" border="0" alt=" BFSI Digital Advancement Summit" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
+                        <img class="img-responsive" src="<?php echo __ROOT__ ?>/images/EBFCAR.jpg" border="0" alt=" BFSI Digital Advancement Summit" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
                 <br/>
                 <b>Location: </b><br/>  Amsterdam
                 <br/><br/>
@@ -258,7 +253,7 @@
                 <br/>
                 <strong>Date:</strong> April 25-27, 2017 <br/>
                 <div><a href="https://www.temenos.com/en/news-and-events/events/europe/tcf-2017/" target="_blank" rel="nofollow">
-                        <img src="<?php echo __ROOT__?>/images/temenos-name.png" border="0" alt=" 12 Middle East Retail Banking Confex" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
+                        <img class="img-responsive" src="<?php echo __ROOT__?>/images/temenos-name.png" border="0" alt=" 12 Middle East Retail Banking Confex" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
                 <br/>
                 <b>Location: </b><br/> Lisbon, Portugal
                 <br/><br/>
@@ -288,7 +283,7 @@
                 <br/>
                 <strong>Date:</strong> April 19, 2017 <br/>
                 <div><a href="http://www.bfsidigitaladvancement.com/" target="_blank" rel="nofollow">
-                        <img src="<?php echo __ROOT__?>/images/bfsi-logo.png" border="0" alt=" BFSI Digital Advancement Summit" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
+                        <img class="img-responsive" src="<?php echo __ROOT__?>/images/bfsi-logo.png" border="0" alt=" BFSI Digital Advancement Summit" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
                 <br/>
                 <b>Location: </b><br/> Mumbai, India
                 <br/><br/>
@@ -316,7 +311,7 @@
                 <br/>
                 <strong>Date:</strong> April 4-5, 2017 <br/>
                 <div><a href="http://retailbanking-expo.com/" target="_blank" rel="nofollow">
-                        <img src="<?php echo __ROOT__?>/images/12MERBC.png" border="0" alt=" 12 Middle East Retail Banking Confex" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
+                        <img class="img-responsive" src="<?php echo __ROOT__?>/images/12MERBC.png" border="0" alt=" 12 Middle East Retail Banking Confex" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
                 <br/>
                 <b>Location: </b><br/> Dubai, UAE
                 <br/><br/>
@@ -356,7 +351,7 @@
                 <br/>
                 <strong>Date:</strong> October 20-21, 2016 <br/>
                 <div><a href="http://opensourceindia.in/osidays/osi_registration/osidays_register-new.php" target="_blank" rel="nofollow">
-                        <img src="<?php echo base_url('assets/images/company/news') ?>/logo_open.jpg" border="0" alt="Fiorano is the Silver Sponsor at OSI 2016" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
+                        <img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/logo_open.jpg" border="0" alt="Fiorano is the Silver Sponsor at OSI 2016" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
                 <br/>
                 <b>Location: </b><br/> Bangalore, India
                 <br/><br/>
@@ -383,7 +378,7 @@
             <br/>
             <strong>Date:</strong> September 20-21, 2016 <br/>
             <div><a href="http://www.bankingtechnorthafrica.com/sponsors" target="_blank" rel="nofollow">
-                    <img src="<?php echo base_url('assets/images/company/news') ?>/bank-tech-na-logo.png" border="0" alt="Bank Tech - North Africa" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/bank-tech-na-logo.png" border="0" alt="Bank Tech - North Africa" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
             <br/>
             <b>Location: </b><br/> The Nile Ritz-Carlton Cairo, Cairo, Egypt
             <br/><br/>
@@ -413,7 +408,7 @@
             <br/>
             <strong>Date:</strong> September 27-28, 2016 <br/>
             <div>
-                <img src="<?php echo base_url('assets/images/company/news') ?>/logo-cards-payments.png" border="0" alt="Cards & Payments East Africa" style="padding:5px;padding-left:0px;width:200px" />
+                <img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/logo-cards-payments.png" border="0" alt="Cards & Payments East Africa" style="padding:5px;padding-left:0px;width:200px" />
             </div>
             <br/>
             <strong>Location:</strong><br/>
@@ -447,7 +442,7 @@
             <br/>
             <strong>Date:</strong> June 2, 2016 <br/>
             <div><a href="/registration/webinar/rise-of-open-source-esb.php" target="_blank" rel="nofollow">
-                    <img src="<?php echo base_url('assets/images/company/news') ?>/logo-fiorano-webinars.jpg" border="0" alt="Fiorano Webinar" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/logo-fiorano-webinars.jpg" border="0" alt="Fiorano Webinar" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
             <br/>
             <strong>Time:</strong> 9am PDT / 12pm EDT / 5pm BST<br/>
             <br/><br/>
@@ -479,7 +474,7 @@
             <br/>
             <strong>Date:</strong> April 18-20, 2016 <br/>
             <div>
-                <img src="<?php echo base_url('assets/images/company/news') ?>/logo-temenos-ed-conference.png" border="0" alt="Temenos Client Educational Conference" style="padding:5px;padding-left:0px;width:200px" />
+                <img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/logo-temenos-ed-conference.png" border="0" alt="Temenos Client Educational Conference" style="padding:5px;padding-left:0px;width:200px" />
             </div>
             <br/>
             <strong>Location:</strong><br/>
@@ -510,7 +505,7 @@
             <br/>
             <strong>Date:</strong> March 02, 2016 <br/>
             <div><a href="/registration/webinar/open-source-containers-real-time-interactions.php" target="_blank" rel="nofollow">
-                    <img src="<?php echo base_url('assets/images/company/news') ?>/logo-fiorano-webinars.jpg" border="0" alt="Fiorano Webinar" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/logo-fiorano-webinars.jpg" border="0" alt="Fiorano Webinar" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
             <br/>
             <strong>Time:</strong> 9am PST / 12pm EST / 5pm GMT<br/>
             <br/><br/>
@@ -540,7 +535,7 @@
             <br/>
             <strong>Date:</strong> March 3-4, 2016 <br/>
             <div><a href="http://www.indiasoft.org/exhibitor/indian-participants/listing/1920/details.html#horizontalTab1" target="_blank" rel="nofollow">
-                    <img src="<?php echo base_url('assets/images/company/news') ?>/events-indiasoft.jpg" border="0" alt="India Soft" style="padding:5px;padding-left:0px;width:200px" />
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/events-indiasoft.jpg" border="0" alt="India Soft" style="padding:5px;padding-left:0px;width:200px" />
                 </a><br/></div>
             <br/>
         </td>
@@ -582,7 +577,7 @@
             <br/>
             <strong>Date:</strong> October 8, 2015 <br/>
             <div><a href="/registration/webinar/Avoiding-Perils-Pitfalls-Cloud-Integration-Recording.php" target="_blank" rel="nofollow">
-                    <img src="<?php echo base_url('assets/images/company/news') ?>/logo-fiorano-webinars.jpg" border="0" alt="Fiorano Webinar" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/logo-fiorano-webinars.jpg" border="0" alt="Fiorano Webinar" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
             <br/>
             <strong>Time:</strong> 9am PDT (Palo Alto) <br>12am EDT (New York) <br>5pm BST (London)<br/>
             <br/><br/>
@@ -615,7 +610,7 @@
         <td valign="top" width="225" style="padding: 5px;"><strong>Date:</strong> September 15-16, 2015 <br/>
             <br/>
             <div><a href="http://aitecafrica.com/event/view/139" target="_blank" rel="nofollow">
-                    <img src="<?php echo base_url('assets/images/company/news') ?>/AITEC-event.jpg" border="0" alt="aitec africa" style="padding:5px;padding-left:0px;" /></a><br/></div>
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/AITEC-event.jpg" border="0" alt="aitec africa" style="padding:5px;padding-left:0px;" /></a><br/></div>
             <br/>
             <strong>Location:</strong><br/>
             Nairobi,<br/>
@@ -647,7 +642,7 @@
             <br/>
             <strong>Date:</strong> June 4, 2015 <br/>
             <div><a href="/registration/Integrating-Microservices-Cloud-Webinar-Recording.php" target="_blank" rel="nofollow">
-                    <img src="<?php echo base_url('assets/images/company/news') ?>/logo-fiorano-webinars.jpg" border="0" alt="Fiorano Webinar" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/logo-fiorano-webinars.jpg" border="0" alt="Fiorano Webinar" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
             <br/>
             <strong>Time:</strong> 8am PDT (Palo Alto) <br>11am EDT (New York) <br>4pm BST (London)<br/>
             <br/><br/>
@@ -676,7 +671,7 @@
             <br/>
             <strong>Date:</strong> May 18-21, 2015 <br/>
             <div><a href="http://www.temenos.com/en/news-and-events/events/europe/tcf-2015/" target="_blank" rel="nofollow">
-                    <img src="<?php echo base_url('assets/images/company/news') ?>/tcf-logo.jpg" border="0" alt="DSAG Annual Conference" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/tcf-logo.jpg" border="0" alt="DSAG Annual Conference" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
             <br/>
             <strong>Venue:</strong> Hilton Istanbul Bomonti Hotel, Istanbul, Turkey<br/>
             <br/><br/>
@@ -699,7 +694,7 @@
             <br/>
             <strong>Date:</strong> May 07, 2015 <br/>
             <div><a href="http://www.first-cambodia.com/enterprise-integration-middleware-leader-workshop" target="_blank" rel="nofollow">
-                    <img src="<?php echo base_url('assets/images/company/news') ?>/first-cambodia.png" border="0" alt="First Cambodia" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/first-cambodia.png" border="0" alt="First Cambodia" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
             <br/>
             <strong>Venue:</strong> Cambodiana Hotel, Daun Penh, Cambodia<br/>
             <br/><br/>
@@ -735,7 +730,7 @@
             <br/>
             <strong>Date:</strong> October 14-16, 2014 <br/>
             <div><a href="http://kongress.dsag.de/" target="_blank" rel="nofollow">
-                    <img src="<?php echo base_url('assets/images/company/news') ?>/DSAG_AnnualConference.png" border="0" alt="DSAG Annual Conference" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/DSAG_AnnualConference.png" border="0" alt="DSAG Annual Conference" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
             <br/>
             <strong>Venue:</strong> Congress Center Leipzig, Germany<br/>
             <br/><br/>
@@ -762,7 +757,7 @@
             <br/>
             <strong>Date:</strong> September 10-11, 2014 <br/>
             <div><a href="http://aitecafrica.com/event/view/116" target="_blank" rel="nofollow">
-                    <img src="<?php echo base_url('assets/images/company/news') ?>/events-aitec-banking-mobile-money-comesa1.png" border="0" alt="aitec africa" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/events-aitec-banking-mobile-money-comesa1.png" border="0" alt="aitec africa" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
             <br/>
             <strong>Venue:</strong> Kenya School of Monetary Studies,  Nairobi, Kenya<br/>
             <br/><br/>
@@ -792,7 +787,7 @@
             <strong>Date:</strong> May 20-22, 2014 <br/>
             <br/>
             <div><a href="http://www.temenos.com/en/news-and-events/events/europe/tcf-2014/" target="_blank" rel="nofollow">
-                    <img src="<?php echo base_url('assets/images/company/news') ?>/tcf-logo.jpg" border="0" alt="Temenos Community Forum" style="padding:5px;padding-left:0px;" /></a><br/></div>
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/tcf-logo.jpg" border="0" alt="Temenos Community Forum" style="padding:5px;padding-left:0px;" /></a><br/></div>
             <br/>
             <strong>Venue:</strong> Marriott Rome Park Hotel, <br/>Rome, Italy<br/>
             <br/><br/>
@@ -828,7 +823,7 @@
             <strong>Date:</strong> November 24-26, 2013 <br/>
             <br/>
             <div><a href="http://www.sapusers.org/conference" target="_blank" rel="nofollow">
-                    <img src="<?php echo base_url('assets/images/company/news') ?>/events-sug-2013.jpg" border="0" alt="SAP Users Group" style="padding:5px;padding-left:0px;" /></a><br/></div>
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/events-sug-2013.jpg" border="0" alt="SAP Users Group" style="padding:5px;padding-left:0px;" /></a><br/></div>
             <br/>
             <div style="margin-bottom:5px;"><strong>Booth No: </strong> B4</div>
             <strong>Venue:</strong> ICC, Birmingham, <br/>United Kingdom<br/>
@@ -853,7 +848,7 @@
             <strong>Date:</strong> September 19, 2013 <br/>
             <br/>
             <div><a href="http://aitecafrica.com/event/view/91" target="_blank" rel="nofollow">
-                    <img src="<?php echo base_url('assets/images/company/news') ?>/inlaks-logo-events.jpg" border="0" alt="aitec africa" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/inlaks-logo-events.jpg" border="0" alt="aitec africa" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
             <br/>
             <strong>Venue:</strong> M-Plaza Hotel, Ridge, <br/>Accra, Ghana<br/>
             <br/><br/>
@@ -879,7 +874,7 @@
             <br/>
             <strong>Date:</strong> September 11-12, 2013 <br/>
             <div><a href="http://aitecafrica.com/event/view/91" target="_blank" rel="nofollow">
-                    <img src="<?php echo base_url('assets/images/company/news') ?>/events-aitec-banking-mobile-money-comesa.jpg" border="0" alt="aitec africa" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/events-aitec-banking-mobile-money-comesa.jpg" border="0" alt="aitec africa" style="padding:5px;padding-left:0px;width:200px" /></a><br/></div>
             <br/>
             <strong>Venue:</strong> Intercontinental Hotel Nairobi, Kenya<br/>
             <br/><br/>
@@ -906,7 +901,7 @@
         <td valign="top" width="225" style="padding: 5px;"><strong>Date:</strong> July 10-11, 2013 <br/>
             <br/>
             <div><a href="http://aitecafrica.com/event/view/91" target="_blank" rel="nofollow">
-                    <img src="<?php echo base_url('assets/images/company/news') ?>/AITEC-event.jpg" border="0" alt="aitec africa" style="padding:5px;padding-left:0px;" /></a><br/></div>
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/AITEC-event.jpg" border="0" alt="aitec africa" style="padding:5px;padding-left:0px;" /></a><br/></div>
             <br/>
             <strong>Location:</strong><br/>
             Accra,<br/>
@@ -930,7 +925,7 @@
         <td valign="top" width="225" style="padding: 5px;"><strong>Date:</strong> May 29, 2013 <br/>
             <br/>
             <div><a href="/registration/T24-integration-webinar.php" target="_blank" rel="nofollow">
-                    <img src="<?php echo base_url('assets/images/company/news') ?>/logo-fiorano-webinars.jpg" border="0" alt="Banking Innovation Summit" style="padding:5px;padding-left:0px;" width="200px" /></a><br/></div>
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/logo-fiorano-webinars.jpg" border="0" alt="Banking Innovation Summit" style="padding:5px;padding-left:0px;" width="200px" /></a><br/></div>
             <br/>
             <strong>Location:</strong><br/>
             London,<br/>
@@ -953,7 +948,7 @@
         <td valign="top" width="225" style="padding: 5px;"><strong>Date:</strong> May 14-16, 2013 <br/>
             <br/>
             <div><a href="http://www.temenos.com/temenos-community-forum-2013/" target="_blank" rel="nofollow">
-                    <img src="<?php echo base_url('assets/images/company/news') ?>/tcf-logo.jpg" border="0" alt="Banking Innovation Summit" style="padding:5px;padding-left:0px;" /></a><br/></div>
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/tcf-logo.jpg" border="0" alt="Banking Innovation Summit" style="padding:5px;padding-left:0px;" /></a><br/></div>
             <br/>
             <strong>Location:</strong><br/>
             Abu Dhabi,<br/>
@@ -992,7 +987,7 @@
         <td valign="top" width="225" style="padding: 5px 5px 5px 10px;"><strong>Date:</strong><span> October 01-02, 2012</span><br/>
             <br/>
             <div><a href="http://www.bankinnovation-me.com/" target="_blank" rel="nofollow">
-                    <img src="<?php echo base_url('assets/images/company/news') ?>/events_banking_summit_2012.jpg" border="0" alt="Banking Innovation Summit" style="padding:5px;padding-left:0px"></a><br/>
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/events_banking_summit_2012.jpg" border="0" alt="Banking Innovation Summit" style="padding:5px;padding-left:0px"></a><br/>
                 Fiorano &ndash; Sponsor</div>
             <br/>
             <strong>Location:</strong><br/>
@@ -1017,7 +1012,7 @@
         <td valign="top" width="225" style="padding: 5px 5px 5px 10px;"><strong>Date:</strong><span> September 24-25, 2012</span><br/>
             <br/>
             <div><a href="http://www.servicetechsymposium.com/" target="_blank" rel="nofollow">
-                    <img src="<?php echo base_url('assets/images/company/news') ?>/soa_cloud_symposium.jpg" border="0" alt="SOA Cloud Service Technology Syposium" style="padding:5px;padding-left:0px"></a><br/>
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/soa_cloud_symposium.jpg" border="0" alt="SOA Cloud Service Technology Syposium" style="padding:5px;padding-left:0px"></a><br/>
                 Fiorano &ndash; Sponsor</div>
             <br/>
             <strong>Location:</strong><br/>
@@ -1050,7 +1045,7 @@
         <td valign="top" width="225" style="padding: 5px 5px 5px 10px;"><strong>Date:</strong> September 11, 2012 <br/>
             <br/>
             <a href="http://www.basecities.com/leeds/the-event/programme" target="_blank" rel="nofollow">
-                <img src="<?php echo base_url('assets/images/company/news') ?>/logo_base_events_2012.jpg" border="0" alt="Base Leeds City Region Programme" style="padding:5px;padding-left:0px"></a><br/>
+                <img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/logo_base_events_2012.jpg" border="0" alt="Base Leeds City Region Programme" style="padding:5px;padding-left:0px"></a><br/>
             Fiorano &ndash; Joint Exhibitor<br/>
             <em class="f11">with University of Bradford</em>
             <br/>
@@ -1076,7 +1071,7 @@
     <tr>
         <td valign="top" width="225" style="padding: 5px 5px 5px 10px;"><strong>Date:</strong><span> May 15 - 17, 2012</span><br/>
             <br/>
-            <div><a href="http://pnecconferences.com/15thDataManagementConf.aspx" target="_blank" rel="nofollow"><img src="<?php echo base_url('assets/images/company/news') ?>/pnec_banner.jpg"
+            <div><a href="http://pnecconferences.com/15thDataManagementConf.aspx" target="_blank" rel="nofollow"><img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/pnec_banner.jpg"
                                                                                                                       border="0" alt="HIMSS12" style="padding:5px;padding-left:0px"></a><br/>
                 Fiorano &ndash; Sponsor Exhibitor</div>
             <br/>
@@ -1103,7 +1098,7 @@
         <td valign="top" width="225" style="padding: 5px 5px 5px 10px;"><strong>Date:</strong> March 01, 02 - 2012
             <br/><br/>
             </span>
-            <div><a href="http://www.fiorano.com/news/events/india-soa-event-2012/"><img src="<?php echo base_url('assets/images/company/news') ?>/logo_fiorano_singapore_raffles.png"
+            <div><a href="http://www.fiorano.com/news/events/india-soa-event-2012/"><img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/logo_fiorano_singapore_raffles.png"
                                                                                          border="0" alt="Fiorano" style="padding:5px;" /></a><br/>
                 Fiorano &ndash; Sponsor</div>
             <br/>
@@ -1137,7 +1132,7 @@
         <td valign="top" width="225" style="padding: 5px 5px 5px 10px;"><strong>Date:</strong> February 22, 2012
             <br/><br/>
             </span>
-            <div><a href="http://www.fiorano.com/news/events/singapore-soa-event-2012/"><img src="<?php echo base_url('assets/images/company/news') ?>/logo_fiorano_singapore_raffles.png"
+            <div><a href="http://www.fiorano.com/news/events/singapore-soa-event-2012/"><img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/logo_fiorano_singapore_raffles.png"
                                                                                              border="0" alt="Fiorano" style="padding:5px;" /></a><br/>
                 Fiorano &ndash; Sponsor</div>
             <br/>
@@ -1168,7 +1163,7 @@
             <br/>
             <br/>
             </span>
-            <div><a href="http://www.himssconference.org/" target="_blank" rel="nofollow"><img src="<?php echo base_url('assets/images/company/news') ?>/logo_himss12.png"
+            <div><a href="http://www.himssconference.org/" target="_blank" rel="nofollow"><img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/logo_himss12.png"
                                                                                                border="0" alt="HIMSS12" style="padding:5px;"></a><br/>
                 Fiorano &ndash; Exhibitor</div>
             <br/>
@@ -1214,7 +1209,7 @@
         <td valign="top" width="225" style="padding: 5px 5px 5px 10px;"><strong>Date:</strong> November 7-8, 2011
             <br/><br/>
             </span>
-            <div><img src="<?php echo base_url('assets/images/company/news') ?>/ehi_logo_events.jpg"
+            <div><img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/ehi_logo_events.jpg"
                       border="0" alt="Cloud EXPO"><br/>
                 Fiorano &ndash; Exhibitor</div>
             <br/>
@@ -1242,7 +1237,7 @@
             ><strong>Date:</strong> June 21-22, 2011<br/>
                                 <br/>
                             </span>
-            <div><img src="<?php echo base_url('assets/images/company/news') ?>/crip_logo_events.jpg"
+            <div><img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/crip_logo_events.jpg"
                       border="0" alt="Cloud EXPO"><br/>
                 Fiorano &ndash; Exhibitor</div>
             <br/>
@@ -1270,7 +1265,7 @@
             ><strong>Date:</strong> June 6-9, 2011<br/>
                                 <br/>
                             </span>
-            <div><img src="<?php echo base_url('assets/images/company/news') ?>/cloud_expo_logo_events.jpg"
+            <div><img class="img-responsive" src="<?php echo base_url('assets/images/company/news') ?>/cloud_expo_logo_events.jpg"
                       border="0" alt="Cloud EXPO"><br/>
                 Fiorano &ndash; Exhibitor</div>
             <br/>
@@ -1309,15 +1304,15 @@
         //hide timeline blocks which are outside the viewport
         $timeline_block.each(function(){
             if($(this).offset().top > $(window).scrollTop()+$(window).height()*0.75) {
-                $(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
+                $(this).find('.cd-timeline-img class="img-responsive", .cd-timeline-content').addClass('is-hidden');
             }
         });
 
         //on scolling, show/animate timeline blocks when enter the viewport
         $(window).on('scroll', function(){
             $timeline_block.each(function(){
-                if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) {
-                    $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
+                if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.75 && $(this).find('.cd-timeline-img class="img-responsive"').hasClass('is-hidden') ) {
+                    $(this).find('.cd-timeline-img class="img-responsive", .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
                 }
             });
         });

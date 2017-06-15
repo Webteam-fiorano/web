@@ -13,13 +13,12 @@
 
 
                     </div>
-                <div class=" col-sm-12 padding-top-50 ">
-                    <div class="col-xs-2 nopadding">
+                <div class=" col-sm-12 padding-top-50 padding-top-hidxs">
+                    <div class="col-sm-2 nopadding col-xs-12 about_btn">
 
-                        <a  style="margin-left:-10px;" href="<?php echo site_url('company/contacts')?>" class="download-binaries btn-danger btn btn-large downHeadBtn"><i class="fa fa-large fa-user-o"></i> Contact Us</a>
+                        <a href="<?php echo site_url('company/contacts')?>" class="download-binaries btn-danger btn btn-large downHeadBtn"><i class="fa fa-large fa-user-o"></i> Contact Us</a>
                     </div>
-
-                    <div class="col-xs-3">
+                    <div class="col-sm-6 col-sm-offset-1 col-xs-12 about_btn">
                         <a href="<?php echo __ROOT__?>/docs/fiorano_corp_brochure.pdf" target="_blank" class="btn-success btn btn-large downHeadBtn"><i class="fa fa-large fa-download"></i> View Corporate Brochure</a>
                     </div>
                 </div>

@@ -3,8 +3,7 @@
         <div class="col-xs-12 productBanner ">
 
             <div class="productHead col-sm-8">
-                <h1 class="productHeadTitle">
-                   Government/Defense</h1>
+                <h1 class="productHeadTitle">Government/Defense</h1>
                 <p class="productHeadDesc hidden-xs" >
                 </p>
             </div>
@@ -37,8 +36,8 @@
             </div>
 
             <div class="col-xs-12">
-                <ul class="demo-4-ul">
-                    <li class="col-sm-4 ">
+                <div class="col-xs-12">
+                    <div class="col-sm-4 ">
                         <div class="col-xs-12 demo-4">
                         <div class="demo-4-img">
                             <img src="<?php echo base_url('assets/images/solutions')?>/awards_federalcomputer.jpg" alt="Federal100" title="Federal 100 Awards" border="0" />
@@ -48,26 +47,26 @@
                         </div>
                         <div class="demo-4-img"><a href="<?=__ROOT__?>/partners/system-integrator-GSA.php"><img src="<?php echo base_url('assets/images/solutions')?>/solutions_gsa_contract.jpg" width="180" title="GSA Contract Holder" alt="GSA Contract Holder" border="0"></a><br /><br /><img src="<?php echo base_url('assets/images/solutions')?>/spacer.gif" width="250px" height="1px"  /></div>
                         </div>
-                    </li>
-                    <li class="col-sm-4 ">
+                    </div>
+                    <div class="col-sm-4 ">
                         <div class="col-xs-12 demo-4">
                             <div style="" class="padding-top-50">
-                                <a href="https://www.fbo.gov/utils/view?id=017a9fc668210bace2ff674a7071f902" target="_blank" title="SPEAR" style="color:firebrick;">&quot;SPEAR has become pervasive throughout all segments of the Coast Guard's IT community. When people saw the effect of providing time-critical and urgent data during a major disaster, it  raised SPEAR's profile much higher. It's brought the CIOs of the field-level units closer together. On that front, SPEAR has been a huge force multiplier.&quot;</a></div>
+                                <a href="https://www.fbo.gov/utils/view?id=017a9fc668210bace2ff674a7071f902" target="_blank" title="SPEAR" style="color:black;">&quot;SPEAR has become pervasive throughout all segments of the Coast Guard's IT community. When people saw the effect of providing time-critical and urgent data during a major disaster, it  raised SPEAR's profile much higher. It's brought the CIOs of the field-level units closer together. On that front, SPEAR has been a huge force multiplier.&quot;</a></div>
                             <div class="pull-right" ><strong>Capt. Mike Ryan,<br/> USCG, OSC</strong></div>
                         </div>
-                    </li>
+                    </div>
 
-                    <li class="col-sm-4 ">
+                    <div class="col-sm-4 ">
                         <div class="col-xs-12 demo-4">
                             <p class="f11 padding-top-50">Agencies should ensure that the provisioned [Cloud] IT services are effectively integrated into their wider application portfolio. Rather than a one-time event, this principle should be followed over time to guarantee that systems remain interoperable as individual IT services evolve within the portfolio.</p>
                             <div class="pull-right"><a href="http://www.cio.gov/documents/Federal-Cloud-Computing-Strategy.pdf" target="_blank" class="f11">Learn more about the Federal Cloud First policy</a></div>
 
                             <div style="text-align:right;font-weight:bold;" class="f11"><br/> Vivek Kundra,<br/> US Federal CIO</div>
                         </div>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
-            <div class="col-xs-12">
+            <div class="col-xs-12 text-center">
                 <p>
                     With a complex incumbent infrastructure consisting of
                     heterogeneous platforms, hardware and applications coupled with rapidly
