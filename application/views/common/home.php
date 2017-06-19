@@ -274,24 +274,7 @@
                             <hr>
                     </div>
                         <div class="col-xs-12 nopadding ">
-                            <div class="col-sm-3 col-xs-12 newsHomeImg">
-                                <a href="http://www.arena-international.com/fintech" target="_blank" rel="nofollow">
-                                    <div style="background: white" class="date_div padding-top-20">
-                                        <img class="img-responsive col-xs-12" src="<?php echo base_url('assets/images/company/news/arena.png')?> " />
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-sm-9 col-xs-12 newsHomeContent padding-bottom-20">
 
-                                <h4><a href="http://www.arena-international.com/fintech" target="_blank" rel="nofollow">Harnessing Fintech Innovation in Retail Banking</a></h4>
-                                <div class="blog-content">
-                                    <a href="http://www.arena-international.com/fintech" target="_blank" rel="nofollow">
-                                        Arena International is pleased to announce the 2nd Annual Harnessing Fintech Innovation in Retail Banking conference will take place in London on 7th-8th June 2017...
-                                    </a>
-                                </div>
-                            </div>
-
-                            <?php /*
                         <div class="col-sm-3 col-xs-12 newsHomeImg">
                             <a href="https://www.sibos.com/" target="_blank" rel="nofollow">
                                 <div style="background: white" class="date_div padding-top-20">
@@ -308,7 +291,6 @@
                                 </a>
                             </div>
                         </div>
- */?>
                     </div>
                     </div>
                 </div>

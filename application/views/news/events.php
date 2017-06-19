@@ -109,55 +109,13 @@
             <div class="col-sm-12">
 
 
-                <div class="col-sm-4  col-sm-offset-2 event-panel">
-                    <div class="panel panel-primary event-primary">
-                        <div class="panel-heading"><h4><a href="http://www.arena-international.com/fintech" target="_blank">   Harnessing Fintech Innovation in Retail Banking </a></h4>
-                        </div>
-                        <div class="panel-body nopadding">
-                            <div class="panel-Image">
-                                <img class="col-xs-12" src="<?php echo base_url('assets/images/company/news/arena.png')?>" alt="Harnessing Fintech Innovation in Retail Banking ">
-                            </div>
 
-
-                            <div class="row nopadding">
-                                <div class="col-sm-6 nopadding">
-                                    <time class="start ">
-                                        Start <span class="day">7</span>
-                                        <span class="month">June, 2017</span>
-
-                                    </time>
-                                </div>
-                                <div class="col-sm-6 nopadding">
-                                    <time class="end ">
-                                        End <span class="day">8</span>
-                                        <span class ="month">June, 2017</span>
-
-                                    </time>
-                                </div>
-                                <div class="col-sm-12 location">
-                                    <h4 class="align-center">
-                                        <strong>Location:</strong> London, UK
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel-footer panel-primary col-sm-12">
-                            <p>   Arena International is pleased to announce the 2nd Annual Harnessing Fintech Innovation in Retail Banking conference will take place in London on 7th-8th June 2017.
-                                This unique event is the only platform which puts retail banks at the centre of the fintech debate.
-                                <br>
-                                Focused on equipping banks with the tools necessary to create a sustainable innovation strategy to stay relevant to consumers,...
-
-                            </p>
-                            <a href="http://www.arena-international.com/fintech" target="_blank" class="btn btn-success pull-right">Read more...</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 event-panel">
+                <div class="col-sm-4 event-panel col-sm-offset-4">
                 <div class="panel panel-primary event-primary">
-                    <div class="panel-heading"><h4><a href="https://www.sibos.com/" target="_blank">   SIBOS 2017</a></h4></div>
+                    <div class="panel-heading"><img class="img-responsive col-sm-offset-2" style="width: 47%;margin-left: 27%;margin-top: 4%; " src="<?php echo __ROOT__ ?>/images/logo-sibos.jpg" alt="sibos"></div>
                     <div class="panel-body nopadding">
-                        <div class="panel-Image">
-                            <img class="col-xs-12" src="<?php echo __ROOT__ ?>/images/logo-sibos.jpg" alt="sibos">
+                        <div class="panel-Image text-center">
+                            <h2><a href="https://www.sibos.com/" target="_blank" >   SIBOS 2017</a></h2>
                         </div>
 
 
@@ -183,7 +141,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="panel-footer panel-primary col-sm-12">
+                    <div class="panel-footer panel-primary col-sm-12" style="height:auto">
                         <p>  Sibos is the world's premier financial services event. What started out as a banking operations seminar in 1978, has grown into the premier business forum for the global financial community to debate and collaborate in the areas of payments, securities, cash management and trade.
                             Fiorano is sponsoring the SIBOS 2017 event. Meet us during the event to see how Fiorano Integration solution will work going forward.
 
@@ -219,6 +177,38 @@
             <strong style="color: #ffffff;">&nbsp;&nbsp;Event Details</strong></td>
         <td style="padding: 5px 0px 5px 15px; border: 1px Solid #05599c;"><strong>Description</strong></td>
         </tr>
+
+        <tr>
+
+            <td valign="top" width="225" style="padding: 5px;">
+
+                <br/>
+                <strong>Date:</strong> June 7-8, 2017 <br/>
+                <div><a href="http://www.arena-international.com/fintech" target="_blank">
+                        <img class="col-xs-12" src="<?php echo base_url('assets/images/company/news/arena.png')?>" alt="Harnessing Fintech Innovation in Retail Banking "></a><br/></div>
+                <br/>
+                <b>Location: </b><br/>  London, UK
+                <br/><br/>
+            </td>
+
+            <td valign="top"
+                style="padding: 5px 0px 5px 15px; border-left: 1px Solid #CCCCCC;">
+                <h3 style="padding:5px 0px; font-size: 15px">
+                    Harnessing Fintech Innovation in Retail Banking
+                </h3>
+                <p>
+                    Arena International is pleased to announce the 2nd Annual Harnessing Fintech Innovation in Retail Banking conference will take place in London on 7th-8th June 2017.
+                    This unique event is the only platform which puts retail banks at the centre of the fintech debate.
+                    <br>
+                    Focused on equipping banks with the tools necessary to create a sustainable innovation strategy to stay relevant to consumers,...
+                </p>
+                <p><a href="javascript: void(0);"
+                      onClick="javascript:showContactUs();">Contact
+                        Us</a> | <a href="http://www.arena-international.com/fintech"
+                                    rel="nofollow">Learn More &raquo;</a></p>
+            </td>
+        </tr>
+
         <tr>
 
             <td valign="top" width="225" style="padding: 5px;">
