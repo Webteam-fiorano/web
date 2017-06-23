@@ -5333,6 +5333,12 @@ and (max-device-width: 982px)
     min-height: 145px;
 
 }
+.casestudy-energy{
+    background-image: url("../images/casestudies/energy-banner.jpg");
+    background-size: cover;
+    min-height: 145px;
+
+}
 .user-casestudy{
     background-color: #eeeeee;
     border-radius: 5px;
@@ -5349,7 +5355,16 @@ and (max-device-width: 982px)
 .pressrelease-uservoice p{
     color:#b63a3a;
 }
-
-
-
+.casestudyh3{
+    color: #00599C;
+}
+.colorred{
+    color:#b63a3a;
+    font-weight: bold;
+}
+.casestudy-finance{
+    background-image: url("../images/casestudies/finance-banner.jpg");
+    background-size: cover;
+    min-height: 145px;
+}
 /*------------End --------------*/

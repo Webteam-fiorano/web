@@ -13,7 +13,7 @@
         </div>
     </div>
 
-    <div class="bs-example pull-right">
+    <div class="bs-example pull-right padding-top-50">
         <ul class="breadcrumb">
             <li> <a href="<?php echo site_url(''); ?>">Home</a></li>
             <li> <a href="<?php echo site_url('company'); ?>">news</a></li>
@@ -33,7 +33,7 @@
             </div>
 
             <div class="col-xs-12 pressrelease-uservoice padding-top-20 padding-bottom-20">
-                <div class=" col-sm-2"></div>
+                <div class=" col-sm-2"><img src="<?php echo base_url('assets/images/pressreleases/Cambodia-Post-Bank.jpg')?>" class="img-responsive"></div>
                 <div class=" col-sm-8">"CP Bank is committed to provide the best-in-class service to our customers. Fiorano's efficient integration solution provides us the agility to roll out new services for our customers. After implementing the current integrations, Fiorano will serve as the backbone of IT infrastructure for all future services and applications"</div>
                 <div class=" col-sm-2 padding-top-20"> <strong>Mr. Chanthol Krouch,<br>
                         IT Head at CPB</strong></div>

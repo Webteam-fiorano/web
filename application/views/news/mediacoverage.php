@@ -131,6 +131,52 @@
         </div>
         <div class="col-xs-12 padding-bottom-50">
             <table  class="tableDatay" width="100%" cellpadding="0" cellspacing="0">
+
+                <tr>
+                    <td valign="top" width="22%"><br />
+                        <strong>Jun 22, 2017</strong> <br/>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/newbusinessethopia.jpg" alt="New Business Ethopia" style="padding-top:5px" width="100px"/> New Business Ethopia</td>
+                    <td valign="top" style="padding-right: 10px;"><br/>
+                        <a href="http://newbusinessethiopia.com/fiorano-introduces-its-solutions-to-ethiopian-bankers/" target="_blank" rel="nofollow"><strong>Fiorano introduces its solutions to Ethiopian bankers</strong></a><br/>
+                        <b>Fiorano, a Silicon Valley United States headquartered technology company, introduced its advanced banking solutions to representatives of banks in Ethiopia on Wednesday at the Sheraton Addis.</b><br>
+                        Today we specifically came to introduce Fiorano, one of our product partners into this market. We can call it a new product in this market because none of the banks are using it today,” said Adam Nyaga,
+                        Vice President of SOFGEN East Africa, banking solution consulting company, which has been working with several banks in Ethiopia.
+                        <a href="http://newbusinessethiopia.com/fiorano-introduces-its-solutions-to-ethiopian-bankers/" target="_blank" rel="nofollow"> More&nbsp;<strong>&raquo;</strong></a><br/><br/></td>
+                </tr>
+
+                <tr>
+                    <td valign="top" width="22%"><br />
+                        <strong>Jun 22, 2017</strong> <br/>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/bankingtech-logo.gif" alt="Banking tech" style="padding-top:5px" width="100px"/></td>
+                    <td valign="top" style="padding-right: 10px;"><br/>
+                        <a href="http://www.bankingtech.com/881761/ebank-deploys-fiorano-enterprise-service-bus/" target="_blank" rel="nofollow"><strong>EBank deploys Fiorano enterprise service bus</strong></a><br/>
+                        EBank, a new bank in Namibia, has implemented Fiorano ESB, an enterprise service bus to “seamlessly integrate” the bank’s core processing software with other third-party systems and channels, with a major focus on digital banking.
+                        <a href="http://www.bankingtech.com/881761/ebank-deploys-fiorano-enterprise-service-bus/" target="_blank" rel="nofollow"> More&nbsp;<strong>&raquo;</strong></a><br/><br/></td>
+                </tr>
+
+                <tr>
+                    <td valign="top" width="22%"><br />
+                        <strong>Jun 21, 2017</strong> <br/>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/Logo_economist.png" alt="Economist" style="padding-top:5px" width="100px"/></td>
+                    <td valign="top" style="padding-right: 10px;"><br/>
+                        <a href="https://economist.com.na/25708/retail/ebank-facilitates-digital-banking-with-fiorano/" target="_blank" rel="nofollow"><strong>EBank facilitates digital banking with Fiorano.</strong></a><br/>
+                        Enterprise integration provider, Fiorano Software this week announced that the 7th Commercial Bank in Namibia, EBank successfully implemented Fiorano ESB to fulfil integration requirements at the Bank.
+
+                        EBank was recently acquired by FNB Namibia Holdings and the two have a similar vision of achieving inclusive and broad-based banking in the country, primarily utilizing technology and mobile phone banking capabilities.&quot;
+                        <a href="https://economist.com.na/25708/retail/ebank-facilitates-digital-banking-with-fiorano/" target="_blank" rel="nofollow"> More&nbsp;<strong>&raquo;</strong></a><br/><br/></td>
+                </tr>
+
+                <tr>
+                    <td valign="top" width="22%"><br />
+                        <strong>May 30, 2017</strong> <br/>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/nationmultimedia-logo.png" alt="Nation Multimedia " style="padding-top:5px" width="100px"/></td>
+                    <td valign="top" style="padding-right: 10px;"><br/>
+                        <a href="http://www.nationmultimedia.com/news/business/aec/30316679" target="_blank" rel="nofollow"><strong>Lao bankers open to emerging tech trends</strong></a><br/>
+                        <b>THE LAO banking sector will have an opportunity to apply the use of new technology in banking solutions especially for payment and enterprise integration.</b>
+                        <br>
+                        Last week, First Lao Solutions co-operated with Fiorano and OpenWay, two of the leading technology companies providing banking solutions to present the event on “The New Trends in Payment and Enterprise Integration Middleware” in Vientiane.
+                        <a href="http://www.nationmultimedia.com/news/business/aec/30316679" target="_blank" rel="nofollow"> More&nbsp;<strong>&raquo;</strong></a><br/><br/></td>
+                </tr>
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>Jun 09, 2016</strong> <br/>

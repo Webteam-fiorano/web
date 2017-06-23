@@ -185,7 +185,7 @@
                 <br/>
                 <strong>Date:</strong> June 7-8, 2017 <br/>
                 <div><a href="http://www.arena-international.com/fintech" target="_blank">
-                        <img class="col-xs-12" src="<?php echo base_url('assets/images/company/news/arena.png')?>" alt="Harnessing Fintech Innovation in Retail Banking "></a><br/></div>
+                        <img class="img-responsive" src="<?php echo base_url('assets/images/company/news/arena.png')?>" alt="Harnessing Fintech Innovation in Retail Banking "></a><br/></div>
                 <br/>
                 <b>Location: </b><br/>  London, UK
                 <br/><br/>

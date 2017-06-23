@@ -53,8 +53,9 @@ class Email extends CI_Controller {
             $this->email->set_mailtype("html");
             $this->email->from('download-notifications@fiorano.com', 'Fiorano Notifications');
             $this->email->to($to_main);
+            $this->email->cc($cc);
+            $this->email->bcc('harikrishnan.v@in.fiorano.com');
             $this->email->subject("Fiorano Info - " . $this->input->post('subject'));
-
             $body = $this->load->view('templates/email/contact', $data, TRUE);
             $this->email->message($body);
             if ($this->email->send()) {

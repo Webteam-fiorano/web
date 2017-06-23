@@ -44,14 +44,14 @@
                     <td class="product">Fiorano ESB/API</td>
                     </a>
                 </tr>
-                <tr class="cased">
+                <tr class="casednew">
                     <td class="customer" id="canadia-bank">Cambodia Post Bank<input type="hidden" value="/customers/casestudies/CPB.php"> </td>
                     <td class="region">APAC</td>
                     <td class="industry">Finance</td>
                     <td class="product">Fiorano ESB</td>
                 </tr>
-                <tr class="cased">
-                    <td class="customer" id="canadia-bank">Canadia Bank <input type="hidden" value="/customers/casestudies/canadia-bank.php"> </td>
+                <tr class="casednew">
+                    <td class="customer" id="canadia-bank">Canadia Bank <input type="hidden" value="casestudies/canadia_bank"> </td>
                     <td class="region">APAC</td>
                     <td class="industry">Finance</td>
                     <td class="product">Fiorano ESB</td>
@@ -72,8 +72,8 @@
 
                 </tr>
 
-                <tr class="cased">
-                    <td class="customer" id="aboitiz-power">Aboitiz Power <input type="hidden" value="/customers/casestudies/aboitiz-power.php"></td>
+                <tr class="casednew">
+                    <td class="customer" id="aboitiz-power">Aboitiz Power <input type="hidden" value="casestudies/aboitiz_power"></td>
                     <td class="region">APAC</td>
                     <td class="industry">Energy</td>
                     <td class="product">Fiorano ESB</td>
