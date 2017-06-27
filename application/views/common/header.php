@@ -13,11 +13,15 @@
 <head>
 
     <meta charset="UTF-8"/>
-    <meta property="og:url" content="http://www.fiorano.com/new/" />
+    <?php if(!empty($fbdata)){
+        echo $fbdata;
+    }else{ ?>
+   <!-- <meta property="og:url" content="http://www.fiorano.com/new/" />
     <meta property="og:type" content="website" />
-    <meta property="og:title"  content=" Notice of Passing" />
-    <meta property="og:description"   content="Notice of Passing " />
-    <meta property="og:image" content="http://objdevelopment.com/notice/wp-content/uploads/65a4465e9258729f8085c4d780700dad.jpg" />
+    <meta property="og:title"  content=" <?php /*if(!empty($title)){ echo $title;} */?>" />
+    <meta property="og:description"   content=<?php /*if(!empty($title)){ echo $title;} */?> " />
+    <meta property="og:image" content="http://objdevelopment.com/notice/wp-content/uploads/65a4465e9258729f8085c4d780700dad.jpg" />-->
+    <?php }?>
     <link rel="canonical" href="http://www.fiorano.com/new/" />
     <title><?php if(!empty($title)){ echo $title;} ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">

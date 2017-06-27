@@ -156,7 +156,7 @@
             <h2>Fiorano announces general availability of Fiorano MQTT: the preferred messaging protocol for the IoT revolution</h2>
             <p>Fiorano Software, a leading provider of enterprise integration and messaging infrastructure technology, today announced general availability of Fiorano MQTT.</p>
             <img class="col-xs-3 pull-left  img-responsive" src="<?php echo base_url('/assets/images/fiorano_logo.png') ?>" alt="Fiorano announces general availability of Fiorano MQTT: the preferred messaging protocol for the IoT revolution">
-            <a href="<?php echo __ROOT__?>/news/pressreleases/fiorano-announces-general-availability-mqtt.php" target="_blank" class="cd-read-more">Read more</a>
+            <a href="<?php echo site_url('pressreleases/fiorano_announces_general_availability_mqtt')?>" target="_blank" class="cd-read-more">Read more</a>
 
         </div> <!-- cd-timeline-content -->
     </div>
