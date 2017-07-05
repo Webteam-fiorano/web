@@ -195,6 +195,12 @@ class Company extends CI_Controller
         $this->load->view('news/event_register');
         $this->load->view('common/footer');
     }
-
+    function support(){
+        $data['heading'] = "Fiorano Technical Support | Fiorano Software ";
+        $data['title'] = " Fiorano Technical Support | Fiorano Software";
+        $this->load->view('common/header', $data);
+        $this->load->view('common/support');
+        $this->load->view('common/footer');
+    }
 }
 ?>

@@ -1,6 +1,6 @@
 <link href="<?php echo base_url('assets/css/css-map/cssmap-continents.css'); ?>" rel="stylesheet" type="text/css" />
 
-<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/cssmap-continents/cssmap-continents.css')?>" media="screen" />
+
 <script type="text/javascript" src="https://cssmapsplugin.com/5/jquery.cssmap.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){

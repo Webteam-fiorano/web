@@ -14,7 +14,13 @@ class Pressreleases extends CI_Controller
  }
 
  public function cpb_fiorano_for_temenos_t24_integration(){
-
+     $data['fbdata']='<meta property="fb:app_id" content="728682737333595"/>
+                        <meta property="og:site_name" content="Fiorano"/>
+                        <meta property="og:title" content="Cambodia Post Bank (CPB) selects Fiorano for Temenos T24 integration" />
+                        <meta property="og:description" content="Cambodia Post Bank (CPB) selects Fiorano for Temenos T24 integration with NBC\'s FAST System" />
+                        <meta property="og:type"          content="Website " />
+                        <meta property="og:url" content="http://www.fiorano.com/new/index.php/pressreleases/cpb_fiorano_for_temenos_t24_integration"/>
+                        <meta property="og:image" content="http://www.fiorano.com/new/assets/images/pressreleases/Cambodia-Post-Bank.jpg"/>';
      $data['heading']="Cambodia Post Bank (CPB) selects Fiorano for Temenos T24 integration with NBC's FAST System | Fiorano";
      $data['title']="Cambodia Post Bank (CPB) selects Fiorano for Temenos T24 integration with NBC's FAST System | Fiorano";
      $this->load->view('common/header',$data);

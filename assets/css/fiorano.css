@@ -2347,10 +2347,10 @@ and (max-device-width: 991px)
 
 /*Rev slider Home*/
 
-.tp-bullets.simplebullets.round .bullet {
+/*.tp-bullets.simplebullets.round .bullet {
     background: url(../images/home/bullet.png) no-repeat top left !important;;
-}
-.tp-bullets.simplebullets.round .bullet {
+}*/
+/*.tp-bullets.simplebullets.round .bullet {
     cursor: pointer;
     position: relative;
     background: url(../images/home/bullet.png) no-repeat top left ;
@@ -2360,7 +2360,7 @@ and (max-device-width: 991px)
     float: left;
     margin-top: 0px;
     margin-left: 3px;
-}
+}*/
 
 .slider {} .slider#slider-fullwidth {
                width: 100%;
@@ -5367,4 +5367,61 @@ and (max-device-width: 982px)
     background-size: cover;
     min-height: 145px;
 }
+.bullet .selected{
+
+}
+.tech-body{
+
+    background-image: url("../images/company/tech-support-bg.jpg");
+    background-size: cover;
+    min-height: 300px;
+}
+.techBox{
+    border: #1d78cb 1px solid;
+     //min-height: 281px;
+    //background-color: #1d78cb;
+}
+.techcontent{
+    display:none;
+
+}
+.techbox1{
+    background-image: url("../images/company/tech-support-block.jpg");
+    background-size: cover;
+}
+.techbox2{
+    background-image: url("../images/company/licensing-support-block.jpg");
+    background-size: cover;
+}
+.techbox3{
+    background-image: url("../images/company/AMC-support-block.jpg");
+    background-size: cover;
+}
+.techbox4{
+    background-image: url("../images/company/evaluation-support-block.jpg");
+    background-size: cover;
+}
+.techBox:hover .techImage{
+    display: none;
+}
+.techBox:hover {
+    background-image: none;
+   background-color: rgba(30, 132, 224, 0.33) !important;
+ }
+
+.techBox:hover .techcontent{
+    display: block;
+}
+.techFirst{
+    padding-top: 30%
+}
+.techSecond{
+    padding-top: 35%
+}
+.tecbtn{
+    background: #337ab7;
+    color: #fff;
+}
+
+
 /*------------End --------------*/

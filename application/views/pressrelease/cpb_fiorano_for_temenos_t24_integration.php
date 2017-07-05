@@ -103,10 +103,10 @@
 
                                         return t;
                                     }(document, "script", "twitter-wjs"));</script>
-                                    <a class="fb-share-button btn facebook fb-xfbml-parse-ignore" target="_blank" data-href="http://www.fiorano.com/new/" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.fiorano.com%2Fnew%2F&amp;src=sdkpreparse" onclick="return !window.open(this.href, 'Facebook', 'width=600,height=500, left=24, top=24, scrollbars, resizable')"><i class="fa fa-facebook"></i></a>
-                                    <a class="twitter-share-button btn twitter" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.fiorano.com%2Fnew%2F" onclick="return !window.open(this.href, 'Twitter', 'width=600,height=500, left=24, top=24, scrollbars, resizable')"><i class="fa fa-twitter"></i></a>
-                                    <a class="btn google" href="https://plus.google.com/share?url=http://www.fiorano.com/new/" onclick="return !window.open(this.href, 'Google+', 'width=400,height=400, left=24, top=24, scrollbars, resizable')"><i class="fa fa-google"></i></a>
-                                    <a class="btn dribbble" href="mailto: ?Subject=Your%20Subject&amp;body=http%3A%2F%2Fwww.fiorano.com%2Fnew%2F"><i class="fa fa-envelope"></i></a>
+                                    <a class="fb-share-button btn facebook fb-xfbml-parse-ignore" target="_blank" data-href="http://www.fiorano.com/new/" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.fiorano.com%2Fnew%2Findex.php%2Fpressreleases%2Fcpb_fiorano_for_temenos_t24_integration&amp;src=sdkpreparse" onclick="return !window.open(this.href, 'Facebook', 'width=600,height=500, left=24, top=24, scrollbars, resizable')"><i class="fa fa-facebook"></i></a>
+                                    <a class="twitter-share-button btn twitter" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.fiorano.com%2Fnew%2Findex.php%2Fpressreleases%2Fcpb_fiorano_for_temenos_t24_integration" onclick="return !window.open(this.href, 'Twitter', 'width=600,height=500, left=24, top=24, scrollbars, resizable')"><i class="fa fa-twitter"></i></a>
+                                    <a class="btn google" href="https://plus.google.com/share?url=http://www.fiorano.com/new/index.php/pressreleases/cpb_fiorano_for_temenos_t24_integration" onclick="return !window.open(this.href, 'Google+', 'width=400,height=400, left=24, top=24, scrollbars, resizable')"><i class="fa fa-google"></i></a>
+                                    <a class="btn dribbble" href="mailto: ?Subject=Your%20Subject&amp;body=http%3A%2F%2Fwww.fiorano.com%2Fnew%2Findex.php%2Fpressreleases%2Fcpb_fiorano_for_temenos_t24_integration"><i class="fa fa-envelope"></i></a>
                             </div>
                         </div>
                     </div>

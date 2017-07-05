@@ -12,28 +12,28 @@
                 <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;max-height:500px;height:500px;">
                     <ul>
                         <!--slider 1-->
-                        <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
-                            <img src="<?php echo base_url('assets/images/home/banner-psd2.jpg')?>" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                     <!--   <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+                            <img src="<?php /*echo base_url('assets/images/home/banner-psd2.jpg')*/?>" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                             <div class="tp-caption lft" data-x="-10" data-y="250" data-speed="500" data-start="0" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5; padding-left:50px !important;">
-                                <a class="btn-white small" href="<?php echo __ROOT__?>/registration/webinar/recording/fiorano_psd2_open_banking_with_api.php">Watch Webinar &raquo;</a>
+                                <a class="btn-white small" href="<?php /*echo __ROOT__*/?>/registration/webinar/recording/fiorano_psd2_open_banking_with_api.php">Watch Webinar &raquo;</a>
                             </div>
-                        </li>
+                        </li>-->
                         <!--slider 2-->
-                        <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
-                            <img src="<?php echo base_url('assets/images/home/')?>Financial-IT-Banner.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                       <!-- <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+                            <img src="<?php /*echo base_url('assets/images/home/')*/?>Financial-IT-Banner.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                             <div class="tp-caption lft" data-x="-10" data-y="300" data-speed="500" data-start="0" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
                                 <a  target="_blank" class="btn-theme small" href="https://financialit.net/content/financial-it-speaks-atul-saini-ceo-fiorano-software">Watch Video &raquo;</a>
                             </div>
-                        </li>
+                        </li>-->
                         <!--slider 3-->
 
 
-                        <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
-                            <img src="<?php echo base_url('assets/images/home/')?>ESB-Community-Edition.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <!--<li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+                            <img src="<?php /*echo base_url('assets/images/home/')*/?>ESB-Community-Edition.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                             <div class="tp-caption lft" data-x="35" data-y="280" data-speed="500" data-start="0" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
-                                <a href="<?php echo site_url('products/fiorano_esb')?>/products/opensource/fiorano-esb/" class="btn-white small" style="width: 150px"> Learn more &raquo; </a>
+                                <a href="<?php /*echo site_url('products/fiorano_esb')*/?>/products/opensource/fiorano-esb/" class="btn-white small" style="width: 150px"> Learn more &raquo; </a>
                             </div>
-                        </li>
+                        </li>-->
                         <!--slider 4-->
                         <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
                             <!-- MAIN IMAGE -->

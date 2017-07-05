@@ -85,7 +85,7 @@
                         </select>
                     </div>
                     <div class="col-sm-6 padding-top-20"> Which best describes you?<span class="reqMention">*</span>
-                        <select name="profile" required="required" id="profile" style=" " class="form-control">
+                        <select name="profile" required="required" id="profile" class="form-control">
                             <option value="">Select one</option>
                             <option value="Existing Fiorano customer" <?= @$_SESSION['profile']=="Existing Fiorano customer"?"selected":"" ?>>Existing Fiorano customer </option>
                             <option value="Senior Management (CEO/CIO/CTO/VP)" <?= @$_SESSION['profile']=="Senior Management (CEO/CIO/CTO/VP)"?"selected":"" ?>>Senior Management (CEO/CIO/CTO/VP)</option>
@@ -96,7 +96,22 @@
                             <option value="Other" <?= @$_SESSION['profile']=="Other"?"selected":"" ?>>Other</option>
                         </select>
                     </div>
-                    <div class="col-sm-6 padding-top-20"> Message category<span class="reqMention">*</span>
+
+                    <div id="lic_catDiv" class="col-sm-6 padding-top-20 "> Support Category<span class="reqMention">*</span>
+                        <select name="lic_cat"  id="lic_cat" style=" " class="form-control">
+                            <option value="">Select one</option>
+                            <option value="Password lock" >Password lock </option>
+                            <option value="Request License extension" > Request License extension</option>
+                            <option value="Generating Licenses" > Generation of license</option>
+                            <option value="Change of IP address">Change of IP address</option>
+                            <option value="Schedule License Portal Training">Schedule License Portal Training</option>
+                            <option value="Expired support">  Expired support</option>
+                            <option value="Other" >Other</option>
+                        </select>
+                    </div>
+
+
+                    <div class="col-sm-6 padding-top-20" id="messsge_cat"> Message category<span class="reqMention">*</span>
                         <select  name="category" required="required" id="category" style="" class="form-control">
                             <option value="" selected>Select one</option>
                             <option value="Product technical information" <?= @$_SESSION['category']=="Product technical information"?"selected":"" ?>>Product technical information</option>
@@ -113,7 +128,7 @@
                     <div class="col-sm-6 padding-top-20">Your Subject<span class="reqMention">*</span>
                         <input type="text" id="subject" required="required" placeholder="Enter your Subject..." class="form-control" name="subject" value="<?= @$_SESSION['subject'];?>" />
                     </div>
-                    <div class="col-sm-6 padding-top-20">Your Message<span class="reqMention">*</span>
+                    <div class="col-sm-6 padding-top-20" id="your_mess">Your Message<span class="reqMention">*</span>
                         <textarea name="message" required="required" id="message"  placeholder="Enter your Message..." class="form-control" title="Message" ><?= @$_SESSION['message']; ?></textarea>
                     </div>
                     <div class="col-sm-6 col-sm-offset-3">
@@ -161,27 +176,7 @@
                         </div>
                     </div>
                 </div>
-                <?php /*
-                <div class="span3 col-sm-3 ">
-                    <div id="recent-posts-4" class="widget widget_recent_entries">
-                        <a href="<?php echo __ROOT__ ?>/blog/"><h4 class="widget-title">From the blog</h4></a>
-                        <div class="thin_line"></div>
-                        <ul>
-                            <li>
-                                <a href="<?php echo __ROOT__ ?>/blog/?p=88">Why traditional ESBs are a mismatch for Cloud-based Integration</a>
-                               <!-- <span class="post-date">Oct 01, 2015</span>-->
-                            </li>
-                            <li>
-                                <a href="<?php echo __ROOT__ ?>/blog/?p=71">Microservices - The issue of Granularity: Atomic or Composite?</a>
-                                <!--<span class="post-date">Aug 03, 2015</span>-->
-                            </li>
-                            <li>
-                                <a href="<?php echo __ROOT__ ?>/blog/?p=63">The API economy is here, is your business ready to Digitize and Monetize?</a>
-                               <!-- <span class="post-date">Jul 15, 2015</span>-->
-                            </li>
-                        </ul>
-                    </div>
-                </div>*/?>
+
                 <div class="span3 col-sm-3 ">
                         <div id="tag_cloud-2" class="widget widget_tag_cloud">
                         <h4 class="widget-title">Quick Links</h4>
@@ -306,7 +301,7 @@
 
 <script>
     $(document).ready(function(){
-
+        $('#lic_catDiv').hide();
         $('#contactBtn').click(function(){
             $('.getIn-model').css('min-height','620px');
             $('#openesb-download-button').show();

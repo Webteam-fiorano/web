@@ -1,18 +1,33 @@
-
-<section id="slider-fixed" class="slider vc_box_shadow header_shadow padding_top_none" style="padding-bottom: 0">
-
+<!--
+<section id="slider-fixed" class="slider vc_box_shadow header_shadow padding_top_none" style="padding-bottom: 0">-->
+<section id="intro" class="bannersectionsolutions">
     <div class="container">
+        <div class="col-xs-12 solutionBanner ">
 
+            <div class="productHead col-sm-8">
+                <h1 class="productHeadTitle">Fiorano Solutions</h1>
+
+                <div class="col-sm-8 hidden-xs nopadding">
+                    <p class="solutionHeadDesc  hidden-xs nopadding" >
+                        Fiorano's solutions enable you to solve real business problems providing visibility into the internal workings of your company, helping identify revenue drivers and fixing performance bottlenecks. Our solutions allow you to extract value out of your existing assets, unifying applications and infrastructure within the enterprise and delivering the value via reuse, reduced TCO, flexibility and faster time to market.
+                    </p>
+                </div>
+            </div>
+            <div class="productHeadDownload col-sm-4 ">
+
+            </div>
+        </div>
+    </div>
         <div class="row">
 
-            <div class="span12">
+            <!--<div class="span12">
                 <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0 auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:500px;">
-                    <!-- START REVOLUTION SLIDER 4.6.3 fullwidth mode -->
-                    <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;max-height:500px;height:500px;">
+
+                   <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;max-height:500px;height:500px;">
                         <ul>
 
                             <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
-                                <img src="<?php echo base_url('assets/images/solutions/banner-solution-1600x400px.jpg')?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <img src="<?php /*echo base_url('assets/images/solutions/banner-solution-1600x400px.jpg')*/?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                                 <div class="tp-caption lft" data-x="30" data-y="60" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
                                     <h1 class="white"> Fiorano Solutions </h1>
                                 </div>
@@ -23,7 +38,7 @@
                             </li>
 
                             <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
-                                <img src="<?php echo base_url('assets/images/solutions/banner-solution-1600x400px.jpg')?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <img src="<?php /*echo base_url('assets/images/solutions/banner-solution-1600x400px.jpg')*/?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                                 <div class="tp-caption lft" data-x="30" data-y="100" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
                                     <h3 class="white bannerDec"><span style="color:#8baad8; font-size: 32px;"><b>Digitalize</b> </span> your infrastructure<br> within time and budget </h3>
                                 </div>
@@ -31,19 +46,18 @@
 
                             </li>
                             <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
-                                <img src="<?php echo base_url('assets/images/solutions/banner-solution-1600x400px.jpg')?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <img src="<?php /*echo base_url('assets/images/solutions/banner-solution-1600x400px.jpg')*/?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                                 <div class="tp-caption lft" data-x="30" data-y="100" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
                                     <h2 class="white bannerDec"><span style="color:#00BCD4; font-size: 32px;"><b>Identify</b> </span> Identify revenue drivers <br> and fix performance bottlenecks </h2>
                                 </div>
                             </li>
                             <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
-                                <img src="<?php echo base_url('assets/images/solutions/banner-solution-1600x400px.jpg')?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <img src="<?php /*echo base_url('assets/images/solutions/banner-solution-1600x400px.jpg')*/?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                                 <div class="tp-caption lft" data-x="30" data-y="80" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
                                     <h2 class="white bannerDec"><span style="color:#8baad8; font-size: 32px;"><b>Extract</b></span>   value from existing assets, <br>unify applications and infrastructure  <br>within the enterprise. </h2>
                                 </div>
                             </li>
-                            <!-- SLIDE  -->
-                            <!-- SLIDE  -->
+
                         </ul>
                         <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
                     </div>
@@ -53,12 +67,19 @@
                         <style scoped></style>
                     </div>
                 </div>
-                <!-- END REVOLUTION SLIDER -->
+
             </div>
-        </div>
+        </div>-->
         <!--        <div class="bottom_shadow"></div>-->
     </div>
+    <a href="#"> &nbsp;</a>
+    <div class="bs-example pull-right">
+        <ul class="breadcrumb">
+            <li> <a href="<?php echo site_url(''); ?>">Home</a></li>
+            <li> Solutions</li>
 
+        </ul>
+    </div>
 </section>
 
 

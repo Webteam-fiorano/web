@@ -322,7 +322,7 @@
                                     <li class="menu-submenu"><a href="<?php echo site_url('resources/whitepapers'); ?>">Whitepapers</a></li>
                                     <li class="menu-submenu"><a href="<?php echo site_url('resources/casestudies'); ?>">Customer Case Studies</a></li>
                                      <li class="menu-submenu"><a href="<?php echo site_url('company/prod_review'); ?>">Analyst Reports &amp; Product Reviews</a></li>
-                                     <li class="menu-submenu"><a href="<?php echo __ROOT__ ?>/devzone/support.php">Technical Support</a></li>
+                                     <li class="menu-submenu"><a href="<?php echo site_url('company/support'); ?>">Technical Support</a></li>
                                      <li class="menu-submenu"><a href="<?php echo __ROOT__ ?>/componentgallery/comp_index.php">Component Gallery</a></li>
                                 </ul>
 

@@ -93,6 +93,14 @@
                         <td>:</td>
                         <td class="text"><?php if(!empty( $category)) echo $category; else echo "-" ?></td>
                     </tr>
+                    <?php if(!empty($lic_cat)){?>
+                    <tr>
+                        <td height="23" class="text"><div align="right">Support category </div></td>
+                        <td>:</td>
+                        <td class="text"><?php if(!empty( $lic_cat)) echo $lic_cat; else echo "-" ?></td>
+                    </tr>
+                    <?php }?>
+
                     <tr bgcolor="#E6F2F9">
                         <td height="23" class="text"><div align="right"> Subject </div></td>
                         <td>:</td>

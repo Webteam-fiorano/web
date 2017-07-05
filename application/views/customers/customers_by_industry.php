@@ -118,7 +118,7 @@
                                 Overall, there has never been a bottleneck handling the upstream information from HR or from the student and alumni systems. If for some reason things get backed up, we can cache messages on the client end to maintain smooth operation. We expect our number of CalNet IDs to grow to nearly a million over time-and there's no reason to believe FioranoMQ won't handle our needs."
                             </p>
                             <h3 class="testimonial-title">
-                                <span>SJeff McCullough , </span>
+                                <span>Jeff McCullough , </span>
                                 <h5>CTO,</h5>
                                 <h5>University of California Berkeley</h5>
                             </h3>

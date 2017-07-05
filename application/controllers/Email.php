@@ -22,6 +22,7 @@ class Email extends CI_Controller {
                 'name' => $this->input->post('name'),
                 'email' => $this->input->post('email'),
                 'company' => $this->input->post('company'),
+                'lic_cat' => $this->input->post('lic_cat'),
                 'phone' => $this->input->post('phone'),
                 'country' => $this->input->post('country'),
                 'profile' => $this->input->post('profile'),
@@ -34,6 +35,10 @@ class Email extends CI_Controller {
                 'browser' => $_SERVER['HTTP_USER_AGENT'],
 
             );
+
+         /*   if($data['lic_cat']=='Evaluation'){
+                $data['lic_cat']="Evaluation Support";
+            }*/
             switch ($_POST['category']){
                 case "Product technical information"  : $to_main = 'sales@fiorano.com'; $cc='presales@fiorano.com'; break; //if the link is directly accessed - pls set same mail id to DEFAULT also for safe side
                 case "Product purchase information"  : $to_main = 'sales@fiorano.com'; break;
@@ -43,21 +48,25 @@ class Email extends CI_Controller {
                 case "Feedback"  : $to_main = 'info@fiorano.com'; break;
                 case "Legal"  : $to_main = 'legal@fiorano.com'; break;
                 case "Careers at Fiorano"  : $to_main = 'careers@fiorano.com'; break;
+                case "Evaluation"  : $to_main = 'se@fiorano.com'; break;
                 case "Other"  : $to_main = 'info@fiorano.com';break;
                 default : $to_main = 'info@fiorano.com'; //safe side
             }
             $to_email = "harikrishnan.v@in.fiorano.com";
-
             //Load email library
             $this->load->library('email');
             $this->email->set_mailtype("html");
             $this->email->from('download-notifications@fiorano.com', 'Fiorano Notifications');
             $this->email->to($to_main);
-            $this->email->cc($cc);
+            if(!empty($cc)){
+                $this->email->cc($cc);
+            }
+
             $this->email->bcc('harikrishnan.v@in.fiorano.com');
             $this->email->subject("Fiorano Info - " . $this->input->post('subject'));
             $body = $this->load->view('templates/email/contact', $data, TRUE);
             $this->email->message($body);
+
             if ($this->email->send()) {
                 $this->session->set_flashdata("email_sent", "Email sent successfully.");
                 echo "1";
