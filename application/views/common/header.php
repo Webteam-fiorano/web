@@ -24,8 +24,14 @@
     <?php }?>
     <link rel="canonical" href="http://www.fiorano.com/new/" />
     <title><?php if(!empty($title)){ echo $title;} ?></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="keywords" content="esb, rest, industry standards, event enabled, peer to peer, web services"/><meta name="description" content="Reduce complexity and increases flexibility by enabling linear,  build-as-you-grow scalability with no performance bottlenecks and 24x7 forever availability. Integrate applications and processes as standards-based,  event-enabled services over a distributed,  centrally managed infrastructure built entirely on industry standards including XML,  Web Services and REST"/> <link rel='stylesheet' id='rs-plugin-settings-css'
+
+    <?php if(!empty($meta)){
+        echo $meta;
+    }else{?>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="keywords" content="esb, rest, industry standards, event enabled, peer to peer, web services"/><meta name="description" content="Reduce complexity and increases flexibility by enabling linear,  build-as-you-grow scalability with no performance bottlenecks and 24x7 forever availability. Integrate applications and processes as standards-based,  event-enabled services over a distributed,  centrally managed infrastructure built entirely on industry standards including XML,  Web Services and REST"/> <link rel='stylesheet' id='rs-plugin-settings-css'
+
+    <?php }?>
 
     <!--Font Awsome-->
     <link href="<?php echo base_url('assets/css/font-awesome/css/font-awesome.css'); ?>" rel="stylesheet" type="text/css" />
@@ -151,9 +157,12 @@
 
                     <div class="hasSubMenu productsMenu padding-bottom-50">
                         <ul class="sub-menu">
+
                             <li class="menu-item col-sm-6 nopadding">
+                                <h4><a  class="" style="padding-left: 0px !important; color: #00599C;" href="<?php echo site_url('products/digital_transformation');?>">Digital Business Platform</a></h4>
                                 <h4>Business Integration</h4>
                                 <ul class="">
+
                                     <li class="menu-submenu"><a href="<?php echo site_url('products/fiorano_integration');?>">Fiorano Integration</a></li>
                                     <li class="menu-submenu"><a href="<?php echo site_url('products/fiorano_esb');?>">Fiorano ESB</a></li>
                                     <!--<li class="menu-submenu"><a href="">Fiorano Cloud</a></li>-->
@@ -161,6 +170,8 @@
                                    <!-- <li class="menu-submenu"><a href="">Fiorano Adapters</a></li>-->
                                     <li class="menu-submenu"><a href="<?php echo site_url('products/fiorano_api');?>">Fiorano API Management</a></li>
                                 <!--    <li class="menu-submenu"><a href="">Fiorano Mobile Integration</a></li>-->
+
+
                                 </ul>
 
                             </li>

@@ -4,6 +4,9 @@
     }*/
 </style>
 
+<section id="slider-fixed" class="slider vc_box_shadow header_shadow padding_top_none" style="padding-bottom: 0">
+    <div class="container">
+<!--
 <section id="intro" class="intro-sectionApi_service">
     <div class="container">
         <div class="col-xs-12 productBanner ">
@@ -12,7 +15,7 @@
                 <h1 class="productHeadTitle">Fiorano Professional Services </h1>
                 <div class="col-sm-8 nopadding">
                 <p class="productHeadDesc" >
-                    Fiorano's range of professional services, include Architecture Assessment and Design, Implementation, Performance Tuning, Training and Premium Support.
+
                 </p>
                 </div>
             </div>
@@ -20,9 +23,69 @@
 
             </div>
         </div>
+    </div>-->
+<div class="row">
+
+    <div class="span12">
+        <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0 auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:500px;">
+
+            <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;max-height:500px;height:500px;">
+                <ul>
+
+                    <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+                        <img src="<?php echo base_url('assets/images/services/banner-image-service.jpg')?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <div class="tp-caption lft" data-x="30" data-y="60" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
+                            <h1 class="white"> Fiorano Professional Services </h1>
+                        </div>
+
+                        <div class="tp-caption col-sm-6 lft" data-x="0" data-y="140" data-speed="500" data-start="1200" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
+                            <p class="white col-sm-6 hidden-xs productHeadDesc" >
+                                Fiorano's range of professional services, include Architecture <br>Assessment and Design, Implementation, Performance Tuning, <br>Training and Premium Support.
+                                </p>
+                        </div>
+                    </li>
+
+                    <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+                        <img src="<?php echo base_url('assets/images/services/Services-banner-01.jpg')?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <div class="tp-caption lft" data-x="30" data-y="100" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
+                            <h3 class="white bannerDec"><span style="color:#8baad8; font-size: 32px;"><b>Design</b> </span> and <span style="color:#8baad8; font-size: 32px;"><b> Build</b> </span> a robust <br>architecture based on Fiorano's Digital <br>Business Platform</h3>
+
+                        </div>
+
+
+                    </li>
+                      <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+                        <img src="<?php echo base_url('assets/images/services/Services-banner-03.jpg')?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <div class="tp-caption lft" data-x="30" data-y="100" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
+                            <h3 class="white bannerDec"><span style="color:#00BCD4; font-size: 32px;"><b>Maximize</b> </span>
+                                deployment performance and <br>train teams to tune your enterprise</br> middleware
+                            </h3>
+
+                        </div>
+                    </li>
+                   <!-- <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+                        <img src="<?php /*echo base_url('assets/images/solutions/Solution-banner-03.jpg')*/?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <div class="tp-caption lft" data-x="30" data-y="80" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
+                            <h2 class="white bannerDec"><span style="color:#97e2f2; font-size: 32px;"><b>Create</b></span>   vmarket driven solutions to<br> enhance value of core offerings </h2>
+
+                        </div>
+                    </li>-->
+
+                </ul>
+                <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+            </div>
+
+
+            <div class="revsliderstyles">
+                <style scoped></style>
+            </div>
+        </div>
+
+    </div>
+</div>
     </div>
     <a href="#"> &nbsp;</a>
-    <div class="bs-example pull-right">
+    <div class="bs-example pull-right homspec">
         <ul class="breadcrumb">
             <li> <a href="<?php echo site_url(''); ?>">Home</a></li>
 

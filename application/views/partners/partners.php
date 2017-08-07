@@ -1,5 +1,84 @@
+<section id="slider-fixed" class="slider vc_box_shadow header_shadow padding_top_none" style="padding-bottom: 0">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0 auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:500px;">
+                    <!-- START REVOLUTION SLIDER 4.6.3 fullwidth mode -->
+                    <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;max-height:500px;height:500px;">
+                        <ul>
+                            <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+                                <img src="<?php echo base_url('assets/images/home/banner-partners.jpg')?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <div class="tp-caption lft" data-x="30" data-y="70" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
+                                    <h1 class="white">
+                                        Fiorano Partner Network  </h1>
+                                </div>
 
-<section id="" class="partner-banner">
+                                <div class="tp-caption col-sm-6 lft" data-x="0" data-y="150" data-speed="500" data-start="1200" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
+                                    <p class="white col-sm-6 hidden-xs productHeadDesc" >
+                                        A flexible and adaptable partnership program built to meet <br>varying business needs of each type of partner, enabling them to <br>leverage Fiorano technologies and resources to maximize their success.
+                                     </p>
+                                </div>
+
+                                <div class="tp-caption col-sm-6 lft" data-x="0" data-y="250" data-speed="500" data-start="1200" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
+                                    <div class="col-xs-6 col-sm-4 nopadding">
+
+                                        <a  style="margin-left:10px;" href="<?php echo __ROOT__ ?>/partners/apply.php" class="download-binaries btn-danger btn btn-large downHeadBtn"><i class="fa fa-large fa-user"></i>&nbsp; &nbsp; &nbsp;  Become a Partner &nbsp; &nbsp;</a>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 ">
+                                        <a href="<?php echo site_url('resources')?>" target="_blank" class="btn-success btn btn-large downHeadBtn">Learn more about our Products</a>
+                                    </div>
+
+                                </div>
+
+                            </li>
+                            <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+                                <img src="<?php echo base_url('assets/images/partner/Partner-banner-01_new.jpg')?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <div class="tp-caption lft" data-x="30" data-y="100" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
+                                    <h3 class="white bannerDec">
+                                        <span style="color:#8baad8; font-size: 32px;"><b>Leverage</b></span> Fiorano technologies and <br>resources to transform delivery of <br>your solutions</h3><br>
+
+                                </div>
+                            </li>
+                            <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+                                <img src="<?php echo base_url('assets/images/partner/Partner-banner-02.jpg')?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <div class="tp-caption lft" data-x="30" data-y="100" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
+                                    <h3 class="white bannerDec">
+                                        <span style="color:#00BCD4; font-size: 32px;"><b>Expand</b></span> and <span style="color:#00BCD4; font-size: 32px;"><b>Adapt</b></span> Solutions to <br>reap significant benefits</h3>
+                                </div>
+                            </li>
+                            <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+                                <img src="<?php echo base_url('assets/images/partner/Partner-banner-03.jpg')?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <div class="tp-caption lft" data-x="30" data-y="100" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
+                                    <h3 class="white bannerDec">
+                                        <span style="color:#97e2f2;; font-size: 32px;"><b>Create</b></span> market driven solutions <br>to enhance value of core offerings
+                                    </h3>
+                                </div>
+                            </li><!--00BCD4 FFC107-->
+                            <!-- SLIDE  -->
+                            <!-- SLIDE  -->
+                        </ul>
+                        <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+                    </div>
+                    <div class="revsliderstyles">
+                        <style scoped></style>
+                    </div>
+                </div>
+                <!-- END REVOLUTION SLIDER -->
+            </div>
+        </div>
+        <!--        <div class="bottom_shadow"></div>-->
+    </div>
+    <a href="#"> &nbsp;</a>
+    <div class="bs-example pull-right">
+        <ul class="breadcrumb">
+            <li> <a href="<?php echo site_url(''); ?>">Home</a></li>
+            <li class="active"> Partners</li>
+        </ul>
+    </div>
+</section>
+
+
+<!--<section id="" class="partner-banner">
     <div class="container">
         <div class="col-xs-12 productBanner ">
             <div class="productHead col-sm-8">
@@ -11,10 +90,10 @@
                     <div class=" col-sm-12 padding-top-20 ">
                         <div class="col-xs-6 nopadding">
 
-                            <a  style="margin-left:-10px;" href="<?php echo __ROOT__ ?>/partners/apply.php" class="download-binaries btn-danger btn btn-large downHeadBtn"><i class="fa fa-large fa-user"></i>&nbsp; &nbsp; &nbsp;  Become a Partner &nbsp; &nbsp;</a>
+                            <a  style="margin-left:-10px;" href="<?php /*echo __ROOT__ */?>/partners/apply.php" class="download-binaries btn-danger btn btn-large downHeadBtn"><i class="fa fa-large fa-user"></i>&nbsp; &nbsp; &nbsp;  Become a Partner &nbsp; &nbsp;</a>
                         </div>
                         <div class="col-xs-6">
-                            <a href="<?php echo site_url('resources')?>" target="_blank" class="btn-success btn btn-large downHeadBtn">Learn more about our Products</a>
+                            <a href="<?php /*echo site_url('resources')*/?>" target="_blank" class="btn-success btn btn-large downHeadBtn">Learn more about our Products</a>
                         </div>
 
                     </div>
@@ -29,11 +108,11 @@
     <a href="#"> &nbsp;</a>
     <div class="bs-example pull-right">
         <ul class="breadcrumb">
-            <li> <a href="<?php echo site_url(''); ?>">Home</a></li>
+            <li> <a href="<?php /*echo site_url(''); */?>">Home</a></li>
             <li class="active"> Partners</li>
         </ul>
     </div>
-</section>
+</section>-->
 
 <section class="offer-section offer-section-three section service-page-three-offer" id="resource">
     <div class="container">

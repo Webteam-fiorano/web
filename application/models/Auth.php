@@ -54,5 +54,25 @@ Class Auth extends CI_Model
             return false;
         }
     }
+
+
+    /* Function to login a user */
+    function adminlogin($username, $password)
+    {
+        $DB2 = $this->load->database('admin', TRUE);
+        $DB2->select('*');
+        $DB2->from('admin_users');
+        $DB2->where('admin_users.username', $username);
+        $DB2->where('admin_users.password', $password);
+        $DB2->where('admin_users.status', 1);
+        $query = $DB2->get();
+        if($query->num_rows() != 0){
+            return $query->result();
+        }else{
+            return false;
+        }
+    }
+
+
 }
 ?>

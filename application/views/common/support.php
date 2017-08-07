@@ -12,8 +12,10 @@
 //or however you get a handle to the IMG
         var width = img.clientWidth;
         var height = img.clientHeight;
-        $(".techBox").css("min-height",height );
 
+        $(".techBox").css("min-height",height );
+        $(".techcontent").css("height",height );
+        $(".techFirst").css("height",height );
 
 
     });

@@ -133,9 +133,11 @@
                     </div>
                     <div class="col-sm-6 col-sm-offset-3">
                         <br/>
-                        <script src='https://www.google.com/recaptcha/api.js'></script>
-                        <div class="g-recaptcha" data-sitekey="6Ldn5yEUAAAAAB8pG_vySOOHwqOKN9pduGgke0Fk"></div>
-                        <br/>
+                       <!-- <script src='https://www.google.com/recaptcha/api.js'></script>-->
+                        <div id="recaptcha2"></div>
+                       <!-- <div class="g-recaptcha" data-sitekey="6Lfq1gsTAAAAAN8CJvmc_5Y4_oZMNErmg9wvC1G7"></div>
+
+                        <br/>-->
                     </div>
 
 
@@ -298,6 +300,34 @@
         </div>
     </div>
 </footer>
+
+
+<script async defer>
+
+
+    /* PLEASE DO NOT COPY AND PASTE THIS CODE. */(function() {if (!window['___grecaptcha_cfg']) { window['___grecaptcha_cfg'] = {}; };if (!window['___grecaptcha_cfg']['render']) { window['___grecaptcha_cfg']['render'] = 'explicit'; };if (!window['___grecaptcha_cfg']['onload']) { window['___grecaptcha_cfg']['onload'] = 'myCallBack'; };window['__google_recaptcha_client'] = true;var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;po.src = 'https://www.gstatic.com/recaptcha/api2/r20170717162708/recaptcha__en.js'; var elem = document.querySelector('script[nonce]');var nonce = elem && (elem['nonce'] || elem.getAttribute('nonce'));if (nonce) { po.setAttribute('nonce', nonce); }var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);})();
+
+</script>
+<script>
+    var recaptcha1;
+    var recaptcha2;
+    var myCallBack = function() {
+        //Render the recaptcha1 on the element with ID "recaptcha1"
+
+        recaptcha2 = grecaptcha.render('recaptcha2', {
+            'sitekey' : '6Lfq1gsTAAAAAN8CJvmc_5Y4_oZMNErmg9wvC1G7', //Replace this with your Site key
+            'theme' : 'light'
+        });
+
+        recaptcha1 = grecaptcha.render('recaptcha1', {
+            'sitekey' : '6LeJWioUAAAAAF7ys3eilKD5HF_RDSXl9UUMInMB', //Replace this with your Site key
+            'theme' : 'light'
+        });
+    };
+
+
+</script>
+
 
 <script>
     $(document).ready(function(){

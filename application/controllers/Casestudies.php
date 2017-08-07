@@ -73,10 +73,71 @@ class Casestudies extends CI_Controller
         $this->load->view('common/footer');
     }
     public function jnet_justice_network(){
+        $data['heading']="Government and Defense – JNET  | Fiorano";
+        $data['title']="Government and Defense – JNET | Fiorano";
+        $this->load->view('common/header',$data);
+        $this->load->view('casestudies/jnet_justice_network');
+        $this->load->view('common/footer');
+    }
+    public function connect_first(){
+        $data['heading']="Technology – Connect First | Fiorano";
+        $data['title']="Technology – Connect First | Fiorano";
+        $this->load->view('common/header',$data);
+        $this->load->view('casestudies/connect_first');
+        $this->load->view('common/footer');
+    }
+
+
+
+    /* fdsjgl ddfjg jk lk gfd lkdg  knhgd  ;*/
+    public function county_tulare(){
+        $data['heading']="Tulare County Integrates Electronic Court Systems with Fiorano SOA Platform | Fiorano";
+        $data['title']="Tulare County Integrates Electronic Court Systems with Fiorano SOA Platform | Fiorano";
+        $this->load->view('common/header',$data);
+        $this->load->view('casestudies/county_tulare');
+        $this->load->view('common/footer');
+    }
+    public function credit_agricole(){
+        $data['heading']="Credit Agricole Titres - Amid Mergers, FioranoMQ helps maintain daily retail stock trade volume for French Bank with 40% Market Share | Fiorano";
+        $data['title']="Amid Mergers, FioranoMQ helps maintain daily retail stock trade volume for French Bank with 40% Market Share| Fiorano";
+        $this->load->view('common/header',$data);
+        $this->load->view('casestudies/credit_agricole');
+        $this->load->view('common/footer');
+    }
+    public function dnc(){
+        $data['heading']="Delaware North Companies Drive Productivity with Fiorano Infrastructure | Fiorano";
+        $data['title']="Delaware North Companies Drive Productivity with Fiorano Infrastructure | Fiorano";
+        $this->load->view('common/header',$data);
+        $this->load->view('casestudies/dnc');
+        $this->load->view('common/footer');
+    }
+    public function dhl(){
+        $data['heading']="DHL, the world's largest logistics company operating around the world and a market leader in sea and air mail selected Fiorano ESB | Fiorano";
+        $data['title']="DHL, the world's largest logistics company operating around the world and a market leader in sea and air mail selected Fiorano ESB | Fiorano";
+        $this->load->view('common/header',$data);
+        $this->load->view('casestudies/dhl');
+        $this->load->view('common/footer');
+    }
+    public function dyckerhoff_ag(){
         $data['heading']="Fiorano meets Commission Junction's need for a Reliable Messaging Infrastructure | Fiorano";
         $data['title']="Fiorano meets Commission Junction's need for a Reliable Messaging Infrastructure | Fiorano";
         $this->load->view('common/header',$data);
-        $this->load->view('casestudies/jnet_justice_network');
+        $this->load->view('casestudies/dyckerhoff_ag');
+        $this->load->view('common/footer');
+    }
+    public function easypay(){
+        $data['heading']="Fiorano meets Commission Junction's need for a Reliable Messaging Infrastructure | Fiorano";
+        $data['title']="Fiorano meets Commission Junction's need for a Reliable Messaging Infrastructure | Fiorano";
+        $this->load->view('common/header',$data);
+        $this->load->view('casestudies/easypay');
+        $this->load->view('common/footer');
+    }
+
+    public function ecole_hoteliere_de_lausanne(){
+        $data['heading']="Fiorano meets Commission Junction's need for a Reliable Messaging Infrastructure | Fiorano";
+        $data['title']="Fiorano meets Commission Junction's need for a Reliable Messaging Infrastructure | Fiorano";
+        $this->load->view('common/header',$data);
+        $this->load->view('casestudies/ecole_hoteliere_de_lausanne');
         $this->load->view('common/footer');
     }
 

@@ -19,10 +19,15 @@
                             </div>
                         </li>-->
                         <!--slider 2-->
-                       <!-- <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
-                            <img src="<?php /*echo base_url('assets/images/home/')*/?>Financial-IT-Banner.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
-                            <div class="tp-caption lft" data-x="-10" data-y="300" data-speed="500" data-start="0" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
-                                <a  target="_blank" class="btn-theme small" href="https://financialit.net/content/financial-it-speaks-atul-saini-ceo-fiorano-software">Watch Video &raquo;</a>
+                        <!--<li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+                            <img src="<?php /*echo base_url('assets/images/home/')*/?>home-banner-01.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                            <div class="tp-caption lft align-center text-center col-sm-12" data-y="80" data-speed="500" data-start="0" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5; line-height: 25px;">
+                                <h2 class="white text-center " style=" line-height: 40px;">Rapidly <b>ACHIEVE</b> Digital transformation of <br> your enterprise - now an imperative, <br>as <b>Event-driven</b></h2>
+                            </div>
+                        </li>--><!--<li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+                            <img src="<?php /*echo base_url('assets/images/home/')*/?>home-banner-01.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                            <div class="tp-caption lft align-center text-center col-sm-12" data-y="80" data-speed="500" data-start="0" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5; line-height: 25px;">
+                                <h2 class="white text-center " style=" line-height: 40px;">Rapidly <b>ACHIEVE</b> Digital transformation of <br> your enterprise - now an imperative, <br>as <b>Event-driven</b></h2>
                             </div>
                         </li>-->
                         <!--slider 3-->
@@ -84,18 +89,24 @@
                             <!-- LAYERS -->
 
                             <!--LAYER NR. 1 -->
-                            <div class="tp-caption ryt" data-x="650" data-y="77" data-speed="500" data-start="600" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
-                                <img src="<?php echo base_url('assets/images/home/')?>api_management_title.png" alt="" data-ww="279" data-hh="31">
+
+
+
+                            <div class="tp-caption ryt" data-x="650" data-y="150" data-speed="500" data-start="600" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
+                                <img src="<?php echo base_url('assets/images/products/')?>Banner2-title1.png" alt="" >
                             </div>
 
-                            <!-- LAYER NR. 2 -->
-                            <div class="tp-caption sfb" data-x="650" data-y="123" data-speed="300" data-start="1100" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 6;">
-                                <img src="<?php echo base_url('assets/images/home/')?>api_management_text_01.png" alt="" data-ww="487" data-hh="113">
+                            <div class="tp-caption lft" data-x="650" data-y="205" data-speed="500" data-start="1200" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
+                                <img src="<?php echo base_url('assets/images/products/')?>Banner2-title2.png" alt="">
                             </div>
+                            <!-- LAYER NR. 2 -->
+                           <!-- <div class="tp-caption sfb" data-x="650" data-y="123" data-speed="300" data-start="1100" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 6;">
+                                <img src="<?php /*echo base_url('assets/images/products/')*/?>Banner2-title2.png" alt="" data-ww="487" data-hh="113">
+                            </div>-->
 
                             <!--LAYER NR. 3 -->
                             <div class="tp-caption sfb" data-x="650" data-y="300" data-speed="300" data-start="1500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 7;">
-                                <a class="btn-theme" href="<?php echo site_url('products/fiorano_api')?>">Learn more &raquo;</a>
+                                <a class="btn-theme" href="<?php echo site_url('products/digital_transformation')?>">Learn more &raquo;</a>
                             </div>
 
                         </li>
@@ -167,18 +178,23 @@
 
 </section>
 
-
+<div class="col-xs-12"> &nbsp;</div>
 <!-- .header -->
 
-<section class="homeHead">
+<section class="homeHead1">
 
      <div class="container ">
          <div class="row" >
-     <div class="col-xs-12 aligncenter text-center" > <h2>
-                 <a  href="<?php echo __ROOT__?>/products/What-we-do.php" class="align-center HomeHeadTittle">
-                     We provide <span class="themeBlue">microservice-centric platform infrastructure</span> with sophisticated integration capabilities, Connecting Anything to Everything....
-                 </a>
+     <div class="col-xs-12 aligncenter text-center" >
+         <h2>
+                 <p class="align-center HomeHeadTittle1">
+                     Translate innovations into strategic roadmaps for integrating business strategies
+                     with operational and informational perspectives
+                 </p>
              </h2>
+         <div class="pull-right"><a class="headtitleLink" href="<?php echo site_url('products/digital_transformation')?>">
+                 Click here to start your Digital Transformation
+             </a></div>
          </div>
      </div>
 
@@ -227,7 +243,7 @@
                 </div>
         </div>
     </div>
-        <div class="row padding-bottom-50" >
+        <div class="row padding-bottom-20" >
             <div class="col-xs-12 peerHome">
                 <div class="col-xs-12 text-center padding-top-20 padding-bottom-20" >
                     <div class="col-sm-9">
@@ -246,6 +262,20 @@
     </div>
 
 
+</section>
+<section class="homeHead">
+
+    <div class="container ">
+        <div class="row" >
+            <div class="col-xs-12 aligncenter text-center" > <h2>
+                    <a  href="<?php echo site_url('products/what_we_do')?>" class="align-center HomeHeadTittle">
+                        We provide <span class="themeBlue">microservice-centric platform infrastructure</span> with sophisticated integration capabilities, Connecting Anything to Everything....
+                    </a>
+                </h2>
+            </div>
+        </div>
+
+    </div>
 </section>
 <section>
     <div class="container">

@@ -140,59 +140,81 @@ class Products extends CI_Controller {
         $this->load->view('common/footer');
     }
     Public function what_we_do(){
-        $data['heading']="Fiorano ESB License | Demo ";
-        $data['title']="Fiorano ESB License | Demo ";
+        $data['heading']="Fiorano What We Do | Fiorano ";
+        $data['title']="Fiorano What We Do | Fiorano ";
         $this->load->view('common/header',$data);
         $this->load->view('products/what_we_do');
         $this->load->view('common/footer');
     }
     Public function streamlining_integration_strategy(){
-        $data['heading']="Fiorano ESB License | Demo ";
-        $data['title']="Fiorano ESB License | Demo ";
+        $data['heading']="Fiorano ESB License | Fiorano ";
+        $data['title']="Fiorano ESB License | Fiorano ";
         $this->load->view('common/header',$data);
         $this->load->view('products/streamlining_integration_strategy');
         $this->load->view('common/footer');
     }
     Public function application_integration(){
-        $data['heading']="Fiorano ESB License | Demo ";
-        $data['title']="Fiorano ESB License | Demo ";
+        $data['heading']="Fiorano ESB License | Fiorano ";
+        $data['title']="Fiorano ESB License | Fiorano ";
         $this->load->view('common/header',$data);
         $this->load->view('products/application_integration');
         $this->load->view('common/footer');
     }
     Public function service_components(){
-        $data['heading']="Fiorano ESB License | Demo ";
-        $data['title']="Fiorano ESB License | Demo ";
+        $data['heading']="Fiorano ESB License | Fiorano ";
+        $data['title']="Fiorano ESB License | Fiorano ";
         $this->load->view('common/header',$data);
         $this->load->view('products/service_components');
         $this->load->view('common/footer');
     }
     Public function service_components_characteristics(){
-        $data['heading']="Fiorano ESB License | Demo ";
-        $data['title']="Fiorano ESB License | Demo ";
+        $data['heading']="Fiorano ESB License | Fiorano ";
+        $data['title']="Fiorano ESB License | Fiorano ";
         $this->load->view('common/header',$data);
         $this->load->view('products/service_components_characteristics');
         $this->load->view('common/footer');
     }
     Public function service_component_architecture_benefits(){
-        $data['heading']="Fiorano ESB License | Demo ";
-        $data['title']="Fiorano ESB License | Demo ";
+        $data['heading']="Fiorano ESB License | Fiorano ";
+        $data['title']="Fiorano ESB License | Fiorano ";
         $this->load->view('common/header',$data);
         $this->load->view('products/service_component_architecture_benefits');
         $this->load->view('common/footer');
     }
     Public function standards(){
-        $data['heading']="Fiorano ESB License | Demo ";
-        $data['title']="Fiorano ESB License | Demo ";
+        $data['heading']="Fiorano ESB License | Fiorano ";
+        $data['title']="Fiorano ESB License | Fiorano ";
         $this->load->view('common/header',$data);
         $this->load->view('products/standards');
         $this->load->view('common/footer');
     }
     Public function esb_enterprise_service_bus($page){
-        $data['heading']="Fiorano ESB License | Demo ";
-        $data['title']="Fiorano ESB License | Demo ";
+        $data['heading']="Fiorano ESB License | Fiorano ";
+        $data['title']="Fiorano ESB License | Fiorano ";
         $this->load->view('common/header',$data);
         $this->load->view('products/esb_enterprise_service_bus');
+        $this->load->view('common/footer');
+    }
+
+
+    Public function digital_transformation ($page=null){
+        $data['qmain']='pro';
+        $data['qsub']='dig';
+        $data['meta']='
+        <meta name="viewport" content="width=device-width">
+        <meta name="keywords" content="business architecture, BPM, operational intelligence, Application Architecture, business integration, IT Governance, real-time analytics, real-time big data, Platform-as-a-service, digital Transformation" />
+        <meta name="description" content="The Fiorano Digital Business Platform allows companies to integrate digital and physical elements to successfully transform their business models. Fiorano’s adaptable platform fits into existing enterprise IT landscapes,  enabling the rapid adoption of future technologies in an evolving digital landscape. Fiorano Digital Business Platform translates business innovations into strategic roadmaps so that organizations can integrate business strategies with operational and informational perspectives to provide better customer experiences." />
+        <meta name="classification" content="Business Process Excellence, BPM, SOA, ESB, Web services, XML, Electronic Business, Online Transaction Processing" />';
+        $data['fbdata']='
+        <meta property="og:title" content="Digital Business Platform " />
+        <meta property="og:type" content="article" />
+        <meta property="og:description" content="Our Digital Business Platform helps enterprises achieve digital transformation." />';
+
+
+        $data['heading']="Fiorano Digital Business Platform | Fiorano ";
+        $data['title']="Fiorano Digital Business Platform | Fiorano ";
+        $this->load->view('common/header',$data);
+        $this->load->view('products/digital_transformation');
         $this->load->view('common/footer');
     }
     /*Closed*/

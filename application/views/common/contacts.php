@@ -33,7 +33,7 @@
                     <button type="button" style="" href="#" data-toggle="modal" data-target="#contact_us" class="download-binaries btn-danger btn btn-large downHeadBtn"><i class="fa fa-large fa-user-o"></i> Sales Enquiries</button>
                 </div>
                 <div class="col-sm-12 padding-bottom-20">
-                    <a href="<?php echo __ROOT__?>/devzone/support.php" target="_blank" class="btn-success btn btn-large downHeadBtn"><i class="fa fa-large fa-user"></i> Technical Support</a>
+                    <a href="<?php echo site_url('company/support')?>"  class="btn-success btn btn-large downHeadBtn"><i class="fa fa-large fa-user"></i> Technical Support</a>
                 </div>
 
             </div>

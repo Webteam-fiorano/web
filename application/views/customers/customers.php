@@ -7,7 +7,92 @@
  */
 ?>
 
-<section id="intro" class="intro-sectionCustomer ">
+
+<section id="slider-fixed" class="slider vc_box_shadow header_shadow padding_top_none" style="padding-bottom: 0">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="span12">
+                <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0 auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:500px;">
+                    <!-- START REVOLUTION SLIDER 4.6.3 fullwidth mode -->
+                    <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" style="display:none;max-height:500px;height:500px;">
+                        <ul>
+
+                            <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+                                <img src="<?php echo base_url('assets/images/company/customers/customer-banner.jpg')?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <div class="tp-caption lft" data-x="30" data-y="70" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
+                                    <h1 class="white"> Fiorano Customers </h1>
+                                </div>
+
+                                <div class="tp-caption col-sm-6 lft" data-x="0" data-y="150" data-speed="500" data-start="1200" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
+                                    <p class="white col-sm-6 hidden-xs productHeadDesc" > Global leaders including Federal Bank, Royal Bank of Scotland,<br> Temenos, Boeing, British Telecom, L'Oreal, NASA, POSCO,<br> US Coast Guard and Vodafone have deployed Fiorano to drive <br>innovation through open, standards-based, event-driven real-time<br> solutions yielding unprecedented productivity. </p>
+                                </div>
+
+
+                                <div class="tp-caption col-sm-6 lft" data-x="0" data-y="300" data-speed="500" data-start="1200" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
+                                    <div class="col-xs-6 col-sm-4 nopadding">
+
+                                        <a style="margin-left: 8%;" href="<?php echo site_url('resources/casestudies')?>" class="download-binaries btn-danger btn btn-large downHeadBtn"><i class="fa fa-large fa-user"></i>&nbsp; &nbsp; &nbsp;  Read Case Studies &nbsp; &nbsp;</a>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4">
+                                        <a href="<?php echo site_url('customers/customer_testimonials')?>" target="_blank" class="btn-success btn btn-large downHeadBtn">&nbsp; &nbsp; &nbsp;  View Testimonials&nbsp; &nbsp; &nbsp;  </a>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+                            <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+                                <img src="<?php echo base_url('assets/images/company/customers/Customers-banner-01.jpg')?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <div class="tp-caption lft" data-x="30" data-y="100" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
+                                    <h3 class="white bannerDec">Fiorano ESB, Enterprise Service Bus <br><span style="color:#8baad8; font-size: 32px;"><b>Forms Backbone </b></span>of SOA infrastructure at<br> US COAST GUARD</h3>
+                                </div>
+
+
+                            </li>
+                            <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+                                <img src="<?php echo base_url('assets/images/company/customers/Customers-banner-02.jpg')?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <div class="tp-caption lft" data-x="30" data-y="100" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
+                                    <h3 class="white bannerDec">Delaware North Companies <br><span style="color:#00BCD4; font-size: 32px;"><b>Drive Productivity</b> </span> <br> with Fiorano Infrastructure  </h3>
+                                </div>
+                            </li>
+                            <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+                                <img src="<?php echo base_url('assets/images/company/customers/Customers-banner-03.jpg')?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <div class="tp-caption lft" data-x="30" data-y="100" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
+                                    <h3 class="white bannerDec">
+                                        With Fiorano's seamless deployment Bajaj Finserv <br> is able to <span style="color:#97e2f2;; font-size: 30px;"><b>Consolidate Various Integration</b></span> <br>processes into one single platform <br>across organization
+                                    </h3>
+                                </div>
+                            </li><!--00BCD4 FFC107-->
+                            <!-- SLIDE  -->
+                            <!-- SLIDE  -->
+                        </ul>
+                        <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+                    </div>
+
+
+                    <div class="revsliderstyles">
+                        <style scoped></style>
+                    </div>
+                </div>
+                <!-- END REVOLUTION SLIDER -->
+            </div>
+        </div>
+        <!--        <div class="bottom_shadow"></div>-->
+    </div>
+    <a href="#"> &nbsp;</a>
+    <div class="bs-example pull-right">
+        <ul class="breadcrumb">
+            <li> <a href="<?php echo site_url(''); ?>">Home</a></li>
+            <li class="active">Customers</li>
+        </ul>
+    </div>
+</section>
+
+
+<!--<section id="intro" class="intro-sectionCustomer ">
     <div class="container">
         <div class="col-xs-12 productBanner ">
             <div class="productHead col-sm-8">
@@ -19,10 +104,10 @@
                     <div class=" col-sm-12 padding-top-20 ">
                         <div class="col-xs-6 nopadding">
 
-                            <a  style="margin-left:-10px;" href="<?php echo site_url('resources/casestudies')?>" class="download-binaries btn-danger btn btn-large downHeadBtn"><i class="fa fa-large fa-user"></i>&nbsp; &nbsp; &nbsp;  Read Case Studies &nbsp; &nbsp;</a>
+                            <a  style="margin-left:-10px;" href="<?php /*echo site_url('resources/casestudies')*/?>" class="download-binaries btn-danger btn btn-large downHeadBtn"><i class="fa fa-large fa-user"></i>&nbsp; &nbsp; &nbsp;  Read Case Studies &nbsp; &nbsp;</a>
                         </div>
                         <div class="col-xs-6">
-                            <a href="<?php echo site_url('customers/customer_testimonials')?>" target="_blank" class="btn-success btn btn-large downHeadBtn">&nbsp; &nbsp; &nbsp;  View Testimonials&nbsp; &nbsp; &nbsp;  </a>
+                            <a href="<?php /*echo site_url('customers/customer_testimonials')*/?>" target="_blank" class="btn-success btn btn-large downHeadBtn">&nbsp; &nbsp; &nbsp;  View Testimonials&nbsp; &nbsp; &nbsp;  </a>
                         </div>
 
                     </div>
@@ -33,11 +118,11 @@
     <a href="#"> &nbsp;</a>
     <div class="bs-example pull-right">
         <ul class="breadcrumb">
-            <li> <a href="<?php echo site_url(''); ?>">Home</a></li>
+            <li> <a href="<?php /*echo site_url(''); */?>">Home</a></li>
             <li class="active">Customers</li>
         </ul>
     </div>
-</section>
+</section>-->
 <section class="offer-section offer-section-three section service-page-three-offer" id="resource">
     <div class="container">
         <div class="section-header">

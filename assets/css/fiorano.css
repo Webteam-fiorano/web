@@ -1414,6 +1414,11 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
     background-position: center;
     background-size: cover;
 }
+.section-digital{
+    background-image: url(../images/home/home-banner-digital.jpg);
+    background-position: center;
+    background-size: cover;
+}
 .section-studioTool{
     background-image: url(../images/products/banner-studio-tool.jpg);
     background-position: center;
@@ -1436,6 +1441,22 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){
     padding-top: 20px !important;
     padding-bottom: 20px !important;
 }
+.homeHead1{
+
+    background-color: #2185dd;
+    border-bottom: 1px solid #eaeaea;
+    margin-top: 0;
+
+    padding-bottom:10px !important;
+}
+.headtitleLink{
+   color:#cfefff;
+    text-decoration: none !important;
+}
+.headtitleLink:hover{
+    color: #fff !important;
+}
+.HomeHeadTittle1{color: #fff !important; line-height: 30px; font-size: 21px;text-decoration: none !important;transition: color 0.7s ease;}
 .HomeHeadTittle{color: #444 !important; line-height: 38px; font-size: 25px;text-decoration: none !important;
     transition: color 0.7s ease;}
 .HomeHeadTittle .themeBlue{
@@ -3196,7 +3217,7 @@ tp-rightarrow.default:hover,
     color:#555555;
     border-top:1px solid #ccc;
     border-bottom:1px solid #ccc;
-    width:100%;
+    width:50%;
     text-align:left;
     padding-left:5px;
     padding-right:5px;
@@ -3807,7 +3828,7 @@ table .title {
 .demo-partner{
     position: relative;
     width: 100%;
-    height: 700px;
+    height: 530px;
     overflow: hidden;
     float: left;
 // padding-bottom: 5px;
@@ -3832,6 +3853,9 @@ table .title {
 }
 #proDIv1 li ul{
     background-image: url(../images/products/Product-Integration-image.png);
+}
+#proDIv6 li ul{
+    background-image: url(../images/products/Digital-Business-image.png);
 }
 #proDIv2 li ul {
     background-image: url(../images/products/Product-ESB-image.png);
@@ -5333,6 +5357,12 @@ and (max-device-width: 982px)
     min-height: 145px;
 
 }
+.casestudy-technology{
+    background-image: url("../images/casestudies/Government-and-Defense.jpg");
+    background-size: cover;
+    min-height: 145px;
+
+}
 .casestudy-energy{
     background-image: url("../images/casestudies/energy-banner.jpg");
     background-size: cover;
@@ -5413,14 +5443,45 @@ and (max-device-width: 982px)
     display: block;
 }
 .techFirst{
-    padding-top: 30%
+    padding-top: 30%;
+    //padding-bottom: 30%;
 }
 .techSecond{
-    padding-top: 35%
+    padding-top: 35%;
+    //padding-bottom:35%;
 }
 .tecbtn{
     background: #337ab7;
     color: #fff;
+}
+
+#digblock1{
+    height:380px;
+    background: url("../images/products/Chief-enabler-01.png");
+    background-size: cover;
+   border-radius:7px;
+}
+
+#digblock2{
+    height:380px;
+    background: url("../images/products/Chief-enabler-02.png");
+    background-size: cover;
+    border-radius:7px;
+
+}
+#digblock3{
+    height:380px;
+    background: url("../images/products/Chief-enabler-03.png");
+    background-size: cover;
+    border-radius:7px;
+
+}
+.padding-top-15{
+    padding-top: 15px;
+}
+
+.implebox{
+    display:flex; align-items:center;justify-content:center;vertical-align: middle; height:4em; float: left; margin-top: 5% !important;
 }
 
 

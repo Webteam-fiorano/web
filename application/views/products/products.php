@@ -17,15 +17,15 @@
                                     <h1 class="white"> Fiorano Products </h1>
                                 </div>
 
-                                <div class="tp-caption col-sm-6 lft" data-x="0" data-y="180" data-speed="500" data-start="1200" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
-                                   <p class="white col-sm-6 hidden-xs productHeadDesc" > Fiorano's infrastructure platform solves the most challenging<br> integration problems across SOA, SaaS and APIs, connecting anything <br>to everything.  </p>
+                                <div class="tp-caption col-sm-6 lft" data-x="0" data-y="150" data-speed="500" data-start="1200" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
+                                   <p class="white col-sm-6 hidden-xs productHeadDesc" > Fiorano's infrastructure platform solves the most challenging<br> integration problems across SOA, SaaS and APIs, connecting anything <br>to everything  </p>
                                 </div>
                             </li>
 
                             <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
                                 <img src="<?php echo base_url('assets/images//products/banner-integration.jpg')?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                                 <div class="tp-caption lft" data-x="30" data-y="100" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
-                                    <h3 class="white bannerDec"><span style="color:#8baad8; font-size: 32px;"><b>Overcome</b> </span>integration hurdles <br> and achieve seamless communication<br> among applications. </h3>
+                                    <h3 class="white bannerDec"><span style="color:#8baad8; font-size: 32px;"><b>Overcome</b> </span>integration hurdles <br> and achieve seamless communication<br> among applications </h3>
                                 </div>
 
 
@@ -33,13 +33,13 @@
                             <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
                                 <img src="<?php echo base_url('assets/images/products/banner-ESB.jpg')?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                                 <div class="tp-caption lft" data-x="30" data-y="100" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
-                                    <h2 class="white bannerDec"><span style="color:#00BCD4; font-size: 32px;"><b>Create</b> </span> a secure,  <br> agile hybrid-cloud enterprise backplane </h2>
+                                    <h3 class="white bannerDec"><span style="color:#00BCD4; font-size: 32px;"><b>Create</b> </span> a secure,  <br> agile hybrid-cloud enterprise backplane </h3>
                                 </div>
                             </li>
                             <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
                                 <img src="<?php echo base_url('assets/images/products/banner-api-Management.jpg')?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                                 <div class="tp-caption lft" data-x="30" data-y="100" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
-                                    <h2 class="white bannerDec"><span style="color:#8baad8; font-size: 32px;"><b>Modernize</b></span>, <span style="color:#8baad8; font-size: 32px;"><b>Innovate</b></span>, and <span style="color:#8baad8; font-size: 32px;"><b>Monetize</b> </span> <br> existing data and open up new <br>revenue channels. </h2>
+                                    <h3 class="white bannerDec"><span style="color:#8baad8; font-size: 32px;"><b>Modernize</b></span>, <span style="color:#8baad8; font-size: 32px;"><b>Innovate</b></span>, and <span style="color:#8baad8; font-size: 32px;"><b>Monetize</b> </span> <br> existing data and open up new <br>revenue channels </h3>
                                 </div>
                             </li><!--00BCD4 FFC107-->
                             <!-- SLIDE  -->
@@ -95,6 +95,25 @@
                 <h3></h3>
             </div>
             <ul class="col-xs-12" title="Fiorano Integration">
+
+                <a  class="pro-linkMain" id="proDIv6"  href="<?php echo site_url('products/digital_transformation')?>">
+                    <li class=" col-sm-4 col-xs-12">
+                        <ul class="demo-3 ProdDiv">
+                            <li class="col-xs-12">
+                                <h2 class="zero">Digital Business Platform </h2>
+                            </li>
+                            <li class="col-xs-12">
+                                <p class="prodesc" id="prodesc6" style="display:none;padding-bottom: 10px;text-align: left">Translate innovations into strategic roadmaps to integrate business strategies with operational and informational perspectives
+                                </p>
+                            </li>
+                            <li class="col-xs-12 pull-right proDef" >
+                                <!--  <p class=" text-right" style="top: 101px;font-size: 17px;"><b><i>Business Integration</i></b></p>-->
+                            </li>
+
+                        </ul>
+                    </li>
+                </a>
+
                 <a  class="pro-linkMain" id="proDIv1"  href="<?php echo site_url('products/fiorano_integration')?>">
                     <li class=" col-sm-4 col-xs-12">
                         <ul class="demo-3 ProdDiv">
@@ -133,7 +152,7 @@
                 <a  class="pro-linkMain"  id="proDIv3" href="<?php echo site_url('products/fiorano_api')?>">
                     <li class="hidden-sm hidden-md hidden-lg col-xs-12"> &nbsp;</li>
 
-                    <li class=" col-sm-4 col-xs-12">
+                    <li class=" col-sm-4  padding-top-50 col-xs-12">
                         <ul class="demo-3 ProdDiv " title="Fiorano API Management">
                             <li class="col-xs-12">
                                 <h2 class="zero">Fiorano API Management</h2>
@@ -152,8 +171,8 @@
                 </a>
                 <a  class="pro-linkMain" id="proDIv4" href="<?php echo site_url('products/fiorano_mq')?>">
 
-                    <li class=" col-sm-6 padding-top-50 col-xs-12">
-                        <ul class="demo-3 ProdDiv ldiv" title="Fiorano MQ">
+                    <li class=" col-sm-4 padding-top-50 col-xs-12">
+                        <ul class="demo-3 ProdDiv " title="Fiorano MQ">
                             <li class="col-xs-12">
                                 <h2 class="">FioranoMQ<sup>®</sup></h2>
                             </li>
@@ -173,8 +192,8 @@
                 </a>
                 <a  class="pro-linkMain" id="proDIv5" href="<?php echo site_url('products/open_source_fiorano_esb')?>">
 
-                    <li class=" col-sm-6  padding-top-50 col-xs-12">
-                        <ul class="demo-3 ProdDiv ldiv" title="Fiorano MQ">
+                    <li class=" col-sm-4  padding-top-50 col-xs-12">
+                        <ul class="demo-3 ProdDiv " title="Fiorano MQ">
                             <li class="col-xs-12">
                                 <h2 class="">Fiorano ESB Community Edition<sup>&trade;</sup></h2>
                             </li>
@@ -203,7 +222,7 @@
 <script>
 
 
-    $('#proDIv1,#proDIv2,#proDIv3,#proDIv4,#proDIv5').mouseover(function(){
+    $('#proDIv1,#proDIv2,#proDIv3,#proDIv4,#proDIv5,#proDIv6').mouseover(function(){
         $('.hid').hide();
         var elem = $(this);
         var clickId= elem.attr('id');

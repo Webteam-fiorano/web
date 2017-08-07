@@ -22,7 +22,9 @@
         <div class="section-header">
             <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Fiorano Products </h2>
             <p class="text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Download a 45-day <span class="reqMention"><b>FREE</b></span> Evaluation copy of <b>Fiorano Platform</b> and <b>FioranoMQ</b>. Here you'll find the latest product releases of Fiorano Software and more. Prior releases are available for existing customers requiring additional copies of previously purchased software.
-               <br> Use of all our software is subject to the <a href="<?php echo base_url('assets/pdf/docs/license.pdf');?>" target="_blank"> Fiorano End User License Agreement.</a>  </p>
+               <br> Use of all our software is subject to the <a href="<?php echo base_url('assets/pdf/docs/license.pdf');?>" target="_blank"> Fiorano End User License Agreement.</a>  <br>
+                If you are a US Federal or State Government entity ordering under the GSA contract <a href="<?php echo __ROOT__?>/downloads/Fiorano_GSA_End_User_License_Agreement.pdf" target="_blank"> please click here for the EULA.</a>
+            </p>
         </div>
         <div class="col-xs-12 pad">
             <div class="col-sm-6 ">

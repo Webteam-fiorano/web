@@ -565,8 +565,9 @@
                 </div>
                 <div class="col-sm-6 col-sm-offset-3">
                     <br/>
-                    <script src='https://www.google.com/recaptcha/api.js'></script>
-                    <div class="g-recaptcha" data-sitekey="6LfccCAUAAAAANv84zvX4N5xnT0LUHJw3QGnk5wY"></div>
+                    <div id="recaptcha1"></div>
+                    <!--<script src='https://www.google.com/recaptcha/api.js'></script>
+                    <div class="g-recaptcha" data-sitekey="6LeJWioUAAAAAF7ys3eilKD5HF_RDSXl9UUMInMB"></div>-->
                     <br/>
                 </div>
             </div>

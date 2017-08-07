@@ -690,11 +690,11 @@
 <section class="odd-section" id="freeadaptor"><!--Section 3 Start-->
     <div class="container">
         <div class="section-header">
-            <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"> Base Adapters</h2>
+            <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"> Licensed Adapters</h2>
            <!-- <p class="text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Adapters that fall in this category are </p>-->
         </div>
         <div class="row padding-bottom-50 padding-top-50 padding-top-hidxs">
-            <div class="col-xs-12">
+            <div class="col-xs-12 padding-bottom-50">
                 <!--1 st ROW start-->
                 <div class="col-sm-12">
                     <div class="col-sm-4 col-lg-3 adapterDiv">
@@ -1078,24 +1078,31 @@
                             <p class="pull-right adapterDown"> <a target="_blank" href="http://www.fiorano.com/componentgallery/comp_index.php?p=fiorano_neftconverter" >Download</a></p>
                         </div>
                     </div>
+                    <div class="col-sm-4 col-lg-3 adapterDiv">
+                        <a class="adapterViewHead" data-toggle="collapse" data-target="#MongoDB1">
+                            <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/mongo32.png')?>"/></div>
+                            <div class="col-xs-7"> <h4> MongoDB</h4></div>
+                        </a>
+                        <div class="col-xs-12 padding-top-20 collapse" id="MongoDB1">
+                            <p>MongoDB component can be used to insert, update, delete and select data from Mongo database server. Component supports both JSON and XML data in request and response.</p>
+                            <p class="pull-right adapterDown"> <a target="_blank" href="http://www.fiorano.com/componentgallery/comp_index.php?p=fiorano_mqtt" >Download</a></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 adapterDiv">
+                        <a class="adapterViewHead" data-toggle="collapse" data-target="#HDFSConnector1">
+                            <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/HDFCconnector_icon.jpg')?>"/></div>
+                            <div class="col-xs-7"> <h4>HDFSConnector</h4></div>
+                        </a>
+                        <div class="col-xs-12 padding-top-20 collapse" id="HDFSConnector1">
+                            <p>Writes/Reads data to/from HDFS.</p>
+                            <p class="pull-right adapterDown"> <a target="_blank" href="http://www.fiorano.com/componentgallery/comp_index.php?p=fiorano_hdfsconnector" >Download</a></p>
+                        </div>
+                    </div>
 
                 </div>
                 <!--8th Row Close-->
 
-            </div>
-        </div>
-    </div>
-</section><!--Section 3 close -->
 
-
-<section class="even-section" id=""><!--Section 4 Start-->
-    <div class="container">
-        <div class="section-header">
-            <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Professional Adapters</h2>
-            <!--<p class="text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Adapters that fall in this category are </p>-->
-        </div>
-        <div class="row padding-bottom-50 padding-top-50 padding-top-hidxs">
-            <div class="col-xs-12">
 
                 <!--1 st ROW start-->
                 <div class="col-sm-12">
@@ -1661,29 +1668,54 @@
                         </div>
                     </div>
                     <div class="col-sm-4 col-lg-3 adapterDiv">
-                        <a class="adapterViewHead" data-toggle="collapse" data-target="#MongoDB1">
-                            <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/mongo32.png')?>"/></div>
-                            <div class="col-xs-7"> <h4> MongoDB</h4></div>
+                        <a class="adapterViewHead" data-toggle="collapse" data-target="#textsplitter32">
+                            <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/textsplitter32.png')?>"/></div>
+                            <div class="col-xs-7"> <h4>  Text Splitter</h4></div>
                         </a>
-                        <div class="col-xs-12 padding-top-20 collapse" id="MongoDB1">
-                            <p>MongoDB component can be used to insert, update, delete and select data from Mongo database server. Component supports both JSON and XML data in request and response.</p>
-                            <p class="pull-right adapterDown"> <a target="_blank" href="http://www.fiorano.com/componentgallery/comp_index.php?p=fiorano_mqtt" >Download</a></p>
+                        <div class="col-xs-12 padding-top-20 collapse" id="textsplitter32">
+                            <p>TextSplitter groups the messages with same sortkeys and outputs the
+                                messages.</p>
+                            <p class="pull-right adapterDown"> <a target="_blank" href="http://www.fiorano.com/componentgallery/comp_index.php?p=fiorano_textsplitter" >Download</a></p>
                         </div>
                     </div>
                     <div class="col-sm-4 col-lg-3 adapterDiv">
-                        <a class="adapterViewHead" data-toggle="collapse" data-target="#HDFSConnector1">
-                            <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/HDFCconnector_icon.jpg')?>"/></div>
-                            <div class="col-xs-7"> <h4>HDFSConnector</h4></div>
+                        <a class="adapterViewHead" data-toggle="collapse" data-target="#lambdaconnector32">
+                            <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/lambdaconnector32.png')?>"/></div>
+                            <div class="col-xs-7"> <h4>  Lambda Connector</h4></div>
                         </a>
-                        <div class="col-xs-12 padding-top-20 collapse" id="HDFSConnector1">
-                            <p>Writes/Reads data to/from HDFS.</p>
-                            <p class="pull-right adapterDown"> <a target="_blank" href="http://www.fiorano.com/componentgallery/comp_index.php?p=fiorano_hdfsconnector" >Download</a></p>
+                        <div class="col-xs-12 padding-top-20 collapse" id="lambdaconnector32">
+                            <p>Invokes the Amazon Lamda function and sends the function's output to the outputport. </p>
+                            <p class="pull-right adapterDown"> <a target="_blank" href="http://www.fiorano.com/componentgallery/comp_index.php?p=fiorano_lambdaconnector" >Download</a></p>
                         </div>
                     </div>
                 </div>
                 <!--13 th Row Close-->
+<!--14 th row-->
+                <div class="col-sm-12">
+                    <div class="col-sm-4 col-lg-3 adapterDiv">
+                        <a class="adapterViewHead" data-toggle="collapse" data-target="#mqseriesreplier32">
+                            <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/mqseriesreplier32.png')?>"/></div>
+                            <div class="col-xs-7"> <h4> &nbsp;MQSeriesReplier</h4></div>
+                        </a>
+                        <div class="col-xs-12 padding-top-20 collapse" id="mqseriesreplier32">
+                            <p>Receives message from MQSeries Server and sends reply back to server.</p>
+                            <p class="pull-right adapterDown"> <a target="_blank" href="http://www.fiorano.com/componentgallery/comp_index.php?p=fiorano_mqseriesreplier" >Download</a></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 adapterDiv">
+                        <a class="adapterViewHead" data-toggle="collapse" data-target="#mqseriesrequestor32">
+                            <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/mqseriesrequestor32.png')?>"/></div>
+                            <div class="col-xs-7"> <h4>  MQSeriesRequestor</h4></div>
+                        </a>
+                        <div class="col-xs-12 padding-top-20 collapse" id="mqseriesrequestor32">
+                            <p>
+                                Sends message to MQSeries Server and accepts response from the server and above, formerly known as IBM MQSeries.</p>
+                            <p class="pull-right adapterDown"> <a target="_blank" href="http://www.fiorano.com/componentgallery/comp_index.php?p=fiorano_mqseriesrequestor" >Download</a></p>
+                        </div>
+                    </div>
 
-
+                </div>
+                <!--14 th row-->
             </div>
         </div>
     </div>

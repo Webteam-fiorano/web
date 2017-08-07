@@ -28,24 +28,36 @@
         <div class="row">
             <div class="section-header">
                 <h1 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Responsiveness, Efficiency, Accountability and Security</h1>
-                <p class="text-center wow fadeInDown animated">Tracking and distributing information in a seamless integrated
-                    environment, across disparate systems and boundaries is a mandate for
-                    all Public Sector and Government Agencies today. In addition, there is
-                    increasing pressure from constituents for secure, fast and immediate
-                    delivery of services via the web.</p>
+                <p class="text-center wow fadeInDown animated padding-top-20">Tracking and distributing information in a seamless integrated environment, across disparate systems and boundaries is a mandate for all Public Sector and Government Agencies today. In addition, there is increasing pressure from constituents for secure, fast and immediate delivery of services via the web.
+                <br><br>
+                    Fiorano’s technology has been at the forefront for over two decades providing solutions in high speed messaging and application integration for Federal, State and Local Government Agencies and holds convenient contracting vehicles such as the GSA Contract with the US Federal Govt and the certifications such as ITK for the UK National Health Services.
+                </p>
             </div>
+<div class="col-xs-12 padding-top-20 padding-bottom-20 text-center align-center">
+    <div class="col-sm-4 text-center aligncenter align-center " >
+        <img class="img-responsive col-sm-offset-2" src="<?php echo base_url('assets/images/solutions')?>/solutions_gsa_contract.jpg" title="GSA Contract Holder" alt="GSA Contract Holder" border="0">
+    </div>
 
-            <div class="col-xs-12">
+    <div class="col-sm-4">
+        <img class="img-responsive col-sm-offset-5" src="<?php echo __ROOT__ ?>/images/eGIF-logo.jpg" title="eGIF" alt="eGIF" border="0">
+    </div>
+    <div class="col-sm-4">
+        <img class="img-responsive  col-sm-offset-3" width="140" src="<?php echo base_url('assets/images/solutions/ITK.jpg')?>" title="Fiorano ITK" alt="Fiorano ITK" border="0"/>
+
+    </div>
+
+</div>           <!-- <div class="col-xs-12">
                 <div class="col-xs-12">
                     <div class="col-sm-4 ">
                         <div class="col-xs-12 demo-4">
                         <div class="demo-4-img">
-                            <img src="<?php echo base_url('assets/images/solutions')?>/awards_federalcomputer.jpg" alt="Federal100" title="Federal 100 Awards" border="0" />
+                            <img src="<?php /*echo base_url('assets/images/solutions')*/?>/awards_federalcomputer.jpg" alt="Federal100" title="Federal 100 Awards" border="0" />
                         </div>
                         <div style="padding:10px;" class="f11 ">Department of Homeland Security, USCG implementation of SOA Architecture, SPEAR, built on Fiorano SOA as the core platform wins the Federal 100 Award
-                            <div style="text-align:right"><a href="<?=__ROOT__?>/news/pressreleases/uscg_april11_2011" class="f11">Learn more &raquo;</a></div>
+                            <div style="text-align:right"><a href="<?/*=__ROOT__*/?>/news/pressreleases/uscg_april11_2011" class="f11">Learn more &raquo;</a></div>
                         </div>
-                        <div class="demo-4-img"><a href="<?=__ROOT__?>/partners/system-integrator-GSA.php"><img src="<?php echo base_url('assets/images/solutions')?>/solutions_gsa_contract.jpg" width="180" title="GSA Contract Holder" alt="GSA Contract Holder" border="0"></a><br /><br /><img src="<?php echo base_url('assets/images/solutions')?>/spacer.gif" width="250px" height="1px"  /></div>
+                        <div class="demo-4-img"><a href="<?/*=__ROOT__*/?>/partners/system-integrator-GSA.php"><img src="<?php /*echo base_url('assets/images/solutions')*/?>/solutions_gsa_contract.jpg" width="180" title="GSA Contract Holder" alt="GSA Contract Holder" border="0"></a><br /><br /><img src="<?php /*echo base_url('assets/images/solutions')*/?>/spacer.gif" width="250px" height="1px"  /></div>
+                        <div> <p><a href="<?/*=__ROOT__*/?>/downloads/Fiorano_GSA_End_User_License_Agreement.pdf"  target="_blank"> Fiorano GSA End User License Agreement </a> </p></div>
                         </div>
                     </div>
                     <div class="col-sm-4 ">
@@ -65,34 +77,132 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-xs-12 text-center">
+            </div>-->
+        <!--    <div class="col-xs-12 text-center">
                 <p>
                     With a complex incumbent infrastructure consisting of
                     heterogeneous platforms, hardware and applications coupled with rapidly
                     changing legislative mandates, agencies face myriad challenges, not the
                     least of which is progressively shrinking budgets. Government agencies
                     are looking for ways to <a
-                        href="<?=__ROOT__?>/products/streamlining-integration-strategy.php">streamline</a>
+                        href="<?/*=__ROOT__*/?>/products/streamlining-integration-strategy.php">streamline</a>
                     their operational processes and reduce data redundancy.</p>
 
                 <p>Fiorano understands these unique challenges of Government /
                     Defense agencies.</p>
                 <p>Fiorano's enterprise-wide integration middleware platform, the <a
-                        href="<?=__ROOT__?>/products/SOA-service-oriented-architecture/SOA-Platform.php">Fiorano
+                        href="<?/*=__ROOT__*/?>/products/SOA-service-oriented-architecture/SOA-Platform.php">Fiorano
                         SOA Platform</a> is built on a peer-to-peer <a
-                        href="<?=__ROOT__?>/products/ESB-enterprise-service-bus/ESB-enterprise-service-bus-architecture.php">Enterprise
+                        href="<?/*=__ROOT__*/?>/products/ESB-enterprise-service-bus/ESB-enterprise-service-bus-architecture.php">Enterprise
                         Service Bus (ESB) architecture</a>. Fiorano's highly distributed, yet
                     centrally managed architecture allows government businesses to draw on
                     existing business logic residing anywhere across the enterprise to
                     rapidly assemble solutions, allowing instant responsiveness to changing
                     business conditions.</p>
 
-            </div>
+            </div>-->
 
         </div>
     </div>
 </section>
+
+
+<section  class="">
+    <div class="container padding-bottom-20">
+
+        <div class="row padding-bottom-20">
+            <div class="features">
+                <div class="col-xs-12 nopadding">
+                    <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="0ms" style="visibility: visible; animation-duration: 300ms; animation-delay: 0ms; animation-name: fadeInUp;">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-sign-in"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">CONNECT WITH CITIZENS faster improving delivery of services</h4>
+                                <p>With Fiorano Agencies can  integrate heterogeneous IT systems infrastructure across agencies therefore managing resources/assets more efficiently to Increase productivity and streamline operations. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 300ms; animation-delay: 300ms; animation-name: fadeInUp;">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-cubes"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">RESPOND TO rapidly changing legislative mandates</h4>
+                                <p>Make changes to flows becomes easy with the Fiorano Enterprise Service Bus. Compress your compliance projects to weeks instead of months.  </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="200ms" style="visibility: visible; animation-duration: 300ms; animation-delay: 200ms; animation-name: fadeInUp;">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-object-group"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Convenient Federal, State and Local  Contracting Vehicles </h4>
+                                <p>Fiorano holds a US Federal and State GSA contract and ITK certification in UK gives you peace of mind of ease of doing business.   </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 nopadding">
+                    <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="100ms" style="visibility: visible; animation-duration: 300ms; animation-delay: 100ms; animation-name: fadeInUp;">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-tv"></i>
+                            </div>
+                            <div class="media-body">
+
+                                <h4 class="media-heading"> Flexible investment within budget </h4>
+                                <p>Fiorano’s peer to peer technology allows staged implementation so Agencies can progresss their projects according to budget allocations. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 wow fadeInUp animated" data-wow-duration="300ms" data-wow-delay="400ms" style="visibility: visible; animation-duration: 300ms; animation-delay: 400ms; animation-name: fadeInUp;">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-bar-chart"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">System Integrator Teaming opportunities</h4>
+                                <p>In this environment, choosing the right technology partner for any Government project has become a critical requirement for every Government System Integrator.</p>
+                                <p class="pull-right"><a href="<?php echo __ROOT__?>/partners/system-integrator-GSA.php">More</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+<div class="col-xs-12 padding-top-20 padding-bottom-20" style="border: #5c9ccc 2px solid; border-radius: 4px; ">
+    <div class="col-sm-3">
+<img src="<?php echo base_url('assets/images/solutions/country_of_tulare.jpg')?>" width="160" class="img-responsive"/>
+    </div>
+    <div class="col-sm-9 padding-top-20"><b>"</b>
+        Fiorano was selected for its ease of use, inherent design advantages and affordability. With the Fiorano SOA Platform, the County will establish a solid foundation for an incremental move to a Service-Oriented-Architecture, based on standards and maximize utilization of its existing IT infrastructure investment
+        <b>"</b>
+        <div class="pull-right"><b>
+            <br>
+
+            Eric Prosser   <br>Head EAI Team
+            <br>
+            County of Tulare
+            </b>
+        </div>
+    </div>
+
+</div>
+    </div>
+    </div>
+</section>
+
+
 <section class="even-section">
     <div class="container">
         <div class="row padding-bottom-50">

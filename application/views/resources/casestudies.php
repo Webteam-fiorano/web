@@ -45,7 +45,7 @@
                     </a>
                 </tr>
                 <tr class="casednew">
-                    <td class="customer" id="canadia-bank">Cambodia Post Bank<input type="hidden" value="/customers/casestudies/CPB.php"> </td>
+                    <td class="customer" id="canadia-bank">Cambodia Post Bank<input type="hidden" value="casestudies/cambodia_post_bank"> </td>
                     <td class="region">APAC</td>
                     <td class="industry">Finance</td>
                     <td class="product">Fiorano ESB</td>
@@ -129,7 +129,7 @@
                 </tr>
 
                 <tr class="cased">
-                    <td class="customer" id="bajaj-finserv">Bajaj Finserv  <input type="hidden" value="/customers/casestudies/bajaj-finserv.php"></td>
+                    <td class="customer" id="bajaj-finserv">Bajaj Finserv  <input type="hidden" value="casestudies/bajaj_finserv"></td>
                     <td class="region">APAC</td>
                     <td class="industry">Finance</td>
                     <td class="product">Fiorano ESB</td>
@@ -186,14 +186,14 @@
                     <td class="product">Fiorano ESB</td>
                 </tr>
                 <tr class="cased">
-                    <td class="customer" id="commercial-bank-of-africa">Commercial Bank of Africa <input type="hidden" value="/customers/casestudies/commercial-bank-of-africa.php"> </td>
+                    <td class="customer" id="commercial-bank-of-africa">Commercial Bank of Africa <input type="hidden" value="casestudies/commercial_bank_africa"> </td>
                     <td class="region">MEA</td>
                     <td class="industry">Finance</td>
                     <td class="product">Fiorano ESB</td>
                 </tr>
 
                 <tr class="cased">
-                    <td class="customer" id="credit-agricole">Credit Agricole Titres <input type="hidden" value="/customers/casestudies/credit-agricole.php"> </td>
+                    <td class="customer" id="credit-agricole">Credit Agricole Titres <input type="hidden" value="casestudies/credit_agricole"> </td>
                     <td class="region">EU</td>
                     <td class="industry">Finance</td>
                     <td class="product">FioranoMQ</td>
@@ -262,7 +262,7 @@
                 </tr>
 
                 <tr class="cased">
-                    <td class="customer" id="beijing-bureau">Beijing Shubei Software Technology <input type="hidden" value="/customers/casestudies/beijing-bureau.php"> </td>
+                    <td class="customer" id="beijing-bureau">Beijing Shubei Software Technology <input type="hidden" value="casestudies/beijing_bureau"> </td>
                     <td class="region">APAC</td>
                     <td class="industry">Government & Defense</td>
                     <td class="product">Fiorano ESB</td>
@@ -274,7 +274,7 @@
                     <td class="product">Fiorano ESB</td>
                 </tr>
                 <tr class="cased">
-                    <td class="customer" id="jnet-justice-network">Commonwealth of Pennsylvania <input type="hidden" value="/customers/casestudies/jnet-justice-network.php"> </td>
+                    <td class="customer" id="jnet-justice-network">Commonwealth of Pennsylvania <input type="hidden" value="/casestudies/jnet_justice_network"> </td>
                     <td class="region">North America</td>
                     <td class="industry">Government & Defense</td>
                     <td class="product">FioranoMQ</td>
@@ -293,7 +293,7 @@
                     <td class="product">Fiorano ESB</td>
                 </tr>
                 <tr class="cased">
-                    <td class="customer" id="tulare-county">County of Tulare <input type="hidden" value="/customers/casestudies/tulare-county.php"> </td>
+                    <td class="customer" id="tulare-county">County of Tulare <input type="hidden" value="casestudies/county_tulare"> </td>
                     <td class="region">North America</td>
                     <td class="industry">Government & Defense</td>
                     <td class="product">Fiorano ESB</td>
@@ -360,7 +360,7 @@
                     <td class="product">Fiorano ESB</td>
                 </tr>
                 <tr class="cased">
-                    <td class="customer" id="cj">Commission Junction <input type="hidden" value="/customers/casestudies/commission-junction.php"> </td>
+                    <td class="customer" id="cj">Commission Junction <input type="hidden" value="/casestudies/commission_junction"> </td>
                     <td class="region">North America</td>
                     <td class="industry">Services</td>
                     <td class="product">FioranoMQ</td>
@@ -373,7 +373,7 @@
                 </tr>
 
                 <tr class="cased">
-                    <td class="customer" id="cf">Connect First <input type="hidden" value="/customers/casestudies/connect-first.php"> </td>
+                    <td class="customer" id="cf">Connect First <input type="hidden" value="/casestudies/connect_first"> </td>
                     <td class="region">North America</td>
                     <td class="industry">Technology</td>
                     <td class="product">FioranoMQ</td>
@@ -463,14 +463,14 @@
         $("#tableSort").on("click", ".cased", function (e) {
             var val = $(this).find('input').val();
             //alert(val);return false;
-            window.location.replace("http://fiorano.com"+val,'_blank');
+            window.open("http://fiorano.com"+val,'_blank');
 
 
         });
         $("#tableSort").on("click", ".casednew", function (e) {
             var val = $(this).find('input').val();
             //alert(val);return false;
-            window.location.replace("http://fiorano.com/new/index.php/"+val,'_blank');
+            window.open("http://lh-fio-new/index.php/"+val,'_blank');
 
 
         });
