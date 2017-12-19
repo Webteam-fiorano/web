@@ -13,7 +13,12 @@
 
             <div class="productHead col-sm-8">
                 <h1 class="productHeadTitle">Payment Services Directive - PSD2</h1>
-                <p class="productHeadDesc hidden-xs" >
+                <div class="col-xs-8 col-xs-offset-3 padding-top-50">
+                    <a target="_blank" title="Click here to know more" href="<?php echo site_url('resources/whitepaper_psd2')?>" class="download-binaries btn-success btn btn-large downHeadBtn">
+                 <i class="fa fa-large fa-download"></i> &nbsp;  &nbsp;Download Whitepaper</a><br><br>
+                </div>
+                <p class="productHeadDesc " >
+
 
                 </p>
             </div>

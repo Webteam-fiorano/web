@@ -11,7 +11,14 @@
 <html lang="en">
 
 <head>
-
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-358285-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-358285-1');
+    </script>
     <meta charset="UTF-8"/>
     <?php if(!empty($fbdata)){
         echo $fbdata;
@@ -22,14 +29,18 @@
     <meta property="og:description"   content=<?php /*if(!empty($title)){ echo $title;} */?> " />
     <meta property="og:image" content="http://objdevelopment.com/notice/wp-content/uploads/65a4465e9258729f8085c4d780700dad.jpg" />-->
     <?php }?>
-    <link rel="canonical" href="http://www.fiorano.com/new/" />
+    
     <title><?php if(!empty($title)){ echo $title;} ?></title>
+
+
 
     <?php if(!empty($meta)){
         echo $meta;
     }else{?>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <meta name="keywords" content="esb, rest, industry standards, event enabled, peer to peer, web services"/><meta name="description" content="Reduce complexity and increases flexibility by enabling linear,  build-as-you-grow scalability with no performance bottlenecks and 24x7 forever availability. Integrate applications and processes as standards-based,  event-enabled services over a distributed,  centrally managed infrastructure built entirely on industry standards including XML,  Web Services and REST"/> <link rel='stylesheet' id='rs-plugin-settings-css'
+        <meta name="keywords" content="esb, rest, industry standards, event enabled, peer to peer, web services, PSD2, MQTT, MQ, Java Message Service, JMS, Message-Driven SOA, SOA Platform,  SAP Solutions, JMS Server,  ESB , FioranoMQ, Enterprise Service Bus, Java Messaging  Service,  Service Oriented Architecture, Messaging Queue, Enterprise messaging, SAP integration, JMS performance" />
+        <meta name="description" content="Fiorano is a leading provider of JMS,  including Service-Oriented Architecture (SOA), Enterprise Messaging, Java Messaging Service,  JMS Server, SAP integration ,  Messaging Queue, SAP Solutions, Enterprise Service Bus, ESB, PSD2 enterprise middleware and peer-to-peer distributed systems"/>
+    
 
     <?php }?>
 
@@ -37,7 +48,7 @@
     <link href="<?php echo base_url('assets/css/font-awesome/css/font-awesome.css'); ?>" rel="stylesheet" type="text/css" />
     <link href="<?php echo base_url('assets/css/font-awesome/css/font-awesome.min.css'); ?>" rel="stylesheet" type="text/css" />
    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">-->
-    <script src="<?php echo base_url('assets/js/jquery.min.js');?>"> </script>
+    <script src="<?php echo base_url('assets/js/jquery-3.2.1.min.js');?>"> </script>
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url('assets/css/bootstrap/bootstrap.css'); ?>" rel="stylesheet" type="text/css" />
     <link href="<?php echo base_url('assets/css/bootstrap/bootstrap.min.css'); ?>" rel="stylesheet" type="text/css" />
@@ -62,11 +73,44 @@
     <![endif]-->
 
 
+
+
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '728682737333595',
+      xfbml      : true,
+      version    : 'v2.10'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+<!-- 
+    <script type="text/javascript" > var user_id_level   = 'MjY0OA=='; </script>
+    <script type="text/javascript" > var new_id          = 'LKM0p'; </script>
+    <script type="text/javascript" src="https://www.leadzgen.com/assets/js/fingerprint.js"></script>
+    <script type="text/javascript" src="https://www.leadzgen.com/assets/js/leadscall/lead_finger.js"></script>
+    <script type="text/javascript" src="https://www.leadzgen.com/assets/js/leadscall/lead_init.js"></script>
+    <script type="text/javascript" src="https://www.leadzgen.com/assets/js/leadscall/lead_call.js"></script>
+    <script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+    <script type="text/javascript" src="https://www.leadzgen.com/assets/js/leadscall/lead_custom.js"></script>-->
+
 </head>
 
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+
 <!-- Navigation (navbar-fixed-top)-->
 <nav class="navbar navbar-default" role="navigation">
 
@@ -81,16 +125,23 @@
                     </div>
                     <ul id="lang-drop" class="flags">
                         <li style="padding:10px" class="vc_box_shadow"><a href="<?php echo __ROOT__?>/jp/"><img src="/images/flags/japan.gif" /> Japan</a></li>
-                        <li style="padding:10px" class="vc_box_shadow"><a href="<?php echo __ROOT__?>/de/"><img src="/images/flags/germany.gif" /> Germany</a></li>
+                       <!--  <li style="padding:10px" class="vc_box_shadow"><a href="<?php echo __ROOT__?>/de/"><img src="/images/flags/germany.gif" /> Germany</a></li> -->
                     </ul>
                 </div>
             </div>
             <div class="textwidget1 pull-right">
                 <div class="textwidget">
+<?php if ($this->session->userdata('logged_in')){?>
+    <a id="lang-sel" class="lang-sel" href="<?php echo site_url('accounts/signOut')?>">
+        logout
+    </a>
 
-                    <a id="lang-sel" class="lang-sel" href="<?php echo __ROOT__?>/Accounts/Login/">
-                        Login
-                    </a>
+                    <?php }else{ ?>
+    <a id="lang-sel" class="lang-sel" href="<?php echo site_url('accounts/login')?>">
+        Login
+    </a>
+
+               <?php } ?>
                 </div>
             </div>
             <div class="textwidget1 pull-right">
@@ -157,40 +208,26 @@
 
                     <div class="hasSubMenu productsMenu padding-bottom-50">
                         <ul class="sub-menu">
+                            <li class="menu-item col-sm-6 nopadding">
+
+                                <h4>Business Integration</h4>
+                                <ul class="">
+                                    <li class="menu-submenu"><a href="<?php echo site_url('products/fiorano_integration');?>">Fiorano Integration</a></li>
+                                   <!-- <li class="menu-submenu"><a href="<?php /*echo site_url('products/fiorano_esb');*/?>">Fiorano ESB</a></li>-->
+
+                                    <li class="menu-submenu"><a href="<?php echo site_url('products/fiorano_api');?>">Fiorano API Management</a></li>
+                                </ul>
+                            </li>
 
                             <li class="menu-item col-sm-6 nopadding">
                                 <h4><a  class="" style="padding-left: 0px !important; color: #00599C;" href="<?php echo site_url('products/digital_transformation');?>">Digital Business Platform</a></h4>
-                                <h4>Business Integration</h4>
-                                <ul class="">
-
-                                    <li class="menu-submenu"><a href="<?php echo site_url('products/fiorano_integration');?>">Fiorano Integration</a></li>
-                                    <li class="menu-submenu"><a href="<?php echo site_url('products/fiorano_esb');?>">Fiorano ESB</a></li>
-                                    <!--<li class="menu-submenu"><a href="">Fiorano Cloud</a></li>-->
-                                   <!-- <li class="menu-submenu"><a href="<?php /*echo site_url('products/fiorano_b2b');*/?>">Fiorano B2B</a></li>-->
-                                   <!-- <li class="menu-submenu"><a href="">Fiorano Adapters</a></li>-->
-                                    <li class="menu-submenu"><a href="<?php echo site_url('products/fiorano_api');?>">Fiorano API Management</a></li>
-                                <!--    <li class="menu-submenu"><a href="">Fiorano Mobile Integration</a></li>-->
-
-
-                                </ul>
-
-                            </li>
-                            <li class="menu-item col-sm-6 nopadding">
                                 <h4>Enterprise Messaging</h4>
                                 <ul class="">
                                     <li class="menu-submenu"><a href="<?php echo site_url('products/fiorano_mq');?>">FioranoMQ</a></li>
                                     <!--                                    <li class="menu-submenu"><a href="">Fiorano MQTT</a></li>-->
 
                                 </ul>
-                                <!--<h4>Composite Applications</h4>
-                                <ul class="">
-                                    <li id="" class="menu-submenu"><a href="/products/SOA-service-oriented-architecture/SOA-choreography-fiorano-studio.php">Fiorano Studio Tool</a></li>
-                                </ul>-->
 
-                                <h4>Opensource</h4>
-                                <ul class="">
-                                    <li id="" class="menu-submenu"><a href="<?php echo site_url('products/open_source_fiorano_esb');?>">Fiorano ESB Community Edition</a></li>
-                                </ul>
                             </li>
 
                         </ul>
@@ -248,9 +285,9 @@
                 </li>
                 <li class="dropdown">
                     <a class="page-scroll dropbtn" href="<?php echo site_url('customers')?>">CUSTOMERS</a>
-                    <div class="hasSubMenu customersMenu col-sm-12 padding-bottom-50">
+                    <div class="hasSubMenuCenter customersMenu col-sm-12 padding-bottom-50">
                         <ul class="sub-menu">
-                            <li class="menu-item col-sm-6 nopadding">
+                            <li class="menu-item col-sm-12 nopadding">
                                 <h4>Customers</h4>
                                 <ul class="">
                                     <!--<li class="menu-submenu"><a href="<?php /*echo site_url('customers/customer_by_company')*/?>">Customers - By Company</a></li>-->
@@ -261,16 +298,16 @@
                                 </ul>
 
                             </li>
-                            <li class="menu-item col-sm-6 nopadding">
+                            <!--<li class="menu-item col-sm-6 nopadding">
                                 <h4>Featured Case Studies</h4>
                                 <ul class="">
-                                    <li class="menu-submenu"><a href="<?php echo __ROOT__?>/customers/casestudies/exelis.php">Harris Exelis</a></li>
-                                    <li class="menu-submenu"><a href="<?php echo __ROOT__?>/customers/casestudies/polaris-transport.php">Polaris Transport</a></li>
-                                    <li class="menu-submenu"><a href="<?php echo __ROOT__?>/customers/casestudies/loreal.php">L'Or&#xE9;al</a></li>
-                                    <li class="menu-submenu"><a href="<?php echo __ROOT__?>/customers/casestudies/fujinami.php">Fujinami Towel Service</a></li>
+                                    <li class="menu-submenu"><a href="<?php /*echo __ROOT__*/?>/customers/casestudies/exelis.php">Harris Exelis</a></li>
+                                    <li class="menu-submenu"><a href="<?php /*echo __ROOT__*/?>/customers/casestudies/polaris-transport.php">Polaris Transport</a></li>
+                                    <li class="menu-submenu"><a href="<?php /*echo __ROOT__*/?>/customers/casestudies/loreal.php">L'Or&#xE9;al</a></li>
+                                    <li class="menu-submenu"><a href="<?php /*echo __ROOT__*/?>/customers/casestudies/fujinami.php">Fujinami Towel Service</a></li>
                                 </ul>
 
-                            </li>
+                            </li>-->
 
                         </ul>
                     </div>
@@ -325,7 +362,10 @@
                                     <li class="menu-submenu"><a href="<?php echo site_url('resources/twominute_explainers'); ?>">2-Min Explainers</a></li>
 
                                 </ul>
-
+                                <h4>Opensource</h4>
+                                <ul class="">
+                                    <li id="" class="menu-submenu"><a href="<?php echo site_url('products/open_source_fiorano_esb');?>">Fiorano ESB Community Edition</a></li>
+                                </ul>
                             </li>
                             <li class="menu-item col-sm-6 nopadding">
 
@@ -353,11 +393,13 @@
 
             </div>
             <div class="searchBoxHeader">
-                <?php echo form_open('','')?>
-                <div class="nopadding">  <input type='text' class='searchbox' id="query" placeholder="Search.."/></div>
+                <?php $attri = array("id"=>"fiorano-cludo"); echo form_open('',$attri)?>
+                <div class="nopadding">  <input  type="search" class='searchbox' id="query" autocomplete="off" placeholder="Search.."/></div>
                 <div class="nopadding"> <a class="searchclose" id="searchclose"><i class="fa fa-times-circle-o"></i></a></div>
                 <?php echo form_close()?>
             </div>
+
+
             <div class="col-xs-12 hidden-sm hidden-lg hidden-md">
                 <div class="col-xs-6 hidden-sm">
                     <div class="textwidget">
@@ -399,12 +441,12 @@
             if (e.which === 13) {
 
                var query= $('#query').val();
-               var urlgo="http://www.fiorano.com/search.php?query="+query;
+              // var urlgo="http://www.fiorano.com/search.php?query="+query;
+                var urlgo="<?php echo  site_url('company/search#?cludoquery=') ?>"+query+"&cludopage=1";
                 //location.href = urlgo;
                window.open(urlgo)
                 return true;
             }
         });
     });
-
     </script>

@@ -565,7 +565,7 @@
                 </div>
                 <div class="col-sm-6 col-sm-offset-3">
                     <br/>
-                    <div id="recaptcha1"></div>
+                 <!--   <div id="recaptcha1"></div>-->
                     <!--<script src='https://www.google.com/recaptcha/api.js'></script>
                     <div class="g-recaptcha" data-sitekey="6LeJWioUAAAAAF7ys3eilKD5HF_RDSXl9UUMInMB"></div>-->
                     <br/>
@@ -580,7 +580,7 @@
 
     </div>
 </div>
-
+<div id="wait" style="display:none;width:69px;height:89px;border:1px solid black;position:absolute;top:50%;left:50%;padding:2px;"><img src='demo_wait.gif' width="64" height="64" /><br>Loading..</div>
 
 
 <script>
@@ -602,18 +602,19 @@
     $('#esbbtn').submit(function(e){
         e.preventDefault();
         var recaptcha = $("#g-recaptcha-response").val();
-        if (recaptcha === "") {
+       /* if (recaptcha === "") {
             e.preventDefault();
             alert("Please check the recaptcha");
             return false;
-        }
+        }*/
         var formData = new FormData($('#esbbtn')[0]);
         $.ajax({
             url: "http://www.fiorano.com/products/open-source-esb/fiorano-esb/index.php",
             type: 'POST',
             data: formData,
             async: false,
-            success: function (data) { console.log(data);
+            success: function (data) {
+                $('#myModal').modal('toggle');
                 var suc= data;
                 if ($("#esbbtn").is('[binaries=1]')) {
                     location.href = "<?php echo __ROOT__ ?>/downloads/fiorano-platform/community-edition/"

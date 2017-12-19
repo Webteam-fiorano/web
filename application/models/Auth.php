@@ -9,6 +9,24 @@
 Class Auth extends CI_Model
 {
 
+
+    /**/
+    function showdet(){
+        $this->db->select('auth_lookup.*,user_details.*');
+        $this->db->from('auth_lookup');
+        $this->db->join('user_details', 'user_details.id = auth_lookup.id');
+        $this->db->where('auth_lookup.blocked', 0);
+        $this->db->where('auth_lookup.email', 'harshit.shrivastava@fiorano.com');
+
+        $query = $this->db->get();
+        if ($query->num_rows() != 0) {
+        print_r($query->result());
+        // return $query->result();
+        } else {
+            return false;
+        }
+    }
+
     /* Function to login a user */
     function login($username, $password)
     {
@@ -41,8 +59,15 @@ Class Auth extends CI_Model
     }
     function insertData($data=null, $table=null){/*Insertion from the accou8nts*/
         $query = $this->db->insert($table,$data);
-        return $bid=$this->db->insert_id();
+        $bid = $this->db->insert_id();
+        return $bid;
         }
+    function insertuserData($data=null, $table=null, $uid=null){/*Insertion from the accou8nts*/
+        $query = $this->db->insert($table,$data);
+        //echo $bid = $this->db->insert_id();
+        return $uid;
+    }
+
     function check_email($email){/*check email is already registerd or not. */
         $this->db->select('auth_lookup.email');
         $this->db->from('auth_lookup');
@@ -73,6 +98,22 @@ Class Auth extends CI_Model
         }
     }
 
+function checkActivatestatus($email){
+    $this->db->select('auth_lookup.verified');
+    $this->db->from('auth_lookup');
+    $this->db->where('auth_lookup.email', $email);
+    $this->db->where('auth_lookup.verified', 0);
+    $query = $this->db->get();
+    if ($query->num_rows() != 0) {
+         /*print_r( $query->result());
+         exit();*/
+            $this->db->where('email', $email);
+            $this->db->update('auth_lookup', array('verified'=>1));
+            return $email;
 
+    } else {
+        return false;
+    }
+}
 }
 ?>

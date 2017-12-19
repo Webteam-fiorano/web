@@ -63,53 +63,69 @@
                         <td>:</td>
                         <td class="text"><?php if(!empty( $name)) echo $name; else echo "-" ?></td>
                     </tr>
-                    <tr bgcolor="#E6F2F9">
+                    <tr  bgcolor="#E6F2F9">
+                        <td height="23" class="text"><div align="right">Zoho Status </div></td>
+                        <td>:</td>
+                        <td class="text"><?php if(!empty( $zoho_status)) echo $zoho_status; else echo "-" ?></td>
+                    </tr>
+                    <tr >
                         <td height=25 class="text"><div align="right">E-Mail </div></td>
                         <td>:</td>
                         <td class="text"><a href="https://www.fiorano.com/dashboards/marketing/user-information.php?email=<?php  if(!empty( $data['email'])) echo $data['email']; ?>"><?php if(!empty( $email)) echo $email; else echo "-" ?></a></td>
                     </tr>
-                    <tr>
+                    <tr  bgcolor="#E6F2F9">
                         <td height=25 class="text"><div align="right">Company </div></td>
                         <td>:</td>
                         <td class="text"><?php if(!empty( $company)) echo $company; else echo "-" ?></td>
                     </tr>
-                    <tr bgcolor="#E6F2F9">
+                    <tr >
                         <td height="23" class="text"><div align="right">Phone Number </div></td>
                         <td>:</td>
                         <td class="text"><?php if(!empty( $phone)) echo $phone; else echo "-" ?></td>
                     </tr>
 
-                    <tr>
+                    <tr  bgcolor="#E6F2F9">
                         <td height="23" class="text"><div align="right">Which best describes you? </div></td>
                         <td>:</td>
                         <td class="text"><?php if(!empty( $profile)) echo $profile; else echo "-" ?></td>
                     </tr>
-                    <tr bgcolor="#E6F2F9">
+                    <tr>
+                        <td height="23" class="text"><div align="right">Country </div></td>
+                        <td>:</td>
+                        <td class="text"><?php if(!empty( $country)) echo $country; else echo "-" ?></td>
+                    </tr>
+
+                    <tr  bgcolor="#E6F2F9">
+                        <td height="23" class="text"><div align="right">Interest in PSD2 </div></td>
+                        <td>:</td>
+                        <td class="text"><?php if(!empty( $interest)) echo $interest; else echo "-" ?></td>
+                    </tr>
+                    <!--<tr bgcolor="#E6F2F9">
                         <td height="23" class="text"><div align="right">Products Choice * </div></td>
                         <td>:</td>
-                        <td class="text"><?php if(!empty( $pchoice)){ $i=0; $opt=""; foreach ($pchoice as $choice){
+                        <td class="text"><?php /*if(!empty( $pchoice)){ $i=0; $opt=""; foreach ($pchoice as $choice){
                             if(empty($opt)){ $opt=  $choice; }else{
                                 $opt= $opt.','.$choice;
                             }
                             $i++;}
                             echo $opt;
-                            } ?></td>
+                            } */?></td>
                     </tr>
                     <tr>
                         <td height="23" class="text"><div align="right">Are you currently working on any integration project? </div></td>
                         <td>:</td>
-                        <td class="text"><?php if(!empty( $curentwork)) echo $curentwork; else echo "-" ?></td>
+                        <td class="text"><?php /*if(!empty( $curentwork)) echo $curentwork; else echo "-" */?></td>
                     </tr>
                     <tr>
                         <td height="23" class="text"><div align="right">Preferred date </div></td>
                         <td>:</td>
-                        <td class="text"><?php if(!empty( $pdate)) echo $pdate; else echo "-" ?></td>
+                        <td class="text"><?php /*if(!empty( $pdate)) echo $pdate; else echo "-" */?></td>
                     </tr>
                     <tr bgcolor="#E6F2F9">
                         <td height="23" class="text"><div align="right"> Preferred Time  </div></td>
                         <td>:</td>
-                        <td class="text"><?php if(!empty( $ptime)) echo $ptime; else echo "-" ?></td>
-                    </tr>
+                        <td class="text"><?php /*if(!empty( $ptime)) echo $ptime; else echo "-" */?></td>
+                    </tr>-->
                     <tr>
                         <td height="23" class="text"><div align="right"> Comments </div></td>
                         <td>:</td>
@@ -129,15 +145,20 @@
                         <td class="ftext"><?php if(!empty( $hostname)) echo $hostname; else echo "-" ?></td>
                     </tr>
 
-                    <tr bgcolor="#E6F2F9">
+                    <tr>
                         <td height=30 class="text"><div align="right">Browser </div></td>
                         <td>:</td>
                         <td class="ftext"><?php if(!empty( $browser)) echo $browser; else echo "-" ?></td>
                     </tr>
-                    <tr>
+                    <tr  bgcolor="#E6F2F9">
                         <td height="23" class="text"><div align="right">Locale </div></td>
                         <td>:</td>
                         <td class="text"><?php if(!empty( $locale)) echo $locale; else echo "-" ?></td>
+                    </tr>
+                    <tr>
+                        <td height="23" class="text"><div align="right">Source </div></td>
+                        <td>:</td>
+                        <td class="text"><?php if(!empty( $source)) echo $source; else echo "-" ?></td>
                     </tr>
                     <tr bgcolor="#E6F2F9">
                         <td height="23" class="text"> </td>

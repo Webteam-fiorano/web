@@ -25,30 +25,30 @@
                 <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/ESB<?php echo DIR_PLAIN_SOA ?>/Installing" target="_blank">Installation Guide </a></li>
                 <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/ESB<?php echo DIR_PLAIN_SOA ?>/Developing" target="_blank">Getting Started</a></li>
                 <li class="col-xs-12 padding-bottom-20"> <a href="http://www.fiorano.com/documentation/display/ESB<?php echo DIR_PLAIN_SOA ?>/Fiorano+Documentation" target="_blank">Online Documentation</a></li>
-                <input class="col-sm-4 col-xs-6 btn btn-info" style="list-style: none" value="Read More"> <a style="color:white;" href="http://www.fiorano.com/documentation/display/ESB<?php echo DIR_PLAIN_SOA ?>/Fiorano+Documentation" target="_blank"></a></input>
+                <a style="color:white;" href="http://www.fiorano.com/documentation/display/ESB<?php echo DIR_PLAIN_SOA ?>/Fiorano+Documentation" target="_blank"><input class="col-sm-4 col-xs-6 btn btn-info" style="list-style: none" value="Read More"></input></a>
             </ul>
 
 
         </div>
         <div class="col-sm-6">
-            <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/FioranoMQ" target="_blank"><h3>FioranoMQ<sup style="font-size:60%;">®</sup> <?php echo VERSION_MQ ?></h3></a>
+            <a href="http://www.fiorano.com/documentation/display/MQ<?php echo DIR_MQ ?>/FioranoMQ" target="_blank"><h3>FioranoMQ<sup style="font-size:60%;">®</sup> <?php echo VERSION_MQ ?></h3></a>
             <hr>
             <ul class="col-xs-12">
-                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/Release+Notes" target="_blank">Release Notes</a></li>
+                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/MQ<?php echo DIR_MQ ?>/Release+Notes" target="_blank">Release Notes</a></li>
                 <!--<li class="col-xs-12"> <a>Installation Guide </a></li>-->
-                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/Getting+Started" target="_blank">Getting Started</a></li>
-                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/Handbook" target="_blank">	FioranoMQ Handbook</a></li>
-                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/Reference+Guide" target="_blank"> FioranoMQ Reference Guide</a></li>
-                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/Concepts+Guide" target="_blank">Concepts Guide</a></li>
-                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/Performance+Tuning+And+Deployment+Parameters+Guide" target="_blank">Performance Tuning And Deployment Parameters Guide</a></li>
-                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/FioranoMQ+High+Availability+Guide" target="_blank">FioranoMQ High Availability Guide</a></li>
-                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/Best+Practices+Guide" target="_blank">FioranoMQ Best Practices Guide</a></li>
-                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/C-RTL+Guide" target="_blank"> FioranoMQ C-RTL Guide</a></li>
-                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/pages/viewpage.action?pageId=7866738" target="_blank">FioranoMQ C++ RTL (Native) Guide</a></li>
-                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/Native+C+Sharp+RTL+Sample+Application+Guide" target="_blank">FioranoMQ Native CSharp RTL Sample Application Guide</a></li>
-                <li class="col-xs-12"> <a href=" http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/JMX+APIs" target="_blank"> FioranoMQ JMX APIs Guide</a></li>
-                <li class="col-xs-12 padding-bottom-20"> <a href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/FAQs" target="_blank">FioranoMQ FAQs</a></li>
-                <input class="col-sm-4 col-xs-6 btn btn-info" style="list-style: none" value="Read More"> <a style="color:white;" href="http://www.fiorano.com/documentation/display/<?php echo DIR_MQ ?>/FioranoMQ" target="_blank">Read More</a></input>
+                <!--<li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/MQ<?php /*echo DIR_MQ */?>/Getting+Started" target="_blank">Getting Started</a></li>-->
+                <!--<li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/MQ<?php /*echo DIR_MQ */?>/Handbook" target="_blank">	FioranoMQ Handbook</a></li>
+                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/MQ<?php /*echo DIR_MQ */?>/Reference+Guide" target="_blank"> FioranoMQ Reference Guide</a></li>-->
+               <!-- <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/MQ<?php /*echo DIR_MQ */?>/Concepts+Guide" target="_blank">Concepts Guide</a></li>
+                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/MQ<?php /*echo DIR_MQ */?>/Performance+Tuning+And+Deployment+Parameters+Guide" target="_blank">Performance Tuning And Deployment Parameters Guide</a></li>
+                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/MQ<?php /*echo DIR_MQ */?>/FioranoMQ+High+Availability+Guide" target="_blank">FioranoMQ High Availability Guide</a></li>-->
+                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/MQ<?php echo DIR_MQ ?>/Best+Practices" target="_blank">FioranoMQ Best Practices Guide</a></li>
+                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/MQ<?php echo DIR_MQ ?>/C-RTL+Guide" target="_blank"> FioranoMQ C-RTL Guide</a></li>
+              <!--  <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/pages/viewpage.action?pageId=7866738" target="_blank">FioranoMQ C++ RTL (Native) Guide</a></li>
+                <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/MQ<?php /*echo DIR_MQ */?>/Native+C+Sharp+RTL+Sample+Application+Guide" target="_blank">FioranoMQ Native CSharp RTL Sample Application Guide</a></li>
+                --><li class="col-xs-12"> <a href=" http://www.fiorano.com/documentation/display/MQ<?php echo DIR_MQ ?>/JMX+API" target="_blank"> FioranoMQ JMX APIs Guide</a></li>
+                <li class="col-xs-12 padding-bottom-20"> <a href="http://www.fiorano.com/documentation/display/MQ<?php echo DIR_MQ ?>/FAQs" target="_blank">FioranoMQ FAQs</a></li>
+                <a style="color:white;" href="http://www.fiorano.com/documentation/display/MQ<?php echo DIR_MQ ?>/FioranoMQ" target="_blank"><input class="col-sm-4 col-xs-6 btn btn-info" style="list-style: none" value="Read More"> Read More</input></a>
             </ul>
         </div>
 

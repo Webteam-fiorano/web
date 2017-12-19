@@ -132,6 +132,18 @@
         <div class="col-xs-12 padding-bottom-50">
             <table  class="tableDatay" width="100%" cellpadding="0" cellspacing="0">
 
+
+
+                <tr>
+                    <td valign="top" width="22%"><br />
+                        <strong>Nov 20, 2017</strong> <br/>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/bankingtech-logo.gif" alt="Banking tech" style="padding-top:5px" width="100px"/></td>
+                    <td valign="top" style="padding-right: 10px;"><br/>
+                        <a href="http://www.bankingtech.com/1071452/fiorano-launches-psd2-solution-for-banks/" target="_blank" rel="nofollow"><strong>Fiorano launches PSD2 solution for banks</strong></a><br/>
+                        Fiorano Software, a specialist in integration middleware and API management, has launched Fiorano PSD2, a solution enabling banks to comply with the European Union’s Revised Payment Services Directive (PSD2) regulations.
+                        <a href="http://www.bankingtech.com/1071452/fiorano-launches-psd2-solution-for-banks/" target="_blank" rel="nofollow"> More&nbsp;<strong>&raquo;</strong></a><br/><br/></td>
+                </tr>
+
                 <tr>
                     <td valign="top" width="22%"><br />
                         <strong>Jun 22, 2017</strong> <br/>

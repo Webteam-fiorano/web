@@ -88,13 +88,13 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 define('__ROOT__',	'http://www.fiorano.com');
 define('__IMAGES__',	'http://www.fiorano.com/images');
 define("VERSION_MQ", "10.3.0");
-define("VERSION_SOA", "10.4.0");
+define("VERSION_SOA", "11");
 define("VERSION_FECE", "1.0.0");
 
 define("DIR_MQ", "1030");
-define("DIR_SOA", "10.4.0");
+define("DIR_SOA", "11");
 define("DIR_FECE", "1.0.0");
 
 define("DIR_PLAIN_FECE", "1");
-define("DIR_PLAIN_SOA", "1040");
+define("DIR_PLAIN_SOA", "1100");
 

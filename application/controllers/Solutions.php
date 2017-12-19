@@ -94,12 +94,34 @@ class Solutions extends CI_Controller
 
     public function psd2()
     {
+
+
+        $data['meta']='
+        <meta name="viewport" content="width=device-width">
+        <meta name="keywords" content="PSD2, PISP, Payment Services Directive, AISP, Fiorano PSD2, Psd2,Solution Psd2, Digital Banking, business integration,Banking, real-time analytics, real-time big data, Platform-as-a-service, digital Transformation" />
+        <meta name="description" content="Payment Services Directive - PSD2 | Fiorano Software" />
+        <meta name="classification" content="PSD2, PISP, Payment Services Directive, AISP, Fiorano PSD2, Psd2,Solution Psd2, Digital Banking, business integration,Banking, real-time analytics, real-time big data, Platform-as-a-service, digital Transformation" />';
+        $data['fbdata']='
+
+            <meta name="twitter:card" content="summary">
+            <meta name="twitter:site" content="@fiorano">
+            <meta name="twitter:title" content="Payment Services Directive - PSD2 | Fiorano Software">
+            <meta name="twitter:description" content="Fiorano PSD2, an out-of-the box PSD2 solution, built on the industry\'s leading banking Integration and API Management infrastructure, provides a comprehensive solution for banks to become PSD2 compliant. Fiorano PSD2 masks complex technical details to provide a seamless solution that integrates with all leading corebanking platforms and can be implemented in weeks.">
+            <meta name="twitter:image" content="http://www.fiorano.com/new/assets/images/solutions/psd2/PSD2-solution.png">
+               
+            <meta property="og:title" content="Demystifying PSD2 - Fiorano Software" />
+            <meta property="og:type" content="article" />
+            <meta property="og:url" content="http://www.fiorano.com/new/solutions/psd2" />
+            <meta property="og:image" content="http://www.fiorano.com/new/assets/images/solutions/psd2/PSD2-solution.png" />
+            <meta property="og:description" content="Fiorano PSD2, an out-of-the box PSD2 solution, built on the industry\'s leading banking Integration and API Management infrastructure, provides a comprehensive solution for banks to become PSD2 compliant. Fiorano PSD2 masks complex technical details to provide a seamless solution that integrates with all leading corebanking platforms and can be implemented in weeks." />
+            <meta property="og:site_name" content="http://www.fiorano.com" />';
+
         $data['qmain']='sol';
         $data['qsub']='psd2';
         $data['heading']= "Fiorano PSD2 | Fiorano Solutions";
         $data['title']="Fiorano PSD2  | Fiorano Solutions";
         $this->load->view('common/header',$data);
-        $this->load->view('solutions/psd2');
+        $this->load->view('solutions/psd2_v1');
         $this->load->view('common/footer');
     }
     public function e_GIF()
@@ -108,6 +130,16 @@ class Solutions extends CI_Controller
         $data['title']="Fiorano PSD2  | Fiorano Solutions";
         $this->load->view('common/header',$data);
         $this->load->view('solutions/e_GIF');
+        $this->load->view('common/footer');
+    }
+    public function psd2_V1()
+    {
+        $data['qmain']='sol';
+        $data['qsub']='psd2';
+        $data['heading']= "Fiorano PSD2 | Fiorano Solutions";
+        $data['title']="Fiorano PSD2  | Fiorano Solutions";
+        $this->load->view('common/header',$data);
+        $this->load->view('solutions/psd2_v1');
         $this->load->view('common/footer');
     }
 }

@@ -19,8 +19,8 @@ class Errors extends CI_Controller
     }
     public function page_missing()
     {
-        $data['heading']="Cannot find th epage in the server";
-        $data['message']="Cannot find th epage in the server";
+        $data['heading']="Cannot find the page in the server";
+        $data['message']="Cannot find the page in the server";
         $this->load->view('common/header',$data);
         $this->load->view('errors/html/error_404');
         $this->load->view('common/footer');

@@ -181,7 +181,7 @@
 
             </div>
             <div class="col-sm-12 col-xs-6 padding-top-20 padding-bottom-20">
-                <a href="<?php  echo __ROOT__ ?>/customers/casestudies/CPB_Casestudy.pdf" target="_blank">
+                <a href="<?php  echo __ROOT__ ?>/customers/casestudies/canadia-bank.pdf" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 

@@ -347,7 +347,7 @@
         </div>
     </div>
 </section>
-
+<?php /*
 <section class="offer-section offer-section-three section service-page-three-offer even-section" id="resource">
 <div class="container">
     <div class="section-header">
@@ -441,5 +441,5 @@
         </div>
     </div>
 </div>
-</section>
+</section>*/?>
 

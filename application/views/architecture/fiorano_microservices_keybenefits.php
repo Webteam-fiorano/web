@@ -212,7 +212,7 @@
         }
 
         //Playing with Ken Wheeler Slick carousel
-        $('.my_slider').slick({
+       /* $('.my_slider').slick({
             //dots: true,
             infinite: true,
             centerMode: true,
@@ -231,7 +231,7 @@
                 }
 
             }]
-        });
+        });*/
     // for setting height of each slide equal to slider
     $(document).ready(function() {
         var divHeight = $('.my_slider').height();

@@ -104,52 +104,108 @@
                 <h1 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Events </h1>
                 <p class="text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown; line-height: 25px;">Meet us at the following events where we will be exhibiting Fiorano's leading technology solutions and giving presentations on how to use the Fiorano Platform and superior messaging technology that can meet your IT infrastructure and architectural challenges.
                     Upcoming</p>
-                <h1 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Upcoming Events </h1>
+                <!--<h1 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Upcoming Events </h1>-->
             </div>
             <div class="col-sm-12">
+                <!--<div class="col-sm-4 event-panel col-sm-offset-2">
+                    <div class="panel panel-primary event-primary">
+                        <div class="panel-heading"><img class="img-responsive col-sm-offset-2" style="width: 47%;margin-left: 27%;margin-top: 4%; " src="<?php /*echo base_url('assets/images/fiorano_logo_white.png')*/?>" alt="sibos"></div>
+                        <div class="panel-body nopadding">
+                            <div class="text-center padding-bottom-50" style="height:90px;">
+                                <h3 class="padding-bottom-50" >
+                                    <b><a style="color: #337ab7 !important;" href="
+                                    " target="_blank" > Webinar - PSD2 Compliance Stressing You Out? Relax, It Shouldn't Be That Difficult  </a>
+                                    </b></h3>
+                            </div>
 
 
+                            <div class="row nopadding">
+                                <div class="col-sm-6 nopadding">
+                                    <time class="start ">
+                                       <b>Start </b> <br> 9:00 EST / 2:00 GMT / 3:00 CEST
+                                        <span class="month">5 DEC, 2017</span>
 
-                <div class="col-sm-4 event-panel col-sm-offset-4">
-                <div class="panel panel-primary event-primary">
-                    <div class="panel-heading"><img class="img-responsive col-sm-offset-2" style="width: 47%;margin-left: 27%;margin-top: 4%; " src="<?php echo __ROOT__ ?>/images/logo-sibos.jpg" alt="sibos"></div>
-                    <div class="panel-body nopadding">
-                        <div class="panel-Image text-center">
-                            <h2><a href="https://www.sibos.com/" target="_blank" >   SIBOS 2017</a></h2>
+                                    </time>
+                                </div>
+                                <div class="col-sm-6 nopadding">
+                                    <time class="end ">
+                                        <b>End</b><br> 9:45 EST / 2:45 GMT / 3:45 CEST
+                                        <span class="month">5 DEC, 2017</span>
+
+                                    </time>
+                                </div>
+
+                            </div>
                         </div>
+                        <div class="panel-footer panel-primary col-sm-12" style="height: 370px !important;">
+                            <p>
 
 
-                        <div class="row nopadding">
-                            <div class="col-sm-6 nopadding">
-                                <time class="start ">
-                                    Start <span class="day">16</span>
-                                    <span class="month">Oct, 2017</span>
-
-                                </time>
-                            </div>
-                            <div class="col-sm-6 nopadding">
-                                <time class="end ">
-                                    End <span class="day">19</span>
-                                    <span class ="month">Oct, 2017</span>
-
-                                </time>
-                            </div>
-                            <div class="col-sm-12 location">
-                                <h4 class="align-center">
-                                    <strong>Location:</strong> Toronto, Canada
-                                </h4>
-                            </div>
+                                The Revised Directive on Payment Services (PSD2) enables European business and consumer banking customers to use third-party providers to manage financial transactions. Furthermore, the regulation requires banks to provide these third-party providers access to their customers’ accounts through open APIs.
+                            </p>
+                            <p>On this webinar, digital transformation expert Jason Bloomberg, President of industry analyst firm Intellyx, will place PSD2 compliance into the broader landscape of modern IT, showing how even the knottier roadblocks to compliance can be easy to overcome with the right technology.
+                                Next, Fiorano Software CEO and CTO, Atul Saini will explain how Fiorano API management eases and simplifies PSD2 compliance, and how the Fiorano Integration Platform with its distributed peer-to-peer architecture can support any PSD2 initiative, whether it be on-premises, in the cloud, or both.
+                            </p>
+                            <a href="<?php /*echo site_url('webinar/psd2_compliance_stressing_you_out');*/?>" target="_blank" class="btn btn-success pull-right">Read more...</a>
                         </div>
                     </div>
-                    <div class="panel-footer panel-primary col-sm-12" style="height:auto">
-                        <p>  Sibos is the world's premier financial services event. What started out as a banking operations seminar in 1978, has grown into the premier business forum for the global financial community to debate and collaborate in the areas of payments, securities, cash management and trade.
-                            Fiorano is sponsoring the SIBOS 2017 event. Meet us during the event to see how Fiorano Integration solution will work going forward.
+                </div>-->
 
-                        </p>
-                        <a href="https://www.sibos.com/" target="_blank" class="btn btn-success pull-right">Read more...</a>
+
+
+                <!--<div class="col-sm-4 event-panel col-sm-offset-4" id="Fintech2017">
+                    <div class="panel panel-primary event-primary">
+                        <div class="panel-heading"><img class="img-responsive col-sm-offset-2" style="width: 47%;margin-left: 27%;margin-top: 4%; " src="<?php /*echo base_url('assets/images/events/fintech2017/fintech_logo.png')*/?>" alt="Fintech Connect Live 2017"></div>
+                        <div class="panel-body nopadding">
+                            <div class="panel-Image text-center">
+                                <h2><a href="http://www.fintechconnectlive.com/fintech-connect-live-2017/" target="_blank" >  Fintech Connect Live 2017 </a></h2>
+                            </div>
+
+
+                            <div class="row nopadding">
+                                <div class="col-sm-6 nopadding">
+                                    <time class="start ">
+                                        Start<span class="day">6 </span>
+                                        <span class="month">DEC, 2017</span>
+
+                                    </time>
+                                </div>
+                                <div class="col-sm-6 nopadding">
+                                    <time class="end ">
+                                        End <span class="day">7 </span>
+                                        <span class="month">DEC, 2017</span>
+
+                                    </time>
+                                </div>
+                                <div class="col-sm-12 location">
+                                    <h4 class="align-center">
+                                        <strong>Location:</strong> <span style="font-size: 15px !important; ">
+                                       ExCeL London – East Entrance,
+                                        One Western Gateway,
+                                        Royal Victoria Dock,
+                                        London E16 1XL, UK
+                                      </span><br>
+                                        <span class="pull-left">
+                                            <b>Booth No: D10</b>
+                                        </span>
+                                        <a href="https://goo.gl/maps/5t5MDetdPMA2" target="_blank" style="color:#00599C;" class="pull-right"> Map</a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-footer panel-primary col-sm-12" style="height:auto">
+                            <p>Combining the hustle and bustle of an exhibition featuring over 3000 visitors, and 200 exhibitors and partners, FinTech Connect Live is the UK’s largest fintech event. 
+                                Playing host to 4 strategic conference sessions with inspirational case studies from around the world, a technology buyers theatre with 50 product demos, 12 educational workshops tackling practical fast growth challenges,
+                                and two full days of dedicated mentoring clinics for start up leaders, FinTech Connect Live is the ‘must have ticket’ for stakeholders from across the full fintech eco-system.
+                            </p>
+                            <a href="http://www.fintechconnectlive.com/fintech-connect-live-2017/" target="_blank" class="btn btn-success pull-right">Read more...</a>
+                        </div>
                     </div>
                 </div>
-            </div>
+-->
+
+
+
 
     </div>
         </div>
@@ -177,7 +233,137 @@
             <strong style="color: #ffffff;">&nbsp;&nbsp;Event Details</strong></td>
         <td style="padding: 5px 0px 5px 15px; border: 1px Solid #05599c;"><strong>Description</strong></td>
         </tr>
+        <tr>
 
+            <td valign="top" width="225" style="padding: 5px;">
+
+                <br/>
+                <strong>Date:</strong> Dec 6-7, 2017 <br/>
+                <div>
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/events/fintech2017/fintech_logo.png')?>" alt=""><br/></div>
+                <br/>
+                <!--<b>Location: </b><br/>  London, UK-->
+                <br/><br/>
+            </td>
+
+            <td valign="top"
+                style="padding: 5px 0px 5px 15px; border-left: 1px Solid #CCCCCC;">
+                <h3 style="padding:5px 0px; font-size: 15px">
+                    Fintech Connect Live 2017
+                </h3>
+                <p>
+                    Combining the hustle and bustle of an exhibition featuring over 3000 visitors, and 200 exhibitors and partners, FinTech Connect Live is the UK’s largest fintech event. 
+                    Playing host to 4 strategic conference sessions with inspirational case studies from around the world, a technology buyers theatre with 50 product demos, 12 educational workshops tackling practical fast growth challenges,
+                    and two full days of dedicated mentoring clinics for start up leaders, FinTech Connect Live is the ‘must have ticket’ for stakeholders from across the full fintech eco-system.
+                </p>
+                <p>
+                    <a href="https://www.youtube.com/watch?v=3cGmJB7eEPk" target="_blank"
+                       rel="nofollow">Learn More &raquo;</a></p>
+                </p>
+
+            </td>
+        </tr>
+
+        <tr>
+
+            <td valign="top" width="225" style="padding: 5px;">
+
+                <br/>
+                <strong>Date:</strong> Dec 5, 2017 <br/>
+                <div>
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/fiorano_logo.png')?>" alt=" Webinar - PSD2 Compliance Stressing You Out? Relax, It Shouldn't Be That Difficult"><br/></div>
+                <br/>
+                <!--<b>Location: </b><br/>  London, UK-->
+                <br/><br/>
+            </td>
+
+            <td valign="top"
+                style="padding: 5px 0px 5px 15px; border-left: 1px Solid #CCCCCC;">
+                <h3 style="padding:5px 0px; font-size: 15px">
+                    Webinar - PSD2 Compliance Stressing You Out? Relax, It Shouldn't Be That Difficult
+                </h3>
+                <p>
+                    The Revised Directive on Payment Services (PSD2) enables European business and consumer banking customers to use third-party providers to manage financial transactions. Furthermore, the regulation requires banks to provide these third-party providers access to their customers’ accounts through open APIs.
+                </p>
+
+            </td>
+        </tr>
+
+        <tr>
+
+            <td valign="top" width="225" style="padding: 5px;">
+
+                <br/>
+                <strong>Date:</strong> Oct 25, 2017 <br/>
+                <div>
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/fiorano_logo.png')?>" alt=" Breakfast Meeting - Demystifying PSD2"><br/></div>
+                <br/>
+                <b>Location: </b><br/>  London, UK
+                <br/><br/>
+            </td>
+
+            <td valign="top"
+                style="padding: 5px 0px 5px 15px; border-left: 1px Solid #CCCCCC;">
+                <h3 style="padding:5px 0px; font-size: 15px">
+                    Breakfast Meeting - Demystifying PSD2
+                </h3>
+                <p>
+                    Fiorano, a leading global provider of API Management and enterprise middleware, hosted an exclusive breakfast meeting to discuss the implications of PSD2 from an end-user standpoint. With a focus on the impact and semantics of PSD2, the event  delivered a practical understanding of PSD2 solutions and how the directive impacts payments and the retail banking industry.
+                </p>
+
+            </td>
+        </tr>
+        <tr>
+
+            <td valign="top" width="225" style="padding: 5px;">
+
+                <br/>
+                <strong>Date:</strong> Oct 16-19, 2017 <br/>
+                <div>
+                    <img class="img-responsive" src="<?php echo __ROOT__ ?>/images/logo-sibos.jpg" alt="Sibos 2017"><br/></div>
+                <br/>
+                <b>Location: </b><br/>  Toronto, Canada
+                <br/><br/>
+            </td>
+
+            <td valign="top"
+                style="padding: 5px 0px 5px 15px; border-left: 1px Solid #CCCCCC;">
+                <h3 style="padding:5px 0px; font-size: 15px">
+                    SIBOS 2017
+                </h3>
+                <p>
+                    Sibos is the world's premier financial services event. What started out as a banking operations seminar in 1978, has grown into the premier business forum for the global financial community to debate and collaborate in the areas of payments, securities, cash management and trade. Join Fiorano at SIBOS 2017,  Booth K09 to see the latest in Digital Transformation solutions or catch our Open Theater presentation on Demystifying PSD2 with practical solutions.
+                </p>
+
+            </td>
+        </tr>
+
+
+
+        <tr>
+
+            <td valign="top" width="225" style="padding: 5px;">
+
+                <br/>
+                <strong>Date:</strong> Sept 29, 2017 <br/>
+                <div>
+                        <img class="img-responsive" src="<?php echo base_url('assets/images/fiorano_logo.png')?>" alt=" Breakfast Meeting - Demystifying PSD2"><br/></div>
+                <br/>
+                <b>Location: </b><br/>  London, UK
+                <br/><br/>
+            </td>
+
+            <td valign="top"
+                style="padding: 5px 0px 5px 15px; border-left: 1px Solid #CCCCCC;">
+                <h3 style="padding:5px 0px; font-size: 15px">
+                    Breakfast Meeting - Demystifying PSD2
+                </h3>
+                <p>
+                    Fiorano, a leading global provider of API Management and enterprise middleware, hosted an exclusive breakfast meeting to discuss the implications of PSD2 from an end-user standpoint. With a focus on the impact and semantics of PSD2, the event  delivered a practical understanding of PSD2 solutions and how the directive impacts payments and the retail banking industry.
+                </p>
+
+            </td>
+        </tr>
         <tr>
 
             <td valign="top" width="225" style="padding: 5px;">

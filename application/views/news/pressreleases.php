@@ -108,6 +108,20 @@
 <section id="cd-timeline" class="cd-container even-section">
     <div class="container">
 
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+                <span class="cd-date"> Nov 20, 2017</span>
+            </div> <!-- cd-timeline-img -->
+            <div class="cd-timeline-content">
+                <h2>Fiorano Launches PSD2 Solution for Banks for Seamless Regulatory Compliance</h2>
+                <p>Proven Middleware leader brings PSD2 Solution to Market to help European Banks Accelerate compliance to Revised Payment Service Directive
+                </p>
+                <img   class="col-xs-3 pull-right"  src="<?php echo base_url('assets/images/fiorano_logo.png') ?>" alt="Fiorano Psd2 Pressreleases"/>
+                <a href="<?php echo site_url('pressreleases/psd2_pressrelease')?>" target="_blank" class="cd-read-more">Read more</a>
+            </div>
+        </div>
+
+
         <div class="cd-timeline-block nextOne">
             <div class="cd-timeline-img cd-movie">
                 <span class="cd-date"> June 20, 2017</span>

@@ -129,70 +129,115 @@ class Company extends CI_Controller
         $this->load->view('common/footer');
     }
 
-    function event_register(){
+    function event_register11($source=null){
+
+        $data['meta']='
+        <meta name="viewport" content="width=device-width">
+        <meta name="keywords" content="25 October 2017, financial leaders, Psd2, Solution Psd2, Digital Banking, business architecture, BPM, operational intelligence, Application Architecture, business integration,Banking,  real-time analytics, real-time big data, Platform-as-a-service, digital Transformation" />
+        <meta name="description" content="Demystifying PSD2 - Fiorano Software " />
+        <meta name="classification" content="PSD2, Business Process Excellence, BPM, SOA, ESB, Web services, XML, Electronic Business, Online Transaction Processing" />';
+        $data['fbdata']='
+
+            <meta name="twitter:card" content="summary">
+            <meta name="twitter:site" content="@fiorano">
+            <meta name="twitter:title" content="Demystifying PSD2 - Fiorano Software">
+            <meta name="twitter:description" content="Join Fiorano, a leading global provider of API Management and enterprise middleware, for the second edition of an exclusive breakfast meet to learn the implications of PSD2 from an end-user standpoint. With a focus on the impact and semantics of PSD2, the event will deliver a practical understanding of PSD2 solutions and how the directive impacts payments and the retail banking industry.">
+            <meta name="twitter:image" content="http://www.fiorano.com/new/assets/images/fiorano_logo.png">
+               
+            <meta property="og:title" content="Demystifying PSD2 - Fiorano Software" />
+            <meta property="og:type" content="article" />
+            <meta property="og:url" content="http://www.fiorano.com/new/company/event_register/" />
+            <meta property="og:image" content="http://www.fiorano.com/new/assets/images/fiorano_logo.png" />
+            <meta property="og:description" content="Join Fiorano, a leading global provider of API Management and enterprise middleware, for the second edition of an exclusive breakfast meet to learn the implications of PSD2 from an end-user standpoint. With a focus on the impact and semantics of PSD2, the event will deliver a practical understanding of PSD2 solutions and how the directive impacts payments and the retail banking industry." />
+            <meta property="og:site_name" content="http://www.fiorano.com" />';
+
         $data['heading'] = "Fiorano Events Registration | Fiorano Software ";
         $data['title'] = " Fiorano Events Registration | Fiorano Software";
         $data['reg']=0;
+        $data['rdemo']=1;
+        if(!empty($source)){
+            $data['source']= $source;
+        }else{
+            $data['source']= 'Direct Via Website';
+        }
         if ($_POST) {
 
-            $dat = array(
-                'eventname' => $this->input->post('eventname'),
-                'eventdate' => $this->input->post('eventdate'),
-                'name' => $this->input->post('name'),
-                'email' => $this->input->post('email'),
-                'company' => $this->input->post('company'),
-                'phone' => $this->input->post('phone'),
-                'profile' => $this->input->post('role'),
-                'pchoice' => $this->input->post('pchoice'),
-                'curentwork' => $this->input->post('curentwork'),
-                'pdate' => $this->input->post('datepicker'),
-                'ptime' => $this->input->post('timepicker'),
-                'comments' => $this->input->post('comments'),
-                'ipaddress' => $_SERVER['REMOTE_ADDR'],
-                'hostname' => gethostbyaddr($_SERVER['REMOTE_ADDR']),
-                'locale' => $_SERVER['HTTP_ACCEPT_LANGUAGE'],
-                'browser' => $_SERVER['HTTP_USER_AGENT'],
-            );
-            $to_main = "events@in.fiorano.com";
-            $touser=$this->input->post('email');
-            /*events@in.fiorano.com*/
-            $eventname=$this->input->post('eventname');
-            $eventdate=$this->input->post('eventdate');
-            $this->load->library('email');
-            $this->email->set_mailtype("html");
-            $this->email->from('events@in.fiorano.com', 'Fiorano Events');
-            $this->email->to($to_main);
-            $this->email->subject("Book your appointment at - " . $this->input->post('eventname'));
+            if(isCorporateID($this->input->post('email'))){
+                $dat = array(
+                    'eventname' => $this->input->post('eventname'),
+                    'eventdate' => $this->input->post('eventdate'),
+                    'name' => $this->input->post('name'),
+                    'email' => $this->input->post('email'),
+                    'company' => $this->input->post('company'),
+                    'phone' => $this->input->post('phone'),
+                    'profile' => $this->input->post('role'),
+                    'comments' => $this->input->post('comments'),
+                    'ipaddress' => $_SERVER['REMOTE_ADDR'],
+                    'hostname' => gethostbyaddr($_SERVER['REMOTE_ADDR']),
+                    'locale' => $_SERVER['HTTP_ACCEPT_LANGUAGE'],
+                    'browser' => $_SERVER['HTTP_USER_AGENT'],
+                    'source' => $this->input->post('source')
+                );
+                /*
+                    'pchoice' => $this->input->post('pchoice'),
+                    'curentwork' => $this->input->post('curentwork'),
+                    'pdate' => $this->input->post('datepicker'),
+                    'ptime' => $this->input->post('timepicker'),*/
 
-            $body = $this->load->view('templates/email/event_register', $dat, TRUE);
-            $this->email->message($body);
-            if ($this->email->send()) {
+                $to_main = "events@in.fiorano.com";
+                //$to_main = "harikrishnan.v@in.fiorano.com";
+                $touser=$this->input->post('email');
+                /*events@in.fiorano.com*/
+                $eventname=$this->input->post('eventname');
+                $eventdate=$this->input->post('eventdate');
                 $this->load->library('email');
                 $this->email->set_mailtype("html");
                 $this->email->from('events@in.fiorano.com', 'Fiorano Events');
-                $this->email->to($touser);
-                $this->email->subject("Thank you for the appointment at - " . $this->input->post('eventname'));
-                $dat1 = array(
-                    'uname' => $this->input->post('name'),
-                    'eventname' => $this->input->post('eventname'),
-                    'eventdate' => $this->input->post('eventdate')
-                );
+                $this->email->to($to_main);
+                $this->email->cc('download-notifications@in.fiorano.com');
+                $this->email->bcc("harikrishnan.v@in.fiorano.com");
+                $this->email->subject("User Event Registration  - " . $this->input->post('eventname'));
 
-                $thanksbody = $this->load->view('templates/email/events_thanks', $dat1, TRUE);
+                $body = $this->load->view('templates/email/event_register', $dat, TRUE);
+                $this->email->message($body);
+                /*if ($this->email->send()) //blocked becuse of the service
+                    $this->load->library('email');
+                    $this->email->set_mailtype("html");
+                    $this->email->from('events@in.fiorano.com', 'Fiorano Events');
+                    $this->email->to($touser);
+                    $this->email->bcc("harikrishnan.v@in.fiorano.com");
+                    $this->email->subject("Thank you for registering with us for the Breakfast Meet");
+                    $dat1 = array(
+                        'uname' => $this->input->post('name'),
+                        'eventname' => $this->input->post('eventname'),
+                        'eventdate' => $this->input->post('eventdate')
+                    );
 
-                $this->email->message($thanksbody);
-                $this->email->send();
+                    $thanksbody = $this->load->view('templates/email/events_thanks', $dat1, TRUE);
 
-                $this->session->set_flashdata("email_sent", "Email sent successfully.");
-               $data['reg']=1;
-            } else {
-                $this->session->set_flashdata("email_sent", "Error in sending Email.");
-                $data['reg']=2;
+                    $this->email->message($thanksbody);
+                    if ($this->email->send()){
+                        $this->session->set_flashdata("email_sent", "Email sent successfully.");
+                        $data['reg']=1;
+                    }else{
+                        $this->session->set_flashdata("email_sent", "Error in sending Email.");
+                        $data['reg']=2;
+                    }
+
+                } else {
+                    $this->session->set_flashdata("email_sent", "Error in sending Email.");
+                    $data['reg']=2;
+                }*/
+
+            }else{
+                $data['reg']=3;
             }
+
         }
 
-        $this->load->view('common/header', $data);
-        $this->load->view('news/event_register');
+
+       // $this->load->view('common/header', $data);
+        $this->load->view('news/event_register_25_10_2017',$data);
         $this->load->view('common/footer');
     }
     function support(){
@@ -200,6 +245,22 @@ class Company extends CI_Controller
         $data['title'] = " Fiorano Technical Support | Fiorano Software";
         $this->load->view('common/header', $data);
         $this->load->view('common/support');
+        $this->load->view('common/footer');
+    }
+
+
+    function search(){
+        $data['heading'] = "Fiorano Technical Search | Fiorano Software ";
+        $data['title'] = " Fiorano Technical Search | Fiorano Software";
+        $this->load->view('common/header', $data);
+        $this->load->view('common/Search');
+        $this->load->view('common/footer');
+    }
+    function addsearch(){
+        $data['heading'] = "Fiorano Technical Search | Fiorano Software ";
+        $data['title'] = " Fiorano Technical Search | Fiorano Software";
+        $this->load->view('common/header', $data);
+        $this->load->view('common/adsearch_demo.php');
         $this->load->view('common/footer');
     }
 }

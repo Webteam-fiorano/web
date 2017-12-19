@@ -28,13 +28,13 @@
         </div>
         <div class="col-xs-12 pad">
             <div class="col-sm-6 ">
-                <h3><a href="<?php echo __ROOT__?>/downloads/download_fsoa.php">Fiorano<sup>&reg;</sup> <?php echo VERSION_SOA ?></a></h3>
+                <h3><a href="<?php echo site_url('resources/fsoaDownload'); ?>">Fiorano<sup>&reg;</sup> <?php echo VERSION_SOA ?></a></h3>
                 <hr>
                 <br>
                 <p>Fiorano<sup>®</sup> platform combines an ESB, B2B Integration and API Management into a powerful platform for deploying Digital Business solutions.</p>
                 <div class="col-xs-12 nopadding"><h4>Related Links</h4> <hr></div>
-                <div class="col-sm-6"><a href="<?php echo __ROOT__?>/documentation/display/ESB<?php echo DIR_PLAIN_SOA ?>/Developing" target="_blank" >Getting Started</a></div>
                 <div class="col-sm-6"><a href="<?php echo __ROOT__?>/documentation/display/ESB<?php echo DIR_PLAIN_SOA ?>/Installing" target="_blank" >Installation Guide</a></div>
+                <div class="col-sm-6"><a href="<?php echo __ROOT__?>/documentation/display/ESB<?php echo DIR_PLAIN_SOA ?>/User+Guide" target="_blank" >User Guide</a></div>
                 <div class="col-sm-6"><a href="<?php echo __ROOT__?>/documentation/display/ESB<?php echo DIR_PLAIN_SOA ?>/Fiorano+Documentation">Documentation Center</a></div>
                 <div class="col-sm-6"><a href="<?php echo __ROOT__?>/downloads/older-versions/">Download Older Versions</a></div>
 
@@ -51,12 +51,12 @@
         <div class="col-xs-12 padding-top-20">
             <hr>
             <div class="col-sm-6"></div>
-            <div class="col-sm-6"><h3><a href="<?php echo __ROOT__?>/downloads/download_fsoa.php">Fiorano ESB Community Edition <?php echo VERSION_FECE ?></a></h3>
+            <div class="col-sm-6"><h3><a href="<?php echo site_url('products/open_source_fiorano_esb')?>">Fiorano ESB Community Edition <?php echo VERSION_FECE ?></a></h3>
                 <hr></div>
             <div class="col-sm-6">
                 <img src="<?php echo base_url('assets/images/resources/soadiagram.jpg')?>" style="display:block;
     margin:auto;vertical-align: middle;;" />
-                <div class="col-xs-12">  <a href="<?php echo __ROOT__?>/products/opensource/fiorano-esb/"><button class="btn btn-primary round pull-right">Download Now</button></a></div>
+                <div class="col-xs-12">  <a href="<?php echo site_url('products/open_source_fiorano_esb')?>/"><button class="btn btn-primary round pull-right">Download Now</button></a></div>
             </div>
             <div class="col-sm-6 ">
 

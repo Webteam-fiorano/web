@@ -3,7 +3,6 @@
 <section id="slider-fixed" class="slider vc_box_shadow header_shadow padding_top_none" style="padding-bottom: 0">
 
 <div class="container">
-
     <div class="row">
 
         <div class="span12">
@@ -97,7 +96,7 @@
                             </div>
 
                             <div class="tp-caption lft" data-x="650" data-y="205" data-speed="500" data-start="1200" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
-                                <img src="<?php echo base_url('assets/images/products/')?>Banner2-title2.png" alt="">
+                                <img src="<?php echo base_url('assets/images/products/')?>Banner-title_new2.png" alt="">
                             </div>
                             <!-- LAYER NR. 2 -->
                            <!-- <div class="tp-caption sfb" data-x="650" data-y="123" data-speed="300" data-start="1100" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 6;">
@@ -281,52 +280,110 @@
     <div class="container">
         <div class="row padding-bottom-50">
             <div class="col-xs-12">
-                <div class="col-sm-6">
-                    <h3 class="newsHead"> <a href="<?php echo site_url('company/news')?>" class="none-decoration">News & Events </a></h3>
-                    <hr>
+                <div class="col-sm-6 padding-top-30">
+
+
+                    <h2><a href="<?php echo site_url('company/news')?>" class="none-decoration " style=" color: #333;">News & Events </a></h2>
+                    <div class="wprt-lines style-1 custom-3 padding-bottom-30">
+                        <div class="line-1"></div>
+                        <div class="line-2"></div>
+                    </div>
                     <div class="row">
+
+                       <!-- <div class="col-xs-12 nopadding ">
+                            <div class="col-sm-3 col-xs-12 newsHomeImg">
+                                <a href="<?php /*echo site_url('webinar/psd2_compliance_stressing_you_out'); */?> " target="_blank" rel="nofollow">
+                                    <div style="background: white" class="date_div">
+                                        <img class="img-responsive col-xs-12" src="<?php /*echo base_url('assets/images/fiorano_logo.png')*/?>" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-9 col-xs-12 newsHomeContent padding-bottom-20">
+                                <h4>   <a href="<?php /*echo site_url('webinar/psd2_compliance_stressing_you_out'); */?>" target="_blank" rel="nofollow"><strong> Webinar - PSD2 Compliance Stressing You Out? Relax, It Shouldn't Be That Difficult, DEC 5, 2017</strong></a></h4>
+                                <div class="blog-content">
+                                    <a href="<?php /*echo site_url('webinar/psd2_compliance_stressing_you_out'); */?>" target="_blank" rel="nofollow">
+                                        On this webinar, digital transformation expert Jason Bloomberg, President of industry analyst firm Intellyx & Atul Sani, CEO, Fiorano Software will place PSD2 compliance into the broader landscape of modern IT.
+                                    </a>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>-->
+
+
+
+
+
+                      <!--  <div class="col-xs-12 nopadding ">
+                            <div class="col-sm-3 col-xs-12 newsHomeImg">
+                                <a href=" http://www.fintechconnectlive.com/fintech-connect-live-2017" target="_blank" rel="nofollow">
+                                    <div style="background: white" class="date_div">
+                                        <img class="img-responsive col-xs-12" src="<?php /*echo base_url('assets/images/events/fintech2017/fintech_logo.png')*/?>" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-9 col-xs-12 newsHomeContent padding-bottom-20">
+                                <h4>   <a href="http://www.fintechconnectlive.com/fintech-connect-live-2017" target="_blank" rel="nofollow"><strong> Fintech Connect Live DEC 6-7, 2017</strong></a></h4>
+                                <div class="blog-content">
+                                    <a href="http://www.fintechconnectlive.com/fintech-connect-live-2017" target="_blank" rel="nofollow">
+                                        Combining the hustle and bustle of an exhibition featuring over 3000 visitors, and 200 exhibitors and partners, FinTech Connect Live is the UK’s largest fintech event. 
+.
+                                    </a>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>-->
+
                         <div class="col-xs-12 nopadding ">
+                            <div class="col-sm-3 col-xs-12 newsHomeImg">
+                                <a href="http://www.bankingtech.com/2017/11/fiorano-launches-psd2-solution-for-banks/" target="_blank" rel="nofollow">
+                                    <div style="background: white" class="date_div">
+                                        <img class="img-responsive col-xs-12" src="<?php echo base_url('assets/images/company/news/bankingtech-logo.gif')?>" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-9 col-xs-12 newsHomeContent padding-bottom-20">
+                                <h4>   <a href=" http://www.bankingtech.com/2017/11/fiorano-launches-psd2-solution-for-banks/" target="_blank" rel="nofollow"><strong>Fiorano launches PSD2 solution for banks</strong></a></h4>
+                                <div class="blog-content">
+                                    <a href="http://www.bankingtech.com/2017/11/fiorano-launches-psd2-solution-for-banks/" target="_blank" rel="nofollow">
+                                        Fiorano Software, a specialist in integration middleware and API management, has launched Fiorano PSD2, a solution enabling banks to comply with the European Union’s Revised Payment Services Directive (PSD2) regulations.
+
+                                    </a>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+
+                         <div class="col-xs-12 nopadding ">
                         <div class="col-sm-3 col-xs-12 newsHomeImg">
-                            <a href=" https://ibsintelligence.com/ibs-journal/ibs-news/canadia-bank-plugs-into-fast-with-fiorano-esb/" target="_blank" rel="nofollow">
+                            <a href="http://newbusinessethiopia.com/fiorano-introduces-its-solutions-to-ethiopian-bankers/" target="_blank" rel="nofollow">
                                 <div style="background: white" class="date_div">
-                                    <img class="img-responsive col-xs-12" src="<?php echo base_url('assets/images/company/news/ibs-big.jpg')?>" />
+                                    <img class="img-responsive col-xs-12" src="<?php echo base_url('assets/images/company/news/newbusinessethopia.jpg') ?>" />
+                                <p>New Business Ethopia</p>
                                 </div>
                             </a>
                         </div>
                         <div class="col-sm-9 col-xs-12 newsHomeContent padding-bottom-20">
-                            <h4>   <a href=" https://ibsintelligence.com/ibs-journal/ibs-news/canadia-bank-plugs-into-fast-with-fiorano-esb/" target="_blank" rel="nofollow"><strong>Canadia Bank plugs into FAST with Fiorano ESB</strong></a></h4>
+                            <h4>   <a href=" http://newbusinessethiopia.com/fiorano-introduces-its-solutions-to-ethiopian-bankers/" target="_blank" rel="nofollow"><strong>Fiorano introduces its solutions to Ethiopian bankers</strong></a></h4>
                             <div class="blog-content">
-                                <a href=" https://ibsintelligence.com/ibs-journal/ibs-news/canadia-bank-plugs-into-fast-with-fiorano-esb/" target="_blank" rel="nofollow">
-                                    Cambodia's Canadia Bank has deployed Fiorano ESB to integrate with National Bank of Cambodia's Fast and Secure Transfer (FAST) payment system.Check out a case study <a href="http://www.fiorano.com/customers/casestudies/canadia-bank.php" target="_blank" rel="nofollow">here.</a>
+                                <a href="http://newbusinessethiopia.com/fiorano-introduces-its-solutions-to-ethiopian-bankers/" target="_blank" rel="nofollow">
+                                    Fiorano, a Silicon Valley United States headquartered technology company, introduced its advanced banking solutions to representatives of banks in Ethiopia at the Sheraton Addis.
+                                    we specifically came to introduce Fiorano, one of our product partners into this market.
                                 </a>
                             </div>
                         </div>
                             <hr>
                     </div>
-                        <div class="col-xs-12 nopadding ">
 
-                        <div class="col-sm-3 col-xs-12 newsHomeImg">
-                            <a href="https://www.sibos.com/" target="_blank" rel="nofollow">
-                                <div style="background: white" class="date_div padding-top-20">
-                                    <img class="img-responsive col-xs-12" src="<?php echo __ROOT__?>/images/logo-sibos.jpg" />
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-9 col-xs-12 newsHomeContent padding-bottom-20">
-
-                            <h4><a href="https://www.sibos.com/" target="_blank" rel="nofollow">SIBOS 2017</a></h4>
-                            <div class="blog-content">
-                                <a href="https://www.sibos.com/" target="_blank" rel="nofollow">
-                                    Sibos is the world's premier financial services event. Sibos is the annual conference, exhibition and networking event organized by SWIFT for the financial industry. What started out as a banking operations seminar in 1978 ...
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                         <h3 class="newsHead">Featured Resources</h3>
-                    <hr>
+                <div class="col-sm-6 padding-top-30">
+
+                    <h2>Featured Resources</h2>
+                    <div class="wprt-lines style-1 custom-3 padding-bottom-30">
+                        <div class="line-1"></div>
+                        <div class="line-2"></div>
+                    </div>
+
                     <div class="col-xs-12 padding-top-20 padding-top-20">
                         <div class="recent_news wpb_content_element">
                             <div class="row">
@@ -412,10 +469,134 @@
         </div>
     </div>
 </section>
-<section class="testiminials">
+
+<!--<section class="testiminials padding-top-30">
+
+    <div class="container">
+        <div class="row">
 
 
-    <div class="container padding-bottom-50">
+            <div class="col-sm-12">
+                <h2>Fiorano Updates</h2>
+                <div class="wprt-lines style-1 custom-3">
+                    <div class="line-1"></div>
+                    <div class="line-2"></div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<section class="homeHead">
+
+    <div class="container ">
+        <div class="row" >
+            <div class="col-xs-12 aligncenter text-center" >
+                <h2>
+                    <div id="testimonial-slider1" class="owl-carousel marque">
+                        <div class="marque">
+                            <p class="description">
+                                <a href="<?php /*echo site_url('pressreleases/psd2_pressrelease') */?>" >Fiorano Launches PSD2 Solution for Banks for Seamless Regulatory Compliance</a>
+                            </p>
+                        </div>
+
+                        <div class="marque">
+                            <p class="description">
+                                Nairobi Hospital integrates mulitapplications like CRM, Health management and Insurance to offer end to end service to patients
+                            </p>
+                        </div>
+
+                        <div class="marque">
+                            <p class="description">
+                                Premium Bank links automated teller machines and E-zwich point of sales terminal in Ghana for cross usage with Fiorano
+                            </p>
+
+                        </div>
+                        <div class="marque">
+                            <p class="description">
+                                Fiorano solution assists Banco Postal's commitement towards financial inclusion and dynamization of the Angolan economy
+                            </p>
+
+                        </div>
+
+                        <div class="marque">
+                            <p class="description">
+                                Bank of Kigali extends its banking services to millenials with mobile banking in Rwanda with Fiorano ESB and API Management.
+                            </p>
+
+                        </div>
+                        <div class="marque">
+                            <p class="description">
+                                EBank achieves its vision of offering accessible & affordable bank accounts in Namibia with Fiorano's Core Banking Integration
+                            </p>
+
+                        </div>
+
+                    </div>
+                </h2>
+            </div>
+        </div>
+
+    </div>
+</section>-->
+
+
+<!--<section style="background-color:#3baae3; border:#055EA3 3px solid;" >
+    <div class="container"  >
+        <div class="row" >
+            <div class="col-md-12">
+
+                <div class="col-sm-12 col-xs-12">
+
+                    <div class="col-sm-12">
+                        <div class="col-xs-12">
+                            <div id="testimonial-slider1" class="owl-carousel marque">
+                                <div class="marque">
+                                    <p class="description">
+                                        Nairobi Hospital overcomes Integration hurdles with Fiorano Platform
+                                    </p>
+                                </div>
+
+                                <div class="marque">
+                                    <p class="description">
+                                        Premium Bank starts its journey towards Digitalization with Fiorano
+                                    </p>
+
+                                </div>
+                                <div class="marque">
+                                    <p class="description">
+                                        Fiorano solution facilitates Banco Postal's commitment towards financial inclusion and dynamization of the Angolan economy
+                                    </p>
+
+                                </div>
+
+                                <div class="marque">
+                                    <p class="description">
+                                        Bank of Kigali extends its banking services to millennials with Fiorano ESB and API Management.
+                                    </p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>-->
+
+
+<section class="testiminials padding-top-30">
+
+
+    <div class="container">
     <div class="row padding-bottom-50">
 
 
@@ -425,7 +606,10 @@
                 <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
                 <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
             </div>
-            <div class="cbp-nav-controls"><div class="cbp-nav-prev" data-slider-action="prev"></div><div class="cbp-nav-next cbp-nav-stop" data-slider-action="next"></div></div>
+          <!--  <div class="cbp-nav-controls">
+                <div class="cbp-nav-prev" data-slider-action="prev"></div>
+                <div class="cbp-nav-next cbp-nav-stop" data-slider-action="next"></div>
+            </div>-->
             <div class="wprt-lines style-1 custom-3">
                 <div class="line-1"></div>
                 <div class="line-2"></div>
@@ -559,7 +743,10 @@
         </div>
         <div class="col-sm-6 col-xs-12">
             <h2>Testimonials</h2>
-            <div class="cbp-nav-controls"><div class="cbp-nav-prev" data-slider-action="prev"></div><div class="cbp-nav-next cbp-nav-stop" data-slider-action="next"></div></div>
+            <div class="cbp-nav-controls">
+                <div class="cbp-nav-prev" data-slider-action="prev"></div>
+                <div class="cbp-nav-next cbp-nav-stop" data-slider-action="next"></div>
+            </div>
             <div class="wprt-lines style-1 custom-3">
                 <div class="line-1"></div>
                 <div class="line-2"></div>
@@ -615,14 +802,7 @@
 
     </div>
 </section>
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-            </div>
-        </div>
-    </div>
-</section>
+
 
 <script type="text/javascript" src="<?php echo base_url('assets/js/owl.carousel.min.js')?>"></script>
 <script>
@@ -639,6 +819,19 @@
             autoPlay:true,
             autoplayHoverPause:true
         });
+        $("#testimonial-slider1").owlCarousel({
+            items:1,
+            itemsDesktop:[1000,1],
+            itemsDesktopSmall:[979,1],
+            itemsTablet:[768,1],
+            pagination: true,
+            navigation:false,
+            navigationText:["",""],
+            transitionStyle : "goDown",
+            autoPlay:true,
+            autoplayHoverPause:true
+        });
+
     });
 </script>
 <!--goDown-->

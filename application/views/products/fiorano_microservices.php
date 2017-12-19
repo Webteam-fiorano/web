@@ -679,8 +679,49 @@
                         <p class="pull-right adapterDown"> <a target="_blank" href="http://www.fiorano.com/componentgallery/comp_index.php?p=fiorano_printpdf" >Download</a></p>
                     </div>
                 </div>
+                    <div class="col-sm-4 col-lg-3 adapterDiv">
+                        <a class="adapterViewHead" data-toggle="collapse" data-target="#XMLSplitter">
+                            <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/XMLSplitter.gif')?>"/></div>
+                            <div class="col-xs-7"> <h4> XMLSplitter</h4></div>
+                        </a>
+                        <div class="col-xs-12 padding-top-20 collapse" id="XMLSplitter">
+                            <p>Splits the XML input based on a configured XPATH selector.</p>
+                            <p class="pull-right adapterDown"> <a target="_blank" href="http://www.fiorano.com/componentgallery/comp_index.php?p=fiorano_xmlsplitter" >Download</a></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-3 adapterDiv">
+                        <a class="adapterViewHead" data-toggle="collapse" data-target="#Timer">
+                            <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/timer32.png')?>"/></div>
+                            <div class="col-xs-7"> <h4> Timer 5.0</h4></div>
+                        </a>
+                        <div class="col-xs-12 padding-top-20 collapse" id="Timer">
+                            <p>The Timer component is used to trigger sending of messages from this component to a component connected to its OUT_PORT.</p>
+                            <p class="pull-right adapterDown"> <a target="_blank" href="http://www.fiorano.com/componentgallery/comp_index.php?p=fiorano_timer5" >Download</a></p>
+                        </div>
+                    </div>
+
+
                 </div>
                 <!--11 th Row Close-->
+                <!--12 th start-->
+                <div class="col-sm-12 ">
+
+
+
+                    <div class="col-sm-4 col-lg-3 adapterDiv">
+                        <a class="adapterViewHead" data-toggle="collapse" data-target="#FilePoller">
+                            <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/Filepoller24.png')?>"/></div>
+                            <div class="col-xs-7"> <h4> &nbsp;FilePoller </h4></div>
+                        </a>
+                        <div class="col-xs-12 padding-top-20 collapse" id="FilePoller">
+                            <p>FilePoller is used to poll for files in a specific directory.</p>
+                            <p class="pull-right adapterDown"> <a target="_blank" href="http://www.fiorano.com/componentgallery/comp_index.php?p=fiorano_filepiller" >Download</a></p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!--12 th close-->
 
             </div>
         </div>
@@ -1059,13 +1100,13 @@
                 <!--8 th ROW start-->
                 <div class="col-sm-12">
                     <div class="col-sm-4 col-lg-3 adapterDiv">
-                        <a class="adapterViewHead" data-toggle="collapse" data-target="#XMLSplitter">
-                            <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/XMLSplitter.gif')?>"/></div>
-                            <div class="col-xs-7"> <h4> XMLSplitter</h4></div>
+                        <a class="adapterViewHead" data-toggle="collapse" data-target="#lambdaconnector32">
+                            <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/lambdaconnector32.png')?>"/></div>
+                            <div class="col-xs-7"> <h4>  Lambda Connector</h4></div>
                         </a>
-                        <div class="col-xs-12 padding-top-20 collapse" id="XMLSplitter">
-                            <p>Splits the XML input based on a configured XPATH selector.</p>
-                            <p class="pull-right adapterDown"> <a target="_blank" href="http://www.fiorano.com/componentgallery/comp_index.php?p=fiorano_xmlsplitter" >Download</a></p>
+                        <div class="col-xs-12 padding-top-20 collapse" id="lambdaconnector32">
+                            <p>Invokes the Amazon Lamda function and sends the function's output to the outputport. </p>
+                            <p class="pull-right adapterDown"> <a target="_blank" href="http://www.fiorano.com/componentgallery/comp_index.php?p=fiorano_lambdaconnector" >Download</a></p>
                         </div>
                     </div>
                     <div class="col-sm-4 col-lg-3 adapterDiv">
@@ -1264,7 +1305,7 @@
                     <div class="col-sm-4 col-lg-3 adapterDiv">
                         <a class="adapterViewHead" data-toggle="collapse" data-target="#WSStub">
                             <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/Stub.gif')?>"/></div>
-                            <div class="col-xs-7"> <h4> WSStub</h4></div>
+                            <div class="col-xs-7"> <h4> WSStub (WebServiceStub)</h4></div>
                         </a>
                         <div class="col-xs-12 padding-top-20 collapse" id="WSStub">
                             <p>This is a helper component which is used to expose an Event Process as an web service in the Web Service Gateway (which is a web application deployed in ESB Web Container). This component is not an executable component. It just allows the interfacing of the Web Service Gateway with the Event Process. The client's request is directly delivered to the output port of the Stub component by the gateway and the message received back to the input port is picked by the gateway and returned back to the client.</p>
@@ -1679,20 +1720,6 @@
                         </div>
                     </div>
                     <div class="col-sm-4 col-lg-3 adapterDiv">
-                        <a class="adapterViewHead" data-toggle="collapse" data-target="#lambdaconnector32">
-                            <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/lambdaconnector32.png')?>"/></div>
-                            <div class="col-xs-7"> <h4>  Lambda Connector</h4></div>
-                        </a>
-                        <div class="col-xs-12 padding-top-20 collapse" id="lambdaconnector32">
-                            <p>Invokes the Amazon Lamda function and sends the function's output to the outputport. </p>
-                            <p class="pull-right adapterDown"> <a target="_blank" href="http://www.fiorano.com/componentgallery/comp_index.php?p=fiorano_lambdaconnector" >Download</a></p>
-                        </div>
-                    </div>
-                </div>
-                <!--13 th Row Close-->
-<!--14 th row-->
-                <div class="col-sm-12">
-                    <div class="col-sm-4 col-lg-3 adapterDiv">
                         <a class="adapterViewHead" data-toggle="collapse" data-target="#mqseriesreplier32">
                             <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/mqseriesreplier32.png')?>"/></div>
                             <div class="col-xs-7"> <h4> &nbsp;MQSeriesReplier</h4></div>
@@ -1702,6 +1729,13 @@
                             <p class="pull-right adapterDown"> <a target="_blank" href="http://www.fiorano.com/componentgallery/comp_index.php?p=fiorano_mqseriesreplier" >Download</a></p>
                         </div>
                     </div>
+
+
+                </div>
+                <!--13 th Row Close-->
+<!--14 th row-->
+                <div class="col-sm-12">
+
                     <div class="col-sm-4 col-lg-3 adapterDiv">
                         <a class="adapterViewHead" data-toggle="collapse" data-target="#mqseriesrequestor32">
                             <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/mqseriesrequestor32.png')?>"/></div>
@@ -1713,9 +1747,45 @@
                             <p class="pull-right adapterDown"> <a target="_blank" href="http://www.fiorano.com/componentgallery/comp_index.php?p=fiorano_mqseriesrequestor" >Download</a></p>
                         </div>
                     </div>
+                    <div class="col-sm-4 col-lg-3 adapterDiv">
+                        <a class="adapterViewHead" data-toggle="collapse" data-target="#MQSeriesin">
+                            <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/MQSeriesIn.gif')?>"/></div>
+                            <div class="col-xs-7"> <h4> &nbsp;MQSeriesIn</h4></div>
+                        </a>
+                        <div class="col-xs-12 padding-top-20 collapse" id="MQSeriesin">
+                            <p>The MSQSeriesIn component provides an interface to queues on Websphere MQ 5.3 and above, formerly known as IBM MQSeries.</p>
+                            <p class="pull-right adapterDown"> <a target="_blank" href="http://www.fiorano.com/componentgallery/comp_index.php?p=fiorano_mqseriesin" >Download</a></p>
+                        </div>
+                    </div>
 
+                    <div class="col-sm-4 col-lg-3 adapterDiv">
+                        <a class="adapterViewHead" data-toggle="collapse" data-target="#Splunk">
+                            <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/SplunkEventCollector24.png')?>"/></div>
+                            <div class="col-xs-7"> <h4> &nbsp;Splunk Event Collector</h4></div>
+                        </a>
+                        <div class="col-xs-12 padding-top-20 collapse" id="Splunk">
+                            <p>Sends application events to a Splunk deployment using HTTP or HTTPS protocolsSends application events to a Splunk deployment using HTTP or HTTPS protocols.</p>
+                            <p class="pull-right adapterDown"> <a target="_blank" href="http://www.fiorano.com/componentgallery/comp_index.php?p=fiorano_splunk_event_collector" >Download</a></p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-3 adapterDiv">
+                        <a class="adapterViewHead" data-toggle="collapse" data-target="#Salesforce50">
+                            <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/salesforce24.png')?>"/></div>
+                            <div class="col-xs-7"> <h4>  Salesforce 5.0</h4></div>
+                        </a>
+                        <div class="col-xs-12 padding-top-20 collapse" id="Salesforce50">
+                            <p>
+                                Salesforce simplifies the process of connecting to Salesforce.com's Bulk API and is used to invoke various operations on SalesForce API.</p>
+                            <p class="pull-right adapterDown"> <a target="_blank" href="http://www.fiorano.com/componentgallery/comp_index.php?p=fiorano_salesforce50" >Download</a></p>
+                        </div>
+                    </div>
                 </div>
                 <!--14 th row-->
+
+
+
+
             </div>
         </div>
     </div>

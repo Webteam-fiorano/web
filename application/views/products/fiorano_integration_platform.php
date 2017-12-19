@@ -325,9 +325,38 @@
 
 <!--Fiorano B2B-->
 
+<section id="integration" class="odd-section">
+    <div class="content-section-a">
+        <div class="container">
+            <div class="row">
+                <div class="section-header">
+                    <h1 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Fiorano ESB (Enterprise Service Bus)</h1>
+                    <!--<p class="text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>-->
+                </div>
+                <div class="col-lg-5 col-sm-5 productLeft">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <p class="productDesc">
+                        An ESB acts as a high-speed expressway for data flow in an enterprise, enabling seamless communication among mutually interacting software applications
+                        <br>
+                        Fiorano ESB obviates point-to-point integration efforts and integrates heterogeneous applications, databases, cloud and other systems streamlining the complex architecture of an enterprise.
+                        Organizations can deploy the light-weight but powerful and scalable Fiorano ESB as their IT infrastructure backbone to enable real-time information across the enterprise.
+                    </p>
+                </div>
+                <div class="col-lg-7 col-sm-7 productRight">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10 padding-bottom-50 "><img class="img-responsive" src="<?php echo base_url('assets/images/products/Fiorano-ESB-Microservice-Top.png')?>" alt="Fiorano SOA Platform"></div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="pull-right padding-bottom-70">
+                    <a href="<?php echo site_url('products/fiorano_esb')?>" class="btn btn-link"> <button  class="btn btn-primary"> Click here to know more..</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-
-<section class="odd-section" id="B2B">
+<section class="even-section" id="B2B">
     <div class="container">
         <div class="section-header">
             <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Fiorano B2B</h2>
@@ -351,7 +380,7 @@
     </div>
 </section>
 <!-- Data & Resources  Section -->
-
+<?php /*
 <section class="offer-section offer-section-three section service-page-three-offer even-section" id="resource">
     <div class="container">
         <div class="section-header">
@@ -448,6 +477,6 @@
     </div>
 </section>
 
-
+*/ ?>
 
 

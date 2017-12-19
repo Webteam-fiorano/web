@@ -51,4 +51,34 @@ class Pressreleases extends CI_Controller
         $this->load->view('pressrelease/fiorano_announces_general_availability_mqtt');
         $this->load->view('common/footer');
     }
+
+    public function psd2_pressrelease(){
+
+
+        $data['meta']='
+        <meta name="viewport" content="width=device-width">
+        <meta name="keywords" content="Pressreleases, financial leaders, Psd2, Solution Psd2, Digital Banking, business architecture, BPM, operational intelligence, Application Architecture, business integration,Banking,  real-time analytics, real-time big data, Platform-as-a-service, digital Transformation" />
+        <meta name="description" content="Fiorano Launches PSD2 Solution for Banks for Seamless Regulatory Compliance - Fiorano Software " />
+        <meta name="classification" content="PSD2,Pressreleases, Business Process Excellence, BPM, SOA, ESB, Web services, XML, Electronic Business, Online Transaction Processing" />';
+        $data['fbdata']='
+
+            <meta name="twitter:card" content="summary">
+            <meta name="twitter:site" content="@fiorano">
+            <meta name="twitter:title" content="Fiorano Launches PSD2 Solution for Banks for Seamless Regulatory Compliance - Fiorano Software">
+            <meta name="twitter:description" content="Proven Middleware leader brings PSD2 Solution to Market to help European Banks Accelerate compliance to Revised Payment Service Directive">
+            <meta name="twitter:image" content="http://www.fiorano.com/new/assets/images/fiorano_logo.png">
+               
+            <meta property="og:title" content="Fiorano Launches PSD2 Solution for Banks for Seamless Regulatory Compliance - Fiorano Software" />
+            <meta property="og:type" content="article" />
+            <meta property="og:url" content="http://www.fiorano.com/new/pressreleases/psd2_pressrelease/" />
+            <meta property="og:image" content="http://www.fiorano.com/new/assets/images/fiorano_logo.png" />
+            <meta property="og:description" content="Proven Middleware leader brings PSD2 Solution to Market to help European Banks Accelerate compliance to Revised Payment Service Directive" />
+            <meta property="og:site_name" content="http://www.fiorano.com" />';
+
+        $data['heading']="Fiorano Launches PSD2 Solution for Banks for Seamless Regulatory Compliance | Fiorano ";
+        $data['title']="Fiorano Launches PSD2 Solution for Banks for Seamless Regulatory Compliance | Fiorano";
+        $this->load->view('common/header',$data);
+        $this->load->view('pressrelease/psd2_pressrelease');
+        $this->load->view('common/footer');
+    }
 }

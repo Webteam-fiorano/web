@@ -339,7 +339,7 @@
     </div>
 </section>
 <!-- Contact Section -->
-
+<?php /*
 <section class="offer-section offer-section-three section service-page-three-offer" id="resource">
     <div class="container">
         <div class="section-header">
@@ -426,8 +426,8 @@
             </div>
         </div>
     </div>
-</section>
-<section id="demoRequest">
+</section>*/?>
+<section id="demoRequest" class="odd-section">
     <div class="banner">
         <div class="container">
             <div class="row reqBar">

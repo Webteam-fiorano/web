@@ -6,31 +6,27 @@
  * Time: 10:19 AM
  */
 ?>
-<!-- jQuery -->
-
-
-
-
-
-<!---->
 
 <div class="col-xs-12">
 
     <a href="#" class="scrollup" style="display: block;">
         <i class="fa fa-arrow-circle-up"></i></a>
+<?php if(empty($rdemo)){?>
+
 
     <div id="side-bar" style="background:transparent;">
 
             <div id="slip" class="">
-                <a href="<?php echo __ROOT__?>/request/demo.php">
+                <!--<a href="<?php /*echo __ROOT__*/?>/request/demo.php">-->
+                <a href="<?php echo site_url('request/demo')?>">
                 <button class="btn btn-transparent">
                     <i class="fa fa-download"></i>
                     Request Demo</button>
                 </a>
             </div>
-
     </div>
-<div id="contact_us" class="modal fade" role="dialog">
+    <?php } ?>
+<div id="contact_us" class="modal fade" role=   "dialog">
     <div class="modal-dialog">
 
         <!-- Modal content-->
@@ -134,7 +130,7 @@
                     <div class="col-sm-6 col-sm-offset-3">
                         <br/>
                        <!-- <script src='https://www.google.com/recaptcha/api.js'></script>-->
-                        <div id="recaptcha2"></div>
+                       <!-- <div id="recaptcha2"></div>-->
                        <!-- <div class="g-recaptcha" data-sitekey="6Lfq1gsTAAAAAN8CJvmc_5Y4_oZMNErmg9wvC1G7"></div>
 
                         <br/>-->
@@ -168,7 +164,7 @@
     <div class="inner">
         <div class="container">
             <div class="row-fluid ff ">
-                <div class="span3 col-sm-6 padding-bottom-20">
+                <div class="span3 col-sm-4 padding-bottom-20">
                     <div id="text-5" class="widget widget_text">
                         <a href="/company/company.php"><h4 class="widget-title">About Us</h4></a>
                         <div class="thin_line"></div>
@@ -266,6 +262,10 @@
                         </div>
                     </div>
                 </div>
+
+
+
+
                 <div class="span3 col-sm-3 ">
                     <div class="widget widget_recent_entries">
                         <a href="<?php echo site_url('company/about')?>"><h4 class="widget-title">Contact &amp; Support</h4></a>
@@ -289,7 +289,25 @@
                         </ul>
                     </div>
                 </div>
+
+                <div class="span3 col-sm-2 ">
+                    <div class="widget widget_recent_entries">
+                        <a href="<?php echo site_url('company/about')?>"><h4 class="widget-title">Follow us on</h4></a>
+                        <div class="thin_line"></div>
+                        <ul>
+                            <li class="col-sm-6" style="padding-top: 0">
+                                <a href="https://twitter.com/fioranoglobal" target="_blank" class="so fa fa-twitter" style="text-decoration: none;"></a>
+                            </li>
+                            <li class="col-sm-6" style="padding-top: 0">
+                                <a href="https://www.linkedin.com/company/fiorano-software" target="_blank" class=" so fa fa-linkedin" style="text-decoration: none;"></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
             </div>
+
         </div>
     </div>
     <div id="copyright">
@@ -302,12 +320,12 @@
 </footer>
 
 
-<script async defer>
+<!--<script async defer>
 
 
     /* PLEASE DO NOT COPY AND PASTE THIS CODE. */(function() {if (!window['___grecaptcha_cfg']) { window['___grecaptcha_cfg'] = {}; };if (!window['___grecaptcha_cfg']['render']) { window['___grecaptcha_cfg']['render'] = 'explicit'; };if (!window['___grecaptcha_cfg']['onload']) { window['___grecaptcha_cfg']['onload'] = 'myCallBack'; };window['__google_recaptcha_client'] = true;var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;po.src = 'https://www.gstatic.com/recaptcha/api2/r20170717162708/recaptcha__en.js'; var elem = document.querySelector('script[nonce]');var nonce = elem && (elem['nonce'] || elem.getAttribute('nonce'));if (nonce) { po.setAttribute('nonce', nonce); }var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);})();
 
-</script>
+</script>-->
 <script>
     var recaptcha1;
     var recaptcha2;
@@ -344,15 +362,40 @@
         });
     });
 
-    $('#frm11').submit(function(e){
+    $('#frm11').submit(function(e) {
         e.preventDefault();
 
-        var recaptcha = $("#g-recaptcha-response").val();
+       /* var recaptcha = $("#g-recaptcha-response").val();
         if (recaptcha === "") {
             e.preventDefault();
             alert("Please check the recaptcha");
+           return false;
+        }*/
+            var option = $('#category').val(); //
+            var str = $("#email").val();
+            var res = str.split("@");
+
+            if((option == "Careers at Fiorano") || (option == "Other") ){
+
+            }else{
+                if (res[0] == "info") {
+                    alert("Please provide your Corporate Email Id ");
+                    return false;
+                }
+                if (res[1] == "gmail.com") {
+                    alert("Please provide your Corporate Email Id ");
+                    return false;
+                }
+            }
+
+        if(str=='sample@email.tst'){
+            alert("Sorry!");
             return false;
         }
+
+
+
+
         var formData = new FormData($('#frm11')[0]);
 
         $.ajax({
@@ -383,10 +426,9 @@
 </script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+<script src="<?php echo base_url('assets/js/bootstrap.min.js')?>"></script>
 <!-- Scrolling Nav JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="<?php echo base_url('assets/js/jquery.easing.min.js')?>"></script>
 <!--<script src="js/scrolling-nav.js"></script>-->
 
 <script src="<?php echo base_url('assets/js/jquery.themepunch.tools.min.js')?>"></script>
@@ -397,7 +439,7 @@
 <script src="<?php echo base_url('assets/js/jquery-ui.js')?>"></script>
 <script src="<?php echo base_url('assets/js/jquery.timepicker.min.js')?>"></script>
 <script src="<?php echo base_url('assets/js/multichoice.min.js')?>"></script>
-<script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+<script src="<?php echo base_url('assets/js/scrollreveal.min.js')?>"></script>
 
 <script>
     window.sr = ScrollReveal({ reset: false  });
@@ -405,6 +447,14 @@
     sr.reveal('.slide_left', { duration: 1000,scale: 1,origin: 'left',distance: '100px'});
     sr.reveal('.slide_right', { duration: 1000,scale: 1,origin: 'right',distance: '100px'});
 </script>
+
+
+
+
+<!--Cludo search  -->
+
+
+
 </body>
 
 </html>

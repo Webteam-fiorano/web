@@ -41,7 +41,7 @@
                 <tr>
 
                     <td  colspan="2" bgcolor="#ffffff">
-                        <a href="http://www.fiorano.com/new/index.php/company/event_register" target="_blank"> <img src="http://www.fiorano.com/new/assets/images/company/Digitalizing-Banking.jpg"></a>
+                       <!-- <a href="http://www.fiorano.com/new/index.php/company/event_register" target="_blank"> <img src="http://www.fiorano.com/new/assets/images/company/Digitalizing-Banking.jpg"></a>-->
                     </td>
                 </tr>
             </table>
@@ -51,30 +51,36 @@
                     <td vAlign="top" width="700" align="left" class="text" style="padding:10px">
                         <p style="font-family: Calibri, Helvetica, sans-serif;">Dear  <?php echo $uname; ?>,<br />
                             <br>
-                            Thank you for registering to our breakfast meet on <strong>&quot;<?php echo $eventname; ?> &quot;</strong>. </p>
+                         <!--   Thank you for registering to our breakfast meet on <strong>&quot;<?php echo $eventname; ?> &quot;</strong>. </p>
+                       <!-- Thank you for your interest in our upcoming meet on <strong>&quot;<?php /*echo $eventname; */?> &quot;</strong>.</p>-->
 
-                        <p style="font-family: Calibri, Helvetica, sans-serif;">We look forward to meeting you on June 14<sup>th</sup>, 2017 at 08.00 a.m. at Sheraton Addis, Taitu Street, Addis Ababa 1000, Ethiopia.</p>
+                     <!--   <p style="font-family: Calibri, Helvetica, sans-serif;"> We will share the event details with you soon. </p>-->
+
+
+                        <p style="font-family: Calibri, Helvetica, sans-serif;">We look forward to meeting you on October 25<sup>th</sup>, 2017 at 09.00 a.m. at <a style="text-decoration: dotted" href="https://goo.gl/maps/xXM5Ndt2LjT2" target="_blank"> Liverpool St-Norton Folgate, Bishopsgate Court, 4-12 Norton Folgate, London E1 6DQ, UK </a></p>
                         <p style="font-family: Calibri, Helvetica, sans-serif;"> We look forward to hearing from you.</p>
-
-                       <div style="width:50%;float:left;">
-                           <p style="font-family: Calibri, Helvetica, sans-serif;">Best Regards, <br>
+                        <p>
+                            <!--<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NmY2aTI4NGhoYWZmbXV0ZnN0NzRnc3M1bnIgZmlvcmFub3NvZnR3YXJlQG0&amp;tmsrc=fioranosoftware%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"> Add to google calender</a>-->
+                        </p>
+                       <div style="width:100%;float:left;">
+                         <!--  <p style="font-family: Calibri, Helvetica, sans-serif;">Best Regards, <br>
                                Ajith Hegde  <br>
 
                                Manager - Business Development<br>
                                <a href="mailto:ajith.hegde@fiorano.com">ajith.hegde@fiorano.com</a>
-                               <br>
+                               <br>-->
                                Fiorano Software<br>
                                <a href="http://www.fiorano.com/" target="_blank">www.fiorano.com </a></p>
 
                        </div>
                         <div style="width:50%;float:left;">
-                            <p style="font-family: Calibri, Helvetica, sans-serif;">Best Regards, <br>
+                           <!-- <p style="font-family: Calibri, Helvetica, sans-serif;">Best Regards, <br>
                                 Adam Nyaga <br>
                                 Manager - Business Development<br>
                                 <a href="mailto:anyga@sofgen.com">anyga@sofgen.com</a>
                                 <br>
                                 Sofgen <br>
-                                <a href="http://www.sofgen.com /" target="_blank">www.sofgen.com  </a></p>
+                                <a href="http://www.sofgen.com /" target="_blank">www.sofgen.com  </a></p>-->
                         </div>
 
 

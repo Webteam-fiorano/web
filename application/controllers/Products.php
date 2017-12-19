@@ -26,8 +26,8 @@ class Products extends CI_Controller {
         $data['qmain']='pro';
         $data['qsub']='ip';
 
-        $data['heading']="JMS messaging-based ESB with linear, build-as-you-grow scalability with no performance bottlenecks | Fiorano Integration Platform";
-        $data['title']="JMS messaging-based ESB with linear, build-as-you-grow scalability with no performance bottlenecks | Fiorano Integration Platform";
+        $data['heading']="Fiorano Integration Platform | Fiorano Software";
+        $data['title']=" Fiorano Integration Platform | Fiorano Software";
         $this->load->view('common/header',$data);
         $this->load->view('products/fiorano_integration_platform');
         $this->load->view('common/footer');
@@ -37,8 +37,8 @@ class Products extends CI_Controller {
     {
         $data['qmain']='pro';
         $data['qsub']='oesb';
-        $data['heading']="JMS messaging-based ESB with linear, build-as-you-grow scalability with no performance bottlenecks | Fiorano Opensource ESB";
-        $data['title']="JMS messaging-based ESB with linear, build-as-you-grow scalability with no performance bottlenecks | Fiorano Opensource ESB";
+        $data['heading']="Fiorano Opensource ESB | Fiorano Software";
+        $data['title']="Fiorano Opensource ESB | Fiorano Software";
         $this->load->view('common/header',$data);
         $this->load->view('products/fiorano_esb');
         $this->load->view('common/footer');
@@ -49,8 +49,8 @@ class Products extends CI_Controller {
     {
         $data['qmain']='pro';
         $data['qsub']='esb';
-        $data['heading']="JMS messaging-based ESB with linear, build-as-you-grow scalability with no performance bottlenecks | Fiorano ESB";
-        $data['title']="JMS messaging-based ESB with linear, build-as-you-grow scalability with no performance bottlenecks | Fiorano ESB";
+        $data['heading']="Fiorano ESB | Fiorano Software";
+        $data['title']="Fiorano ESB | Fiorano Software";
         $this->load->view('common/header',$data);
         $this->load->view('products/esb_enterprice_service_bus');
         $this->load->view('common/footer');
@@ -60,8 +60,8 @@ class Products extends CI_Controller {
     {
         $data['qmain']='pro';
         $data['qsub']='api';
-        $data['heading']="JMS messaging-based ESB with linear, build-as-you-grow scalability with no performance bottlenecks | Fiorano Api Management";
-        $data['title']="JMS messaging-based ESB with linear, build-as-you-grow scalability with no performance bottlenecks | Fiorano Api Management";
+        $data['heading']="Fiorano Api Management | Fiorano Software";
+        $data['title']="Fiorano Api Management | Fiorano Software";
         $this->load->view('common/header',$data);
         $this->load->view('products/fiorano_api_management');
         $this->load->view('common/footer');
@@ -71,8 +71,8 @@ class Products extends CI_Controller {
     {
         $data['qmain']='pro';
         $data['qsub']='';
-        $data['heading']="JMS messaging-based ESB with linear, build-as-you-grow scalability with no performance bottlenecks | Fiorano ESB";
-        $data['title']="JMS messaging-based ESB with linear, build-as-you-grow scalability with no performance bottlenecks | Fiorano ESB";
+        $data['heading']="Fiorano B2B Gateway | Fiorano Software";
+        $data['title']="Fiorano B2B Gateway | Fiorano Software";
         $this->load->view('common/header',$data);;
         $this->load->view('products/fiorano_b2b_gateway');
         $this->load->view('common/footer');
@@ -82,7 +82,7 @@ class Products extends CI_Controller {
     {
         $data['qmain']='pro';
         $data['qsub']='mq';
-        $data['heading']="JMS messaging-based ESB with linear, build-as-you-grow scalability with no performance bottlenecks | Fiorano MQ";
+        $data['heading']="Fiorano MQ | JMS messaging-based ESB with linear, build-as-you-grow scalability with no performance bottlenecks ";
         $data['title']="Fiorano MQ | JMS messaging-based ESB with linear, build-as-you-grow scalability with no performance bottlenecks ";
         $this->load->view('common/header',$data);
         $this->load->view('products/fiorano_mq');
@@ -122,8 +122,8 @@ class Products extends CI_Controller {
     Public function fiorano_esb_license(){
         $data['qmain']='oth';
         $data['qsub']='';
-        $data['heading']="Fiorano ESB License | Fiorano ESB ";
-        $data['title']="Fiorano ESB License | Fiorano ESB ";
+        $data['heading']="Fiorano ESB License | Fiorano software ";
+        $data['title']="Fiorano ESB License | Fiorano software ";
         $this->load->view('common/header',$data);
         $this->load->view('products/fiorano_esb_license');
         $this->load->view('common/footer');
@@ -140,50 +140,50 @@ class Products extends CI_Controller {
         $this->load->view('common/footer');
     }
     Public function what_we_do(){
-        $data['heading']="Fiorano What We Do | Fiorano ";
-        $data['title']="Fiorano What We Do | Fiorano ";
+        $data['heading']="Fiorano What We Do | Fiorano software ";
+        $data['title']="Fiorano What We Do | Fiorano software ";
         $this->load->view('common/header',$data);
         $this->load->view('products/what_we_do');
         $this->load->view('common/footer');
     }
     Public function streamlining_integration_strategy(){
-        $data['heading']="Fiorano ESB License | Fiorano ";
-        $data['title']="Fiorano ESB License | Fiorano ";
+        $data['heading']="Fiorano Streamlining Integration Strategy | Fiorano software ";
+        $data['title']="Fiorano Streamlining Integration Strategy | Fiorano software ";
         $this->load->view('common/header',$data);
         $this->load->view('products/streamlining_integration_strategy');
         $this->load->view('common/footer');
     }
     Public function application_integration(){
-        $data['heading']="Fiorano ESB License | Fiorano ";
-        $data['title']="Fiorano ESB License | Fiorano ";
+        $data['heading']="Fiorano application Integration | Fiorano software ";
+        $data['title']="Fiorano Application Integration | Fiorano software ";
         $this->load->view('common/header',$data);
         $this->load->view('products/application_integration');
         $this->load->view('common/footer');
     }
     Public function service_components(){
-        $data['heading']="Fiorano ESB License | Fiorano ";
-        $data['title']="Fiorano ESB License | Fiorano ";
+        $data['heading']="Fiorano service_components | Fiorano software ";
+        $data['title']="Fiorano Service Components | Fiorano software ";
         $this->load->view('common/header',$data);
         $this->load->view('products/service_components');
         $this->load->view('common/footer');
     }
     Public function service_components_characteristics(){
-        $data['heading']="Fiorano ESB License | Fiorano ";
-        $data['title']="Fiorano ESB License | Fiorano ";
+        $data['heading']="Fiorano ESB License | Fiorano software ";
+        $data['title']="Fiorano ESB License | Fiorano software ";
         $this->load->view('common/header',$data);
         $this->load->view('products/service_components_characteristics');
         $this->load->view('common/footer');
     }
     Public function service_component_architecture_benefits(){
-        $data['heading']="Fiorano ESB License | Fiorano ";
-        $data['title']="Fiorano ESB License | Fiorano ";
+        $data['heading']="Fiorano ESB License | Fiorano software ";
+        $data['title']="Fiorano ESB License | Fiorano software ";
         $this->load->view('common/header',$data);
         $this->load->view('products/service_component_architecture_benefits');
         $this->load->view('common/footer');
     }
     Public function standards(){
-        $data['heading']="Fiorano ESB License | Fiorano ";
-        $data['title']="Fiorano ESB License | Fiorano ";
+        $data['heading']="Fiorano ESB License | Fiorano software ";
+        $data['title']="Fiorano ESB License | Fiorano software ";
         $this->load->view('common/header',$data);
         $this->load->view('products/standards');
         $this->load->view('common/footer');

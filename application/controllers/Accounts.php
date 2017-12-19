@@ -29,7 +29,7 @@ class Accounts extends CI_Controller
         }
     }
 
-    public function index($type = null, $loc = null)/*type: dt=demo & Tutorial, dtf= Condition in demo & tutorial, Wp= White paper, ds= datasheets*/
+    public function login($type = null, $loc = null)/*type: dt=demo & Tutorial, dtf= Condition in demo & tutorial, Wp= White paper, ds= datasheets , fsoaDownload=product download*/
     {
 
         if (!empty($type)) {
@@ -56,7 +56,11 @@ class Accounts extends CI_Controller
 
                 $location = base_url() . 'assets/pdf/datasheets/' . $loc;
                 header('Location:' . $location);
-            } else {
+            } elseif ($type == 'fsoaDownload') {
+
+                $location = site_url('resources/fsoaDownload');
+                header('Location:' . $location);
+            }else {
                 redirect('home', 'location');
 
             }
@@ -87,6 +91,9 @@ class Accounts extends CI_Controller
                     } elseif ($this->input->post('d_type') == 'ds') {
                         $location = base_url() . 'assets/pdf/datasheets/' . $loc;
                         header('Location:' . $location);
+                    }elseif ($this->input->post('d_type') == 'fsoaDownload') {
+                        $location = site_url('resources/fsoaDownload');
+                        header('Location:' . $location);
                     } else {
                         redirect('home', 'location');
                     }
@@ -97,10 +104,8 @@ class Accounts extends CI_Controller
         $data['heading'] = "Account Login | Fiorano ";
         $data['title'] = "JMS messaging-based ESB with linear, build-as-you-grow scalability with no performance bottlenecks | Fiorano ESB";
         $this->load->view('common/header', $data);
-        $this->load->view('common/login');
+        $this->load->view('accounts/login');
         $this->load->view('common/footer');
-
-
     }
 
     /*Check user Valid or not.*/
@@ -126,6 +131,8 @@ class Accounts extends CI_Controller
                     'phone' => $row->phone,
                     'verified' => $row->verified,
                     'company' => $row->company,
+                    'registered'=> date("d-m-Y H:i:s", strtotime($row->registered)),
+                    'website'=> $row->website,
                     'ip_adrs' => $_SERVER['REMOTE_ADDR'],
                     'browser' => $_SERVER['HTTP_USER_AGENT'],
                     'locale' => @$_SERVER['HTTP_ACCEPT_LANGUAGE']
@@ -146,77 +153,98 @@ class Accounts extends CI_Controller
     {
         $this->session->unset_userdata('logged_in');
         $this->session->sess_destroy();
-        redirect(base_url(), 'location');
+        redirect(base_url('home'), 'location');
     }
 
     /* REGISTRATION IS ONGOING */
-    public function register()
+    public function register( $type=null)
     {
         if ($_POST) {
-
+            $this->form_validation->set_rules('salutation', 'Salutation', 'trim|required');
+            $this->form_validation->set_rules('fname', 'First Name', 'trim|required');
+            $this->form_validation->set_rules('lname', 'Last Name', 'trim|required');
             $this->form_validation->set_rules('email', 'email', 'trim|required|callback_check_email');
-            $this->form_validation->set_rules('password', 'Password', 'trim|required|callback_check_database');
-            $this->form_validation->set_rules('phone', 'Phone Number', 'trim|required|callback_check_email');
-            $this->form_validation->set_rules('cname', 'Company Name', 'trim|required|callback_check_database');
-            $this->form_validation->set_rules('name', 'Name', 'trim|required|callback_check_email');
+            $this->form_validation->set_rules('password', 'Password', 'trim|required');
+            $this->form_validation->set_rules('phone', 'Phone Number', 'trim|required');
+            $this->form_validation->set_rules('cname', 'Company Name', 'trim|required');
+            $this->form_validation->set_rules('website', 'Company website Name', 'trim|required');
+            $this->form_validation->set_rules('country', 'Country Name', 'trim|required');
+            $this->form_validation->set_rules('yourrole', 'Your Role', 'trim|required');
             if ($this->form_validation->run() != FALSE) {
-            $data_input1 = array(
-                'email' => $this->input->post('email'),
-                'hash' => md5($this->input->post('password')),
-                'group' => 976,
-                'verified' => 0,
-            );
-            $table = 'auth_lookup';
-            $dataInsert = $this->auth->insertData($data_input1, $table);
-            if (!empty($dataInsert)) {
-                $data_input2 = array(
-                    'id' => $dataInsert,
-                    'first_name' => $this->input->post('name'),
-                    'company' => $this->input->post('cname'),
-                    'phone' => $this->input->post('phone'),
-                    'country' => getLocationInfoByIp1(),
-                    'phone' => $this->input->post('phone')
+                $data_input1 = array(
+                    'email' => $this->input->post('email'),
+                    'hash' => md5($this->input->post('password')),
+                    'group' => 976,
+                    'verified' => 0,
                 );
-                $table = 'user_details';
-                $dataInsert1 = $this->auth->insertData($data_input2, $table);
-                if (!empty($dataInsert1)) {
+                /*callback_check_email*/
+                $table = 'auth_lookup';
+               $dataInsert = $this->auth->insertData($data_input1, $table);
+                if (!empty($dataInsert)) {
+                    $data_input2 = array(
+                        'id' => $dataInsert,
+                        'salutation' => $this->input->post('salutation'),
+                        'first_name' => $this->input->post('fname'),
+                        'last_name' => $this->input->post('lname'),
+                        'company' => $this->input->post('cname'),
+                        'website' => $this->input->post('website'),
+                        'phone' => $this->input->post('phone'),
+                        'country' => $this->input->post('country'),
+                        'phone' => $this->input->post('phone'),
+                        'job_title' => $this->input->post('yourrole'),
+                        'social' =>''
+                    );
+                    $table2 = 'user_details';
+                   $dataInsertsecond = $this->auth->insertuserData($data_input2, $table2, $dataInsert);
+                   if (!empty($dataInsertsecond)) {
+                        /*mail Section*/
+                        $this->load->library('email');
+                        $this->email->set_mailtype("html");
+                        $this->email->from('no-reply@fiorano.com', 'Fiorano Software');
+                        $this->email->to($this->input->post('email'));
+                        $this->email->bcc("harikrishnan.v@in.fiorano.com");
+                        $this->email->subject("Please verify your email - Fiorano Software");
+                        $activationLink = site_url('accounts/notify/activate/') . base64_encode($this->input->post('email'));
+                        $dat1 = array(
+                            'uname' => $this->input->post('salutation') . '.' . $this->input->post('fname') . ' ' . $this->input->post('lname'),
+                            'link' => $activationLink,
+                            'email' => $this->input->post('email')
+                        );
+                        $thanksbody = $this->load->view('templates/email/thanksletterUsers', $dat1, TRUE);
 
-                    /*mail Section*/
+                       $this->email->message($thanksbody);
+                       if ($this->email->send()){
+                            $data['PostMessage']="emailSuccess";
+                            }else{
+                           $data['PostMessage']="emailError";
+                       }
 
-                    /*Mail Section  Close */
-                    /*redirect section started */
-                    if ((!empty($verified)) & ($this->input->post('d_type') == 'dt')) {
-                        $dtyp = $this->input->post('d_type');
-                        redirect('resources/demo_interest/' . $dtyp . '/' . $loc, 'location');
-                    } else {
-                        if ($this->input->post('d_type') == 'dt') {
-                            $location = base_url() . 'assets/videos/flash_demos/' . $loc;
-                            header('Location:' . $location);
-                        } elseif ($this->input->post('d_type') == 'dtf') {
-                            redirect('resources/' . $loc, 'location');
-                        } elseif ($this->input->post('d_type') == 'wp') {
-                            $location = base_url() . 'assets/pdf/whitepaper/' . $loc;
-                            header('Location:' . $location);
-                        } elseif ($this->input->post('d_type') == 'ds') {
-                            $location = base_url() . 'assets/pdf/datasheets/' . $loc;
-                            header('Location:' . $location);
-                        } else {
-                            redirect('home', 'location');
-                        }
+                       
+                        /*Mail Section  Close */
+                        /*redirect section started */
+
+                        /*Redirection section stopped */
+                       //redirect('accounts', 'location');
+
                     }
-                    /*Redirection section stopped */
 
-                } else {
-                    $this->form_validation->set_message('error', 'Error in Registratin please try later.');
-                    return false;
+                }else{
+
+                    $data['PostMessage']="insertError";
                 }
 
-            }
-            }else{
+
+            } else {
+                $this->form_validation->set_message('error', 'Error in Registratin please try later.');
 
             }
-
         }
+        $data['heading'] = "Account Registration  | Fiorano ";
+        $data['title'] = "JMS messaging-based ESB with linear, build-as-you-grow scalability with no performance bottlenecks | Fiorano ESB";
+        $this->load->view('common/header', $data);
+        $this->load->view('accounts/register');
+        $this->load->view('common/footer');
+
     }
     /*Check registring email is valid or not.*/
     public function check_email($email)
@@ -225,23 +253,47 @@ class Accounts extends CI_Controller
         if (empty($email_check)) {
             return true;
         } else {
-            $this->form_validation->set_message('check_email', 'email already exist in the syetem.');
+            $this->form_validation->set_message('check_email', 'User Already exists, please try with different E-Mail ID!');
             return false;
         }
     }
-    function reset(){
+
+
+    function forgot(){ /*Forgot Password landing page */
+        $data['heading'] = "Reset Accounts | Fiorano Software";
+        $data['title'] = " Reset Accounts | Fiorano Software";
+        $this->load->view('common/header', $data);
+        $this->load->view('accounts/forgot');
+        $this->load->view('common/footer');
+
+    }
+
+    function reset(){/*Forgot Password Submit Page */
         if ($_POST) {
 
             $this->form_validation->set_rules('emailInput', 'email', 'trim|required');
             if ($this->form_validation->run() != FALSE) {
                 $forgotEmail =$this->input->post('emailInput');
                 $vaildOrNot= $this->check_email_valid($forgotEmail);
-
-
-                if(!empty($vaildOrNot)){
-
-
+               if(!empty($vaildOrNot)){
                     $data['act']='1';/*success*/
+
+                   $this->load->library('email');
+                   $this->email->set_mailtype("html");
+                   $this->email->from('no-reply@fiorano.com', 'Fiorano Software');
+                   $this->email->to($this->input->post('email'));
+                   $this->email->bcc("harikrishnan.v@in.fiorano.com");
+                   $this->email->subject("Request for password reset - Fiorano Software");
+                   $activationLink = site_url('accounts/resetAccount/') . base64_encode($this->input->post('emailInput'));
+                   $dat1 = array(
+                       'link' => $activationLink,
+                       'email' => $this->input->post('emailInput'),
+                       'activation_link' =>$activationLink
+                   );
+                   $thanksbody = $this->load->view('templates/email/forgot', $dat1, TRUE);
+                   $this->email->message($thanksbody);
+                   print_r($this->email->message($thanksbody));
+                   exit();
                     }else{
                     $data['act']='2';/*error email not found*/
                 }
@@ -249,11 +301,10 @@ class Accounts extends CI_Controller
             }
         }
         $data['heading'] = "Account Reset | Fiorano ";
-        $data['title'] = " Account Reset | Fiorano ESB";
+        $data['title'] = " Account Reset | Fiorano Software";
         $this->load->view('common/header', $data);
-        $this->load->view('common/reset');
+        $this->load->view('accounts/reset');
         $this->load->view('common/footer');
-
     }
 
     /*Check Forgot email is valid or not.*/
@@ -272,4 +323,104 @@ class Accounts extends CI_Controller
         $this->load->view('emails/integration_pattern_demos');
         $this->load->view('common/footer');
     }
-} ?>
+
+    function notify($option=null,$val=null){
+
+        $valDet= base64_decode($val);
+        if($option=='activate'){
+              $check= $this->auth->checkActivatestatus($valDet);
+              if(!empty($check)){
+                  $data['activate']= 1;
+              }else{
+                  $data['activate']= 2;
+              }
+          }else{
+            $data['']="";
+          }
+        $data['heading'] = "Login / Register / Reset Accounts | Fiorano Software";
+        $data['title'] = " Login / Register / Reset Accounts | Fiorano Software";
+        $this->load->view('common/header', $data);
+        $this->load->view('accounts/notification_account');
+        $this->load->view('common/footer');
+    }
+
+    function test(){
+        $encoded = $this->encode("help me vanish" , "ticket_to_haven");
+        echo $encoded;
+        echo "\n";
+        $decoded = $this->decode($encoded, "ticket_to_haven");
+        echo $decoded;
+    }
+
+    function encode($string,$key) {
+        $key = sha1($key);
+        $strLen = strlen($string);
+        $keyLen = strlen($key);
+        $j = 0;
+        for ($i = 0; $i < $strLen; $i++) {
+            $ordStr = ord(substr($string,$i,1));
+            $ordKey = ord(substr($key,$j,1));
+            $j++;
+            $hash.= strrev(base_convert(dechex($ordStr + $ordKey),16,36));
+        }
+        return $hash;
+    }
+    function decode($string,$key) {
+        $key = sha1($key);
+        $strLen = strlen($string);
+        $keyLen = strlen($key);
+        $j = 0;
+        for ($i = 0; $i < $strLen; $i+=2) {
+            $ordStr = hexdec(base_convert(strrev(substr($string,$i,2)),36,16));
+
+            $ordKey = ord(substr($key,$j,1));
+            $j++;
+            $hash.= chr($ordStr - $ordKey);
+        }
+        return $hash;
+    }
+        function resetAccount($hash=null){
+
+
+            $data['val']= null;
+            $this->load->view('common/header', $data);
+            $this->load->view('accounts/new_password');
+            $this->load->view('common/footer');
+
+        }
+
+        public function unsubscribe(){
+
+            $data['heading'] = "Fiorano Unsubscribe emails | Fiorano Software";
+            $data['title'] = " Fiorano Unsubscribe emails | Fiorano Software";
+            $data['reg']=0;
+            if($_POST) {
+
+                $dat = array(
+                    'email' => $this->input->post('email'),
+                    'answer' => $this->input->post('answer')
+                );
+
+                $to_main = "pooja.sharma@in.fiorano.com";
+                $this->load->library('email');
+                $this->email->set_mailtype("html");
+                $this->email->from('webteam@fiorano.com', 'Fiorano Web Team');
+                $body = $this->load->view('templates/email/unsubscribe-details', $dat, TRUE);
+                $this->email->to($to_main);
+                $this->email->bcc("harikrishnan.v@in.fiorano.com");
+                $this->email->subject("User Unsubscribe request ");
+                $this->email->message($body);
+                if($this->email->send()){
+                    $data['reg']=1;
+                }else{
+                    $data['reg']=2;
+                }
+
+            }
+
+            $this->load->view('common/header', $data);
+            $this->load->view('accounts/unsubscribe');
+            $this->load->view('common/footer');
+        }
+}
+?>

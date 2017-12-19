@@ -203,7 +203,7 @@
     </div>
 </section>
 
-
+<?php /*
 <section class="offer-section offer-section-three section service-page-three-offer" id="resource">
     <div class="container">
         <div class="section-header">
@@ -303,8 +303,8 @@
         </div>
     </div>
 </section>
-
-<section id="mqPerform" class="about-section even-section">
+*/?>
+<section id="mqPerform" class="about-section odd-section">
 
     <div class="content-section-a">
 

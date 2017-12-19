@@ -25,8 +25,24 @@
         </div>
         <div class="row  padding-top-50 padding-bottom-50" id="vid-thumb">
             <ul class="col-xs-12">
+                <a target="_blank" title="Click here to know more" href="<?php echo site_url('resources/whitepaper_psd2')?>" ">
+                    <li class=" col-sm-4">
+                        <ul class="whitePanel" id="">
+                            <li>
+                                <h2 class="zero"> Demystifying PSD2</h2>
+                                <p class="zero"> Learn the implications of PSD2 from an end-user standpoint.</p>
+
+                                <p class="zero1">
+                                    To understand the essential value of PSD2, one must review the state of retail banking today. A typical retail customer today has accounts at multiple
+                                    (two or more) banks. Each bank issues its own security token to the user, has unique security/sign-on procedures and requires the user to learn specific methods to create new beneficiaries, send international payments, check exchange rates, etc.
+                                </p>
+                                <p class="zeroReadmore">Read More</p>
+                            </li>
+                        </ul>
+                    </li>
+                </a>
                 <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>/downloads/login.php?action=Whitepaper-P2P_Microservices_Cloud_Pipelines&s=whitepapers">
-                        <li class=" col-sm-4">
+                    <li class=" col-sm-4">
                         <ul class="whitePanel" id="">
                             <li>
                                 <h2 class="zero"> P2P Microservices Pipeline</h2>
@@ -41,6 +57,9 @@
                         </ul>
                     </li>
                 </a>
+
+
+
                 <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>/downloads/login.php?action=Cloud_based_Integration_and_SOA_Architecture&s=whitepapers">
                     <li class=" col-sm-4">
                         <ul class="whitePanel" id="">
@@ -54,13 +73,14 @@
                         </ul>
                     </li>
                 </a>
+           <div class="col-xs-12 padding-top-10"></div>
                 <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>/docs/superpeer.pdf">
                     <li class=" col-sm-4">
                         <ul class="whitePanel" id="">
                             <li>
                                 <h2 class="zero">Super-Peer Architectures for Distributed Computing</h2>
                                 <p class="zero">Optimize the cost and efficiency of EAI, B2Bi and BPM using Super Peer Architectures</p>
-                                <p class="zero1"> This whitepaper compares and evaluate various software infrastructure topologies with respect to characteristics like scalability, performance, reliability and manageability, among others, with
+                                <p class="zero1"> This whitepaper compares and evaluates various software infrastructure topologies with respect to characteristics like scalability, performance, reliability and manageability, among others, with
                                     a view towards determining the best overall topology for general-purpose distributed computing and the solution of a wide range of business problems.</p>
                                 <p class="zeroReadmore">Read More</p>
                             </li>

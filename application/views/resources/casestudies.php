@@ -18,7 +18,7 @@
         </ul>
     </div>
 </section>
-<section class="odd-section">
+<section class="odd-section" >
     <div class="container padding-bottom-50">
         <div class="section-header">
             <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Case Studies </h2>
@@ -36,6 +36,13 @@
                     <th class="sortable" > Product </th>
                 </tr>
                 </thead>
+                <tr class="casednew">
+                    <td class="customer" id="GlobalTranz">EBank<input type="hidden" value="casestudies/eBank"> </td>
+                    <td class="region">MEA</td>
+                    <td class="industry">Finance</td>
+                    <td class="product">Fiorano ESB</td>
+                    </a>
+                </tr>
 
                 <tr class="odd cased">
                     <td class="customer" id="GlobalTranz">GlobalTranz<input type="hidden" value="/customers/casestudies/global-tranz.php"> </td>
@@ -50,6 +57,8 @@
                     <td class="industry">Finance</td>
                     <td class="product">Fiorano ESB</td>
                 </tr>
+
+
                 <tr class="casednew">
                     <td class="customer" id="canadia-bank">Canadia Bank <input type="hidden" value="casestudies/canadia_bank"> </td>
                     <td class="region">APAC</td>
@@ -86,8 +95,8 @@
                     <td class="product">Fiorano SOA</td>
                 </tr>
 
-                <tr class="cased">
-                    <td class="customer" id="dyckerhoff-ag">Dyckerhoff AG <input type="hidden" value="/customers/casestudies/dyckerhoff-ag.php"></td>
+                <tr class="casednew">
+                    <td class="customer" id="dyckerhoff-ag">Dyckerhoff AG <input type="hidden" value="casestudies/dyckerhoff_ag"></td>
                     <td class="region">EU</td>
                     <td class="industry">Manufacturing</td>
                     <td class="product">Fiorano ESB</td>
@@ -121,29 +130,29 @@
                     <td class="product">Fiorano SOA</td>
                 </tr>
 
-                <tr class="cased">
-                    <td class="customer" id="dhl">DHL  <input type="hidden" value="/customers/casestudies/dhl.php"></td>
+                <tr class="casednew">
+                    <td class="customer" id="dhl">DHL  <input type="hidden" value="casestudies/dhl"></td>
                     <td class="region">EU</td>
                     <td class="industry">Transport</td>
                     <td class="product">Fiorano ESB</td>
                 </tr>
 
-                <tr class="cased">
+                <tr class="casednew">
                     <td class="customer" id="bajaj-finserv">Bajaj Finserv  <input type="hidden" value="casestudies/bajaj_finserv"></td>
                     <td class="region">APAC</td>
                     <td class="industry">Finance</td>
                     <td class="product">Fiorano ESB</td>
                 </tr>
 
-                <tr class="cased">
-                    <td class="customer" id="dnc">Delaware North Companies (DNC) <input type="hidden" value="/customers/casestudies/dnc.php"></td>
+                <tr class="casednew">
+                    <td class="customer" id="dnc">Delaware North Companies (DNC) <input type="hidden" value="casestudies/dnc"></td>
                     <td class="region">North America</td>
                     <td class="industry">Hospitality & Entertainment</td>
                     <td class="product">Fiorano SOA </td>
                 </tr>
 
-                <tr class="cased">
-                    <td class="customer" id="ecole-hoteliere-de-lausanne">Ecole h&#244;teli&#232;re de Lausanne <input type="hidden" value="/customers/casestudies/ehl.php"> </td>
+                <tr class="casednew">
+                    <td class="customer" id="ecole-hoteliere-de-lausanne">Ecole h&#244;teli&#232;re de Lausanne <input type="hidden" value="casestudies/ecole_hoteliere_de_lausanne"> </td>
                     <td class="region">EU</td>
                     <td class="industry">Education</td>
                     <td class="product">Fiorano ESB</td>
@@ -167,8 +176,8 @@
                     <td class="industry">Energy</td>
                     <td class="product">FioranoMQ</td>
                 </tr>
-                <tr class="cased">
-                    <td class="customer" id="federal-bank">Federal Bank <input type="hidden" value="/customers/casestudies/federal-bank.php"> </td>
+                <tr class="casednew">
+                    <td class="customer" id="federal-bank">Federal Bank <input type="hidden" value="casestudies/federal_bank"> </td>
                     <td class="region">APAC</td>
                     <td class="industry">Finance</td>
                     <td class="product">Fiorano ESB</td>
@@ -185,21 +194,21 @@
                     <td class="industry">Finance</td>
                     <td class="product">Fiorano ESB</td>
                 </tr>
-                <tr class="cased">
+                <tr class="casednew">
                     <td class="customer" id="commercial-bank-of-africa">Commercial Bank of Africa <input type="hidden" value="casestudies/commercial_bank_africa"> </td>
                     <td class="region">MEA</td>
                     <td class="industry">Finance</td>
                     <td class="product">Fiorano ESB</td>
                 </tr>
 
-                <tr class="cased">
+                <tr class="casednew">
                     <td class="customer" id="credit-agricole">Credit Agricole Titres <input type="hidden" value="casestudies/credit_agricole"> </td>
                     <td class="region">EU</td>
                     <td class="industry">Finance</td>
                     <td class="product">FioranoMQ</td>
                 </tr>
-                <tr class="cased">
-                    <td class="customer" id="easypay">EasyPay <input type="hidden" value="/customers/casestudies/easypay.php"> </td>
+                <tr class="casednew">
+                    <td class="customer" id="easypay">EasyPay <input type="hidden" value="casestudies/easypay"> </td>
                     <td class="region">MEA</td>
                     <td class="industry">Finance</td>
                     <td class="product">Fiorano ESB</td>
@@ -217,21 +226,21 @@
                     <td class="industry">Finance</td>
                     <td class="product">Fiorano ESB</td>
                 </tr>
-                <tr class="cased">
-                    <td class="customer" id="fairex">FairEx International Financial Systems Ptv Ltd <input type="hidden" value="/customers/casestudies/fairex.php"> </td>
+                <tr class="casednew">
+                    <td class="customer" id="fairex">FairEx International Financial Systems Ptv Ltd <input type="hidden" value="casestudies/fairex"> </td>
                     <td class="region">APAC</td>
                     <td class="industry">Finance</td>
                     <td class="product">FioranoMQ</td>
                 </tr>
 
-                <tr class="cased">
-                    <td class="customer" id="finscope">FinScope <input type="hidden" value="/customers/casestudies/finscope.php"> </td>
+                <tr class="casednew">
+                    <td class="customer" id="finscope">FinScope <input type="hidden" value="casestudies/finscope"> </td>
                     <td class="region">UK</td>
                     <td class="industry">Finance</td>
                     <td class="product">FioranoMQ</td>
                 </tr>
-                <tr class="cased">
-                    <td class="customer" id="forex">Forex <input type="hidden" value="/customers/casestudies/forex.php"> </td>
+                <tr class="casednew">
+                    <td class="customer" id="forex">Forex <input type="hidden" value="casestudies/forex"> </td>
                     <td class="region">North America</td>
                     <td class="industry">Finance</td>
                     <td class="product">Fiorano ESB</td>
@@ -261,7 +270,7 @@
                     <td class="product">FioranoMQ</td>
                 </tr>
 
-                <tr class="cased">
+                <tr class="casednew">
                     <td class="customer" id="beijing-bureau">Beijing Shubei Software Technology <input type="hidden" value="casestudies/beijing_bureau"> </td>
                     <td class="region">APAC</td>
                     <td class="industry">Government & Defense</td>
@@ -292,7 +301,7 @@
                     <td class="industry">Government & Defense</td>
                     <td class="product">Fiorano ESB</td>
                 </tr>
-                <tr class="cased">
+                <tr class="casednew">
                     <td class="customer" id="tulare-county">County of Tulare <input type="hidden" value="casestudies/county_tulare"> </td>
                     <td class="region">North America</td>
                     <td class="industry">Government & Defense</td>
@@ -310,8 +319,8 @@
                     <td class="industry">Government & Defense</td>
                     <td class="product">Fiorano ESB</td>
                 </tr>
-                <tr class="cased">
-                    <td class="customer" id="fraikin">Fraikin <input type="hidden" value="/customers/casestudies/fraikin.php"> </td>
+                <tr class="casednew">
+                    <td class="customer" id="fraikin">Fraikin <input type="hidden" value="casestudies/fraikin"> </td>
                     <td class="region">EU</td>
                     <td class="industry">Logistics</td>
                     <td class="product">Fiorano ESB</td>
@@ -372,20 +381,20 @@
                     <td class="product">Fiorano ESB</td>
                 </tr>
 
-                <tr class="cased">
-                    <td class="customer" id="cf">Connect First <input type="hidden" value="/casestudies/connect_first"> </td>
+                <tr class="casednew">
+                    <td class="customer" id="cf">Connect First <input type="hidden" value="casestudies/connect_first"> </td>
                     <td class="region">North America</td>
                     <td class="industry">Technology</td>
                     <td class="product">FioranoMQ</td>
                 </tr>
-                <tr class="cased">
-                    <td class="customer" id="eb">ElektroBit <input type="hidden" value="/customers/casestudies/elektrobit.php"> </td>
+                <tr class="casednew">
+                    <td class="customer" id="eb">ElektroBit <input type="hidden" value="casestudies/elektrobit"> </td>
                     <td class="region">EU</td>
                     <td class="industry">Technology</td>
                     <td class="product">Fiorano ESB</td>
                 </tr>
-                <tr class="cased">
-                    <td class="customer" id="flytxt">Flytxt <input type="hidden" value="/customers/casestudies/flytxt.php"> </td>
+                <tr class="casednew">
+                    <td class="customer" id="flytxt">Flytxt <input type="hidden" value="casestudies/flytxt"> </td>
                     <td class="region">UK</td>
                     <td class="industry">Technology</td>
                     <td class="product">FioranoMQ</td>
@@ -437,42 +446,35 @@
 
             </table>
         </div>
-
-
-
-
-
-
-    </div>
-
-
-
-
+   </div>
 
 </section>
 <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.13/js/dataTables.bootstrap.min.js"></script>
-
-
-
 <script>
     $(document).ready(function() {
-        $('#tableSort').DataTable();
-
-
+        var oldStart = 0;
+        $('#tableSort').DataTable(
+            {
+                "sPaginationType": "full_numbers",
+                "fnDrawCallback": function (o) {
+                    if ( o._iDisplayStart != oldStart ) {
+                        var targetOffset = $('#tabDiv').offset().top;
+                        $('html,body').animate({scrollTop: targetOffset}, 500);
+                        oldStart = o._iDisplayStart;
+                    }
+                }
+            }
+        );
         $("#tableSort").on("click", ".cased", function (e) {
             var val = $(this).find('input').val();
             //alert(val);return false;
             window.open("http://fiorano.com"+val,'_blank');
-
-
         });
         $("#tableSort").on("click", ".casednew", function (e) {
             var val = $(this).find('input').val();
             //alert(val);return false;
-            window.open("http://lh-fio-new/index.php/"+val,'_blank');
-
-
+            window.open("http://www.fiorano.com/new/"+val,'_blank');
         });
 
     } );

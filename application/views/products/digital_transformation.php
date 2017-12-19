@@ -131,6 +131,7 @@
                         <div class="col-xs-12 padding-top-20">
                                 <p class="white">  A JMS messaging-based ESB that mediates and manages interactions between heterogeneous services across the extended enterprise. <br><br> Fiorano's distributed, peer-to-peer agent-based architecture abstracts the complexity of developing and deploying services to unlock value in a customer's enterprise architecture framework.
                                     Fiorano ESB serves as the core backplane technology for the Fiorano SOA platform. </p>
+                            <p class="white pull-right" style="vertical-align: bottom;"> <a  class="white" href="<?php  echo site_url('products/fiorano_esb')?> "> <i class="fa fa-hand-o-right"></i> &nbsp;Read more..</a></p>
                         </div>
                     </div>
                 </div>
@@ -144,6 +145,8 @@
                             <p class="white">  The Fiorano platform serves as an API Gateway between applications and services providing a linearly scalable, agent-based API gateway.<br>
                                 <br>The Fiorano platform allows developers to create APIs using a visual drag-drop configure approach and supports web-services and REST-based API development.</p>
                         </div>
+                        <p class="white pull-right padding-top-50 padding-top-hidxs" style="vertical-align: bottom;"> <a  class="white" href=" <?php echo site_url('products/fiorano_api')?>"> <i class="fa fa-hand-o-right"></i> &nbsp;Read more..</a></p>
+
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-4 " >
@@ -156,6 +159,7 @@
                             <p class="white">  Fiorano MQ brings the power of seamless messaging to enterprises with the industry’s fastest JMS messaging engine. <br><br>
                                 MQTT is a light weight event and message oriented protocol that allows devices/sensors to communicate with remote systems in an efficient and asynchronous fashion; specially designed for resource constrained devices over unreliable networks with low-bandwidth and high-latency issues. </p>
                         </div>
+                        <p class="white pull-right"> <a class="white" href=" <?php echo site_url('products/fiorano_mq')?>"> <i class="fa fa-hand-o-right"></i> &nbsp; Read more..</a></p>
                     </div>
                 </div>
             </div>
@@ -163,6 +167,7 @@
         </div>
     </div>
 </section>
+<?php /* ?>
 <section id="" class="even-section">
     <div class="content-section-a">
         <div class="container">
@@ -265,7 +270,8 @@
         <!-- /.container -->
     </div>
 </section>
-<section class="odd-section">
+<?php */ ?>
+<section class="even-section">
     <div class="container">
         <div class="col-xs-12 padding-top-50 padding-bottom-50">
             <div class="col-xs-9">

@@ -56,7 +56,7 @@
                         <h4><strong >Fiorano Software, Inc.</strong></h4>
                         </p>
                         <p>
-                            230 S. California Avenue, Suite 103<br/>
+                            230 California Avenue, Suite 103<br/>
 
                             Palo Alto, CA 94306<br/>
                             USA <br/>

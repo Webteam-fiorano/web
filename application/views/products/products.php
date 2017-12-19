@@ -97,7 +97,7 @@
             <ul class="col-xs-12" title="Fiorano Integration">
 
                 <a  class="pro-linkMain" id="proDIv6"  href="<?php echo site_url('products/digital_transformation')?>">
-                    <li class=" col-sm-4 col-xs-12">
+                    <li class=" col-sm-4 col-sm-offset-2 col-xs-12">
                         <ul class="demo-3 ProdDiv">
                             <li class="col-xs-12">
                                 <h2 class="zero">Digital Business Platform </h2>
@@ -131,7 +131,7 @@
                         </ul>
                     </li>
                 </a>
-                <a  class="pro-linkMain"  id="proDIv2" href="<?php echo site_url('products/fiorano_esb')?>">
+               <!-- <a  class="pro-linkMain"  id="proDIv2" href="<?php /*echo site_url('products/fiorano_esb')*/?>">
                     <li class="hidden-sm hidden-md hidden-lg col-xs-12"> &nbsp;</li>
                     <li class=" col-sm-4 col-xs-12">
                         <ul class="demo-3 ProdDiv " title="Fiorano ESB">
@@ -145,14 +145,14 @@
                             </li>
                             <li class="col-xs-12 pull-right proDef" >
                                <!-- <p class=" text-right" style="top: 101px;font-size: 17px;"><b><i>Business Integration</i></b></p>-->
-                            </li>
+                           <!-- </li>
                         </ul>
                     </li>
-                </a>
+                </a>-->
                 <a  class="pro-linkMain"  id="proDIv3" href="<?php echo site_url('products/fiorano_api')?>">
                     <li class="hidden-sm hidden-md hidden-lg col-xs-12"> &nbsp;</li>
 
-                    <li class=" col-sm-4  padding-top-50 col-xs-12">
+                    <li class=" col-sm-4 col-sm-offset-2 padding-top-50 col-xs-12">
                         <ul class="demo-3 ProdDiv " title="Fiorano API Management">
                             <li class="col-xs-12">
                                 <h2 class="zero">Fiorano API Management</h2>
@@ -173,7 +173,7 @@
 
                     <li class=" col-sm-4 padding-top-50 col-xs-12">
                         <ul class="demo-3 ProdDiv " title="Fiorano MQ">
-                            <li class="col-xs-12">
+                            <li class="co-xs-12">
                                 <h2 class="">FioranoMQ<sup>®</sup></h2>
                             </li>
                             <li class="col-xs-12">
@@ -190,7 +190,7 @@
 
                     </li>
                 </a>
-                <a  class="pro-linkMain" id="proDIv5" href="<?php echo site_url('products/open_source_fiorano_esb')?>">
+               <!-- <a  class="pro-linkMain" id="proDIv5" href="<?php /*echo site_url('products/open_source_fiorano_esb')*/?>">
 
                     <li class=" col-sm-4  padding-top-50 col-xs-12">
                         <ul class="demo-3 ProdDiv " title="Fiorano MQ">
@@ -204,12 +204,12 @@
                             </li>
                             <li class="col-xs-12 pull-right proDef" >
                                <!-- <p class=" text-right" style="top: 101px;font-size: 17px;"><b><i> Opensource</i></b></p>-->
-                            </li>
+                          <!--  </li>
 
                         </ul>
 
                     </li>
-                </a>
+                </a>-->
             </ul>
 
         </div>

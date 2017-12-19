@@ -35,7 +35,7 @@
         </div>
         <div class="row  padding-top-50 padding-bottom-50" id="vid-thumb">
             <ul class="col-xs-12">
-                <a href="javascript:void(0);" onclick='return window.open("http://www.fiorano.com/flash_demos/Fiorano_Cloud_Integration.html","SOA Explainer", ",type=fullWindow,fullscreen,scrollbars=yes,menubar=no,toolbar=no")'>
+                <a href="javascript:void(0);" onclick='return window.open("<?php echo base_url()?>assets/videos/flash_demos/Fiorano_Cloud_Integration.html","SOA Explainer", ",type=fullWindow,fullscreen,scrollbars=yes,menubar=no,toolbar=no")'>
                 <li class=" col-sm-4 col-xs-12 padding-top-50">
                     <ul class="demo-2 effect" id="min-first">
                         <li>
