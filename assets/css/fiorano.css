@@ -434,6 +434,8 @@ productHeadTitle{
     #rev_slider_1_1 h1{
         font-size: 22px;
     }
+
+    
 }
 @media(min-width:767px) {
     .productHead{padding-top: 50px;}
