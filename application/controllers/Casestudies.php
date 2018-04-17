@@ -271,5 +271,45 @@ class Casestudies extends CI_Controller
         $this->load->view('casestudies/EBank');
         $this->load->view('common/footer');
     }
+    public function IMbank(){
+        $data['meta']='
+        <meta name="viewport" content="width=device-width">
+        <meta name="keywords" content="I&M Bank, Fiorano ESB, esb, financial leaders, Digital Banking, business architecture, operational intelligence, Application Architecture, business integration,Banking,  real-time analytics, real-time big data, Platform-as-a-service, digital Transformation" />
+        <meta name="description" content="I&M Bank Fast Tracks Digital Roadmap with Fiorano" />
+        <meta name="classification" content="I&M Bank,Fioreano ESB, Business Process Excellence, BPM, SOA, ESB, Web services, XML, Electronic Business, Online Transaction Processing" />';
+        $data['fbdata']='
+
+            <meta name="twitter:card" content="summary">
+            <meta name="twitter:site" content="@fiorano">
+            <meta name="twitter:title" content="I&M Bank Fast Tracks Digital Roadmap with Fiorano - Fiorano Software">
+            <meta name="twitter:description" content="Fiorano ESB, offering a combination of high flexibility
+                                                        with low resource consumption fared best on these
+                                                        criteria as compared to other providers making it the
+                                                        preferred choice as an ESB vendor for I&M Bank. ">
+            <meta name="twitter:image" content="http://www.fiorano.com/new/assets/images/casestudy-Icon.jpg">
+               
+            <meta property="og:title" content="I&M Bank Fast Tracks Digital Roadmap with Fiorano - Fiorano Software" />
+            <meta property="og:type" content="article" />
+            <meta property="og:url" content="http://www.fiorano.com/new/casestudies/IMbank" />
+            <meta property="og:image" content="http://www.fiorano.com/new/assets/images/casestudy-Icon.jpg" />
+            
+            <meta property="og:image:secure_url" content="https://secure.example.com/ogp.jpg" />
+            <meta property="og:image:type" content="image/jpeg" />
+            <meta property="og:image:width" content="250" />
+            <meta property="og:image:height" content="200" />
+            <meta property="og:image:alt" content="I&M Bank Fast Tracks Digital Roadmap with Fiorano" />
+            
+            <meta property="og:description" content="Fiorano ESB, offering a combination of high flexibility
+                                                        with low resource consumption fared best on these
+                                                        criteria as compared to other providers making it the
+                                                        preferred choice as an ESB vendor for I&M Bank." />
+            <meta property="og:site_name" content="http://www.fiorano.com" />';
+
+        $data['heading']="I&M Bank Fast Tracks Digital Roadmap with Fiorano";
+        $data['title']="I&M Bank Fast Tracks Digital Roadmap with Fiorano";
+        $this->load->view('common/header',$data);
+        $this->load->view('casestudies/IMbank');
+        $this->load->view('common/footer');
+    }
 
 }
