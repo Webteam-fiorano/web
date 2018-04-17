@@ -154,6 +154,14 @@ $layout_data = array(
             </div>
         </div>
 </section>
+<div class="icon-bar-left">
+    <a class="" href="#Overview" >Overview</a>
+    <a class="" href="#withfiorano" >Features & Standards </a>
+    <a class="" href="#fiorano_healthcare_framework_itk" >Benefits </a>
+
+
+</div>
+
 <script>
     $(document).ready(function(){
         $(".healthcare_top_left,.heathcare_top_right").css({'height':($(".healthcare_top").height()+'px')});

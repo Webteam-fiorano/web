@@ -115,5 +115,31 @@ function checkActivatestatus($email){
         return false;
     }
 }
+    function updatePass($data=null){
+        $this->db->where('email', $data['email']);
+        $this->db->update('auth_lookup',$data);
+
+
+    }
+    function updateAccount($data=null,$id=null){
+
+        $query=$this->db->update('user_details', $data, array('id' => $id));
+        if($query){
+            return $id;
+        }else{
+            return false;
+        }
+    }
+    function viewUser($id=null){
+        $this->db->select('user_details.*');
+        $this->db->from('user_details');
+        $this->db->where('id', $id);
+        $query = $this->db->get();
+        if ($query->num_rows() != 0) {
+            return $query->result();
+        } else {
+            return false;
+        }
+    }
 }
 ?>

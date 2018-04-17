@@ -41,7 +41,10 @@
                         </ul>
                     </li>
                 </a>
-                <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>/downloads/login.php?action=Whitepaper-P2P_Microservices_Cloud_Pipelines&s=whitepapers">
+
+                <!--<a target="_blank" title="Click here to know more" href="<?php /*echo __ROOT__*/?>/downloads/login.php?action=Whitepaper-P2P_Microservices_Cloud_Pipelines&s=whitepapers">-->
+                <a target="_blank" title="Click here to know more" href="<?php echo site_url('accounts/login/wp/Whitepaper-P2P_Microservices_Cloud_Pipelines') ?>">
+
                     <li class=" col-sm-4">
                         <ul class="whitePanel" id="">
                             <li>
@@ -59,8 +62,8 @@
                 </a>
 
 
-
-                <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>/downloads/login.php?action=Cloud_based_Integration_and_SOA_Architecture&s=whitepapers">
+                <a target="_blank" title="Click here to know more" href="<?php echo site_url('accounts/login/wp/Cloud_based_Integration_and_SOA_Architecture') ?>">
+               <!-- <a target="_blank" title="Click here to know more" href="<?php /*echo __ROOT__*/?>/downloads/login.php?action=Cloud_based_Integration_and_SOA_Architecture&s=whitepapers">-->
                     <li class=" col-sm-4">
                         <ul class="whitePanel" id="">
                             <li>
@@ -74,7 +77,8 @@
                     </li>
                 </a>
            <div class="col-xs-12 padding-top-10"></div>
-                <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>/docs/superpeer.pdf">
+                <a target="_blank" title="Click here to know more" href="<?php echo site_url('accounts/login/wp/superpeer') ?>">
+                <!--<a target="_blank" title="Click here to know more" href="<?php /*echo __ROOT__*/?>/docs/superpeer.pdf">-->
                     <li class=" col-sm-4">
                         <ul class="whitePanel" id="">
                             <li>
@@ -105,7 +109,8 @@
         <div class="row  padding-top-50 padding-bottom-50" id="vid-thumb">
             <ul class="col-xs-12">
                 <li class=" col-sm-2 hidden-xs"></li>
-                <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>/downloads/login.php?action=Demystifying_API_Management&s=whitepapers">
+                <a target="_blank" title="Click here to know more" href="<?php echo site_url('accounts/login/wp/Demystifying_API_Management') ?>">
+                <!--<a target="_blank" title="Click here to know more" href="<?php /*echo __ROOT__*/?>/downloads/login.php?action=Demystifying_API_Management&s=whitepapers">-->
                     <li class=" col-sm-4">
                         <ul class="whitePanel panel2" id="">
                             <li>
@@ -121,7 +126,8 @@
                         </ul>
                     </li>
                 </a>
-                <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>/downloads/login.php?action=Intellyx_BrainBlog_WhitePaper_Fiorano&s=whitepapers">
+                <a target="_blank" title="Click here to know more" href="<?php echo site_url('accounts/login/wp/Intellyx_BrainBlog_WhitePaper_Fiorano') ?>">
+               <!-- <a target="_blank" title="Click here to know more" href="<?php /*echo __ROOT__*/?>/downloads/login.php?action=Intellyx_BrainBlog_WhitePaper_Fiorano&s=whitepapers">-->
                     <li class=" col-sm-4">
                         <ul class="whitePanel panel2" id="">
                             <li>
@@ -152,7 +158,8 @@
         </div>
         <div class="row  padding-top-50 padding-bottom-50" id="vid-thumb">
             <ul class="col-xs-12">
-                 <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>/downloads/login.php?action=Real-TimeIntegration_BenefitsOfMessageDriven&s=whitepapers">
+                <a target="_blank" title="Click here to know more" href="<?php echo site_url('accounts/login/wp/Real-TimeIntegration_BenefitsOfMessageDriven') ?>">
+                 <!--<a target="_blank" title="Click here to know more" href="<?php /*echo __ROOT__*/?>/downloads/login.php?action=Real-TimeIntegration_BenefitsOfMessageDriven&s=whitepapers">-->
                     <li class=" col-sm-4">
                         <ul class="whitePanel panel3" id="">
                             <li>
@@ -168,7 +175,8 @@
                         </ul>
                     </li>
                 </a>
-                <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>/downloads/login.php?action=Rest_based_SOA&s=whitepapers">
+                <a target="_blank" title="Click here to know more" href="<?php echo site_url('accounts/login/wp/Rest_based_SOA') ?>">
+                <!--<a target="_blank" title="Click here to know more" href="<?php /*echo __ROOT__*/?>/downloads/login.php?action=Rest_based_SOA&s=whitepapers">-->
                     <li class=" col-sm-4">
                         <ul class="whitePanel panel3" >
                             <li>
@@ -181,7 +189,8 @@
                         </ul>
                     </li>
                 </a>
-                <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>/downloads/login.php?action=Cloud_based_Integration_and_SOA_Architecture&s=whitepapers">
+                <a target="_blank" title="Click here to know more" href="<?php echo site_url('accounts/login/wp/Cloud_based_Integration_and_SOA_Architecture') ?>">
+               <!-- <a target="_blank" title="Click here to know more" href="<?php /*echo __ROOT__*/?>/downloads/login.php?action=Cloud_based_Integration_and_SOA_Architecture&s=whitepapers">-->
                     <li class=" col-sm-4">
                         <ul class="whitePanel panel3" id="">
                             <li>
@@ -196,7 +205,8 @@
                 </a>
 
                 <li class="col-sm-12 padding-top-20 hidden-xs"></li>
-                <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>/downloads/login.php?action=message_driven_SOA&s=whitepapers">
+                <a target="_blank" title="Click here to know more" href="<?php echo site_url('accounts/login/wp/message_driven_SOA') ?>">
+                <!--<a target="_blank" title="Click here to know more" href="<?php /*echo __ROOT__*/?>/downloads/login.php?action=message_driven_SOA&s=whitepapers">-->
                     <li class=" col-sm-4">
                         <ul class="whitePanel panel3" id="">
                             <li>
@@ -209,7 +219,8 @@
                         </ul>
                     </li>
                 </a>
-                <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>/downloads/login.php?action=ESB_Best_Practices&s=whitepapers">
+                    <a target="_blank" title="Click here to know more" href="<?php echo site_url('accounts/login/wp/ESB_Best_Practices') ?>">
+              <!--  <a target="_blank" title="Click here to know more" href="<?php /*echo __ROOT__*/?>/downloads/login.php?action=ESB_Best_Practices&s=whitepapers">-->
                     <li class=" col-sm-4">
                         <ul class="whitePanel panel3" id="">
                             <li>
@@ -221,9 +232,9 @@
                             </li>
                         </ul>
                     </li>
-                </a>
-
-                <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>/downloads/login.php?action=fiorano_esb&s=whitepapers">
+                    </a>
+                <a target="_blank" title="Click here to know more" href="<?php echo site_url('accounts/login/wp/fiorano_esb') ?>">
+                <!--<a target="_blank" title="Click here to know more" href="<?php /*echo __ROOT__*/?>/downloads/login.php?action=fiorano_esb&s=whitepapers">-->
                     <li class=" col-sm-4">
                         <ul class="whitePanel panel3" id="">
                             <li>
@@ -253,8 +264,8 @@
         </div>
         <div class="row  padding-top-50 padding-bottom-50" id="vid-thumb">
             <ul class="col-xs-12">
+                <a target="_blank" title="Click here to know more" href="<?php echo site_url('solutions/temenos_t24_core_banking_integration') ?>">
 
-                <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>/solutions/banking/temenos-t24-core-banking-integration.php">
                     <li class=" col-sm-4">
                         <ul class="whitePanel panel4" id="">
                             <li>
@@ -270,7 +281,8 @@
                         </ul>
                     </li>
                 </a>
-                <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>/downloads/login.php?action=The_Fiorano_ITK_Framework&s=whitepapers">
+                    <a target="_blank" title="Click here to know more" href="<?php echo site_url('accounts/login/wp/The_Fiorano_ITK_Framework') ?>">
+               <!-- <a target="_blank" title="Click here to know more" href="<?php /*echo __ROOT__*/?>/downloads/login.php?action=The_Fiorano_ITK_Framework&s=whitepapers">-->
                     <li class=" col-sm-4">
                         <ul class="whitePanel panel4" id="">
                             <li>
@@ -284,7 +296,7 @@
                         </ul>
                     </li>
                 </a>
-                <a target="_blank" title="Click here to know more" href="<?php echo __ROOT__?>/downloads/login.php?action=homeland_security&s=whitepapers">
+                    <a target="_blank" title="Click here to know more" href="<?php echo site_url('accounts/login/wp/homeland_security') ?>">
                     <li class=" col-sm-4">
                         <ul class="whitePanel panel4" id="">
                             <li>

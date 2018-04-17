@@ -24,6 +24,24 @@
 </section>
 <section>
     <div class="container">
+        <div class="col-xs-12 text-center submenu-main">
+            <div class="col-sm-4">
+                <a class=" animated-button victoria-four" href="#overview">Overview <i class="fa fa-arrow-down"></i></a>
+            </div>
+            <div class="col-sm-4">
+                <a class=" animated-button victoria-four" href="#solution">Fiorano Solution<i class="fa fa-arrow-down"></i></a>
+            </div>
+            <div class="col-sm-4">
+                <a class=" animated-button victoria-four" href="#invoice">Use Cases<i class="fa fa-arrow-down"></i></a>
+            </div>
+
+        </div>
+
+
+    </div>
+</section>
+<section id="overview">
+    <div class="container">
         <div class="row">
             <div class="section-header">
                 <h1 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"> SAP Integration and Process Optimization</h1>
@@ -69,7 +87,7 @@
         </div>
     </div>
 </section>
-<section class="even-section">
+<section class="even-section" id="solution">
     <div class="container padding-bottom-50">
         <div class="section-header">
             <h3 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">The Fiorano Solution</h3>
@@ -82,7 +100,7 @@
     </div>
 </section>
 
-<section class="odd-section">
+<section class="odd-section" id="invoice">
     <div class="container padding-bottom-50">
         <div class="section-header">
             <h3 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">The Fiorano Solution : Invoicing and Dispatch</h3>
@@ -118,7 +136,7 @@
     </div>
 </section>
 
-<section class="even-section">
+<section class="even-section" id="lifting">
     <div class="container padding-bottom-50">
         <div class="section-header">
             <h3 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">The Fiorano Solution : Lifting Plans and Bulk Orders</h3>
@@ -157,7 +175,7 @@
     </div>
 </section>
 
-<section class="odd-section">
+<section class="odd-section" id="mego">
     <div class="container padding-bottom-50">
         <div class="section-header">
             <h3 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">The Fiorano Solution : Goods Received Notes: MEGO/MIRO</h3>
@@ -195,7 +213,7 @@
     </div>
 </section>
 
-<section class="even-section">
+<section class="even-section" id="logistic">
     <div class="container padding-bottom-50">
         <div class="section-header">
             <h3 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">The Fiorano Solution : Logistics</h3>
@@ -240,7 +258,7 @@
 </section>
 
 
-<section class="odd-section">
+<section class="odd-section" id="order">
     <div class="container padding-bottom-50">
         <div class="section-header">
             <h3 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">The Fiorano Solution : Order Processing and Stock Allocation</h3>
@@ -277,3 +295,10 @@
         </div>
     </div>
 </section>
+
+<div class="icon-bar-left">
+    <a class="" href="#overview" >Overview</a>
+    <a class="" href="#solution" >Fiorano Solution</a>
+    <a class="" href="#invoice" >Use Cases</a>
+
+</div>

@@ -484,7 +484,7 @@
                     </div>
                 </div>
             </a>
-            <a href="/products/esb-enterprise-service-bus/" title="Enterprise Edition" target="_blank">
+            <a href="<?php echo site_url('/products/fiorano_esb/')?>" title="Enterprise Edition" target="_blank">
                 <div class="col-sm-3">
                     <div class="offer-icon-animate timeMenu">
                                  <span class="fa-stack fa-4x">
@@ -506,9 +506,6 @@
                     </div>
                 </div>
             </a>
-
-
-
 
         </div>
     </div>
@@ -597,6 +594,7 @@
         $("input[name=type]").val(1);
 
         e.preventDefault();
+
     });
 
     $('#esbbtn').submit(function(e){

@@ -41,6 +41,153 @@
         </div>
     </div>
 </section>
+<section class="contactForm" id="contactForm">
+    <div class="layer">
+        <div class="container">
+            <div class="row">
+                <div class="section-header padding-bottom-20">
+                    <h2 class="section-title text-center wow fadeInDown  animated" style="visibility: visible; animation-name: fadeInDown;padding-top: 2% !important;">Get in Touch</h2>
+                </div>
+                <div class="col-xs-12">
+
+                    <?php if(empty($response)){?>
+                        <?php $attributes=array('name'=>'contact','id'=>'frmcontact');
+
+                        echo form_open('company/contacts',$attributes );  ?>
+                        <div class="col-sm-10 col-xs-12 col-sm-offset-1" id="contact1">
+
+                            <p> To reach a sales representative immediately, call 1-800-663-3621 (Toll-Free within the USA) or submit this form selecting the appropriate message category and the relevant team will get in touch with you shortly. </p>
+                            <hr class="double-white">
+                            <input class="" name="type" value="" id="hiddnval" type="hidden">
+
+
+                            <div class="form-group">
+                                <div class="col-sm-6 padding-top-20">Name <span class="reqMention">*</span>
+                                    <input type="text" required="required" placeholder="Enter your Name..." id="name" class="form-control"  name="name" value="<?= @$_SESSION['name'];?>" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-6 padding-top-20">Email <span class="reqMention">*</span>
+                                    <input type="text"  required="required" placeholder="Enter your e-mail..." class="form-control" id="email" name="email" value="<?= @$_SESSION['email'];?>"  />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-6 padding-top-20">Company <span class="reqMention">*</span>
+                                    <input type="text" required="required" class="form-control" id="company" placeholder="Enter your Company..."  name="company" value="<?= @$_SESSION['company'];?>"  />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-6 padding-top-20"> Phone Number <span class="reqMention">*</span>
+                                    <input type="text" required="required" class="form-control" placeholder="Enter your Phone Number..." id="phone"  name="phone"  value="<?= @$_SESSION['phone'];?>"  />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-6 padding-top-20">Your country or region <span class="reqMention">*</span>
+                                    <select name="country" required="required" id="country"  style="" class="form-control">
+                                        <option value="">&nbsp;&nbsp;&nbsp;-- Select Country --</option>
+                                        <?php
+                                        $countries = array("Afghanistan","Albania","Algeria","American Samoa","Andorra","Angola","Anguilla","Antigua","Antigua and Barbuda","Argentina","Armenia","Aruba","Australia","Austria","Azerbaijan","Azores","Bahamas","Bahrain","Bangladesh","Barbados","Belarus","Belgium","Belize","Benin","Bermuda","Bhutan","Bolivia","Bosnia and Herzegovina","Botswana","Brazil","British Virgin Islands","Brunei Darussalam","Virgin Islands","Bulgaria","Burkina Faso","Burma","Burundi","Cambodia","Cameroon","Canada","Cape Verde","Cayman Islands","Central African Republic","Chad","Chile","China","Colombia","Comoros","Congo","Cook Islands","Costa Rica","Croatia","Cuba","Cyprus","Czech Republic","Democratic Republic of the Congo","Denmark","Djibouti","Dominica","Dominican Republic","Ecuador","Egypt","El Salvador","Equatorial Guinea","Eritrea","Estonia","Ethiopia","Faroe Islands","Fiji Islands","Finland","France","French Guiana","French Polynesia","Gabon","Gambia","Georgia","Germany","Ghana","Gibraltar","Greece","Greenland","Grenada","Guadeloupe","Guam","Guatemala","Guinea","Guinea Bissau","Guyana","Haiti","Honduras","Hong Kong","Hungary","Iceland","India","Indonesia","Iran","Iraq","Ireland","Israel","Italy","Ivory Coast","Jamaica","Japan","Jordan","Kazakhstan","Kenya","Kiribati","Kuwait","Kyrgyzstan","Laos","Latvia","Lebanon","Lesotho","Liberia","Libya","Liechtenstein","Lithuania","Luxembourg","Macau","Macedonia","Madagascar","Malawi","Malaysia","Maldives","Mali","Malta","Marshall Islands","Martinique","Mauritania","Mauritius","Mayotte","Mexico","Micronesia","Moldova","Monaco","Mongolia","Montserrat","Morocco","Mozambique","Myanmar","Nakhodka","Namibia","Nauru","Nepal","Netherlands","Netherlands Antilles","New Caledonia","New Zealand","Nicaragua","Niger Republic","Nigeria","Niue","Northern Mariana Islands","North Korea","Norway","Oman","Pakistan","Palau","Panama","Papua New Guinea","Paraguay","Peru","Philippines","Poland","Portugal","Puerto Rico","Qatar","Republic of the Congo","Romania","Russia","Rwanda","Saint Helena","Saint Kitts and Nevis","Saint Lucia","Saint Pierre And Miquelon","Saint Vincent And The Grenadines","Samoa","San Marino","Sao Tome And Principe","Saudi Arabia","Senegal","Serbia and Montenegro","Seychelles","Sierra Leone","Singapore","Slovakia","Slovenia","Solomon Islands","Somalia","South Africa","South Korea","Spain","Sri Lanka","St. Vincent","Sudan","Suriname","Swaziland","Sweden","Switzerland","Syrian Arab Republic","Taiwan","Tajikistan","Tanzania","Thailand","Togo","Tonga","Tokelau","Tonga Islands","Trinidad and Tobago","Tunisia","Turkey","Turkmenistan","Turks and Caicos Islands","Tuvalu","Uganda","Ukraine","United Arab Emirates","United Kingdom","Uruguay","USA","Uzbekistan","Vanuatu","Venezuela","Vietnam","Wallis and Futuna","Western Sahara","Western Samoa","Yemen","Yugoslavia","Zaire","Zambia","Zimbabwe");
+                                        foreach($countries as $country){
+                                            if(@$_SESSION['country'] == $country)
+                                                echo "<option value=\"{$country}\" selected>{$country}</option>";
+                                            else
+                                                echo "<option value=\"{$country}\">{$country}</option>";
+                                        }
+                                        ?>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-6 padding-top-20"> Which best describes you? <span class="reqMention">*</span>
+                                    <select name="profile" required="required" id="profile" class="form-control">
+                                        <option value="">Select one</option>
+                                        <option value="Existing Fiorano customer" <?= @$_SESSION['profile']=="Existing Fiorano customer"?"selected":"" ?>>Existing Fiorano customer </option>
+                                        <option value="Senior Management (CEO/CIO/CTO/VP)" <?= @$_SESSION['profile']=="Senior Management (CEO/CIO/CTO/VP)"?"selected":"" ?>>Senior Management (CEO/CIO/CTO/VP)</option>
+                                        <option value="IT Manager Developer" <?= @$_SESSION['profile']=="IT Manager Developer"?"selected":"" ?>>IT Manager/Developer</option>
+                                        <option value="Government" <?= @$_SESSION['profile']=="Government"?"selected":"" ?>>Government</option>
+                                        <option value="Researcher/Student/University"<?= @$_SESSION['profile']=="Researcher/Student/University"?"selected":"" ?>>Researcher/Student/University</option>
+                                        <option value="Media/Press" <?= @$_SESSION['profile']=="Media/Press"?"selected":"" ?>>Media/Press</option>
+                                        <option value="Other" <?= @$_SESSION['profile']=="Other"?"selected":"" ?>>Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-6 padding-top-20" id="messsge_cat"> Message category <span class="reqMention">*</span>
+                                    <select  name="category" required="required" id="category1" style="" class="form-control">
+                                        <option value="" selected>Select one</option>
+                                        <option value="Product technical information" <?= @$_SESSION['category']=="Product technical information"?"selected":"" ?>>Product technical information</option>
+                                        <option value="Product purchase information" <?= @$_SESSION['category']=="Product purchase information"?"selected":"" ?>>Product purchase information</option>
+                                        <option value="Licensing" <?= @$_SESSION['category']=="Licensing"?"selected":"" ?>>Licensing</option>
+                                        <option value="Accounting Finance" <?= @$_SESSION['category']=="Accounting Finance"?"selected":"" ?>>Accounting/Finance</option>
+                                        <option value="Marketing Media PR" <?= @$_SESSION['category']=="Marketing Media PR"?"selected":"" ?>>Marketing, Media or PR</option>
+                                        <option value="Feedback" <?= @$_SESSION['category']=="Feedback"?"selected":"" ?>>Feedback</option>
+                                        <option value="Legal" <?= @$_SESSION['category']=="Legal"?"selected":"" ?>>Legal</option>
+                                        <option value="Careers at Fiorano" <?= @$_SESSION['category']=="Careers at Fiorano"?"selected":"" ?>>Careers at Fiorano</option>
+                                        <option value="Other" <?= @$_SESSION['category']=="Other"?"selected":"" ?>>Other</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div id="lic_catDiv1" class="col-sm-6 padding-top-20 "> Support Category <span class="reqMention">*</span>
+                                    <select name="lic_cat"  id="lic_cat" style=" " class="form-control">
+                                        <option value="">Select one</option>
+                                        <option value="Password lock" >Password lock </option>
+                                        <option value="Request License extension" > Request License extension</option>
+                                        <option value="Generating Licenses" > Generation of license</option>
+                                        <option value="Change of IP address">Change of IP address</option>
+                                        <option value="Schedule License Portal Training">Schedule License Portal Training</option>
+                                        <option value="Expired support">  Expired support</option>
+                                        <option value="Other" >Other</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-6 yourMessage padding-top-20" id="your_mess">Your Message <span class="reqMention">*</span>
+                                    <textarea name="message" required="required" id="message"  placeholder="Enter your Message..." class="form-control" title="Message" ><?= @$_SESSION['message']; ?></textarea>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-sm-offset-3">
+                                <br/>
+                                <!-- <script src='https://www.google.com/recaptcha/api.js'></script>-->
+                                <!-- <div id="recaptcha2"></div>-->
+                                <!-- <div class="g-recaptcha" data-sitekey="6Lfq1gsTAAAAAN8CJvmc_5Y4_oZMNErmg9wvC1G7"></div>
+
+                                 <br/>-->
+                            </div>
+
+                            <div class="col-xs-12 padding-bottom-30">
+                                <hr class="double-white">
+                                <button class="btn btn-lg pull-right btn-success"> Submit </button>
+                            </div>
+                        </div>
+                        <?php  echo form_close();?>
+                    <?php }else{ ?>
+                        <div class="col-xs-12">
+                            <div class="col-xs-10 col-xs-offset-1 padding-bottom-30 padding-top-30">
+
+                                <div>
+                                    <?php if($response=='sucess') { ?>
+                                        <div class="alert alert-success">
+                                            <strong>Success!</strong> Thank you for the request our team will contact shortly !
+                                        </div>
+
+                                    <?php }else{ ?>
+                                        <div class="alert alert-danger">
+                                            <strong>Error!</strong> Please try again.
+                                        </div>
+                                    <?php } ?>
+                                </div>
+                            </div>
+                        </div>
+                    <?php } ?>
+                    <!--<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1lucQbonUecOXD7J9YekVnTISOyPWI2I1" width="100%" height="480"></iframe>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section>
     <div class="container">
         <div class="row">
@@ -99,7 +246,7 @@
             <!--<p class="text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>-->
         </div>
 
-    <div class="contact-bg" style="height:700px;">
+    <div class="contact-bg" style="height:600px;">
 
 
     </div>
@@ -126,7 +273,6 @@
                             <br/>
                             <a class="white" href="#" data-toggle="modal" data-target="#contact_us">Email
                                 us, we will contact you!</a></p>
-
 
 
                     </div>
@@ -287,7 +433,37 @@
 
 
 
+<script>
 
+    $(document).ready(function(){
+
+        $('#lic_catDiv1').hide();
+        var classmessage = $(".yourMessage");
+        $('#category1').change(function () {
+            if($('#category1').val()=='Licensing'){
+                $('#lic_catDiv1').show();
+                classmessage.removeClass("col-sm-6");
+                classmessage.addClass("col-sm-12");
+                $("#lic_cat").prop('required',true);
+                }else{
+                $('#lic_catDiv1').hide();
+                classmessage.removeClass("col-sm-12");
+                classmessage.addClass("col-sm-6");
+                $("#lic_cat").prop('required',false);
+                }
+        });
+    });
+
+    $("#frmcontact").submit(function(){
+        if($('#hiddnval').val()!=""){
+            alert("The unsecured access, please try again later");
+            return false;
+        }else{
+
+
+        }
+    });
+</script>
 
 
 

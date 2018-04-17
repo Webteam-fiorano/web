@@ -57,8 +57,10 @@
                      <!--   <p style="font-family: Calibri, Helvetica, sans-serif;"> We will share the event details with you soon. </p>-->
 
 
-                        <p style="font-family: Calibri, Helvetica, sans-serif;">We look forward to meeting you on October 25<sup>th</sup>, 2017 at 09.00 a.m. at <a style="text-decoration: dotted" href="https://goo.gl/maps/xXM5Ndt2LjT2" target="_blank"> Liverpool St-Norton Folgate, Bishopsgate Court, 4-12 Norton Folgate, London E1 6DQ, UK </a></p>
-                        <p style="font-family: Calibri, Helvetica, sans-serif;"> We look forward to hearing from you.</p>
+                        <p style="font-family: Calibri, Helvetica, sans-serif;">We look forward to meeting you on February 13<sup>th</sup>, 2018 at 08.00 a.m. at <a style="text-decoration: dotted" href="https://goo.gl/maps/VAAW2LUDrwp" target="_blank"> Eko Hotels and Suites
+                                1415 Adetokunbo Ademola Street
+                                Victoria Island, Lagos, Nigeria </a></p>
+
                         <p>
                             <!--<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NmY2aTI4NGhoYWZmbXV0ZnN0NzRnc3M1bnIgZmlvcmFub3NvZnR3YXJlQG0&amp;tmsrc=fioranosoftware%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"> Add to google calender</a>-->
                         </p>

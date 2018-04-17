@@ -23,18 +23,7 @@
         <div class="container padding-top-50">
 
             <div class="col-xs-12 nopadding">
-                <a href="<?php echo site_url('company/news')?>" class="">
-                    <div class="col-sm-2">
-                        <div class="offer-icon-animate timeMenu">
-                                 <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-newspaper-o fa-stack-1x fa-inverse"></i>
 
-                    </span>
-                            <h2 class="service-heading">News</h2>
-                        </div>
-                    </div>
-                </a>
                 <a href="<?php echo site_url('company/pressreleases')?>" class="">
                     <div class="col-sm-2">
                         <div class="offer-icon-animate timeMenu" >
@@ -55,6 +44,18 @@
                         <i class="fa fa-video-camera fa-stack-1x fa-inverse"></i>
                     </span>
                             <h2 >Media Coverage</h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="<?php echo site_url('company/news')?>" class="">
+                    <div class="col-sm-2">
+                        <div class="offer-icon-animate timeMenu">
+                                 <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-newspaper-o fa-stack-1x fa-inverse"></i>
+
+                    </span>
+                            <h2 class="service-heading">News</h2>
                         </div>
                     </div>
                 </a>

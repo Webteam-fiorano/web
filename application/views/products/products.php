@@ -25,7 +25,7 @@
                             <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
                                 <img src="<?php echo base_url('assets/images//products/banner-integration.jpg')?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                                 <div class="tp-caption lft" data-x="30" data-y="100" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
-                                    <h3 class="white bannerDec"><span style="color:#8baad8; font-size: 32px;"><b>Overcome</b> </span>integration hurdles <br> and achieve seamless communication<br> among applications </h3>
+                                    <h3 class="white bannerDec"><span class="pspan1" style="color:#8baad8;"><b>Overcome</b> </span>integration hurdles <br> and achieve seamless communication<br> among applications </h3>
                                 </div>
 
 
@@ -33,13 +33,13 @@
                             <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
                                 <img src="<?php echo base_url('assets/images/products/banner-ESB.jpg')?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                                 <div class="tp-caption lft" data-x="30" data-y="100" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
-                                    <h3 class="white bannerDec"><span style="color:#00BCD4; font-size: 32px;"><b>Create</b> </span> a secure,  <br> agile hybrid-cloud enterprise backplane </h3>
+                                    <h3 class="white bannerDec"><span class="pspan1" style="color:#00BCD4; "><b>Create</b> </span> a secure,  <br> agile hybrid-cloud enterprise backplane </h3>
                                 </div>
                             </li>
                             <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
                                 <img src="<?php echo base_url('assets/images/products/banner-api-Management.jpg')?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
                                 <div class="tp-caption lft" data-x="30" data-y="100" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
-                                    <h3 class="white bannerDec"><span style="color:#8baad8; font-size: 32px;"><b>Modernize</b></span>, <span style="color:#8baad8; font-size: 32px;"><b>Innovate</b></span>, and <span style="color:#8baad8; font-size: 32px;"><b>Monetize</b> </span> <br> existing data and open up new <br>revenue channels </h3>
+                                    <h3 class="white bannerDec"><span class="pspan1" style="color:#8baad8; "><b>Modernize</b></span>, <span class="pspan1" style="color:#8baad8; "><b>Innovate</b></span>, and <span class="pspan1" style="color:#8baad8;"><b>Monetize</b> </span> <br> existing data and open up new <br>revenue channels </h3>
                                 </div>
                             </li><!--00BCD4 FFC107-->
                             <!-- SLIDE  -->
@@ -149,10 +149,31 @@
                         </ul>
                     </li>
                 </a>-->
+                <a  class="pro-linkMain" id="proDIv5" href="<?php echo site_url('products/cloud_platform')?>">
+
+                    <li class=" col-sm-4  padding-top-50 col-xs-12">
+                        <ul class="demo-3 ProdDiv " title="Fiorano MQ">
+                            <li class="col-xs-12">
+                                <h2 class="">Fiorano Cloud Platform</h2>
+                            </li>
+                            <li class="col-xs-12">
+                                <p class="prodesc" id="prodesc5" style="">
+                                    The Fiorano Cloud Platform is an iPaaS solution which includes a comprehensive set of connectors/adapters that can quickly transform your application-silos into functional services
+                                </p>
+                            </li>
+                            <li class="col-xs-12 pull-right proDef" >
+                                <!-- <p class=" text-right" style="top: 101px;font-size: 17px;"><b><i> Opensource</i></b></p>-->
+                            </li>
+
+                        </ul>
+
+                    </li>
+                </a>
+
                 <a  class="pro-linkMain"  id="proDIv3" href="<?php echo site_url('products/fiorano_api')?>">
                     <li class="hidden-sm hidden-md hidden-lg col-xs-12"> &nbsp;</li>
 
-                    <li class=" col-sm-4 col-sm-offset-2 padding-top-50 col-xs-12">
+                    <li class=" col-sm-4 padding-top-50 col-xs-12">
                         <ul class="demo-3 ProdDiv " title="Fiorano API Management">
                             <li class="col-xs-12">
                                 <h2 class="zero">Fiorano API Management</h2>
@@ -190,26 +211,7 @@
 
                     </li>
                 </a>
-               <!-- <a  class="pro-linkMain" id="proDIv5" href="<?php /*echo site_url('products/open_source_fiorano_esb')*/?>">
 
-                    <li class=" col-sm-4  padding-top-50 col-xs-12">
-                        <ul class="demo-3 ProdDiv " title="Fiorano MQ">
-                            <li class="col-xs-12">
-                                <h2 class="">Fiorano ESB Community Edition<sup>&trade;</sup></h2>
-                            </li>
-                            <li class="col-xs-12">
-                                <p class="prodesc" id="prodesc5" style="">
-                                    The Fiorano ESB Core is now Open Source & built on top of industry standards including OSGi (Apache Karaf) and JMS.
-                                </p>
-                            </li>
-                            <li class="col-xs-12 pull-right proDef" >
-                               <!-- <p class=" text-right" style="top: 101px;font-size: 17px;"><b><i> Opensource</i></b></p>-->
-                          <!--  </li>
-
-                        </ul>
-
-                    </li>
-                </a>-->
             </ul>
 
         </div>

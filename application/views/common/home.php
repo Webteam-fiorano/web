@@ -180,7 +180,7 @@
 <div class="col-xs-12"> &nbsp;</div>
 <!-- .header -->
 
-<section class="homeHead1">
+<!--<section class="homeHead1">
 
      <div class="container ">
          <div class="row" >
@@ -191,91 +191,221 @@
                      with operational and informational perspectives
                  </p>
              </h2>
-         <div class="pull-right"><a class="headtitleLink" href="<?php echo site_url('products/digital_transformation')?>">
+         <div class="pull-right"><a class="headtitleLink" href="<?php /*echo site_url('products/digital_transformation')*/?>">
                  Click here to start your Digital Transformation
              </a></div>
          </div>
      </div>
 
     </div>
-</section>
+</section>-->
+
 <section>
-
     <div class="container">
-        <div class="row padding-top-50 padding-bottom-50" >
-            <div class="col-xs-12 nopadding">
-                <div class="col-sm-4 nopadding divHomeMap">
-                    <div class="col-md-3 nopadding">
-                        <img  class="imagHead" src="<?php echo base_url('assets/images/home/Icon_01.png')?>">
-                    </div>
-                    <div class="col-md-9"><h4 style="font-size: 1.3em" class="headtittle"><a href="<?php echo site_url('architecture/fiorano_microservices')?>">Microservices</a></h4>
-                        <p style="font-size: 1.1em">
-                            <a style="color: #444" href="<?php echo site_url('architecture/fiorano_microservices')?>">
-                                Fiorano platform architecture is developed around Microservices, the most modern software development architectural style
-                            </a>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-sm-4 nopadding divHomeMap">
-                    <div class="col-md-3 nopadding">
-                        <img  class="imagHead" src="<?php echo base_url('assets/images/home/Icon_02.png')?>">
-                    </div>
-                    <div class="col-md-9"><h4 style="font-size: 1.3em" class="headtittle"><a href="<?php echo site_url('products/fiorano_api')?>">API Management </a></h4>
-                        <p style="font-size: 1.1em">
-                            <a style="color: #444" href="<?php echo site_url('products/fiorano_api')?>">
-                                Exposing interfaces to unique corporate data creates value that many companies have difficulty unlocking on their own
-                            </a>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-sm-4 nopadding divHomeMap">
-                    <div class="col-md-3 nopadding">
-                        <img  class="imagHead" src="<?php echo base_url('assets/images/home/Icon_03.png')?>">
-                    </div>
-                    <div class="col-md-9"><h4 style="font-size: 1.3em" class="headtittle"><a href="<?php echo site_url('resources/downloads')?>">Fiorano Cloud</a></h4>
-                        <p style="font-size: 1.1em ">
-                            <a style="color: #444" href="<?php echo site_url('resources/downloads')?>">
-                                Fiorano Cloud platform (iPaaS) provides capabilities to enable enterprises to solve even the most sophisticated integration problems
-                            </a>
-                        </p>
-                    </div>
-                </div>
-        </div>
-    </div>
-        <div class="row padding-bottom-20" >
-            <div class="col-xs-12 peerHome">
-                <div class="col-xs-12 text-center padding-top-20 padding-bottom-20" >
-                    <div class="col-sm-9">
-                        <h1><strong>Watch a tutorial to learn the fundamentals & get started with Fiorano ESB </strong> </h1>
-                    </div>
-                    <div class="col-sm-3 padding-top-10">
-                        <a onclick='return window.open("<?php echo __ROOT__?>/flash_demos/fiorano-esb-arch.htm","Fiorano Tutorial: Introduction to Fiorano", ",type=fullWindow,fullscreen,scrollbars=yes,menubar=no,toolbar=no")' > <button class="btn btn-primary btn-lg">Watch Tutorial </button></a>
-                    </div>
-
-
-                </div>
+        <div class="col-xs-12 padding-top-30">
+            <h2><a href="<?php echo site_url('company/news')?>" class="none-decoration " style=" color: #333;"> Business Integration </a></h2>
+            <div class="wprt-lines style-1 custom-3 padding-bottom-30">
+                <div class="line-1"></div>
+                <div class="line-2"></div>
             </div>
+            <ul class="col-xs-12 homebox-ul">
+                <a href="<?php echo site_url('architecture/fiorano_microservices')?>">
+                    <li class="col-sm-4 col-xs-12 margin-bottom-20">
+                        <div class="homebox">
+
+                            <div class="col-xs-12 ">
+                                <div class="col-xs-12 padding-top-15">
+                                    <h4 class="headtittle">Microservices</h4>
+                                </div>
+
+                                <div class="col-xs-6 col-xs-offset-3">
+                                    <img  class="imagHead" src="<?php echo base_url('assets/images/home/Icon_01.png')?>">
+                                </div>
+                                <div class="col-xs-12">
+                                    <p style="font-size: 1.1em">
+
+                                        Fiorano platform architecture is developed around Microservices, the most modern software development architectural style
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="homeheadfooter col-xs-12 nopadding">
+                                <div class="padding-top-20 padding-bottom-20">
+                                    <p class="white" style="font-size: 18px"><i class="fa fa-arrow-circle-o-right " aria-hidden="true"></i>
+                                        Read More</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </a>
+                <a href="<?php echo site_url('products/fiorano_api')?>">
+                    <li class="col-sm-4 col-xs-12 margin-bottom-20">
+                        <div class="homebox">
+
+                            <div class="col-xs-12 ">
+                                <div class="col-xs-12 padding-top-15">
+                                    <h4 class="headtittle">API Management</h4>
+                                </div>
+
+                                <div class="col-xs-6 col-xs-offset-3">
+                                    <img  class="imagHead img-responsive" src="<?php echo base_url('assets/images/home/Icon_02.png')?>">
+                                </div>
+                                <div class="col-xs-12">
+                                    <p style="font-size: 1.1em">
+                                        Exposing interfaces to unique corporate data creates value that many companies have difficulty unlocking on their own
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="homeheadfooter col-xs-12 nopadding">
+
+                                <div class="padding-top-20 padding-bottom-20">
+                                    <p class="white" style="font-size: 18px"><i class="fa fa-arrow-circle-o-right " aria-hidden="true"></i>
+                                        Read More</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </a>
+                <a href="<?php echo site_url('products/cloud_platform')?>">
+                    <li class="col-sm-4 col-xs-12">
+                        <div class="homebox">
+
+                            <div class="col-xs-12 ">
+                                <div class="col-xs-12 padding-top-15">
+                                    <h4 class="headtittle">Fiorano Cloud</h4>
+                                </div>
+
+                                <div class="col-xs-6 col-xs-offset-3">
+                                    <img  class="imagHead img-responsive" src="<?php echo base_url('assets/images/home/Icon_03.png')?>">
+                                </div>
+                                <div class="col-xs-12">
+                                    <p style="font-size: 1.1em">
+                                        Fiorano Cloud platform (iPaaS) provides capabilities to enable enterprises to solve even the most sophisticated integration problems
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="homeheadfooter col-xs-12 nopadding">
+
+                                <div class="padding-top-20 padding-bottom-20">
+                                    <p class="white" style="font-size: 18px"><i class="fa fa-arrow-circle-o-right " aria-hidden="true"></i>
+                                        Read More</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </a>
+            </ul>
         </div>
-
-
     </div>
+    </div>
+</section>
 
+
+<section>
+    <div class="container">
+               <div class="col-md-12">
+            <h2><a href="<?php echo site_url('company/news')?>" class="none-decoration " style=" color: #333;"> Updates </a></h2>
+            <div class="wprt-lines style-1 custom-3 padding-bottom-10">
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+            </div>
+                        
+
+
+            <div id="news-slider" class="owl-carousel news-slider">
+                <a href="<?php echo site_url('pressreleases/lakshya_internet');?>" style="text-decoration: none;">
+                <div class="post-slide">
+                    <div class="col-xs-12">
+                        <div class="col-sm-3 col-xs-12">
+                            <img class="img-responsive" src="<?php echo base_url('assets/images/company/news/lockthedeal-logo-color.png')?>" alt="">
+                        </div>
+                        <div class="col-sm-9 col-xs-12">
+                            <p class="post-description padding-top-15" >
+                                Lakshya Internet transforms its B2B retail with Fiorano iPaaS
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                </div>
+                 
+                                <div class="post-slide col-xs-12">
+                    <div class="col-xs-12">
+                        <div class="col-sm-3 col-xs-12">
+                            <img class="img-responsive" src="<?php echo base_url('assets/images/home/news/yusen_logistic_logo.png')?>" alt="">
+                        </div>
+                        <div class="col-sm-9 col-xs-12">
+                            <p class="post-description padding-top-10" >
+                                Yusen Logistics, Singapore, a global logistics provider, accelerates time to market and fast tracks customer onboarding with Fiorano ESB
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="post-slide">
+                    <div class="col-xs-12">
+                        <div class="col-sm-3 col-xs-12">
+                            <img class="img-responsive" src="<?php echo base_url('assets/images/home/news/Home_Nairobi.jpg')?>" alt="">
+                        </div>
+                        <div class="col-sm-9 col-xs-12">
+                            <p class="post-description padding-top-10" >
+                                Nairobi Hospital integrates multiple  applications like CRM, Health management and Insurance to offer end to end service to patients
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="post-slide">
+                    <div class="col-xs-12">
+                        <div class="col-sm-3 col-xs-12">
+                            <img class="img-responsive" src="<?php echo base_url('assets/images/home/news/Home_Banco_Postal.jpg')?>" alt="">
+                        </div>
+                        <div class="col-sm-9 col-xs-12">
+                            <p class="post-description padding-top-15" >
+                                Fiorano solution assists Banco Postal's commitement towards financial inclusion and dynamization of the Angolan economy
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                                 <div class="post-slide col-xs-12">
+                    <div class="col-xs-12">
+                        <div class="col-sm-3 col-xs-12">
+                            <img class="img-responsive" src="<?php echo base_url('assets/images/home/news/Home_Kigali.jpg')?>" alt="">
+                        </div>
+                        <div class="col-sm-9 col-xs-12">
+                            <p class="post-description" >
+                                Bank of Kigali extends its banking services to millenials with mobile banking in Rwanda with Fiorano ESB and API Management.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="post-slide">
+                    <div class="col-xs-12">
+                        <div class="col-sm-3 col-xs-12">
+                            <img class="img-responsive" src="<?php echo base_url('assets/images/home/news/Home_EBank.jpg')?>" alt="">
+                        </div>
+                        <div class="col-sm-9 col-xs-12">
+                            <p class="post-description padding-top-15" >
+                                EBank achieves its vision of offering accessible & affordable bank accounts in Namibia with Fiorano's Core Banking Integration
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                 
+
+
+                            </div>
+                    </div>
+            
+    </div>
 
 </section>
-<section class="homeHead">
 
-    <div class="container ">
-        <div class="row" >
-            <div class="col-xs-12 aligncenter text-center" > <h2>
-                    <a  href="<?php echo site_url('products/what_we_do')?>" class="align-center HomeHeadTittle">
-                        We provide <span class="themeBlue">microservice-centric platform infrastructure</span> with sophisticated integration capabilities, Connecting Anything to Everything....
-                    </a>
-                </h2>
-            </div>
-        </div>
 
-    </div>
-</section>
 <section>
     <div class="container">
         <div class="row padding-bottom-50">
@@ -290,19 +420,20 @@
                     </div>
                     <div class="row">
 
-                       <!-- <div class="col-xs-12 nopadding ">
+                        <!--<div class="col-xs-12 nopadding ">
                             <div class="col-sm-3 col-xs-12 newsHomeImg">
-                                <a href="<?php /*echo site_url('webinar/psd2_compliance_stressing_you_out'); */?> " target="_blank" rel="nofollow">
+                                <a href="http://i-conferences.org/cartes-afrique/" target="_blank" rel="nofollow">
                                     <div style="background: white" class="date_div">
-                                        <img class="img-responsive col-xs-12" src="<?php /*echo base_url('assets/images/fiorano_logo.png')*/?>" />
+                                        <img class="img-responsive col-xs-12" src="<?php /*echo base_url('assets/images/company/news/cartes-logo.png'); */?>" />
                                     </div>
                                 </a>
                             </div>
                             <div class="col-sm-9 col-xs-12 newsHomeContent padding-bottom-20">
-                                <h4>   <a href="<?php /*echo site_url('webinar/psd2_compliance_stressing_you_out'); */?>" target="_blank" rel="nofollow"><strong> Webinar - PSD2 Compliance Stressing You Out? Relax, It Shouldn't Be That Difficult, DEC 5, 2017</strong></a></h4>
+                                <h4>   <a href="http://i-conferences.org/cartes-afrique/" target="_blank" rel="nofollow"><strong>Cartes Afrique 2018</strong></a></h4>
                                 <div class="blog-content">
-                                    <a href="<?php /*echo site_url('webinar/psd2_compliance_stressing_you_out'); */?>" target="_blank" rel="nofollow">
-                                        On this webinar, digital transformation expert Jason Bloomberg, President of industry analyst firm Intellyx & Atul Sani, CEO, Fiorano Software will place PSD2 compliance into the broader landscape of modern IT.
+                                    <a href="http://i-conferences.org/cartes-afrique/" target="_blank" rel="nofollow">
+                                        Cartes Afrique is the B2B platform, combining debates and networking, for all card, payment, identification, and mobile professionals.
+                                        The conference is organized around two days dedicated to payment technologies in French speaking Africa.
                                     </a>
                                 </div>
                             </div>
@@ -311,47 +442,45 @@
 
 
 
-
-
-                      <!--  <div class="col-xs-12 nopadding ">
+                       <div class="col-xs-12 nopadding ">
                             <div class="col-sm-3 col-xs-12 newsHomeImg">
-                                <a href=" http://www.fintechconnectlive.com/fintech-connect-live-2017" target="_blank" rel="nofollow">
+                                <a href="<?php echo site_url('pressreleases/I_M_Bank'); ?> " target="_blank" rel="nofollow">
                                     <div style="background: white" class="date_div">
-                                        <img class="img-responsive col-xs-12" src="<?php /*echo base_url('assets/images/events/fintech2017/fintech_logo.png')*/?>" />
+                                        <img class="img-responsive col-xs-12" src="<?php echo base_url('assets/images/company/news/lockthedeal-logo-color.png'); ?>" />
                                     </div>
                                 </a>
                             </div>
                             <div class="col-sm-9 col-xs-12 newsHomeContent padding-bottom-20">
-                                <h4>   <a href="http://www.fintechconnectlive.com/fintech-connect-live-2017" target="_blank" rel="nofollow"><strong> Fintech Connect Live DEC 6-7, 2017</strong></a></h4>
+                                <h4>   <a href="<?php echo site_url('pressreleases/lakshya_internet');?>" target="_blank" rel="nofollow"><strong> Lakshya Internet transforms its B2B retail with Fiorano iPaaS</strong></a></h4>
                                 <div class="blog-content">
-                                    <a href="http://www.fintechconnectlive.com/fintech-connect-live-2017" target="_blank" rel="nofollow">
-                                        Combining the hustle and bustle of an exhibition featuring over 3000 visitors, and 200 exhibitors and partners, FinTech Connect Live is the UK’s largest fintech event. 
-.
-                                    </a>
-                                </div>
-                            </div>
-                            <hr>
-                        </div>-->
-
-                        <div class="col-xs-12 nopadding ">
-                            <div class="col-sm-3 col-xs-12 newsHomeImg">
-                                <a href="http://www.bankingtech.com/2017/11/fiorano-launches-psd2-solution-for-banks/" target="_blank" rel="nofollow">
-                                    <div style="background: white" class="date_div">
-                                        <img class="img-responsive col-xs-12" src="<?php echo base_url('assets/images/company/news/bankingtech-logo.gif')?>" />
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-sm-9 col-xs-12 newsHomeContent padding-bottom-20">
-                                <h4>   <a href=" http://www.bankingtech.com/2017/11/fiorano-launches-psd2-solution-for-banks/" target="_blank" rel="nofollow"><strong>Fiorano launches PSD2 solution for banks</strong></a></h4>
-                                <div class="blog-content">
-                                    <a href="http://www.bankingtech.com/2017/11/fiorano-launches-psd2-solution-for-banks/" target="_blank" rel="nofollow">
-                                        Fiorano Software, a specialist in integration middleware and API management, has launched Fiorano PSD2, a solution enabling banks to comply with the European Union’s Revised Payment Services Directive (PSD2) regulations.
-
+                                    <a href="<?php echo site_url('pressreleases/lakshya_internet'); ?>" target="_blank" rel="nofollow">
+                                        April 04, 2018, Singapore: -  Fiorano Software announced today that Lakshya Internet has implemented the Fiorano Cloud Platform (iPaaS)
+                                        to scale its emerging B2B eCommerce business transforming traditional distribution methods in India.
                                     </a>
                                 </div>
                             </div>
                             <hr>
                         </div>
+
+                        <!--<div class="col-xs-12 nopadding ">
+                            <div class="col-sm-3 col-xs-12 newsHomeImg">
+                                <a href="<?php /*echo site_url('company/event_register'); */?> " target="_blank" rel="nofollow">
+                                    <div style="background: white" class="date_div">
+                                        <img class="img-responsive col-xs-12" src="<?php /*echo base_url('assets/images/events/inlaks2018/News-Events.jpg'); */?>" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-9 col-xs-12 newsHomeContent padding-bottom-20">
+                                <h4>   <a href="<?php /*echo site_url('company/event_register'); */?>" target="_blank" rel="nofollow"><strong>Digital Transformation in Banking – A key to Better Customer Experience</strong></a></h4>
+                                <div class="blog-content">
+                                    <a href="<?php /*echo site_url('company/event_register'); */?>" target="_blank" rel="nofollow">
+                                       Today’s banking demands services that can meet the expectations of tech-savvy customers. Digital transformation is moving traditional banking to a digital world making banks understand digital customer behavior, preferences and needs.
+                                    </a>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>-->
+                      
 
                          <div class="col-xs-12 nopadding ">
                         <div class="col-sm-3 col-xs-12 newsHomeImg">
@@ -469,128 +598,6 @@
         </div>
     </div>
 </section>
-
-<!--<section class="testiminials padding-top-30">
-
-    <div class="container">
-        <div class="row">
-
-
-            <div class="col-sm-12">
-                <h2>Fiorano Updates</h2>
-                <div class="wprt-lines style-1 custom-3">
-                    <div class="line-1"></div>
-                    <div class="line-2"></div>
-                </div>
-            </div>
-        </div>
-
-
-    </div>
-</section>
-
-<section class="homeHead">
-
-    <div class="container ">
-        <div class="row" >
-            <div class="col-xs-12 aligncenter text-center" >
-                <h2>
-                    <div id="testimonial-slider1" class="owl-carousel marque">
-                        <div class="marque">
-                            <p class="description">
-                                <a href="<?php /*echo site_url('pressreleases/psd2_pressrelease') */?>" >Fiorano Launches PSD2 Solution for Banks for Seamless Regulatory Compliance</a>
-                            </p>
-                        </div>
-
-                        <div class="marque">
-                            <p class="description">
-                                Nairobi Hospital integrates mulitapplications like CRM, Health management and Insurance to offer end to end service to patients
-                            </p>
-                        </div>
-
-                        <div class="marque">
-                            <p class="description">
-                                Premium Bank links automated teller machines and E-zwich point of sales terminal in Ghana for cross usage with Fiorano
-                            </p>
-
-                        </div>
-                        <div class="marque">
-                            <p class="description">
-                                Fiorano solution assists Banco Postal's commitement towards financial inclusion and dynamization of the Angolan economy
-                            </p>
-
-                        </div>
-
-                        <div class="marque">
-                            <p class="description">
-                                Bank of Kigali extends its banking services to millenials with mobile banking in Rwanda with Fiorano ESB and API Management.
-                            </p>
-
-                        </div>
-                        <div class="marque">
-                            <p class="description">
-                                EBank achieves its vision of offering accessible & affordable bank accounts in Namibia with Fiorano's Core Banking Integration
-                            </p>
-
-                        </div>
-
-                    </div>
-                </h2>
-            </div>
-        </div>
-
-    </div>
-</section>-->
-
-
-<!--<section style="background-color:#3baae3; border:#055EA3 3px solid;" >
-    <div class="container"  >
-        <div class="row" >
-            <div class="col-md-12">
-
-                <div class="col-sm-12 col-xs-12">
-
-                    <div class="col-sm-12">
-                        <div class="col-xs-12">
-                            <div id="testimonial-slider1" class="owl-carousel marque">
-                                <div class="marque">
-                                    <p class="description">
-                                        Nairobi Hospital overcomes Integration hurdles with Fiorano Platform
-                                    </p>
-                                </div>
-
-                                <div class="marque">
-                                    <p class="description">
-                                        Premium Bank starts its journey towards Digitalization with Fiorano
-                                    </p>
-
-                                </div>
-                                <div class="marque">
-                                    <p class="description">
-                                        Fiorano solution facilitates Banco Postal's commitment towards financial inclusion and dynamization of the Angolan economy
-                                    </p>
-
-                                </div>
-
-                                <div class="marque">
-                                    <p class="description">
-                                        Bank of Kigali extends its banking services to millennials with Fiorano ESB and API Management.
-                                    </p>
-
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>-->
 
 
 <section class="testiminials padding-top-30">
@@ -735,6 +742,85 @@
                                     </div>
                                 </blockquote>
                             </div>
+
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="row">
+                                            <div class="col-sm-4 col-xs-6 text-center">
+                                                <a href="#" class="tooltip_text" title="">
+                                                    <img width="125" src="<?php echo base_url('assets/images/company/customers/Aboitiz-Power.jpg')?>" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="col-sm-4 col-xs-6 text-center">
+                                                <a href="#" class="tooltip_text" title="">
+                                                    <img width="125" src="<?php echo base_url('assets/images/company/customers/Babylon.jpg')?>" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="col-sm-4 col-xs-6 text-center">
+                                                <a href="#" class="tooltip_text" title="">
+                                                    <img width="125" src="<?php echo base_url('assets/images/company/customers/Brady&Kosofsky.jpg')?>" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="col-sm-4 col-xs-6 text-center">
+                                                <a href="#" class="tooltip_text" title="">
+                                                    <img width="125" src="<?php echo base_url('assets/images/company/customers/Canadia-Bank-Plc.jpg')?>" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="col-sm-4 col-xs-6 text-center">
+                                                <a href="#" class="tooltip_text" title="">
+                                                    <img width="125" src="<?php echo base_url('assets/images/company/customers/Heritage-Bank.jpg')?>" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="col-sm-4 col-xs-6 text-center">
+                                                <a href="#" class="tooltip_text" title="">
+                                                    <img width="125" src="<?php echo base_url('assets/images/company/customers/I&M.jpg')?>" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="row">
+                                            <div class="col-sm-4 col-xs-6 text-center">
+                                                <a href="#" class="tooltip_text" title="">
+                                                    <img width="125" src="<?php echo base_url('assets/images/company/customers/Ims.jpg')?>" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="col-sm-4 col-xs-6 text-center">
+                                                <a href="#" class="tooltip_text" title="">
+                                                    <img width="125" src="<?php echo base_url('assets/images/company/customers/Kent-County-Council.jpg')?>" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="col-sm-4 col-xs-6 text-center">
+                                                <a href="#" class="tooltip_text" title="">
+                                                    <img width="125" src="<?php echo base_url('assets/images/company/customers/NHS-Wale.jpg')?>" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="col-sm-4 col-xs-6 text-center">
+                                                <a href="#" class="tooltip_text" title="">
+                                                    <img width="125" src="<?php echo base_url('assets/images/company/customers/Prestanomico.jpg')?>" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="col-sm-4 col-xs-6 text-center">
+                                                <a href="#" class="tooltip_text" title="">
+                                                    <img width="125" src="<?php echo base_url('assets/images/company/customers/USProServ.jpg')?>" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="col-sm-4 col-xs-6 text-center">
+                                                <a href="#" class="tooltip_text" title="">
+                                                    <img width="125" src="<?php echo base_url('assets/images/company/customers/Yusen-Logistics.jpg')?>" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+
                         </div>
                         <!-- Carousel Buttons Next/Prev -->
                     </div>
@@ -831,7 +917,16 @@
             autoPlay:true,
             autoplayHoverPause:true
         });
-
+        $("#news-slider").owlCarousel({
+            items : 1,
+            itemsDesktop:[1199,1],
+            itemsDesktopSmall:[980,1],
+            itemsTablet: [600,1],
+            itemsMobile : [550,1],
+            pagination:true,
+            autoPlay:true,
+            autoplayHoverPause:true
+        });
     });
 </script>
 <!--goDown-->

@@ -9,17 +9,15 @@
 <section>
 
     <div class="container">
-        <div class="col-xs-12 padding-top-70">
+        <div class="col-xs-12 padding-top-50">
         <p>Whitepaper : </p>
         </div>
-        <div class="col-xs-12 padding-top-30">
 
-        </div>
         <div class="col-xs-12">
-            <div class="col-sm-7 padding-top-50">
+            <div class="col-sm-7 padding-top-10">
 
                 <h3>Demystifying PSD2</h3>
-                <p class="padding-top-20 ">
+                <p class=" ">
                     <!--<img src="<?php /*echo base_url('assets/images/resources/Whitepaper-psd2.jpg')*/?>" class="img-responsive"/>-->
                 </p>
                 <p>
@@ -99,12 +97,13 @@
                 <div class="col-xs-12 padding-bottom-50">
 
                     <div class="col-sm-12 form-RegDiv nopadding" style="background-color: #f6f6f6 !important; ">
-                        <!-- <div class="well text-center" id="upper_arrow_div">
-                                <h2>Register Now - <?php /*echo $eventname*/?></h2>
-                            </div>-->
 
 
-                        <?php
+
+                            <div class="text-center col-xs-12 padding-top-30">
+                                <b>Use FIorano Form for Download</b>
+                            </div>
+                                               <?php
                         $attributes = array('class' => 'form-group', 'id' => 'register');
                         echo form_open('resources/whitepaper_psd2', $attributes);
                         ?>
@@ -242,8 +241,33 @@
                                     <?php /*if($reg==0){*/?><!--  <button type="reset" class="btn-md btn btn-default pull-left">Clear</button> --><?php /*}*/?>
                                 </div>
                                 <div class="col-xs-12">
-                                 <a href="<?php echo __ROOT__?>/downloads/login.php?action=Demystifying-PSD2&s=whitepapers" target="_blank">Existing Users: Download Using Fiorano Login</a>
-                                    <a href="<?php echo __ROOT__?>/Accounts/Register?action=Demystifying-PSD2&s=whitepapers" target="_blank">New Users: Create Fiorano Account and Download</a>
+                                    <div class="col-sm-5">  <hr class="double-white"> </div>
+                                    <div class="col-sm-1 padding-top-10">OR  </div>
+                                    <div class="col-sm-6"> <hr class="double-white"> </div>
+
+                                    <div class="col-xs-12">
+                                        <div class="col-xs-12 text-center  padding-top-30">
+                                            <div class="col-sm-6">
+                                                <i class="fa fa-user-circle-o fa-4x"></i><br>
+                                                <!--<a href="<?php /*echo __ROOT__*/?>/downloads/login.php?action=PSD2-Whitepaper&s=whitepapers">Download Using Fiorano Account </a>-->
+                                                <a href="<?php echo site_url('accounts/login/wp/PSD2-Whitepaper')?>">Download Using Fiorano Account </a>
+
+                                            </div>
+                                            <?php //echo site_url('accounts/login/wp/Demystifying-PSD2') ?>
+
+                                            <div class="col-sm-6">
+                                                <i class="  fa fa-user fa-4x"></i><br>
+                                                <a href=" <?php echo __ROOT__?>/Accounts/Register?action=PSD2-Whitepaper&s=whitepapers">Create Fiorano Account & Download</a>
+                                                <?php //echo site_url('accounts/login/wp/Demystifying-PSD2') ?>
+
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+                                <!-- <a href="<?php /*echo __ROOT__*/?>/downloads/login.php?action=Demystifying-PSD2&s=whitepapers" target="_blank">Existing Users: Download Using Fiorano Login</a>
+                                    <a href="<?php /*echo __ROOT__*/?>/Accounts/Register?action=Demystifying-PSD2&s=whitepapers" target="_blank">New Users: Create Fiorano Account and Download</a>-->
                                 </div>
                             </div>
                         </div>
@@ -277,7 +301,7 @@
     $( document ).ready(function() {
         if( $('#regdet').val()=="1"){
             setTimeout(function(){
-                window.open(' https://www.fiorano.com/whitepapers/Demystifying-PSD2.pdf', '_blank');
+                window.open(' https://www.fiorano.com/whitepapers/PSD2-Whitepaper.pdf', '_blank');
                }, 3000);
         }
     });

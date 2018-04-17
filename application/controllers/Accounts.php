@@ -17,6 +17,7 @@ class Accounts extends CI_Controller
         parent::__construct();
         //nocache();
         $this->load->model('auth', '', TRUE);
+        $this->load->model('set', '', TRUE);
         if (!empty($this->session->userdata['logged_in'])) {
             $session_array = $this->session->userdata['logged_in'];
             $this->u_id = $session_array['id'];
@@ -50,32 +51,32 @@ class Accounts extends CI_Controller
             } elseif ($type == 'dtf') {
                 redirect('resources/' . $loc, 'location');
             } elseif ($type == 'wp') {
-                $location = base_url() . 'assets/pdf/whitepaper/' . $loc;
+                $location = base_url() . 'assets/pdf/whitepaper/'. $loc .'.pdf';
                 header('Location:' . $location);
             } elseif ($this->input->post('d_type') == 'ds') {
 
                 $location = base_url() . 'assets/pdf/datasheets/' . $loc;
                 header('Location:' . $location);
             } elseif ($type == 'fsoaDownload') {
-
                 $location = site_url('resources/fsoaDownload');
+                header('Location:' . $location);
+            } elseif ($type == 'mqDownload') {
+                $location = site_url('resources/mqDownload');
                 header('Location:' . $location);
             }else {
                 redirect('home', 'location');
-
             }
         }
         if ($_POST) {
 
             $this->form_validation->set_rules('username', 'Username', 'trim|required');
             $this->form_validation->set_rules('password', 'Password', 'trim|required|callback_check_database');
-
-
             if ($this->form_validation->run() != FALSE) {
                 $username = $this->input->post('username');
                 $verified = $this->auth->demo_verified($username);
                 $loc = $this->input->post('f_loc');
-
+                $datalog=array();
+                $this->logHistory();
                 if ((!empty($verified)) & ($this->input->post('d_type') == 'dt')) {
                     $dtyp = $this->input->post('d_type');
                     redirect('resources/demo_interest/' . $dtyp . '/' . $loc, 'location');
@@ -86,7 +87,7 @@ class Accounts extends CI_Controller
                     } elseif ($this->input->post('d_type') == 'dtf') {
                         redirect('resources/' . $loc, 'location');
                     } elseif ($this->input->post('d_type') == 'wp') {
-                        $location = base_url() . 'assets/pdf/whitepaper/' . $loc;
+                        $location = base_url() . 'assets/pdf/whitepaper/' . $loc.'.pdf';
                         header('Location:' . $location);
                     } elseif ($this->input->post('d_type') == 'ds') {
                         $location = base_url() . 'assets/pdf/datasheets/' . $loc;
@@ -94,11 +95,13 @@ class Accounts extends CI_Controller
                     }elseif ($this->input->post('d_type') == 'fsoaDownload') {
                         $location = site_url('resources/fsoaDownload');
                         header('Location:' . $location);
+                    }elseif ($this->input->post('d_type') == 'mqDownload') {
+                        $location = site_url('resources/mqDownload');
+                        header('Location:' . $location);
                     } else {
                         redirect('home', 'location');
                     }
                 }
-
             }
         }
         $data['heading'] = "Account Login | Fiorano ";
@@ -124,7 +127,13 @@ class Accounts extends CI_Controller
                 $sess_array = array(
                     'id' => $row->id,
                     'email' => $row->email,
+                    'user_email' => $row->email,
                     'name' => $row->salutation . '.' . $row->first_name . ' ' . $row->last_name,
+                    'name_split'=>array(
+                      'sal'=> $row->salutation,
+                       'fname'=> $row->first_name,
+                       'lname'=> $row->last_name
+                    ),
                     'job_title' => $row->job_title,
                     'company' => $row->company,
                     'country' => $row->country,
@@ -157,8 +166,19 @@ class Accounts extends CI_Controller
     }
 
     /* REGISTRATION IS ONGOING */
-    public function register( $type=null)
+    public function register( $type = null, $loc = null)
     {
+        if (!empty($type)) {
+            $data['d_type'] = $this->uri->segment(3);;
+        } else {
+            $data['d_type'] = '';
+        }
+        if (!empty($loc)) {
+            $data['f_loc'] = $this->uri->segment(4);
+        } else {
+            $data['f_loc'] = '';
+        }
+
         if ($_POST) {
             $this->form_validation->set_rules('salutation', 'Salutation', 'trim|required');
             $this->form_validation->set_rules('fname', 'First Name', 'trim|required');
@@ -219,7 +239,49 @@ class Accounts extends CI_Controller
                            $data['PostMessage']="emailError";
                        }
 
-                       
+                       $dataOfHistory= array(
+                           'u_id'=>             $dataInsert,
+                           'leadName'=>         getLeadName($this->input->post('country')),
+                           'name'=>             $this->input->post('salutation').' '. $this->input->post('fname').' '.$this->input->post('lname'),
+                           'email'=>            $this->input->post('email'),
+                           'profile'=>          $this->input->post('yourrole'),
+                           'company'=>          $this->input->post('cname'),
+                           'country'=>          $this->input->post('country'),
+                           'phone'=>            $this->input->post('phone'),
+                           'business_issue'=>   '',
+                           'desc'=>             '',
+                           'implementation_stages'=>    '',
+                           'usage'=>            '',
+                           'source'=>           null,
+                           'reffer_url'=>       null,
+                           'ipaddress'=>        '',
+                       );
+
+
+
+
+                       if ($this->input->post('d_type') == 'dt') {
+                           $location = base_url() . 'assets/videos/flash_demos/' . $loc;
+
+                       } elseif ($this->input->post('d_type') == 'dtf') {
+                           redirect('resources/' . $loc, 'location');
+                       } elseif ($this->input->post('d_type') == 'wp') {
+                           $dataOfHistory['download_type']='Whitepaper Download';
+                           $dataOfHistory['product']= $loc.'.pdf';
+                           $location = base_url() . 'assets/pdf/whitepaper/' . $loc.'.pdf';
+
+                       } elseif ($this->input->post('d_type') == 'ds') {
+                           $location = base_url() . 'assets/pdf/datasheets/' . $loc;
+
+                       }elseif ($this->input->post('d_type') == 'fsoaDownload') {
+                           $location = site_url('resources/fsoaDownload');
+
+                       }elseif ($this->input->post('d_type') == 'mqDownload') {
+                           $location = site_url('resources/mqDownload');
+
+                       } else {
+                           $location = site_url('resources/downloads');                       }
+                       header('Location:' . $location);
                         /*Mail Section  Close */
                         /*redirect section started */
 
@@ -284,6 +346,17 @@ class Accounts extends CI_Controller
                    $this->email->to($this->input->post('email'));
                    $this->email->bcc("harikrishnan.v@in.fiorano.com");
                    $this->email->subject("Request for password reset - Fiorano Software");
+
+/*                   $salt = "498#2D83B631%3800EBD!801600D*7E3CC13";
+                   // Create a unique salt. This will never leave PHP unencrypted.
+                  $salt = "498#2D83B631%3800EBD!801600D*7E3CC13";
+                  // Create the unique user password reset key
+                   $password = hash('sha512', $salt.$this->input->post('emailInput'));
+                   // Create a url which we will direct them to reset their password
+
+                   $pwrurl = "www.yoursitehere.com/reset_password.php?q=".$password;*/
+
+
                    $activationLink = site_url('accounts/resetAccount/') . base64_encode($this->input->post('emailInput'));
                    $dat1 = array(
                        'link' => $activationLink,
@@ -297,7 +370,6 @@ class Accounts extends CI_Controller
                     }else{
                     $data['act']='2';/*error email not found*/
                 }
-
             }
         }
         $data['heading'] = "Account Reset | Fiorano ";
@@ -344,13 +416,6 @@ class Accounts extends CI_Controller
         $this->load->view('common/footer');
     }
 
-    function test(){
-        $encoded = $this->encode("help me vanish" , "ticket_to_haven");
-        echo $encoded;
-        echo "\n";
-        $decoded = $this->decode($encoded, "ticket_to_haven");
-        echo $decoded;
-    }
 
     function encode($string,$key) {
         $key = sha1($key);
@@ -372,7 +437,6 @@ class Accounts extends CI_Controller
         $j = 0;
         for ($i = 0; $i < $strLen; $i+=2) {
             $ordStr = hexdec(base_convert(strrev(substr($string,$i,2)),36,16));
-
             $ordKey = ord(substr($key,$j,1));
             $j++;
             $hash.= chr($ordStr - $ordKey);
@@ -380,13 +444,26 @@ class Accounts extends CI_Controller
         return $hash;
     }
         function resetAccount($hash=null){
-
-
-            $data['val']= null;
+           if(!empty($hash)){
+                $data['emailInput'] = base64_decode($hash);
+            }else{
+               redirect('accounts/forgot');
+            }
+            if($_POST) {
+                $this->form_validation->set_rules('emailInput', 'email', 'trim|required');
+                $this->form_validation->set_rules('password', 'Password', 'trim|required');
+                if ($this->form_validation->run() != FALSE) {
+                    $dat = array(
+                        'email' => $this->input->post('emailInput'),
+                        'hash' => md5($this->input->post('password'))
+                    );
+                    $update= $this->auth->updatePass($dat);
+                    $data['suc']=1;
+                }
+            }
             $this->load->view('common/header', $data);
             $this->load->view('accounts/new_password');
             $this->load->view('common/footer');
-
         }
 
         public function unsubscribe(){
@@ -395,12 +472,10 @@ class Accounts extends CI_Controller
             $data['title'] = " Fiorano Unsubscribe emails | Fiorano Software";
             $data['reg']=0;
             if($_POST) {
-
                 $dat = array(
                     'email' => $this->input->post('email'),
                     'answer' => $this->input->post('answer')
                 );
-
                 $to_main = "pooja.sharma@in.fiorano.com";
                 $this->load->library('email');
                 $this->email->set_mailtype("html");
@@ -421,6 +496,86 @@ class Accounts extends CI_Controller
             $this->load->view('common/header', $data);
             $this->load->view('accounts/unsubscribe');
             $this->load->view('common/footer');
+        }
+
+
+        public  function logHistory(){
+            if (!empty($this->session->userdata['logged_in'])) {
+                $session_array = $this->session->userdata['logged_in'];
+                $this->u_id = $session_array['id'];
+                $this->user_email = $session_array['email'];
+                $this->name = $session_array['name'];
+                $this->job_title = $session_array['job_title'];
+                $this->country = $session_array['country'];
+                $this->fullname = $session_array['phone'];
+                $this->verified = $session_array['verified'];
+            }
+
+                $login_download_details = array(
+                    "email" =>  $this->user_email,
+                    "ip" =>     get_ip_det(),
+                    "action"=>  "1",
+                    "hash" =>   ''
+                );
+
+                $ins=$this->set->loginHistory($login_download_details);
+                return $ins;
+            }
+
+        public function profile()
+        {
+
+            if (!empty($this->session->userdata['logged_in'])) {
+
+                $data['userDet']=$this->auth->viewUser($this->session->userdata['logged_in']['id']);
+                $data['status']=0;
+                if ($_POST) {
+                    $this->form_validation->set_rules('salutation', 'Salutation', 'trim|required');
+                    $this->form_validation->set_rules('profId', '', 'trim|required');
+                    $this->form_validation->set_rules('fname', 'First Name', 'trim|required');
+                    $this->form_validation->set_rules('lname', 'Last Name', 'trim|required');
+                    $this->form_validation->set_rules('email', 'email', 'trim|required');
+                    $this->form_validation->set_rules('phone', 'Phone Number', 'trim|required');
+                    $this->form_validation->set_rules('cname', 'Company Name', 'trim|required');
+                    $this->form_validation->set_rules('website', 'Company website Name', 'trim|required');
+                    $this->form_validation->set_rules('country', 'Country Name', 'trim|required');
+                    $this->form_validation->set_rules('yourrole', 'Your Role', 'trim|required');
+                    if ($this->form_validation->run() != FALSE) {
+                        $dataInsert=$this->input->post('profId');
+                        $data_input2 = array(
+
+                            'salutation' => $this->input->post('salutation'),
+                            'first_name' => $this->input->post('fname'),
+                            'last_name' => $this->input->post('lname'),
+                            'company' => $this->input->post('cname'),
+                            'website' => $this->input->post('website'),
+                            'phone' => $this->input->post('phone'),
+                            'country' => $this->input->post('country'),
+                            'phone' => $this->input->post('phone'),
+                            'job_title' => $this->input->post('yourrole'),
+                            'social' =>''
+                        );
+                        $update= $this->auth->updateAccount($data_input2, $dataInsert);
+                        if($update){
+                            $data['status']=1;
+
+
+                        }else{
+                            $data['status']=2;
+                        }
+
+                    }
+                }
+                $data['userDet']=$this->auth->viewUser($this->session->userdata['logged_in']['id']);
+                $data['heading'] = "User Profile | Fiorano Software";
+                $data['title'] = " User Profile | Fiorano Software";
+
+                $this->load->view('common/header', $data);
+                $this->load->view('accounts/profile');
+                $this->load->view('common/footer');
+            }else{
+                redirect('accounts/login');
+            }
         }
 }
 ?>

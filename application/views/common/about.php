@@ -61,99 +61,48 @@
     </div>
 </section>
 
-
-
-<!--<section class="offer-section offer-section-three section service-page-three-offer even-section" id="resource">
-    <div class="container padding-bottom-50">
-        <div class="section-header">
-            <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Customers Worldwide Choose Fiorano</h2>
-            <p class="text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Customers choose Fiorano based on our proven, comprehensive, interoperable and scalable SOA infrastructure solutions. Fiorano's products are backed by a 24x7 technical support team that ensures the highest levels of customer satisfaction. At Fiorano, we are committed to delivering solutions that deliver immediate ROI with proven interoperability and industry-leading performance and scalability. Fiorano and our partners are focused on ensuring our customer's sustainable success with our solutions.
-                Fiorano provides customers several benefits including:</p>
-        </div>
-
-        <div class="row padding-top-20">
-            <div class="ofer-items">
-                <div class="col-xs-12 nopadding">
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-offer-item row fio-bg" style="background-color:#337ab7 !important;padding-top: 24px;">
-
-                            <h3>Higher Profitability</h3>
-                            <hr class="double-grey">
-
-                        <div class="offer-details">
-
-                            <p class="align-left text-left">Fiorano's solutions help minimize design, deployment, on-going management costs. In addition, its reusable, component-centric approach enables new service and revenue opportunities to be realized easily. Businesses can lower costs and increase revenues with Fiorano's solutions.<br><br></p>
-
-
-                        </div>
-
-                    </div>
+<section id="what_we_do">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 do text-center"><h2>What We Do</h2></div>
+            <div class="col-sm-12 we_do">
+                <div class="col-sm-5 do_left ">
+                    <h4 class="text-center">Connecting Anything to Everything</h4>
+                    <hr>
+                    <p class="justify">Fiorano's infrastructure platform solves the most challenging integration problems across <a href="<?php echo site_url('products/fiorano_integration')?>">SOA</a>, SaaS and APIs, connecting anything to everything. Whether you need real-time application integration, business process automation, better business analytics, <a href="<?php echo site_url('products/fiorano_api')?>">API management</a> or big data integration Fiorano delivers an enterprise-class integration platform both on-premise and as an elastically scalable cloud-hosted iPaaS that connects all of your disparate data sources, cloud applications and APIs with the rest of the enterprise at the speed and agility to unlock the potential of this connected era.</p>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-offer-item row fio-bg" style="background-color:#337ab7 !important;padding-top: 24px;">
-
-                        <h3 style="margin-top: 6px !important;">Balanced Growth with Controlled Costs</h3>
-                        <hr class="double-grey">
-
-                        <div class="offer-details">
-
-                            <p class="align-left text-left"> Fiorano's solutions enable fine-grained control over scalability. Entry-level costs are significantly lower than competitive offerings. Architectural-level innovations enable a linear build-as-you-grow scalability, ensuring optimum performance that meets rapidly changing business demands.</p>
-
-
-                        </div>
-
-                    </div>
+                <div class="col-sm-2 hidden-xs do_image"><img src="<?php echo base_url('assets/images/products/Efficiency.png')?>" class="img-responsive" width="100px" height="100px"/></div>
+                <div class="col-sm-5  do_left ">
+                    <h4 class="text-center">A Modern Integration Platform  </h4>
+                    <hr>
+                    <p class="justify">Unlike traditional EAI or legacy systems where the infrastructure architecture is a bottleneck, the Fiorano integration platform powers real time digital enterprises with a bimodal integration and API Management strategy that leverages the best of systematic (centralized, high-control) and adaptive (federated, high-speed) approaches to deliver solutions across cloud, on-premise and hybrid environments. <a href="<?php echo site_url('products/fiorano_esb')?>">Fiorano's architecture</a> is inherently cloud-friendly, each peer can go on premise or in a cloud instance, and thus scale elastically with the cloud. The <a href="<?php echo site_url('products/fiorano_microservices')?>">Fiorano Components</a> can be easily configured to run in the cloud or behind the firewall, depending on the enterprise infrastructure. </p>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="single-offer-item row fio-bg" style="background-color:#337ab7 !important;padding-top: 24px;">
-
-                        <h3 style="margin-top: 6px !important;">Optimized usage of all enterprise resources</h3>
-                        <hr class="double-grey">
-
-                        <div class="offer-details">
-
-                            <p class="align-left text-left"> Fiorano's infrastructure solutions enable leveraging all the power available at the end- points of the enterprise network. Businesses can now meet dynamic surges in demand without having to provision new systems, deliver undisrupted services and increase customer satisfaction.</p>
-
-
-                        </div>
-
-                    </div>
-                </div>
-                </div>
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="single-offer-item row fio-bg" style="background-color:#337ab7 !important;padding-top: 24px;">
-
-                        <h3>Maximizing ROI with existing assets</h3>
-                        <hr class="double-grey">
-
-                        <div class="offer-details">
-
-                            <p class="align-left text-left">In order to maximize ROI, a business needs to integrate diverse applications into a single framework that is easy to use, manage, extend, and adapt to dynamically changing business requirements. Fiorano's solutions provide an easy-to-use framework to design and deploy business processes, while simultaneously providing detailed visibility and manageability for business process developers. Decision makers can now focus on scenario analyses,
-                                risk mitigation and better decision making without having to burden their developers for routine process modifications and changes.</p>
-
-
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="single-offer-item row fio-bg" style="background-color:#337ab7 !important;padding-top: 24px;">
-
-                        <h3>Easy Extensibility to Partners</h3>
-                        <hr class="double-grey">
-
-                        <div class="offer-details">
-
-                            <p class="align-left text-left">Business Processes need to be effortlessly extended beyond employees, to trusted partners and increasingly, new customers. Fiorano's Solutions provide the highest levels of built-in security and accessibility, which coupled with the easy extensibility, enable business managers to extend their business reach to new partners and customers easily.</p>
-<br><br><br>
-
-                        </div>
-
-                    </div>
-                </div>
-
-
             </div>
+            <div class="col-sm-12 we_do">
+                <div class="col-sm-5 do_left ">
+                    <h4 class="text-center">Real-Time Integration - technology with no delays, moving at the speed of thought</h4>
+                    <hr>
+                    <p class="justify">Unlike traditional EAI or legacy systems where the infrastructure architecture is a bottleneck, the Fiorano integration platform powers real time digital enterprises with a bimodal integration and API Management strategy that leverages the best of systematic (centralized, high-control) and adaptive (federated, high-speed) approaches to deliver solutions across cloud, on-premise and hybrid environments. <a href="<?php echo site_url('products/fiorano_esb')?>">Fiorano's architecture</a> is inherently cloud-friendly, each peer can go on premise or in a cloud instance, and thus scale elastically with the cloud. The <a href="<?php echo site_url('products/fiorano_microservices')?>">Fiorano Components</a> can be easily configured to run in the cloud or behind the firewall, depending on the enterprise infrastructure. </p>
+                </div>
+                <div class="col-sm-2 hidden-xs do_image "><img src="<?php echo base_url('assets/images/products/Efficiency.png')?>" class="img-responsive" width="100px" height="100px"/></div>
+                <div class="col-sm-5 ">
+                    <h4 class="text-center">We Understand the Integrators Dilemma</h4>
+                    <hr>
+                    <p class="justify"> The proliferation of cloud, mobile, social and big data projects have led enterprises to shift their integration competency from the back office to the omnichannel digital world. Fiorano provides a high-speed approach to integration that enterprises require for their high-velocity IT projects which typically rely on a cloud-friendly architecture with ultra-fast time to deployment, while also allowing business users to perform lightweight, self-service data and application integration - 'citizen integration'. Unlike the more traditional integration approaches, Fiorano provides interoperability using RESTful protocols, JSON formats, <a href="<?php echo site_url('products/fiorano_api')?>">API management</a> and cloud-streams for enabling near-real-time integration across ecosystems within digital business moments.</p>
+                </div>
+            </div>
+            <hr>
+
+            <!-- <div class="col-sm-12 text-right">
+                    <strong>Learn more:</strong>
+                    <p><img src="<?/*=__IMAGES__*/?>/ra1.gif" /> <a
+                                href="<?php /*echo site_url('products/streamlining_integration_strategy');*/?>"><strong>&nbsp;Streamlining
+                                your Integration Strategy</strong></a></p>
+                    <p><img src="<?/*=__IMAGES__*/?>/ra1.gif" /><a
+                                href="<?php /*echo site_url('products/service_components');*/?>"><strong>&nbsp;Service
+                                Component Architecture: Unifying SOA and EDA</strong></a></p>
+                </div>-->
+
         </div>
     </div>
-</section>-->
+</section>

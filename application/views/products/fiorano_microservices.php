@@ -13,7 +13,7 @@
         </div>
     </div>
     <a href="#"> &nbsp;</a>
-    <div class="bs-example pull-right">
+    <div class="bs-example pull-left">
         <ul class="breadcrumb">
             <li> <a href="<?php echo site_url(''); ?>">Home</a></li>
             <li> <a href="<?php echo site_url('products'); ?>">Products</a></li>
@@ -22,7 +22,28 @@
         </ul>
     </div>
 </section>
-<section class="offer-section offer-section-three section service-page-three-offer" id="resource">
+
+<section>
+    <div class="container">
+        <div class="col-xs-12 text-center submenu-main">
+            <div class="col-sm-4  ">
+                <a class=" animated-button victoria-four" href="#Overview">Overview <i class="fa fa-arrow-down"></i></a>
+            </div>
+            <div class="col-sm-4 ">
+                <a class=" animated-button victoria-four" href="#freeadaptor">  Free Adapters <i class="fa fa-arrow-down"></i></a>
+            </div>
+            <div class="col-sm-4">
+                <a class=" animated-button victoria-four" href="#licensed">Licensed Adapters <i class="fa fa-arrow-down"></i></a>
+            </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="offer-section offer-section-three section service-page-three-offer" id="Overview">
     <div class="container">
         <div class="section-header">
             <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Fiorano Microservices</h2>
@@ -718,7 +739,16 @@
                             <p class="pull-right adapterDown"> <a target="_blank" href="http://www.fiorano.com/componentgallery/comp_index.php?p=fiorano_filepiller" >Download</a></p>
                         </div>
                     </div>
-
+                    <div class="col-sm-4 col-lg-3 adapterDiv">
+                        <a class="adapterViewHead" data-toggle="collapse" data-target="#Splunk">
+                            <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/SplunkEventCollector24.png')?>"/></div>
+                            <div class="col-xs-7"> <h4> &nbsp;Splunk Event Collector</h4></div>
+                        </a>
+                        <div class="col-xs-12 padding-top-20 collapse" id="Splunk">
+                            <p>Sends application events to a Splunk deployment using HTTP or HTTPS protocolsSends application events to a Splunk deployment using HTTP or HTTPS protocols.</p>
+                            <p class="pull-right adapterDown"> <a target="_blank" href="http://www.fiorano.com/componentgallery/comp_index.php?p=fiorano_splunk_event_collector" >Download</a></p>
+                        </div>
+                    </div>
 
                 </div>
                 <!--12 th close-->
@@ -728,7 +758,7 @@
     </div>
 </section> <!--Section 2 close -->
 
-<section class="odd-section" id="freeadaptor"><!--Section 3 Start-->
+<section class="odd-section" id="licensed"><!--Section 3 Start-->
     <div class="container">
         <div class="section-header">
             <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"> Licensed Adapters</h2>
@@ -1758,16 +1788,7 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-4 col-lg-3 adapterDiv">
-                        <a class="adapterViewHead" data-toggle="collapse" data-target="#Splunk">
-                            <div class="col-xs-3"> <img  class="img-responsive"  src="<?php echo base_url('assets/images/component/SplunkEventCollector24.png')?>"/></div>
-                            <div class="col-xs-7"> <h4> &nbsp;Splunk Event Collector</h4></div>
-                        </a>
-                        <div class="col-xs-12 padding-top-20 collapse" id="Splunk">
-                            <p>Sends application events to a Splunk deployment using HTTP or HTTPS protocolsSends application events to a Splunk deployment using HTTP or HTTPS protocols.</p>
-                            <p class="pull-right adapterDown"> <a target="_blank" href="http://www.fiorano.com/componentgallery/comp_index.php?p=fiorano_splunk_event_collector" >Download</a></p>
-                        </div>
-                    </div>
+
 
                     <div class="col-sm-4 col-lg-3 adapterDiv">
                         <a class="adapterViewHead" data-toggle="collapse" data-target="#Salesforce50">
@@ -1790,3 +1811,9 @@
         </div>
     </div>
 </section><!--Section 4 close -->
+<div class="icon-bar-left">
+    <a class="" href="#Overview" >Overview</a>
+    <a class="" href="#freeadaptor" >Free Adapters</a>
+    <a class="" href="#licensed" >Licensed Adapters</a>
+
+</div>

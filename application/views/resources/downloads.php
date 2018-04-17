@@ -78,12 +78,12 @@
         <div class="col-xs-12 pad">
             <hr>
             <div class="col-sm-6 ">
-                <h3><a href="<?php echo __ROOT__?>/downloads/download_fmq.php">FioranoMQ<sup>&reg;</sup> <?php echo VERSION_MQ ?></a></h3>
+                <h3><a href="<?php echo site_url('resources/mqDownload'); ?>">FioranoMQ<sup>&reg;</sup> <?php echo VERSION_MQ ?></a></h3>
                 <hr>
                 <br>
                 <p>FioranoMQ is the world's first grid-enabled, peer-to-peer JMS messaging platform, with powerful and unique features including dynamic routing, distributed debugging of message flows, dynamic deployment of JMS client applications, unbounded scalability, direct invocation of standards-based JCA components and unparalleled ease-of-management with JMX standards.</p>
                 <div class="col-xs-12 nopadding"><h4>Related Links</h4> <hr></div>
-                <div class="col-sm-6"><a href="/documentation/display/MQ<?php echo DIR_MQ ?>/Getting+Started" target="_blank" >Getting Started</a></div>
+                <div class="col-sm-6"><a href="<?php echo __ROOT__?>/documentation/display/MQ<?php echo DIR_MQ ?>/Getting+Started" target="_blank" >Getting Started</a></div>
                 <div class="col-sm-6"><a href="<?php echo __ROOT__?>/devzone/doc_fmq.php">Documentation Center</a></div>
                 <div class="col-sm-6"><a href="<?php echo __ROOT__?>/downloads/installationWindows.htm" target="_blank" >Troubleshooting - Windows</a></div>
                 <div class="col-sm-6"><a href="<?php echo __ROOT__?>/downloads/installationZipSolaris.htm" target="_blank">Troubleshooting - Solaris/Unix/Mac</a></div>

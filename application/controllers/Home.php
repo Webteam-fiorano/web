@@ -18,9 +18,10 @@ class Home extends CI_Controller {
 	{
         $data['qmain']='oth';
         $data['qsub']='';
-        $data['heading']="JMS, Java Message Service, SOA, ESB, SAP Solutions, Enterprise Messaging";
-        $data['title']="JMS, Java Message Service, SOA, ESB, SAP Solutions, Enterprise Messaging";
-        $data['userdet']=$this->auth->showdet();
+        $data['qmenu']= '1';
+        $data['heading']="Fiorano Software | Fiorano is a leading provider of JMS, including Service-Oriented Architecture (SOA), Enterprise Messaging, Java Messaging Service,  JMS Server, SAP integration,Messaging Queue,SAP Solutions,Enterprise Service Bus, ESB, PSD2, enterprise middleware and peer-to-peer distributed systems";
+        $data['title']="Fiorano Software | Fiorano is a leading provider of JMS, including Service-Oriented Architecture (SOA), Enterprise Messaging, Java Messaging Service,  JMS Server, SAP integration,Messaging Queue,SAP Solutions,Enterprise Service Bus, ESB, PSD2, enterprise middleware and peer-to-peer distributed systems";
+        //$data['userdet']=$this->auth->showdet();
         $this->load->view('common/header',$data);
         $this->load->view('common/home');
         $this->load->view('common/footer');
@@ -28,7 +29,14 @@ class Home extends CI_Controller {
     }
     public function viewDet()
     {
-        //$this->load->view('welcome_message');
-        echo"grt trhygtrointjrtn btihjt ghiotr higtrit jgitrhgig ioth ";
+        $data['qmain']='oth';
+        $data['qsub']='';
+        $data['qmenu']= '1';
+        $data['heading']="Fiorano Software | Fiorano is a leading provider of JMS, including Service-Oriented Architecture (SOA), Enterprise Messaging, Java Messaging Service,  JMS Server, SAP integration,Messaging Queue,SAP Solutions,Enterprise Service Bus, ESB, PSD2, enterprise middleware and peer-to-peer distributed systems";
+        $data['title']="Fiorano Software | Fiorano is a leading provider of JMS, including Service-Oriented Architecture (SOA), Enterprise Messaging, Java Messaging Service,  JMS Server, SAP integration,Messaging Queue,SAP Solutions,Enterprise Service Bus, ESB, PSD2, enterprise middleware and peer-to-peer distributed systems";
+        //$data['userdet']=$this->auth->showdet();
+        $this->load->view('common/header_fixed',$data);
+        $this->load->view('common/home');
+        $this->load->view('common/footer_fixed');
     }
 }

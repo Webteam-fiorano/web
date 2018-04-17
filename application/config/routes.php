@@ -53,5 +53,6 @@ $route['default_controller'] = 'home';
 $route['404_override'] = 'errors/page_missing';
 $route['home'] = "home/index";
 $route['home/(:any)'] = "home/$1";
+$route['product'] = 'products/(:any)';
 
 //$route['translate_uri_dashes'] = FALSE;

@@ -63,11 +63,11 @@
                         <td>:</td>
                         <td class="text"><?php if(!empty( $name)) echo $name; else echo "-" ?></td>
                     </tr>
-                    <tr  bgcolor="#E6F2F9">
+                    <!--<tr  bgcolor="#E6F2F9">
                         <td height="23" class="text"><div align="right">Zoho Status </div></td>
                         <td>:</td>
-                        <td class="text"><?php if(!empty( $zoho_status)) echo $zoho_status; else echo "-" ?></td>
-                    </tr>
+                        <td class="text"><?php /*if(!empty( $zoho_status)) echo $zoho_status; else echo "-" */?></td>
+                    </tr>-->
                     <tr >
                         <td height=25 class="text"><div align="right">E-Mail </div></td>
                         <td>:</td>
@@ -95,11 +95,11 @@
                         <td class="text"><?php if(!empty( $country)) echo $country; else echo "-" ?></td>
                     </tr>
 
-                    <tr  bgcolor="#E6F2F9">
+                   <!-- <tr  bgcolor="#E6F2F9">
                         <td height="23" class="text"><div align="right">Interest in PSD2 </div></td>
                         <td>:</td>
-                        <td class="text"><?php if(!empty( $interest)) echo $interest; else echo "-" ?></td>
-                    </tr>
+                        <td class="text"><?php /*if(!empty( $interest)) echo $interest; else echo "-" */?></td>
+                    </tr>-->
                     <!--<tr bgcolor="#E6F2F9">
                         <td height="23" class="text"><div align="right">Products Choice * </div></td>
                         <td>:</td>

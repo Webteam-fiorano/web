@@ -15,7 +15,7 @@
     </div>
     </div>
     <a href="#"> &nbsp;</a>
-    <div class="bs-example pull-right">
+    <div class="bs-example pull-left">
         <ul class="breadcrumb">
             <li> <a href="<?php echo site_url(''); ?>">Home</a></li>
             <li> <a href="<?php echo site_url('solutions'); ?>">Solutions</a></li>
@@ -24,7 +24,25 @@
         </ul>
     </div>
 </section>
+
 <section>
+    <div class="container">
+        <div class="col-xs-12 text-center submenu-main">
+            <div class="col-sm-4  ">
+                <a class=" animated-button victoria-four" href="#overview">Overview <i class="fa fa-arrow-down"></i></a>
+            </div>
+            <div class="col-sm-4 ">
+                <a class=" animated-button victoria-four" href="#connectivity">  Connectivity <i class="fa fa-arrow-down"></i></a>
+            </div>
+            <div class="col-sm-4">
+                <a class=" animated-button victoria-four" href="#messaging">Messaging<i class="fa fa-arrow-down"></i></a>
+            </div>
+
+
+        </div>
+     </div>
+</section>
+<section id="overview">
     <div class="container">
         <div class="row">
             <div class="section-header">
@@ -50,7 +68,7 @@
 
 <div>
 </div></div></div></div></section>
-<section class="even-section">
+<section class="even-section" id="connectivity">
 
     <div class="container">
 
@@ -108,7 +126,7 @@
    </div>
 
 </section>
-<section>
+<section id="messaging">
     <div class="container">
 
         <div class="row">
@@ -164,7 +182,7 @@
     </div>
 
 </section>
-<section class="even-section">
+<section class="even-section" >
     <div class="container padding-bottom-50">
         <div class="row">
             <div class="section-header">
@@ -335,6 +353,11 @@
     </div>
 
 </section>
+<div class="icon-bar-left">
+    <a class="" href="#overview" >Overview</a>
+    <a class="" href="#connectivity" >Connectivity</a>
+    <a class="" href="#messaging" >Messaging</a>
+</div>
 
 <script>
     $(document).ready(function(){

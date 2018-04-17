@@ -13,7 +13,7 @@
         </div>
     </div>
     <a href="#"> &nbsp;</a>
-    <div class="bs-example pull-right">
+    <div class="bs-example pull-left">
         <ul class="breadcrumb">
             <li> <a href="<?php echo site_url(''); ?>">Home</a></li>
             <li> products</li>
@@ -23,8 +23,30 @@
     </div>
 </section>
 
+<section>
+    <div class="container">
+        <div class="col-xs-12 text-center submenu-main">
+            <div class="col-sm-2 col-sm-offset-1 ">
+                <a class=" animated-button victoria-four" href="#Overview">Architecture <i class="fa fa-arrow-down"></i></a>
+            </div>
 
-<section id="integration" class="about-section">
+            <div class="col-sm-2">
+                <a class=" animated-button victoria-four" href="#keyFeactures">Key Features <i class="fa fa-arrow-down"></i></a>
+            </div>
+            <div class="col-sm-2 ">
+                <a class=" animated-button victoria-four" href="#benifits">Benefits <i class="fa fa-arrow-down"></i> </a>
+            </div>
+            <div class="col-sm-2  ">
+                <a class=" animated-button victoria-four" href="#usecases"> Use Cases <i class="fa fa-arrow-down"></i></a>
+            </div>
+            <div class="col-sm-2">
+                <a class=" animated-button victoria-four"href="#applications">Applications <i class="fa fa-arrow-down"></i></a>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section id="Overview" class="about-section">
 
     <div class="content-section-a">
 
@@ -57,7 +79,7 @@
 
 
 
-<section id="benifits">
+<section id="keyFeactures" class="even-section">
     <div class="container">
         <div class="section-header">
             <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Fiorano MQTT – Key Features</h2>
@@ -177,7 +199,7 @@
 </section>-->
 
 
-<section class="offer-section offer-section-three section service-page-three-offer" id="">
+<section class="offer-section offer-section-three section service-page-three-offer odd-section" id="benifits" >
     <div class="container">
         <div class="section-header">
             <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Fiorano MQTT – Benefits</h2>
@@ -260,7 +282,7 @@
 </section>
 
 
-<section class="even-section">
+<section class="even-section" id="usecases">
 
     <div class="container">
         <div class="section-header">
@@ -305,7 +327,7 @@
     </div>
 
 </section>
-<section>
+<section id="applications">
     <div class="container">
         <div class="section-header">
             <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Fiorano MQTT – Real world applications</h2>
@@ -391,3 +413,10 @@
     </div>
 
 </section>
+<div class="icon-bar-left">
+    <a class="" href="#Overview" >Architecture</a>
+    <a class="" href="#keyFeactures" >Key Features</a>
+    <a class="" href="#benifits" >Benefits</a>
+    <a class="" href="#usecases" >Use Cases </a>
+    <a class="" href="#applications" >applications</a>
+</div>

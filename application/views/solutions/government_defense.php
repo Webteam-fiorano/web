@@ -13,7 +13,7 @@
     </div>
     </div>
     <a href="#"> &nbsp;</a>
-    <div class="bs-example pull-right">
+    <div class="bs-example pull-left">
         <ul class="breadcrumb">
             <li> <a href="<?php echo site_url(''); ?>">Home</a></li>
             <li> <a href="<?php echo site_url('solutions'); ?>">Solutions</a></li>
@@ -23,7 +23,26 @@
     </div>
 </section>
 
+
 <section>
+    <div class="container">
+        <div class="col-xs-12 text-center submenu-main">
+            <div class="col-sm-6  ">
+                <a class=" animated-button victoria-four" href="#Overview">Overview <i class="fa fa-arrow-down"></i></a>
+            </div>
+            <div class="col-sm-6 ">
+                <a class=" animated-button victoria-four" href="#withfiorano">  Benifits <i class="fa fa-arrow-down"></i></a>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+
+
+
+<section id="Overview">
     <div class="container">
         <div class="row">
             <div class="section-header">
@@ -46,61 +65,7 @@
 
     </div>
 
-</div>           <!-- <div class="col-xs-12">
-                <div class="col-xs-12">
-                    <div class="col-sm-4 ">
-                        <div class="col-xs-12 demo-4">
-                        <div class="demo-4-img">
-                            <img src="<?php /*echo base_url('assets/images/solutions')*/?>/awards_federalcomputer.jpg" alt="Federal100" title="Federal 100 Awards" border="0" />
-                        </div>
-                        <div style="padding:10px;" class="f11 ">Department of Homeland Security, USCG implementation of SOA Architecture, SPEAR, built on Fiorano SOA as the core platform wins the Federal 100 Award
-                            <div style="text-align:right"><a href="<?/*=__ROOT__*/?>/news/pressreleases/uscg_april11_2011" class="f11">Learn more &raquo;</a></div>
-                        </div>
-                        <div class="demo-4-img"><a href="<?/*=__ROOT__*/?>/partners/system-integrator-GSA.php"><img src="<?php /*echo base_url('assets/images/solutions')*/?>/solutions_gsa_contract.jpg" width="180" title="GSA Contract Holder" alt="GSA Contract Holder" border="0"></a><br /><br /><img src="<?php /*echo base_url('assets/images/solutions')*/?>/spacer.gif" width="250px" height="1px"  /></div>
-                        <div> <p><a href="<?/*=__ROOT__*/?>/downloads/Fiorano_GSA_End_User_License_Agreement.pdf"  target="_blank"> Fiorano GSA End User License Agreement </a> </p></div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 ">
-                        <div class="col-xs-12 demo-4">
-                            <div style="" class="padding-top-50">
-                                <a href="https://www.fbo.gov/utils/view?id=017a9fc668210bace2ff674a7071f902" target="_blank" title="SPEAR" style="color:black;">&quot;SPEAR has become pervasive throughout all segments of the Coast Guard's IT community. When people saw the effect of providing time-critical and urgent data during a major disaster, it  raised SPEAR's profile much higher. It's brought the CIOs of the field-level units closer together. On that front, SPEAR has been a huge force multiplier.&quot;</a></div>
-                            <div class="pull-right" ><strong>Capt. Mike Ryan,<br/> USCG, OSC</strong></div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 ">
-                        <div class="col-xs-12 demo-4">
-                            <p class="f11 padding-top-50">Agencies should ensure that the provisioned [Cloud] IT services are effectively integrated into their wider application portfolio. Rather than a one-time event, this principle should be followed over time to guarantee that systems remain interoperable as individual IT services evolve within the portfolio.</p>
-                            <div class="pull-right"><a href="http://www.cio.gov/documents/Federal-Cloud-Computing-Strategy.pdf" target="_blank" class="f11">Learn more about the Federal Cloud First policy</a></div>
-
-                            <div style="text-align:right;font-weight:bold;" class="f11"><br/> Vivek Kundra,<br/> US Federal CIO</div>
-                        </div>
-                    </div>
-                </div>
-            </div>-->
-        <!--    <div class="col-xs-12 text-center">
-                <p>
-                    With a complex incumbent infrastructure consisting of
-                    heterogeneous platforms, hardware and applications coupled with rapidly
-                    changing legislative mandates, agencies face myriad challenges, not the
-                    least of which is progressively shrinking budgets. Government agencies
-                    are looking for ways to <a
-                        href="<?/*=__ROOT__*/?>/products/streamlining-integration-strategy.php">streamline</a>
-                    their operational processes and reduce data redundancy.</p>
-
-                <p>Fiorano understands these unique challenges of Government /
-                    Defense agencies.</p>
-                <p>Fiorano's enterprise-wide integration middleware platform, the <a
-                        href="<?/*=__ROOT__*/?>/products/SOA-service-oriented-architecture/SOA-Platform.php">Fiorano
-                        SOA Platform</a> is built on a peer-to-peer <a
-                        href="<?/*=__ROOT__*/?>/products/ESB-enterprise-service-bus/ESB-enterprise-service-bus-architecture.php">Enterprise
-                        Service Bus (ESB) architecture</a>. Fiorano's highly distributed, yet
-                    centrally managed architecture allows government businesses to draw on
-                    existing business logic residing anywhere across the enterprise to
-                    rapidly assemble solutions, allowing instant responsiveness to changing
-                    business conditions.</p>
-
-            </div>-->
+</div>
 
         </div>
     </div>
@@ -203,7 +168,7 @@
 </section>
 
 
-<section class="even-section">
+<section id="withfiorano" class="even-section">
     <div class="container">
         <div class="row padding-bottom-50">
             <div class="section-header">
@@ -269,13 +234,17 @@
         </div>
     </div>
 </section>
-<section>
+
+
+
+
+<!--<section id="others">
     <div class="container">
         <div class="col-xs-12 padding-top-50 padding-bottom-50">
 
-            <p><a href="<?=__ROOT__?>/products/SOA-service-oriented-architecture/SOA-Platform.php">Fiorano
+            <p><a href="<?/*=__ROOT__*/?>/products/SOA-service-oriented-architecture/SOA-Platform.php">Fiorano
                     SOA Platform&reg;</a> is a fully functional Enterprise Integration Tool to
-                manage, integrate and secure information. Fiorano's <a href="<?=__ROOT__?>/products/standards.php">standards-based</a>, decentralized,
+                manage, integrate and secure information. Fiorano's <a href="<?/*=__ROOT__*/?>/products/standards.php">standards-based</a>, decentralized,
                 distributed and component based architecture maps well with <em><strong class="b">Federal
                         Enterprise Architecture</strong></em> requirements and supports key initiatives of the
                 <em><strong class="b">Business Enterprise Architecture</strong></em> as
@@ -283,26 +252,33 @@
                 and published by the Business Transformation Agency.</p>
             <p>Fiorano also provides the core platform for the US Federal
                 Department of Homeland Security, US Coast Guard SOA architecture and <a
-                    href="<?=__ROOT__?>/news/pressrelease.php?src=pr_uscg_april11_2011"><em><strong class="b">SPEAR
+                    href="<?/*=__ROOT__*/?>/news/pressrelease.php?src=pr_uscg_april11_2011"><em><strong class="b">SPEAR
                         </strong></em></a>(Semper Paratus Enterprise Architecture Realization). </p>
 
             <p>Fiorano is also accredited to the UK <a
-                    href="<?=__ROOT__?>/solutions/e-GIF.php">e-Government Interoperability Framework</a>
+                    href="<?/*=__ROOT__*/?>/solutions/e-GIF.php">e-Government Interoperability Framework</a>
                 (<strong class="b">e-GIF</strong>) and is a member of HL7 UK, powering various
                 federal and healthcare initiatives.</p>
 
-            <p>The <a href="<?=__ROOT__?>/products/ESB-enterprise-service-bus/Fiorano-Cloud-Platform.php">Fiorano
+            <p>The <a href="<?/*=__ROOT__*/?>/products/ESB-enterprise-service-bus/Fiorano-Cloud-Platform.php">Fiorano
                     Cloud Platform</a> architecture supports the <a
                     href="http://www.cio.gov/documents/Federal-Cloud-Computing-Strategy.pdf" target="_blank">US
                     Federal <strong class="b">CIO's <em class="b">Cloud First Initiative</em></strong></a> enabling
                 on-demand provisioning and catalyzing adoption through easy integration
                 of on-premise legacy systems with cloud applications.</p>
             <p>
-                <a href="<?=__ROOT__?>/partners/system-integrator-GSA.php">Learn more about
+                <a href="<?/*=__ROOT__*/?>/partners/system-integrator-GSA.php">Learn more about
                     Fiorano's Government System Integrator Partnership Program &raquo;</a></p>
-            <p><a href="<?=__ROOT__?>/company/company_contact.php">Contact Us</a> Today to find out more about how Fiorano
+            <p><a href="<?/*=__ROOT__*/?>/company/company_contact.php">Contact Us</a> Today to find out more about how Fiorano
                 solutions can empower your agency.
             </p>
         </div>
     </div>
-</section>
+</section>-->
+
+<div class="icon-bar-left">
+    <a class="" href="#Overview" >Overview</a>
+    <a class="" href="#withfiorano" >Benifits</a>
+
+
+</div>

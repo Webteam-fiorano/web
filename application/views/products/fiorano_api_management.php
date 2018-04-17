@@ -16,7 +16,8 @@
         </div>
     </div>
     <a href="#"> &nbsp;</a>
-    <div class="bs-example pull-right">
+    <div class="bs-example pull-left">
+
         <ul class="breadcrumb">
             <li> <a href="<?php echo site_url(''); ?>">Home</a></li>
             <li> <a href="<?php echo site_url('products'); ?>">Products</a></li>
@@ -25,7 +26,34 @@
     </div>
 </section>
 
-<section id="integration" class="about-section">
+
+<section>
+    <div class="container">
+        <div class="col-xs-12 text-center submenu-main">
+            <div class="col-sm-2 col-sm-offset-1 ">
+                <a class=" animated-button victoria-four" href="#Overview">Overview <i class="fa fa-arrow-down"></i></a>
+            </div>
+            <div class="col-sm-2 ">
+                <a class=" animated-button victoria-four" href="#components">  Components <i class="fa fa-arrow-down"></i></a>
+            </div>
+            <div class="col-sm-2">
+                <a class=" animated-button victoria-four" href="#exposures">API Exposures<i class="fa fa-arrow-down"></i></a>
+            </div>
+            <div class="col-sm-2 ">
+                <a class=" animated-button victoria-four" href="#Keyfeatures">Key Features <i class="fa fa-arrow-down"></i> </a>
+            </div>
+            <div class="col-sm-3 ">
+                <a class=" animated-button victoria-four" href="#capabilities"> Benefits <i class="fa fa-arrow-down"></i></a>
+            </div>
+
+
+        </div>
+
+    </div>
+</section>
+
+
+<section id="Overview" class="about-section">
 
     <div class="content-section-a">
 
@@ -94,7 +122,7 @@
                     <div class="col-md-3">
                         <img src="<?php echo base_url('assets/images/products/Api-Dashboard.png')?>" style="width: 95px;"/>
                         <br><br>
-                        <h4 class="service-heading">Api Dashboard</h4>
+                        <h4 class="service-heading">API Dashboard</h4>
 
                         <ul class="align-left text-left">
                             <li> Hosted on the Management Server and Used to create API projects with zero coding</li>
@@ -163,7 +191,7 @@
     </div>
 </section>
 
-<section id="features" class="even-section">
+<section id="Keyfeatures" class="even-section">
 <div class="container">
     <div class="section-header">
         <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Fiorano API Management Key Features</h2>
@@ -347,99 +375,10 @@
         </div>
     </div>
 </section>
-<?php /*
-<section class="offer-section offer-section-three section service-page-three-offer even-section" id="resource">
-<div class="container">
-    <div class="section-header">
-        <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Fiorano API Management – Resources</h2>
-        <!--<p class="text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>-->
-    </div>
-
-    <div class="row">
-        <div class="ofer-items">
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="single-offer-item row white-bg" style="background-color:#fff !important;">
-                    <a target="_blank" href="<?php echo __ROOT__?>/documentation/display/API1040/API+Documentation" class="read-more ">
-                    <h3>Documentation</h3>
-                    <div class="offer-icon">
-                        <div class="offer-icon-animate">
-                                 <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-file-text fa-stack-1x fa-inverse"></i>
-                    </span>
-                        </div>
-                    </div>
-                    </a>
-                    <div class="offer-details">
-
-                        <h4> <a href="http://www.fiorano.com/documentation/display/API1040/Quick+Start" target="_blank">Quick Start</a></h4>
-                        <p>This section provides an overall picture of how to work with Fiorano API Management. </p>
-                        <br>
-                        <h4> <a href=" http://www.fiorano.com/documentation/display/API1040/Developer+Portal" target="_blank" >Developer Portal</a></h4>
-                        <p>self-signup and automates the interaction of developers with the services published using the API manager.</p>
-                        <p class="text-center align-center"><a target="_blank" href="<?php echo __ROOT__?>/documentation/display/API1040/API+Documentation" class="read-more ">Read All <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
-
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="single-offer-item row" style="background-color:#fff !important;">
-                    <a href="<?php echo site_url('resources/whitepapers')?>" class="read-more">
-                    <h3>Whitepapers </h3>
-                    <div class="offer-icon">
-                        <div class="offer-icon-animate">
-                                <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-file-word-o fa-stack-1x fa-inverse"></i>
-                    </span>
-                        </div>
-                    </div>
-                    </a>
-                    <div class="offer-details ">
-
-                        <h4><a href="<?php echo __ROOT__?>/whitepapers/API/demystifying-API-management.php" target="_blank">Demystifying API Management
-                            </a></h4>
-                        <p>The next evolution in Enterprise Integration</p>
-                        <br>
-                        <h4><a href="<?php echo __ROOT__?>/whitepapers/API/Intellyx-BrainBlog-WhitePaper.php" target="_blank" >API Management for Everyone
-                            </a></h4>
-                        <p>Fiorano API Management reviewed by analyst - Jason Bloomberg</p>
-<br><br>
-                        <p class="text-center align-center"><a href="<?php echo site_url('resources/whitepapers')?>" class="read-more">Read All <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
-
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="single-offer-item row" style="background-color:#fff !important;">
-                    <a href="<?php echo site_url('resources/casestudies')?>" class="read-more">
-                    <h3>Case Studies</h3>
-                    <div class="offer-icon">
-                        <div class="offer-icon-animate">
-                               <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                                 <i class="fa fa-files-o fa-stack-1x fa-inverse"></i>
-                                </span>
-                        </div>
-                    </div>
-                    </a>
-                    <div class="offer-details  ">
-
-                        <h4> <a href="<?php echo __ROOT__?>/customers/casestudies/global-tranz.php" target="_blank">GlobalTranz </a></h4>
-                        <p>Logistics leader GlobalTranz Digitizes with the Fiorano Integration/API Platform</p>
-                        <br>
-                        <!--<h4>  <a href="" >Cirrus Aircraft </a></h4>
-                        <p> Cirrus Aircraft takes off with Fiorano</p>-->
-                        <br> <br> <br> <br>
-                    <br>
-                        <p class="text-center align-center"><a href="<?php echo site_url('resources/casestudies')?>" class="read-more">Read All <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="icon-bar-left">
+    <a class="" href="#Overview" >Overview</a>
+    <a class="" href="#components" >Components</a>
+    <a class="" href="#exposures" >API Exposures</a>
+    <a class="" href="#Keyfeatures" >Key Features</a>
+    <a class="" href="#capabilities" >Benefits </a>
 </div>
-</section>*/?>
-

@@ -13,7 +13,7 @@
     </div>
     </div>
     <a href="#"> &nbsp;</a>
-    <div class="bs-example pull-right">
+    <div class="bs-example pull-left">
         <ul class="breadcrumb">
             <li> <a href="<?php echo site_url(''); ?>">Home</a></li>
             <li> <a href="<?php echo site_url('solutions'); ?>">Solutions</a></li>
@@ -22,7 +22,26 @@
         </ul>
     </div>
 </section>
+
+
+
 <section>
+    <div class="container">
+        <div class="col-xs-12 text-center submenu-main">
+            <div class="col-sm-4  ">
+                <a class=" animated-button victoria-four" href="#overview">Overview <i class="fa fa-arrow-down"></i></a>
+            </div>
+            <div class="col-sm-4 ">
+                <a class=" animated-button victoria-four" href="#components">Features & Standards  <i class="fa fa-arrow-down"></i></a>
+            </div>
+            <div class="col-sm-4">
+                <a class=" animated-button victoria-four" href="#benifits">Benefits <i class="fa fa-arrow-down"></i></a>
+            </div>
+
+
+        </div>
+     </div>
+<section id="overview">
     <div class="container">
     <div class="row">
         <div class="section-header">
@@ -49,7 +68,7 @@
     </div>
     </div>
 </section>
-<section class="even-section">
+<section class="even-section" id="features">
 
 <div class="container">
     <div class="row padding-bottom-50">
@@ -99,7 +118,7 @@
 </section>
 
 
-<section  class="">
+<section  class="odd-section" id="benifits">
     <div class="container">
         <div class="section-header">
             <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Benefits of the Framework</h2>
@@ -195,3 +214,9 @@
         </div>
     </div>
 </section>
+    <div class="icon-bar-left">
+        <a class="" href="#overview" >Overview</a>
+        <a class="" href="#features" >Features & Standards </a>
+        <a class="" href="#benifits" >Benefits</a>
+
+    </div>

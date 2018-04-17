@@ -31,7 +31,7 @@
 
             <div class="col-xs-12">
                 <h3 class="casestudyh3">
-                    Fiorano ESB enables Aboitiz Power to streamline power distribution and introduce mobile services for its customers
+                    Powered by Fiorano ESB, Commercial Bank of Africa revolutionizes mobile-banking;
                 </h3>
                 <hr>
                 <h4>M-Shwari logs 40,000 customers per day crossing Ksh1 billion

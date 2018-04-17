@@ -22,7 +22,7 @@
         </div>
     </div>
     <a href="#"> &nbsp;</a>
-    <div class="bs-example pull-right">
+    <div class="bs-example pull-left">
         <ul class="breadcrumb">
             <li> <a href="<?php echo site_url(''); ?>">Home</a></li>
             <li> <a href="<?php echo site_url('products'); ?>">Products</a></li>
@@ -31,6 +31,34 @@
     </div>
 </section>
 
+
+
+<section>
+    <div class="container">
+      <div class="col-xs-12 text-center submenu-main">
+          <div class="col-sm-2  ">
+              <a class=" animated-button victoria-four" href="#integration">Overview <i class="fa fa-arrow-down"></i></a>
+          </div>
+          <div class="col-sm-2 ">
+              <a class=" animated-button victoria-four" href="#components">  Components <i class="fa fa-arrow-down"></i></a>
+          </div>
+          <div class="col-sm-2">
+              <a class=" animated-button victoria-four" href="#keyFeactures">Key Features <i class="fa fa-arrow-down"></i></a>
+          </div>
+          <div class="col-sm-2 ">
+              <a class=" animated-button victoria-four" href="#benifits">Benefits <i class="fa fa-arrow-down"></i> </a>
+          </div>
+          <div class="col-sm-3  ">
+              <a class=" animated-button victoria-four" href="#ESB"> Similar Products <i class="fa fa-arrow-down"></i></a>
+          </div>
+
+      </div>
+       <!-- <div class="col-xs-12 nopadding">
+            <hr class="double-grey menu-hr">
+        </div>-->
+
+    </div>
+</section>
 <!-- About Section -->
 <section id="integration" class="about-section">
     <div class="content-section-a">
@@ -321,11 +349,11 @@
         </div>
     </div>
 </section>
-
+<!--Fiorano IPAAS-->
 
 <!--Fiorano B2B-->
 
-<section id="integration" class="odd-section">
+<section  class="odd-section" id="ESB">
     <div class="content-section-a">
         <div class="container">
             <div class="row">
@@ -366,11 +394,9 @@
             <div class="col-lg-5 col-sm-5 productLeft padding-top-50">
                 <hr class="section-heading-spacer">
                 <div class="clearfix"></div>
-
                 <p class="productDesc ">
                     Fiorano B2B enables the secure exchange of business documents and automates cross-company processes and B2B transactions including purchase orders, requisitions and invoices. With support for all major transport and business protocols, as well as data formats such as XML, electronic data interchange (EDI) and flat files, while giving suppliers browser access, email routing and PDF optical character recognition (OCR) options to transmit data, allowing multichannel integration.
                     Fiorano B2B enables accurate, real-time information exchange across the extended enterprise.
-
                 </p>
             </div>
             <div class="col-lg-5 col-sm-5 productRight col-sm-offset-2">
@@ -479,4 +505,13 @@
 
 */ ?>
 
+
+<div class="icon-bar-left">
+    <a class="" href="#integration" >Overview</a>
+    <a class="" href="#components" >Components</a>
+    <a class="" href="#keyFeactures" >Key Features</a>
+    <a class="" href="#benifits" >Benefits</a>
+    <a class="" href="#ESB" >Similar Products</a>
+
+</div>
 

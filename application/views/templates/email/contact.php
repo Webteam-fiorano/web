@@ -52,12 +52,12 @@
                         <td width="2%"> </td>
                         <td width="62%"> </td>
                     </tr>
-                    <tr bgcolor="#E6F2F9">
+                    <!--<tr bgcolor="#E6F2F9">
                         <td height="23" class="text"><div align="right">Salutation </div></td>
                         <td>:</td>
-                        <td class="text"> <?php if(!empty( $salutation)) echo $salutation; else echo "-" ?></td>
+                        <td class="text"> <?php /*if(!empty( $salutation)) echo $salutation; else echo "-" */?></td>
 
-                    </tr>
+                    </tr>-->
                     <tr>
                         <td height="23" class="text"><div align="right">Name </div></td>
                         <td>:</td>
@@ -101,11 +101,11 @@
                     </tr>
                     <?php }?>
 
-                    <tr bgcolor="#E6F2F9">
+                   <!-- <tr bgcolor="#E6F2F9">
                         <td height="23" class="text"><div align="right"> Subject </div></td>
                         <td>:</td>
-                        <td class="text"><?php if(!empty( $subject)) echo $subject; else echo "-" ?></td>
-                    </tr>
+                        <td class="text"><?php /*if(!empty( $subject)) echo $subject; else echo "-" */?></td>
+                    </tr>-->
                     <tr>
                         <td height="23" class="text"><div align="right"> Message </div></td>
                         <td>:</td>

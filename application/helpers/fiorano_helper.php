@@ -699,8 +699,7 @@ function isCorporateID($email) {
 
    // return TRUE;
     //$domains = parse_ini_file("file.ini");
-    $domains = array('gmail', 'yandex', 'yahoo', 'rediffmail', 'live', 'hotmail', 'aol', 'mail', '163', '126', 'googlewave', 'indiatimes', 'aim');
-
+    $domains = array('gmail', 'yandex', 'yahoo', 'rediffmail', 'live', 'hotmail', 'aol', 'mail', '163', '126', 'googlewave', 'indiatimes', 'aim','redhat','ibm');
     $var = explode("@", $email);
     $dns = substr($var[1], 0, strpos($var[1], "."));
     foreach ($domains as $d) {
@@ -747,33 +746,46 @@ function getLeadEmail($lead_name) {
     return $leads['lead_emails'][$lead_name];
 }
 
+ function getHash($bits = 128) {
+        return hash('ripemd128', self::makeRandomString($bits));
+    }
+function makeRandomString($bits = 128) {
+        $bytes = ceil(($bits - strlen($_SERVER['REMOTE_ADDR'])) / 8);
+        $return = $_SERVER['REMOTE_ADDR'];
+        for ($i = 0; $i < $bytes; $i++) {
+            $return .= chr(mt_rand(0, 255));
+        }
+        return $return;
+}
+
 /*End Lead process*/
-function sendWebinardetails($data=null,$reqId=null){
-
-    $CI =& get_instance();
-    $CI ->load->library('email');
-    $CI ->email->set_mailtype("html");
-    $CI ->email->from('events@in.fiorano.com', 'Fiorano Events');
-    $data['leadname']= getLeadName($data['country']);
-
-    if (strpos($reqId, 'fiorano.com') === false) {
-        $to_main = "download-notifications@in.fiorano.com";
-        $CI ->email->subject("Webinar Recording View  - " .$data['name']."(".$data['company'].") - ".$data['country']);
-        $CI ->email->bcc("harikrishnan.v@in.fiorano.com");
-    } else {
-        $to_main = "harikrishnan.v@in.fiorano.com";
-        $CI ->email->cc('pooja.sharma@in.fiorano.com');
-        $CI ->email->subject("Webinar Recording View Internal  - " .$data['name']."(".$data['company'].") - ".$data['country']);
+/* FOr SEO outPut */
+function seo_details($title=null, $keyword=null,$desc=null, $image=null ){
+    if(empty ($keyword)){$keyword="Fiorano ESB, Fiorano MQ, ESB, Fiorano, Psd2, Whitpaper, Solution Psd2, Digital Banking, business architecture, BPM, operational intelligence, Application Architecture, business integration,Banking,  real-time analytics, real-time big data, Platform-as-a-service, digital Transformation"; }
+    if(empty ($title)){
+        $title="Fiorano Software Technologies ";
     }
-    $CI ->email->to($to_main);
-    $body = $CI ->load->view('templates/email/webinar_register', $data, TRUE);
-    $CI ->email->message($body);
-
-    if ($CI->email->send()){
-        return 1;
-    }else{
-
-        return 2;
+    if(empty ($desc)){
+        $desc="Founded in 1995,  Fiorano is a leading provider of JMS, including Service-Oriented Architecture (SOA), Enterprise Messaging, Java Messaging Service,  JMS Server, SAP integration ,  Messaging Queue, SAP Solutions, Enterprise Service Bus, ESB, PSD2 enterprise middleware and peer-to-peer distributed systems";
     }
-
+    if(empty ($image)){
+        $image ="http://www.fiorano.com/new/assets/images/fiorano_logo.png";
+    }
+    $seo='  <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+            <meta name="keywords" content="'.$keyword.'"/>
+            <meta name="description" content="'.$desc.'" />
+            <meta name="classification" content="'.$desc.'"/>
+            <meta name="twitter:card" content="summary">
+            <meta name="twitter:site" content="@fiorano">
+            <meta name="twitter:title" content="'.$title.'" >
+            <meta name="twitter:description" content="'.$desc.'">
+            <meta name="twitter:image" content="'.$image.'">
+            <meta property="og:title" content="'.$title.'"  />
+            <meta property="og:type" content="article" />
+            <meta property="og:url" content="http://www.fiorano.com/new/" />
+            <meta property="og:image" content="'.$image.'"/>
+            <meta property="og:description" content="'.$desc.'" />
+            <meta property="og:site_name" content="http://www.fiorano.com" />
+            ';
+    return $seo;
 }

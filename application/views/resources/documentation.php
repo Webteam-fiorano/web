@@ -18,7 +18,7 @@
     </div>
     <div class="col-xs-12">
         <div class="col-sm-6">
-            <a><h3>Fiorano<sup style="font-size:60%;">®</sup>  <?php echo VERSION_SOA ?></h3></a>
+            <a href=""><h3>Fiorano<sup style="font-size:60%;">®</sup>  <?php echo VERSION_SOA ?></h3></a>
             <hr>
             <ul class="col-xs-12">
                 <li class="col-xs-12"> <a href="http://www.fiorano.com/documentation/display/ESB<?php echo DIR_PLAIN_SOA ?>/Release+Notes" target="_blank"> Release Notes</a></li>

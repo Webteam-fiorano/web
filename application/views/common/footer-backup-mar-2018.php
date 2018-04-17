@@ -6,30 +6,31 @@
  * Time: 10:19 AM
  */
 ?>
-<div class="icon-bar-right-arrow" style="">
-    <a class="Menuright-click" >
-        <div class="right-arrow-right"> <i class="fa fa-lg fa-arrow-circle-o-right fa-large col-xs-6"></i></div>
-        <div class="right-arrow-left is-hidden-object"> <i class="fa fa-lg fa-arrow-circle-o-left fa-large col-xs-6"></i></div>
-    </a>
-</div>
-
 
 <div class="col-xs-12">
 
     <a href="#" class="scrollup" style="display: block;">
         <i class="fa fa-arrow-circle-up"></i></a>
+<?php if(empty($rdemo)){?>
 
 
+    <div id="side-bar" style="background:transparent;">
 
-    <div class="icon-bar-right">
-        <a class="active tooltiphome" href="<?php echo __ROOT__?>/request/demo.php" title="Request a Demo"><i title="" class="fa fa-phone-square"></i></a>
+            <div id="slip" class="">
+                <!--<a href="<?php /*echo __ROOT__*/?>/request/demo.php">-->
+                <a href="<?php echo site_url('request/demo')?>">
+                <button class="btn btn-transparent">
+                    <i class="fa fa-download"></i>
+                    Request Demo</button>
+                </a>
+            </div>
     </div>
+    <?php } ?>
+<div id="contact_us" class="modal fade" role=   "dialog">
+    <div class="modal-dialog">
 
-    <div id="contact_us" class="modal fade" role=   "dialog">
-        <div class="modal-dialog">
-
-            <!-- Modal content-->
-            <!-- <form class=""  action=""method="post">-->
+        <!-- Modal content-->
+       <!-- <form class=""  action=""method="post">-->
             <?php
             $attributes=array('name'=>'contact','id'=>'frm11');
 
@@ -45,24 +46,24 @@
                     <p> To reach a sales representative immediately, call 1-800-663-3621 (Toll-Free within the USA) or submit this form selecting the appropriate message category and the relevant team will get in touch with you shortly. </p>
                     <hr>
                     <input class="" name="type" value="1" type="hidden">
-                    <!--<div class="col-sm-6 padding-top-20">Salutation <span class="reqMention">*</span>
+                    <div class="col-sm-6 padding-top-20">Salutation <span class="reqMention">*</span>
                         <select class="form-control" required="required" name="salutation" id="salutation">
                             <option value="">Select one</option>
-                            <option value="Mr." <?/*= @$_SESSION['salutation']=="Mr."?"selected":"" */?>>Mr.</option>
-                            <option value="Ms." <?/*= @$_SESSION['salutation']=="Ms."?"selected":"" */?>>Ms.</option>
-                            <option value="Dr." <?/*= @$_SESSION['salutation']=="Dr."?"selected":"" */?>>Dr.</option>
+                            <option value="Mr." <?= @$_SESSION['salutation']=="Mr."?"selected":"" ?>>Mr.</option>
+                            <option value="Ms." <?= @$_SESSION['salutation']=="Ms."?"selected":"" ?>>Ms.</option>
+                            <option value="Dr." <?= @$_SESSION['salutation']=="Dr."?"selected":"" ?>>Dr.</option>
                         </select>
-                    </div>-->
-                    <div class="col-sm-6 padding-top-20">Name <span class="reqMention">*</span>
+                        </div>
+                    <div class="col-sm-6 padding-top-20"> Full Name<span class="reqMention">*</span>
                         <input type="text" required="required" placeholder="Enter your Name..." id="name" class="form-control"  name="name" value="<?= @$_SESSION['name'];?>" />
                     </div>
-                    <div class="col-sm-6 padding-top-20">Email <span class="reqMention">*</span>
+                    <div class="col-sm-6 padding-top-20"> Your Email<span class="reqMention">*</span>
                         <input type="text"  required="required" placeholder="Enter your e-mail..." class="form-control" id="email" name="email" value="<?= @$_SESSION['email'];?>"  />
                     </div>
-                    <div class="col-sm-6 padding-top-20">Company <span class="reqMention">*</span>
+                    <div class="col-sm-6 padding-top-20">Company<span class="reqMention">*</span>
                         <input type="text" required="required" class="form-control" id="company" placeholder="Enter your Company..."  name="company" value="<?= @$_SESSION['company'];?>"  />
                     </div>
-                    <div class="col-sm-6 padding-top-20"> Phone Number <span class="reqMention">*</span>
+                    <div class="col-sm-6 padding-top-20"> Phone Number<span class="reqMention">*</span>
                         <input type="text" required="required" class="form-control" placeholder="Enter your Phone Number..." id="phone"  name="phone"  value="<?= @$_SESSION['phone'];?>"  />
                     </div>
                     <div class="col-sm-6 padding-top-20">Your country or region <span class="reqMention">*</span>
@@ -79,7 +80,7 @@
                             ?>
                         </select>
                     </div>
-                    <div class="col-sm-6 padding-top-20"> Which best describes you? <span class="reqMention">*</span>
+                    <div class="col-sm-6 padding-top-20"> Which best describes you?<span class="reqMention">*</span>
                         <select name="profile" required="required" id="profile" class="form-control">
                             <option value="">Select one</option>
                             <option value="Existing Fiorano customer" <?= @$_SESSION['profile']=="Existing Fiorano customer"?"selected":"" ?>>Existing Fiorano customer </option>
@@ -92,10 +93,21 @@
                         </select>
                     </div>
 
+                    <div id="lic_catDiv" class="col-sm-6 padding-top-20 "> Support Category<span class="reqMention">*</span>
+                        <select name="lic_cat"  id="lic_cat" style=" " class="form-control">
+                            <option value="">Select one</option>
+                            <option value="Password lock" >Password lock </option>
+                            <option value="Request License extension" > Request License extension</option>
+                            <option value="Generating Licenses" > Generation of license</option>
+                            <option value="Change of IP address">Change of IP address</option>
+                            <option value="Schedule License Portal Training">Schedule License Portal Training</option>
+                            <option value="Expired support">  Expired support</option>
+                            <option value="Other" >Other</option>
+                        </select>
+                    </div>
 
 
-
-                    <div class="col-sm-6 padding-top-20" id="messsge_cat"> Message category <span class="reqMention">*</span>
+                    <div class="col-sm-6 padding-top-20" id="messsge_cat"> Message category<span class="reqMention">*</span>
                         <select  name="category" required="required" id="category" style="" class="form-control">
                             <option value="" selected>Select one</option>
                             <option value="Product technical information" <?= @$_SESSION['category']=="Product technical information"?"selected":"" ?>>Product technical information</option>
@@ -109,35 +121,23 @@
                             <option value="Other" <?= @$_SESSION['category']=="Other"?"selected":"" ?>>Other</option>
                         </select>
                     </div>
-                    <div id="lic_catDiv" class="col-sm-6 padding-top-20 "> Support Category <span class="reqMention">*</span>
-                        <select name="lic_cat"  id="lic_cat" style=" " class="form-control">
-                            <option value="">Select one</option>
-                            <option value="Password lock" >Password lock </option>
-                            <option value="Request License extension" > Request License extension</option>
-                            <option value="Generating Licenses" > Generation of license</option>
-                            <option value="Change of IP address">Change of IP address</option>
-                            <option value="Schedule License Portal Training">Schedule License Portal Training</option>
-                            <option value="Expired support">  Expired support</option>
-                            <option value="Other" >Other</option>
-                        </select>
+                    <div class="col-sm-6 padding-top-20">Your Subject<span class="reqMention">*</span>
+                        <input type="text" id="subject" required="required" placeholder="Enter your Subject..." class="form-control" name="subject" value="<?= @$_SESSION['subject'];?>" />
                     </div>
-                   <!-- <div class="col-sm-6 padding-top-20">Your Subject<span class="reqMention">*</span>
-                        <input type="text" id="subject" required="required" placeholder="Enter your Subject..." class="form-control" name="subject" value="<?/*= @$_SESSION['subject'];*/?>" />
-                    </div>-->
-                    <div class="col-sm-6 yourMessage1 padding-top-20" id="your_mess">Your Message <span class="reqMention">*</span>
+                    <div class="col-sm-6 padding-top-20" id="your_mess">Your Message<span class="reqMention">*</span>
                         <textarea name="message" required="required" id="message"  placeholder="Enter your Message..." class="form-control" title="Message" ><?= @$_SESSION['message']; ?></textarea>
                     </div>
                     <div class="col-sm-6 col-sm-offset-3">
                         <br/>
-                        <!-- <script src='https://www.google.com/recaptcha/api.js'></script>-->
-                        <!-- <div id="recaptcha2"></div>-->
-                        <!-- <div class="g-recaptcha" data-sitekey="6Lfq1gsTAAAAAN8CJvmc_5Y4_oZMNErmg9wvC1G7"></div>
+                       <!-- <script src='https://www.google.com/recaptcha/api.js'></script>-->
+                       <!-- <div id="recaptcha2"></div>-->
+                       <!-- <div class="g-recaptcha" data-sitekey="6Lfq1gsTAAAAAN8CJvmc_5Y4_oZMNErmg9wvC1G7"></div>
 
-                         <br/>-->
+                        <br/>-->
                     </div>
 
 
-                </div>
+                     </div>
 
                 <div class="modal-body form-group getIn-model" id="success-contact">
                     <p> Thank you for your interest in Fiorano. Our Fiorano representative will contact you shortly.</p>
@@ -153,10 +153,10 @@
                     <button type="submit" class="btn btn-primary" id="openesb-download-button" >Send Contact Request</button>
                 </div>
             </div>
-            <?php echo form_close(); ?>
+        <?php echo form_close(); ?>
 
-        </div>
     </div>
+</div>
 </div>
 
 
@@ -176,7 +176,7 @@
                 </div>
 
                 <div class="span3 col-sm-3 ">
-                    <div id="tag_cloud-2" class="widget widget_tag_cloud">
+                        <div id="tag_cloud-2" class="widget widget_tag_cloud">
                         <h4 class="widget-title">Quick Links</h4>
                         <div class="thin_line"></div>
                         <div class="tagcloud">
@@ -188,7 +188,7 @@
                                     <?php if($qmain !="cus"){?> <a href="<?php echo site_url('customers')?>" class="tag-link-30" title="CUSTOMERS" style="font-size: 8pt;">CUSTOMERS</a> <?php }?>
                                     <?php if($qmain !="par"){?> <a href="<?php echo site_url('partners')?>" class="tag-link-26" title="PARTNERS" style="font-size: 22pt;">PARTNERS</a> <?php }?>
                                     <?php if($qmain !="res"){?> <a href="<?php echo site_url('resources')?>" class="tag-link-30" title="RESOURCES" style="font-size: 8pt;">RESOURCES</a> <?php }?>
-                                <?php }else{
+                            <?php }else{
                                     if ($qmain=='pro'){?>
                                         <!-- @qsub values { ip=integration, esb= esb, api= api management, mq = mq, mqtt = mqtt, oesb = open sourse esb, estud= e studio, mic= micro services }-->
                                         <?php if($qsub !="ip"){ ?> <a href="<?php echo site_url('products/fiorano_integration')?>" class="tag-link-26" title="Integration Platform" style="font-size: 22pt;">Integration Platform</a> <?php }?>
@@ -209,7 +209,7 @@
                                         <?php if($qsub !="govern"){?> <a href="<?php echo site_url('solutions/government_defense')?>" class="tag-link-30" title="Government & Defense" style="font-size: 8pt;">Government & Defense</a> <?php }?>
                                         <?php if($qsub !="sap"){?> <a href="<?php echo site_url('solutions/sap_solution')?>" class="tag-link-26" title="Sap Solution" style="font-size: 22pt;">Sap Solution</a> <?php }?>
 
-                                    <?php  }elseif ($qmain=='ser'){?>
+                                     <?php  }elseif ($qmain=='ser'){?>
                                         <?php if($qsub !="ardes"){?> <a href="<?php echo site_url('services/architecture_assessment_design')?>" class="tag-link-30" title="Architecture Assessment Design" style="font-size: 8pt;">Architecture Assessment Design</a> <?php }?>
                                         <?php if($qsub !="impl"){ ?> <a href="<?php echo site_url('services/implementation')?>" class="tag-link-26" title="Implementation" style="font-size: 22pt;">Implementation</a> <?php }?>
                                         <?php if($qsub !="ptun") {?> <a href="<?php echo site_url('services/performance_tuning')?>" class="tag-link-30" title="Performance Tuning" style="font-size: 8pt;">Performance Tuning</a> <?php }?>
@@ -238,27 +238,27 @@
 
                                 }
                             }else{ ?>
-                                <a href="<?php echo site_url('products')?>" class="tag-link-26" title="PRODUCTS" style="font-size: 22pt;">PRODUCTS</a>
-                                <a href="<?php echo site_url('solutions')?>" class="tag-link-30" title="SOLUTIONS" style="font-size: 8pt;">SOLUTIONS</a>
-                                <a href="<?php echo site_url('services')?>" class="tag-link-26" title="SERVICES" style="font-size: 22pt;">SERVICES</a>
-                                <a href="<?php echo site_url('customers')?>" class="tag-link-30" title="CUSTOMERS" style="font-size: 8pt;">CUSTOMERS</a>
-                                <a href="<?php echo site_url('partners')?>" class="tag-link-26" title="PARTNERS" style="font-size: 22pt;">PARTNERS</a>
-                                <a href="<?php echo site_url('resources')?>" class="tag-link-30" title="RESOURCES" style="font-size: 8pt;">RESOURCES</a>
+                               <a href="<?php echo site_url('products')?>" class="tag-link-26" title="PRODUCTS" style="font-size: 22pt;">PRODUCTS</a>
+                               <a href="<?php echo site_url('solutions')?>" class="tag-link-30" title="SOLUTIONS" style="font-size: 8pt;">SOLUTIONS</a>
+                               <a href="<?php echo site_url('services')?>" class="tag-link-26" title="SERVICES" style="font-size: 22pt;">SERVICES</a>
+                               <a href="<?php echo site_url('customers')?>" class="tag-link-30" title="CUSTOMERS" style="font-size: 8pt;">CUSTOMERS</a>
+                               <a href="<?php echo site_url('partners')?>" class="tag-link-26" title="PARTNERS" style="font-size: 22pt;">PARTNERS</a>
+                               <a href="<?php echo site_url('resources')?>" class="tag-link-30" title="RESOURCES" style="font-size: 8pt;">RESOURCES</a>
 
                             <?php  }?>
 
 
 
 
-                            <!-- <a href="<?php /*echo site_url('architecture/fiorano_microservices')*/?>" class="tag-link-26" title="2 topics" style="font-size: 22pt;">Microservices</a>
+                           <!-- <a href="<?php /*echo site_url('architecture/fiorano_microservices')*/?>" class="tag-link-26" title="2 topics" style="font-size: 22pt;">Microservices</a>
                             <a href="<?php /*echo site_url('products/fiorano_esb')*/?>" class="tag-link-30" title="1 topic" style="font-size: 8pt;">ESB</a>-->
-                            <!-- <a href="" class="tag-link-33" title="1 topic" style="font-size: 8pt;">SOA</a>
-                             <a href="" class="tag-link-34" title="1 topic" style="font-size: 8pt;">Cloud ESB</a>-->
-                            <!-- <a href="" class="tag-link-29" title="1 topic" style="font-size: 8pt;">B2B</a>-->
+                           <!-- <a href="" class="tag-link-33" title="1 topic" style="font-size: 8pt;">SOA</a>
+                            <a href="" class="tag-link-34" title="1 topic" style="font-size: 8pt;">Cloud ESB</a>-->
+                           <!-- <a href="" class="tag-link-29" title="1 topic" style="font-size: 8pt;">B2B</a>-->
                             <!--<a href="<?php /*echo site_url('products/fiorano_mq')*/?>" class="tag-link-35" title="1 topic" style="font-size: 8pt;">FioranoMQ</a>-->
-                            <!--  <a href="<?php /*echo site_url('architecture/fiorano_microservices')*/?>" class="tag-link-27" title="1 topic" style="font-size: 8pt;">MQ Performance</a>
+                          <!--  <a href="<?php /*echo site_url('architecture/fiorano_microservices')*/?>" class="tag-link-27" title="1 topic" style="font-size: 8pt;">MQ Performance</a>
                             <a href="<?php /*echo site_url('architecture/fiorano_microservices')*/?>" class="tag-link-28" title="1 topic" style="font-size: 8pt;">Enterprise Messaging</a>-->
-                            <!-- <a href="<?php /*echo site_url('solutions/sap_solution')*/?>" class="tag-link-28" title="1 topic" style="font-size: 8pt;">SAP Integration</a>-->
+                           <!-- <a href="<?php /*echo site_url('solutions/sap_solution')*/?>" class="tag-link-28" title="1 topic" style="font-size: 8pt;">SAP Integration</a>-->
                         </div>
                     </div>
                 </div>
@@ -312,19 +312,6 @@
             </div>
 
         </div>
-        <div class="widget widget_text pull-right language-select">
-
-
-             <div class="textwidget">
-            <a id="lang-sel" class="lang-sel" href="#">
-                <img id="lang-sel1" class="lang-sel" src="<?php echo base_url('assets/images/home/usa.gif');?>" /> <i style="padding-top: 3px" id="lang-sel2" class="fa fa-angle-down"></i>
-            </a>
-        </div>
-        <ul id="lang-drop" class="flags">
-            <li style="padding:10px" class="vc_box_shadow"><a href="<?php echo __ROOT__?>/jp/"><img src="<?php echo base_url('assets/images/home/japan.gif');?>" /> Japan</a></li>
-            <li style="padding:10px" class="vc_box_shadow"><a href="<?php echo __ROOT__?>/de/"><img src="/images/flags/germany.gif" /> Germany</a></li>
-            </ul>
-        </div>
     </div>
     <div id="copyright">
         <div class="container">
@@ -362,31 +349,12 @@
 
 </script>
 
+
 <script>
-
     $(document).ready(function(){
-        $('.icon-bar-right-arrow').hide();
-
-        $('.icon-bar-left').hide();
-        $('.getIn-model').css('min-height','500px');
         $('#lic_catDiv').hide();
-        var classmessage1 = $(".yourMessage1");
-        $('#category').change(function () {
-            if($('#category').val()=='Licensing'){
-                $('#lic_catDiv').show();
-                $('.getIn-model').css('min-height','550px');
-                classmessage1.removeClass("col-sm-6");
-                classmessage1.addClass("col-sm-12");
-            }else{
-                $('#lic_catDiv').hide();
-                classmessage1.removeClass("col-sm-12");
-                classmessage1.addClass("col-sm-6");
-                $('.getIn-model').css('min-height','500px');
-            }
-        });
-
         $('#contactBtn').click(function(){
-
+            $('.getIn-model').css('min-height','550px');
             $('#openesb-download-button').show();
             $('#contact').show();
             $('#success-contact').hide();
@@ -395,38 +363,41 @@
         $('#lang-sel2').click(function(){
             $('#lang-drop').toggle();
         });
-
+    });
 
     $('#frm11').submit(function(e) {
         e.preventDefault();
 
-        /* var recaptcha = $("#g-recaptcha-response").val();
-         if (recaptcha === "") {
-             e.preventDefault();
-             alert("Please check the recaptcha");
-            return false;
-         }*/
-        var option = $('#category').val();
-        var str = $("#email").val();
-        var res = str.split("@");
+       /* var recaptcha = $("#g-recaptcha-response").val();
+        if (recaptcha === "") {
+            e.preventDefault();
+            alert("Please check the recaptcha");
+           return false;
+        }*/
+            var option = $('#category').val(); //
+            var str = $("#email").val();
+            var res = str.split("@");
 
-        if ((option == "Careers at Fiorano") || (option == "Other")) {
+            if((option == "Careers at Fiorano") || (option == "Other") ){
 
-        } else {
-            if (res[0] == "info") {
-                alert("Please provide your Corporate Email Id ");
-                return false;
+            }else{
+                if (res[0] == "info") {
+                    alert("Please provide your Corporate Email Id ");
+                    return false;
+                }
+                if (res[1] == "gmail.com") {
+                    alert("Please provide your Corporate Email Id ");
+                    return false;
+                }
             }
-            if (res[1] == "gmail.com") {
-                alert("Please provide your Corporate Email Id ");
-                return false;
-            }
-        }
 
-        if (str == 'sample@email.tst') {
+        if(str=='sample@email.tst'){
             alert("Sorry!");
             return false;
         }
+
+
+
 
         var formData = new FormData($('#frm11')[0]);
 
@@ -435,9 +406,9 @@
             type: 'POST',
             data: formData,
             async: false,
-            success: function (data) {
-                var suc= data;
-                if(suc == 1){
+            success: function (data) { console.log(data);
+            var suc= data;
+                 if(suc == 1){
                     $('#contact').hide();
                     $('.getIn-model').css('min-height','100px');
                     $('#openesb-download-button').hide();
@@ -451,53 +422,10 @@
             },
             cache: false,
             contentType: false,
-            processData: false,
+            processData: false
         });
 
     });
-    });
-
-
-    var $ = jQuery.noConflict();
-
-    $(document).ready(function() {
-        jQuery('ul.sf-menu').superfish({
-            animation: {
-                height: 'show'
-            },
-            delay: 100
-        });
-        $("#toggle-btn").click(function() {
-            $(".sf-menu").slideToggle("slow");
-        });
-
-        $('.toggle-subarrow').click(
-            function() {
-                $(this).parent().toggleClass("mob-drop");
-            });
-
-        var header = $(".header-inner");
-        $(window).scroll(function() {
-
-
-
-            var scroll = $(window).scrollTop();
-            if (scroll >= 100 && $(this).width() > 769) {
-                header.addClass("navbar-fixed-top");
-
-            } else {
-                header.removeClass('navbar-fixed-top');
-            }
-        });
-        $(this).find(".h4 i").each(function(){
-            $(this).addClass("green");
-        });
-    });
-
-</script>
-
-<script>
-
 
 </script>
 
@@ -516,204 +444,19 @@
 <script src="<?php echo base_url('assets/js/jquery-ui.js')?>"></script>
 <script src="<?php echo base_url('assets/js/jquery.timepicker.min.js')?>"></script>
 <script src="<?php echo base_url('assets/js/multichoice.min.js')?>"></script>
-<script src="<?php echo base_url('assets/js/scrollreveal.min.js')?>"></script>
-<script src="<?php echo base_url('assets/js/debouce-script.js')?>"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/superfish/1.7.4/superfish.min.js"></script>
+<script src="<?php echo base_url('assets/js/scrollreveal.min.js')?>">
+
+</script>
+
 <script>
     window.sr = ScrollReveal({ reset: false  });
+
     sr.reveal('.slide_left', { duration: 1000,scale: 1,origin: 'left',distance: '100px'});
     sr.reveal('.slide_right', { duration: 1000,scale: 1,origin: 'right',distance: '100px'});
 </script>
 <!--Cludo search  -->
 
-<script>
 
-
-
-
-    $(document).ready(function() {
-        $('.icon-bar-right-arrow').hide();
-
-
-        $('.icon-bar-left').hover(function(){
-            $('.icon-bar-left').show();
-           /* $('.icon-bar-right-arrow').hide();*/
-        });
-
-        $('.icon-bar-right-arrow').click(function(){
-            $('.icon-bar-left').toggle();
-            $(this).find(".right-arrow-right, .right-arrow-left").toggle();
-
-        });
-
-
-        window.onscroll = function() {myFunction();
-            $('.searchBoxHeader').hide();
-            $("#searchId").show();
-            $("#navBarMenu").show();
-
-        };
-        var navbar = document.getElementById("navbarselected");
-        var topval = navbar.offsetTop;
-
-        function myFunction() {
-            ;
-            if (window.pageYOffset >= 100) {
-                navbar.classList.add("sticky");
-            } else {
-                navbar.classList.remove("sticky");
-            }
-            if (window.pageYOffset >= 370) {
-                $('.icon-bar-left').show();
-                $('.right-arrow-left').hide();
-                $('.right-arrow-right').show();
-
-
-                if (!$(".icon-bar-left")[0]){
-                    $('.right-arrow-right').hide()
-                }
-            }else{
-                $('.icon-bar-left').hide();
-               
-            }
-
-        $(window).scroll($.debounce( 250, true, function(){
-            $('.icon-bar-left').show();
-            $('.icon-bar-right-arrow').hide();
-        } ) );
-        $(window).scroll($.debounce( 250, function(){
-
-            $('.icon-bar-left').fadeOut();
-            if (window.pageYOffset <= 370) {
-                $('.icon-bar-right-arrow').hide();
-
-            }else{
-                $('.icon-bar-right-arrow').show();
-
-            }
-        } ) );
-          /*  $('body').append('<div class="right-arrow">hello</div>');*/
-
-
-
-
-        }
-
-        /* $(window).scroll(function(){
-             if ($(this).scrollTop() < 100) {
-
-                alert(window.pageYOffset);
-                $('#navbarselected').removeClass('sticky');
-             }
-         });*/
-
-    });
-
-
-
-    $(document).ready(function () {
-        checkMenuActive();
-       $(document).on("scroll", onScroll);
-        $('.victoria-four').click(function () {
-            var href = $(this).attr('href');
-            var height1 = $(href).offset().top;
-            $('html, body').animate({
-                scrollTop: height1 - 80
-            }, 1000, function () {
-                $(document).on("scroll", onScroll);
-            });
-        });
-        $('.dropdown').click(function () {
-            var href = $(this).attr('href');
-            var height1 = $(href).offset().top;
-            $('html, body').animate({
-                scrollTop: height1 - 80
-            }, 1000, function () {
-                $(document).on("scroll", onScroll);
-            });
-        });
-
-        $('.icon-bar-left a[href^="#"]').on('click', function (e) {
-            e.preventDefault();
-            $(document).off("scroll");
-            $('a').each(function () {
-                $(this).removeClass('active-scroll-leftmenu');
-            });
-            $(this).addClass('active-scroll-leftmenu');
-            var target = this.hash,
-              /*  menu = target;*/
-            $target = $(target);
-           var height= $target.offset().top;
-            $('html, body').animate({
-                scrollTop: height - 30
-            },function () {
-                $(document).on("scroll", onScroll);
-            });
-
-            /*$('html, body').stop().animate({
-                'scrollTop': height
-            }, 1000, 'linear', function () {
-                window.location.hash = target;
-                $(document).on("scroll", onScroll);
-            });*/
-        });
-
-
-
-
-    });
-function checkMenuActive(){
-    var urlq = "<?php echo current_url(); ?>";
-    if( urlq.indexOf('services') >= 0){
-        $(".dropdown").removeClass("dropdown-active");
-        $(".serviceList").addClass("dropdown-active");
-    }else if( urlq.indexOf('products') >= 0){
-        $(".dropdown").removeClass("dropdown-active");
-        $(".productList").addClass("dropdown-active");
-    } else if( urlq.indexOf('solutions') >= 0){
-        $(".dropdown").removeClass("dropdown-active");
-        $(".solutionList").addClass("dropdown-active");
-    } else if( urlq.indexOf('customers') >= 0){
-        $(".dropdown").removeClass("dropdown-active");
-        $(".customersList").addClass("dropdown-active");
-    }else if( urlq.indexOf('partners') >= 0){
-        $(".dropdown").removeClass("dropdown-active");
-        $(".partnersList").addClass("dropdown-active");
-    } else if( urlq.indexOf('resources') >= 0){
-        $(".dropdown").removeClass("dropdown-active");
-        $(".resourcesList").addClass("dropdown-active");
-    } else if( urlq.indexOf('company') >= 0){
-        $(".dropdown").removeClass("dropdown-active");
-        $(".companyList").addClass("dropdown-active");
-    }else{
-        $(".dropdown").removeClass("dropdown-active");
-    }
-}
-    function onScroll(event){
-
-
-
-
-
-
-        var scrollPos = $(document).scrollTop();
-        $('.icon-bar-left a').each(function () {
-            var currLink = $(this);
-            var refElement = $(currLink.attr("href"));
-            console.log(refElement);
-            console.log(currLink);
-            if ((refElement.position().top )  <= (scrollPos + 250 )) {
-                console.log(refElement.position().top + (refElement.height()));
-                $('.icon-bar-left a').removeClass("active-scroll-leftmenu");
-                currLink.addClass("active-scroll-leftmenu");
-            }
-            else{
-                currLink.removeClass("active-scroll-leftmenu");
-            }
-        });
-    }
-</script>
-<!--&& refElement.position().top + (refElement.height()) > (scrollPos )-->
 
 </body>
 

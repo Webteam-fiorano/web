@@ -289,14 +289,7 @@ $webinar= "Integrating Microservices in the Cloud";
                 <strong>Warning!</strong> Some error occur in your Request, Please try again.
                 <a href="" class="btn btn-success">Send Request Again</a>
             </div>
-
-
-
-
-
         </div>
-
-
     </div>
     <?php }?>
 

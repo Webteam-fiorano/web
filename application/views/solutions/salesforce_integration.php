@@ -4,7 +4,7 @@
 
             <div class="productHead col-sm-8">
                 <h1 class="productHeadTitle">
-                    Salesforce.com CRM Integration - <br>Fiorano SOA</h1>
+                    Salesforce Integration</h1>
                 <p class="productHeadDesc hidden-xs" >
                 </p>
             </div>

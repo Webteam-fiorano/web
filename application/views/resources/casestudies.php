@@ -43,7 +43,12 @@
                     <td class="product">Fiorano ESB</td>
                     </a>
                 </tr>
-
+                <tr class="casednew">
+                    <td class="customer" id="canadia-bank">I&M Bank <input type="hidden" value="casestudies/IMbank"> </td>
+                    <td class="region">MEA</td>
+                    <td class="industry">Finance</td>
+                    <td class="product">Fiorano ESB</td>
+                </tr>
                 <tr class="odd cased">
                     <td class="customer" id="GlobalTranz">GlobalTranz<input type="hidden" value="/customers/casestudies/global-tranz.php"> </td>
                     <td class="region">North America</td>
@@ -282,7 +287,7 @@
                     <td class="industry">Government & Defense</td>
                     <td class="product">Fiorano ESB</td>
                 </tr>
-                <tr class="cased">
+                <tr class="casednew">
                     <td class="customer" id="jnet-justice-network">Commonwealth of Pennsylvania <input type="hidden" value="/casestudies/jnet_justice_network"> </td>
                     <td class="region">North America</td>
                     <td class="industry">Government & Defense</td>
@@ -368,7 +373,7 @@
                     <td class="industry">Retail</td>
                     <td class="product">Fiorano ESB</td>
                 </tr>
-                <tr class="cased">
+                <tr class="casednew">
                     <td class="customer" id="cj">Commission Junction <input type="hidden" value="/casestudies/commission_junction"> </td>
                     <td class="region">North America</td>
                     <td class="industry">Services</td>
@@ -442,7 +447,12 @@
                     <td class="industry">Travel & Leisure</td>
                     <td class="product">Fiorano ESB</td>
                 </tr>
-
+                <tr class="cased">
+                    <td class="customer" id="ncl">Unicel <input class="goLink" type="hidden" value="/customers/casestudies/unicel.php"> </td>
+                    <td class="region">Asia</td>
+                    <td class="industry">Telecom</td>
+                    <td class="product">Fiorano ESB</td>
+                </tr>
 
             </table>
         </div>

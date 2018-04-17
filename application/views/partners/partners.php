@@ -1,4 +1,4 @@
-<section id="slider-fixed" class="slider vc_box_shadow header_shadow padding_top_none" style="padding-bottom: 0">
+<section id="slider-fixed1" class="slider vc_box_shadow header_shadow padding_top_none" style="padding-bottom: 0">
     <div class="container">
         <div class="row">
             <div class="span12">
@@ -33,9 +33,19 @@
                             </li>
                             <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
                                 <img src="<?php echo base_url('assets/images/partner/Partner-banner-01_new.jpg')?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
-                                <div class="tp-caption lft" data-x="30" data-y="100" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
+                                <div class="tp-caption lft" data-x="30" data-y="80" data-speed="500" data-start="500" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
                                     <h3 class="white bannerDec">
                                         <span style="color:#8baad8; font-size: 32px;"><b>Leverage</b></span> Fiorano technologies and <br>resources to transform delivery of <br>your solutions</h3><br>
+
+                                </div>
+                                <div class="tp-caption col-sm-6 lft" data-x="0" data-y="250" data-speed="500" data-start="1200" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
+                                    <div class="col-xs-6 col-sm-4 nopadding">
+
+                                        <a  style="margin-left:10px;" href="<?php echo __ROOT__ ?>/partners/apply.php" class="download-binaries btn-danger btn btn-large downHeadBtn"><i class="fa fa-large fa-user"></i>&nbsp; &nbsp; &nbsp;  Become a Partner &nbsp; &nbsp;</a>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 ">
+                                        <a href="<?php echo site_url('resources')?>" target="_blank" class="btn-success btn btn-large downHeadBtn">Learn more about our Products</a>
+                                    </div>
 
                                 </div>
                             </li>
@@ -45,6 +55,16 @@
                                     <h3 class="white bannerDec">
                                         <span style="color:#00BCD4; font-size: 32px;"><b>Expand</b></span> and <span style="color:#00BCD4; font-size: 32px;"><b>Adapt</b></span> Solutions to <br>reap significant benefits</h3>
                                 </div>
+                                <div class="tp-caption col-sm-6 lft" data-x="0" data-y="250" data-speed="500" data-start="1200" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
+                                    <div class="col-xs-6 col-sm-4 nopadding">
+
+                                        <a  style="margin-left:10px;" href="<?php echo __ROOT__ ?>/partners/apply.php" class="download-binaries btn-danger btn btn-large downHeadBtn"><i class="fa fa-large fa-user"></i>&nbsp; &nbsp; &nbsp;  Become a Partner &nbsp; &nbsp;</a>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 ">
+                                        <a href="<?php echo site_url('resources')?>" target="_blank" class="btn-success btn btn-large downHeadBtn">Learn more about our Products</a>
+                                    </div>
+
+                                </div>
                             </li>
                             <li data-transition="fade,fadetoleftfadefromright,fadetorightfadefromleft" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
                                 <img src="<?php echo base_url('assets/images/partner/Partner-banner-03.jpg')?>" alt="shutterstock_146958269" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
@@ -52,6 +72,16 @@
                                     <h3 class="white bannerDec">
                                         <span style="color:#97e2f2;; font-size: 32px;"><b>Create</b></span> market driven solutions <br>to enhance value of core offerings
                                     </h3>
+                                </div>
+                                <div class="tp-caption col-sm-6 lft" data-x="0" data-y="250" data-speed="500" data-start="1200" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 5;">
+                                    <div class="col-xs-6 col-sm-4 nopadding">
+
+                                        <a  style="margin-left:10px;" href="<?php echo __ROOT__ ?>/partners/apply.php" class="download-binaries btn-danger btn btn-large downHeadBtn"><i class="fa fa-large fa-user"></i>&nbsp; &nbsp; &nbsp;  Become a Partner &nbsp; &nbsp;</a>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-4 ">
+                                        <a href="<?php echo site_url('resources')?>" target="_blank" class="btn-success btn btn-large downHeadBtn">Learn more about our Products</a>
+                                    </div>
+
                                 </div>
                             </li><!--00BCD4 FFC107-->
                             <!-- SLIDE  -->
@@ -322,6 +352,39 @@
         </div>
     </div>
 </section>
+
+
+
+<section>
+    <div class="container">
+    <div class="col-sm-12">
+        <div class="panel with-nav-tabs panel-primary" id="parnterlist">
+            <div class="panel-heading" style="height: auto !important;">
+                <h4 class="text-left white">
+                    Parters
+                </h4>
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#tab1primary" data-toggle="tab">America's </a></li>
+                    <li><a href="#tab2primary" data-toggle="tab">Europe</a></li>
+                    <li><a href="#tab3primary" data-toggle="tab">Middle East & Africa</a></li>
+                    <li><a href="#tab4primary" data-toggle="tab">APAC</a></li>
+                </ul>
+            </div>
+            <div class="panel-body">
+                <div class="tab-content">
+                    <div class="tab-pane fade in active" id="tab1primary">Primary 1</div>
+                    <div class="tab-pane fade" id="tab2primary">Primary 2</div>
+                    <div class="tab-pane fade" id="tab3primary">Primary 3</div>
+                    <div class="tab-pane fade" id="tab4primary">Primary 4</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+
 <!-- Services Section -->
 <!--<section id="" class="">
     <div class="container">

@@ -21,19 +21,21 @@ class Request extends CI_Controller
         $data['reg']=0;
 
         if ($_POST) {
+            $this->form_validation->set_rules('get_choice', 'What do you need to get in touch about', 'trim|required');
             $this->form_validation->set_rules('name', 'Name', 'trim|required');
             $this->form_validation->set_rules('email', 'email', 'trim|required');
             $this->form_validation->set_rules('company', 'Company', 'trim|required');
             $this->form_validation->set_rules('role', 'Your Role', 'trim|required');
             $this->form_validation->set_rules('phone', 'Phone Number', 'trim|required');
-            $this->form_validation->set_rules('choice', 'Demo Choice', 'trim|required');
-            $this->form_validation->set_rules('datepicker', 'Date', 'trim|required');
-            $this->form_validation->set_rules('timepicker', 'Time', 'trim|required');
+            $this->form_validation->set_rules('choice', 'Demo Choice', 'trim');
+            $this->form_validation->set_rules('datepicker', 'Date', 'trim');
+            $this->form_validation->set_rules('timepicker', 'Time', 'trim');
             $this->form_validation->set_rules('country', 'Country', 'trim|required');
             $this->form_validation->set_rules('desc', 'Description Or Information', 'trim|required');
             if ($this->form_validation->run() != FALSE) {
                 $selDate = date("d-m-Y", strtotime($this->input->post('datepicker')));
                 $dat = array(
+                    'get_choice'=>$this->input->post('get_choice'),
                     'name' => $this->input->post('name'),
                     'email' => $this->input->post('email'),
                     'company' => $this->input->post('company'),
@@ -97,7 +99,7 @@ class Request extends CI_Controller
             }
         }
         $this->load->view('common/header',$data);
-        $this->load->view('request/demo');
+        $this->load->view('request/demo_v1');
         $this->load->view('common/footer');
     }
 

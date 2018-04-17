@@ -48,18 +48,7 @@
         <div class="container padding-top-50">
 
             <div class="col-xs-12 nopadding">
-                <a href="<?php echo site_url('company/news')?>" class="">
-                    <div class="col-sm-2">
-                        <div class="offer-icon-animate timeMenu">
-                                 <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary1"></i>
-                        <i class="fa fa-newspaper-o fa-stack-1x fa-inverse"></i>
 
-                    </span>
-                            <h2 class="service-heading">News</h2>
-                        </div>
-                    </div>
-                </a>
                 <a href="<?php echo site_url('company/pressreleases')?>" class="">
                     <div class="col-sm-2">
                         <div class="offer-icon-animate timeMenu" >
@@ -82,6 +71,18 @@
                         <h2 >Media Coverage</h2>
                     </div>
                 </div>
+                </a>
+                <a href="<?php echo site_url('company/news')?>" class="">
+                    <div class="col-sm-2">
+                        <div class="offer-icon-animate timeMenu">
+                                 <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary1"></i>
+                        <i class="fa fa-newspaper-o fa-stack-1x fa-inverse"></i>
+
+                    </span>
+                            <h2 class="service-heading">News</h2>
+                        </div>
+                    </div>
                 </a>
                 <a href="<?php echo site_url('company/prod_review')?>" class="">
                 <div class="col-sm-2">
@@ -132,7 +133,116 @@
         <div class="col-xs-12 padding-bottom-50">
             <table  class="tableDatay" width="100%" cellpadding="0" cellspacing="0">
 
+                <tr>
+                    <td valign="top" width="22%"><br />
+                        <strong>Feb 15, 2018</strong> <br/>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news/ibsi-logo.png') ?>" alt="The IBSI" />
+                    </td>
+                    <td valign="top" style="padding-right: 10px;"><br/>
+                        <a href="https://ibsintelligence.com/ibs-journal/fiorano-enhance-ims-digital-side-bank-completes-core-banking-revamp/" target="_blank" rel="nofollow"><strong>
+                                Fiorano Contributes to Kenya’s Digital Leap with I&M BankFiorano to enhance I&M’s digital side as the bank completes core banking revamp</strong></a><br/>
+                        <p><br>
+                            I&M Bank Kenya has chosen the Fiorano platform to speed up the digital transformation and implementation of Infosys’ Finacle core banking system.
 
+                            This is part of the bank’s new strategy that tailors a proposition to each market, according to their lifestyle and financial requirements. In the past,
+                            the use of multiple point-to-point connections was impeding this goal due to its rigidity, high maintenance and management costs.
+                            <a href="https://ibsintelligence.com/ibs-journal/fiorano-enhance-ims-digital-side-bank-completes-core-banking-revamp/" target="_blank" rel="nofollow"> More&nbsp;<strong>&raquo;</strong></a><br/><br/><p></p></td>
+                </tr>
+                <tr>
+                    <td valign="top" width="22%"><br />
+                        <strong>Feb 14, 2018</strong> <br/>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news/logo-afp.png') ?>" alt="The AFP" />
+                    </td>
+                    <td valign="top" style="padding-right: 10px;"><br/>
+                        <a href="https://www.afp.com/en/news/1314/fiorano-contributes-kenyas-digital-leap-im-bank-201802130064831" target="_blank" rel="nofollow"><strong>Fiorano Contributes to Kenya’s Digital Leap with I&M Bank</strong></a><br/>
+                        <p><br>
+                            Fiorano Software announced today that I&M Bank, Kenya has chosen the Fiorano platform to achieve digital transformation to reduce
+                            time-to-market while integrating its Finacle, Core Banking System. I&M Bank’s need for digital transformation arose from its new
+                            strategy aimed at giving each market segment a customized proposition to complement their lifestyle and financial requirements.
+                            The use of multiple point-to-point
+                            <a href="https://www.afp.com/en/news/1314/fiorano-contributes-kenyas-digital-leap-im-bank-201802130064831" target="_blank" rel="nofollow"> More&nbsp;<strong>&raquo;</strong></a><br/><br/><p></p></td>
+                </tr>
+
+                <tr>
+                    <td valign="top" width="22%"><br />
+                        <strong>Feb 7, 2018</strong> <br/>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news/tweb.png') ?>" alt="The Prayers" />
+                    </td>
+                    <td valign="top" style="padding-right: 10px;"><br/>
+                        <a href="https://www.itweb.co.za/content/xA9PO7NYQEDvo4J8/G3mYZRXM9yMOgA8L" target="_blank" rel="nofollow"><strong>Fiorano Powers Banco Postal's Commitment Towards Financial Inclusion and Digitalization of Angolan Economy</strong></a><br/>
+                        <p><br>
+                            Enables bank to overcome multiple system integration challenges to achieve Digital Transformation
+                            <br>
+                            Fiorano Software announced today that Banco Postal, Angola has successfully implemented the Fiorano Platform to tackle integration challenges in its digital transformation journey. Banco Postal opted for Fiorano for its native integration with T24, the Core Banking System from Temenos.
+                            <a href="https://www.itweb.co.za/content/xA9PO7NYQEDvo4J8/G3mYZRXM9yMOgA8L" target="_blank" rel="nofollow"> More&nbsp;<strong>&raquo;</strong></a><br/><br/><p></p></td>
+                </tr>
+
+
+                <tr>
+                    <td valign="top" width="22%"><br />
+                        <strong>Jan 24, 2018</strong> <br/>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news/fintech-logo.png') ?>" alt="The Prayers" />
+                    </td>
+                    <td valign="top" style="padding-right: 10px;"><br/>
+                        <a href="http://www.bankingtech.com/2018/01/yusen-logistics-favours-fiorano-for-digital-revamp/" target="_blank" rel="nofollow"><strong>Yusen Logistics favours Fiorano for digital revamp</strong></a><br/>
+                        <p><br>
+                            Yusen Logistics has implemented Fiorano Software’s platform as the integration backbone for all inbound and outbound client traffic with its warehouse management system in Singapore.
+                            <br>
+                            Rajesh Rao, business development director, Fiorano, says after a “rigorous evaluation” of various options, it was chosen as the platform for exchanging data in real-time with customers, partners and warehouses.
+                            <a href="http://www.bankingtech.com/2018/01/yusen-logistics-favours-fiorano-for-digital-revamp/" target="_blank" rel="nofollow"> More&nbsp;<strong>&raquo;</strong></a><br/><br/><p></p></td>
+                </tr>
+
+
+
+                <tr>
+                    <td valign="top" width="22%"><br />
+                        <strong>Jan 19, 2018</strong> <br/>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news/africa_business_logo.png') ?>" alt="The Prayers" />
+                    </td>
+                    <td valign="top" style="padding-right: 10px;"><br/>
+                        <a href="https://africabusinesscommunities.com/news/rwanda-bank-of-kigali-picks-fiorano-software-to-drive-its-digital-transformation/" target="_blank" rel="nofollow"><strong>[Rwanda] Bank of Kigali picks Fiorano Software to drive its digital transformation</strong></a><br/>
+                        <p><br>
+                            Rwanda’s largest commercial bank, Bank of Kigali, has chosen US tech company Fiorano Software to install its payment platform, as part of the bank's digital transformation agenda. The Project includes Integration
+                            with the Bank’s Temenos T24 Core Banking Solution with support for Online and Offline Banking features.
+                            <a href="https://africabusinesscommunities.com/news/rwanda-bank-of-kigali-picks-fiorano-software-to-drive-its-digital-transformation/" target="_blank" rel="nofollow"> More&nbsp;<strong>&raquo;</strong></a><br/><br/><p></p></td>
+                </tr>
+                <tr>
+                    <td valign="top" width="22%"><br />
+                        <strong>Jan 18, 2018</strong> <br/>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news/the_prayers.png') ?>" alt="The Prayers" />
+                    </td>
+                    <td valign="top" style="padding-right: 10px;"><br/>
+                        <a href="https://www.thepaypers.com/online-mobile-banking/fiorano-bank-of-kigali-partner-for-digital-revamping-project/771558-12" target="_blank" rel="nofollow"><strong>Fiorano, Bank of Kigali partner for digital revamping project</strong></a><br/>
+                        <p><br>
+                            Rwanda-based Bank of Kigali has selected Fiorano Software`s platform for its digital revamping project.<br>
+                            The project includes integration with the bank’s Temenos T24 core banking solution with support for online and offline banking features. The Fiorano ESB and Fiorano
+                        API Management integration enables payment channels such as mobile banking and internet banking with a wide range of lending services.
+                        <a href="https://www.thepaypers.com/online-mobile-banking/fiorano-bank-of-kigali-partner-for-digital-revamping-project/771558-12" target="_blank" rel="nofollow"> More&nbsp;<strong>&raquo;</strong></a><br/><br/><p></p></td>
+                </tr>
+
+
+
+                <tr>
+
+                    <td valign="top" width="22%"><br />
+                        <strong>Jan 3, 2018</strong> <br/>
+                        <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news/Lavos-image.jpg') ?>" alt="The Silicon Review" />
+                       </td>
+                    <td valign="top" style="padding-right: 10px;"><br/>
+                        <a href="https://www.youtube.com/watch?v=9d7zBTpW19Y" target="_blank" rel="nofollow"><strong>Fiorano Laos Workshop Media Coverage</strong></a><br/>
+                        Mr. Rajesh Rao, Business Development Director, Fiorano Software explaining Laos workshop's objectives in the implementation of regulatory compliance.
+                        <a href="https://www.youtube.com/watch?v=9d7zBTpW19Y" target="_blank" rel="nofollow"> More&nbsp;<strong>&raquo;</strong></a><br/><br/></td>
+                </tr>
+                <tr>
+                    <td valign="top" width="22%"><br />
+                        <strong>Dec 20, 2017</strong> <br/>
+                       <img class="img-responsive"  src="<?php echo base_url('assets/images/company/news') ?>/SRlogo.png" alt="The Silicon Review" />
+                        <p><b>The Silicon Review</b></p></td>
+                    <td valign="top" style="padding-right: 10px;"><br/>
+                        <a href="http://thesiliconreview.com/magazines/developing-strategic-roadmaps-to-deal-with-the-mission-critical-concern-of-system-and-application-integration-fiorano-software-pte--ltd-/" target="_blank" rel="nofollow"><strong>Fiorano Software Named One of the 30 Fastest Growing Companies in Asia </strong></a><br/>
+                        Silicon review recognizes Fiorano for its stellar customer portfolio, approach to customer problems and track record of successful implementations
+                        <a href="http://thesiliconreview.com/magazines/developing-strategic-roadmaps-to-deal-with-the-mission-critical-concern-of-system-and-application-integration-fiorano-software-pte--ltd-/" target="_blank" rel="nofollow"> More&nbsp;<strong>&raquo;</strong></a><br/><br/></td>
+                </tr>
 
                 <tr>
                     <td valign="top" width="22%"><br />

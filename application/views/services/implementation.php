@@ -15,7 +15,7 @@
         </div>
     </div>
     <a href="#"> &nbsp;</a>
-    <div class="bs-example pull-right">
+    <div class="bs-example pull-left">
         <ul class="breadcrumb">
             <li> <a href="<?php echo site_url(''); ?>">Home</a></li>
             <li> <a href="<?php echo site_url('services'); ?>">Services</a></li>
@@ -23,7 +23,20 @@
         </ul>
     </div>
 </section>
+
 <section>
+    <div class="container">
+        <div class="col-xs-12 text-center submenu-main">
+            <div class="col-sm-6  ">
+                <a class=" animated-button victoria-four" href="#overview">Overview <i class="fa fa-arrow-down"></i></a>
+            </div>
+            <div class="col-sm-6 ">
+                <a class=" animated-button victoria-four" href="#keyactivity">Key activities  <i class="fa fa-arrow-down"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="overview">
     <div class="container">
         <div class="row">
             <div class="section-header">
@@ -49,15 +62,15 @@
 
             <div class="col-sm-6">
                 <div class="b-x padding-top-50">
-                    <div>
+                    <div class="col-xs-12 nopadding">
                         <strong class="implebox" ><div>Engagement model</div></strong><img src="<?= __IMAGES__ ?>/dev_product_arrow.jpg" alt="-&gt;" style="float: left;padding-top: 10%" />
                         <span style="vertical-align: middle">Time and Material. Estimation will be provided for all phases, but invoicing will be based on actual effort (i.e. time and material based).</span>
                     </div>
-                    <div>
+                    <div class="col-xs-12 nopadding">
                         <strong class="implebox"><div>Delivery mode</div></strong><img src="<?= __IMAGES__ ?>/dev_product_arrow.jpg" alt="-&gt;" style="float: left;padding-top: 10%"/>
                         <span style="vertical-align: middle">Onsite / Offshore engagement. Ratio of this engagement will be determined at the time of requirements sign-off.</span>
                     </div>
-                    <div>
+                    <div class="col-xs-12 nopadding">
                         <strong class="implebox" ><div>Resources recommended</div><br/>&nbsp;</strong><img src="<?= __IMAGES__ ?>/dev_product_arrow.jpg" alt="-&gt;" style="margin-bottom:10px;float: left;padding-top: 10%" />
                         <span style="vertical-align: middle">Project Manager, Architect and Technical Specialist. Consultants from the product engineering team will be engaged at an additional cost, if necessary.</span>
                     </div>
@@ -73,7 +86,7 @@
         </div>
     </div>
 </section>
-<section class="even-section">
+<section class="even-section" id="keyactivity">
     <div class="container padding-bottom-50">
         <div class="row">
             <div class="section-header">
@@ -148,3 +161,8 @@
 
 
 </section>
+<div class="icon-bar-left">
+    <a class="" href="#overview" >Overview</a>
+    <a class="" href="#keyactivity" >Key activities</a>
+
+</div>

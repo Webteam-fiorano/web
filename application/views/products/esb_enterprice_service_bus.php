@@ -19,87 +19,36 @@
         </div>
     </div>
     <a href="#"> &nbsp;</a>
-    <div class="bs-example pull-right">
+    <div class="bs-example pull-left">
         <ul class="breadcrumb">
             <li> <a href="<?php echo site_url(''); ?>">Home</a></li>
             <li> <a href="<?php echo site_url('products'); ?>">Products</a></li>
+            <li> <a href="<?php echo site_url('products/fiorano_integration'); ?>">Fiorano Integration</a></li>
             <li class="active"> Fiorano ESB</li>
         </ul>
     </div>
 </section>
-<?php /*
 <section>
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed productNav">
-        <div class="container">
-            <!--only mobile devices-->
-            <div class="hidden-lg hidden-md hidden-sm col-xs-12 mobHead nopadding align-center ">
-                <div class="col-xs-2">
-                    <a class="page-scroll" href="#integration">Integration</a> </div>
-                <div class="col-xs-2">
-                    <a  href="#components">Components</a>
-                </div>
-                <div class="col-xs-2"> <a class="" href="#keyFeature">Features</a> </div>
-                <div class="col-xs-2"> <a class="" href="#benifits">Benefits</a></div>
-                <div class="col-xs-2">   <a class="" href="#resource">Resources</a></div>
-                <div class="col-xs-2">
-                    <a class="page-scroll" href="">Demo</a>
-                </div>
+    <div class="container">
+        <div class="col-xs-12 text-center submenu-main">
+            <div class="col-sm-3  ">
+                <a class=" animated-button victoria-four" href="#Overview">Overview <i class="fa fa-arrow-down"></i></a>
             </div>
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 hidden-xs">
-                <ul class="col-sm-2 nopadding" id="rightLeft">
-                    <li id="">
-                        <a class="navbar-brand page-scroll" href="#page-top" id="rightLeft">
-                            <img class="navMenuImage" src="<?php echo base_url('assets/images/fiorano_logo.png'); ?>" />
-                        </a>
-                    </li>
-                </ul>
-                <ul id="rightserachCenter" class="nav navbar-nav navbar-right secondMenu hidden-xs nopadding">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="scrollMenu col-sm-2">
-                        <a class="page-scroll" href="#integration"> Fiorano ESB</a>
-                    </li>
-                    <li  class="scrollMenu col-sm-2">
-                        <a class="page-scroll" href="#components">Technical Architecture</a>
-                    </li>
-                    <li  class="scrollMenu col-sm-2">
-                        <a class="page-scroll" href="#keyFeature">  Key Features</a>
-                    </li>
-                    <li  class="scrollMenu col-sm-2">
-                        <a class="page-scroll" href="#benifits">Benefits</a>
-                    </li>
-                    <li  class="scrollMenu col-sm-2">
-                        <a class="page-scroll" href="#resource">Resources</a>
-                    </li>
-                    <li  class="scrollMenu col-sm-2">
-                        <a class="page-scroll" href="#contact"> Request Demo</a>
-                    </li>
-                </ul>
-                <ul class="col-sm-1 nopadding pull-right align-right rightsearch" id="rightsearch">
-                    <li>
-                        <a id="searchicon">
-                            <i class="fa fa-search-plus"></i>
-                        </a>
-                    </li>
-                    <li id="searchtextRight">
-                        <div class="searchRight">
-                            <div class="nopadding">  <input type='text' class='searchbox'  placeholder="Search.."/></div>
-                            <div class="nopadding"> <a class="searchclose" id="searchcloseRight"><i class="fa fa-times-circle-o"></i></a></div>
-                        </div>
-                    </li>
-                </ul>
+            <div class="col-sm-3">
+                <a class=" animated-button victoria-four" href="#architecture">Architecture <i class="fa fa-arrow-down"></i></a>
             </div>
-            <!-- /.navbar-collapse -->
-           </div>
-        <!-- /.container-fluid -->
-    </nav>
+            <div class="col-sm-3">
+                <a class=" animated-button victoria-four" href="#keyFeactures">Key Features <i class="fa fa-arrow-down"></i></a>
+            </div>
+            <div class="col-sm-3 ">
+                <a class=" animated-button victoria-four" href="#benifits">Benefits <i class="fa fa-arrow-down"></i> </a>
+            </div>
+
+        </div>
+      </div>
 </section>
- */?>
 <!-- About Section -->
-<section id="integration" class="about-section">
+<section id="Overview" class="about-section">
     <div class="content-section-a">
         <div class="container">
             <div class="row">
@@ -126,7 +75,7 @@
         </div>
      </div>
 </section>
-<section id="components" class="services-section">
+<section id="architecture" class="services-section">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -174,7 +123,7 @@
         </div>
     </div>
 </section>
-<section id="keyFeature">
+<section id="keyFeactures">
     <div class="container">
         <div class="row">
             <div class="row benifitsData">
@@ -448,3 +397,10 @@
 </section>
 
 
+<div class="icon-bar-left">
+    <a class="" href="#Overview" >Overview</a>
+    <a class="" href="#architecture" >Architecture</a>
+    <a class="" href="#keyFeactures" >Key Features</a>
+    <a class="" href="#benifits" >Benefits</a>
+
+</div>

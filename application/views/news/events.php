@@ -22,18 +22,7 @@
                 </div>
             </div>
             <div class="col-xs-12 nopadding">
-                <a href="<?php echo site_url('company/news')?>" class="">
-                    <div class="col-sm-2">
-                        <div class="offer-icon-animate timeMenu">
-                                 <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary1"></i>
-                        <i class="fa fa-newspaper-o fa-stack-1x fa-inverse"></i>
 
-                    </span>
-                            <h2 class="service-heading">News</h2>
-                        </div>
-                    </div>
-                </a>
                 <a href="<?php echo site_url('company/pressreleases')?>" class="">
                     <div class="col-sm-2">
                         <div class="offer-icon-animate timeMenu" >
@@ -54,6 +43,18 @@
                         <i class="fa fa-video-camera fa-stack-1x fa-inverse"></i>
                     </span>
                             <h2 >Media Coverage</h2>
+                        </div>
+                    </div>
+                </a>
+                <a href="<?php echo site_url('company/news')?>" class="">
+                    <div class="col-sm-2">
+                        <div class="offer-icon-animate timeMenu">
+                                 <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary1"></i>
+                        <i class="fa fa-newspaper-o fa-stack-1x fa-inverse"></i>
+
+                    </span>
+                            <h2 class="service-heading">News</h2>
                         </div>
                     </div>
                 </a>
@@ -103,18 +104,18 @@
             <div class="section-header">
                 <h1 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Events </h1>
                 <p class="text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown; line-height: 25px;">Meet us at the following events where we will be exhibiting Fiorano's leading technology solutions and giving presentations on how to use the Fiorano Platform and superior messaging technology that can meet your IT infrastructure and architectural challenges.
-                    Upcoming</p>
+                    </p><!--Upcoming-->
                 <!--<h1 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Upcoming Events </h1>-->
             </div>
             <div class="col-sm-12">
-                <!--<div class="col-sm-4 event-panel col-sm-offset-2">
+
+               <!-- <div class="col-sm-4 event-panel">
                     <div class="panel panel-primary event-primary">
                         <div class="panel-heading"><img class="img-responsive col-sm-offset-2" style="width: 47%;margin-left: 27%;margin-top: 4%; " src="<?php /*echo base_url('assets/images/fiorano_logo_white.png')*/?>" alt="sibos"></div>
                         <div class="panel-body nopadding">
                             <div class="text-center padding-bottom-50" style="height:90px;">
                                 <h3 class="padding-bottom-50" >
-                                    <b><a style="color: #337ab7 !important;" href="
-                                    " target="_blank" > Webinar - PSD2 Compliance Stressing You Out? Relax, It Shouldn't Be That Difficult  </a>
+                                    <b><a style="color: #337ab7 !important;" href="<?php /*echo site_url('company/event_register');*/?>" target="_blank" > Dot Finance Summit Africa </a>
                                     </b></h3>
                             </div>
 
@@ -122,88 +123,86 @@
                             <div class="row nopadding">
                                 <div class="col-sm-6 nopadding">
                                     <time class="start ">
-                                       <b>Start </b> <br> 9:00 EST / 2:00 GMT / 3:00 CEST
-                                        <span class="month">5 DEC, 2017</span>
-
+                                        <b>Start </b> <br><br>
+                                        <span class="month">21 Feb, 2018</span>
                                     </time>
                                 </div>
                                 <div class="col-sm-6 nopadding">
                                     <time class="end ">
-                                        <b>End</b><br> 9:45 EST / 2:45 GMT / 3:45 CEST
-                                        <span class="month">5 DEC, 2017</span>
-
+                                        <b>End</b><br><br>
+                                        <span class="month">22 Feb, 2018</span>
                                     </time>
                                 </div>
 
                             </div>
                         </div>
-                        <div class="panel-footer panel-primary col-sm-12" style="height: 370px !important;">
+                        <div class="panel-footer panel-primary col-sm-12" style="height: 280px !important;">
                             <p>
 
 
-                                The Revised Directive on Payment Services (PSD2) enables European business and consumer banking customers to use third-party providers to manage financial transactions. Furthermore, the regulation requires banks to provide these third-party providers access to their customers’ accounts through open APIs.
+                                Today’s banking demands services that can meet the expectations of tech-savvy customers. Digital transformation is moving traditional banking to a digital world making banks understand digital customer behavior, preferences and needs.
                             </p>
-                            <p>On this webinar, digital transformation expert Jason Bloomberg, President of industry analyst firm Intellyx, will place PSD2 compliance into the broader landscape of modern IT, showing how even the knottier roadblocks to compliance can be easy to overcome with the right technology.
-                                Next, Fiorano Software CEO and CTO, Atul Saini will explain how Fiorano API management eases and simplifies PSD2 compliance, and how the Fiorano Integration Platform with its distributed peer-to-peer architecture can support any PSD2 initiative, whether it be on-premises, in the cloud, or both.
+                            <p>Fiorano, a Silicon Valley based leading global provider of API Management and enterprise middleware, provides the perfect platform for digital transformation in banking.
                             </p>
-                            <a href="<?php /*echo site_url('webinar/psd2_compliance_stressing_you_out');*/?>" target="_blank" class="btn btn-success pull-right">Read more...</a>
+                            <p>
+                                Please register for the event and join us for what will be a very engaging presentation and discussion on ESB and API.
+                            </p>
+                            <a href="<?php /*echo site_url('company/event_register');*/?>" target="_blank" class="btn btn-success pull-right">Read more...</a>
                         </div>
                     </div>
                 </div>-->
+<?php /*
 
-
-
-                <!--<div class="col-sm-4 event-panel col-sm-offset-4" id="Fintech2017">
+                <div class="col-sm-4  col-sm-offset-4 event-panel" id="Fintech2017">
                     <div class="panel panel-primary event-primary">
-                        <div class="panel-heading"><img class="img-responsive col-sm-offset-2" style="width: 47%;margin-left: 27%;margin-top: 4%; " src="<?php /*echo base_url('assets/images/events/fintech2017/fintech_logo.png')*/?>" alt="Fintech Connect Live 2017"></div>
+                        <div class="panel-heading"><img class="img-responsive col-sm-offset-2" style="width: 47%;margin-left: 27%;margin-top: 4%; " src="<?php echo base_url('assets/images/company/news/cartes-logo.png')?>" alt="Fintech Connect Live 2017"></div>
                         <div class="panel-body nopadding">
                             <div class="panel-Image text-center">
-                                <h2><a href="http://www.fintechconnectlive.com/fintech-connect-live-2017/" target="_blank" >  Fintech Connect Live 2017 </a></h2>
+                                <h2><a href="http://i-conferences.org/cartes-afrique/" target="_blank" >  Cartes Afrique 2018 </a></h2>
                             </div>
 
 
                             <div class="row nopadding">
                                 <div class="col-sm-6 nopadding">
                                     <time class="start ">
-                                        Start<span class="day">6 </span>
-                                        <span class="month">DEC, 2017</span>
+                                        Date<span class="day">22 </span>
+                                        <span class="month">MARCH, 2018</span>
 
                                     </time>
                                 </div>
                                 <div class="col-sm-6 nopadding">
                                     <time class="end ">
-                                        End <span class="day">7 </span>
-                                        <span class="month">DEC, 2017</span>
+                                        Date <span class="day">23 </span>
+                                        <span class="month">MARCH, 2018</span>
 
                                     </time>
                                 </div>
                                 <div class="col-sm-12 location">
                                     <h4 class="align-center">
                                         <strong>Location:</strong> <span style="font-size: 15px !important; ">
-                                       ExCeL London – East Entrance,
-                                        One Western Gateway,
-                                        Royal Victoria Dock,
-                                        London E16 1XL, UK
+                                     Golf Marrakech (Palmeraie Resorts) Circuit de la palmeraie BP 1488, 40000, Marrakech, Morocco
                                       </span><br>
-                                        <span class="pull-left">
-                                            <b>Booth No: D10</b>
-                                        </span>
-                                        <a href="https://goo.gl/maps/5t5MDetdPMA2" target="_blank" style="color:#00599C;" class="pull-right"> Map</a>
+                                       <!-- <span class="pull-left">
+                                            <b>Booth No: J07</b>
+                                        </span>-->
+                                        <a href="https://goo.gl/maps/VUfiUeXPtr22" target="_blank" style="color:#00599C;" class="pull-right"> Map</a>
                                     </h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="panel-footer panel-primary col-sm-12" style="height:auto">
-                            <p>Combining the hustle and bustle of an exhibition featuring over 3000 visitors, and 200 exhibitors and partners, FinTech Connect Live is the UK’s largest fintech event. 
-                                Playing host to 4 strategic conference sessions with inspirational case studies from around the world, a technology buyers theatre with 50 product demos, 12 educational workshops tackling practical fast growth challenges,
-                                and two full days of dedicated mentoring clinics for start up leaders, FinTech Connect Live is the ‘must have ticket’ for stakeholders from across the full fintech eco-system.
+                        <div class="panel-footer panel-primary col-sm-12" style="height: 184px !important;">
+                            <p>
+                                Cartes Afrique is the B2B platform, combining debates and networking, for all card, payment, identification, and mobile professionals.
                             </p>
-                            <a href="http://www.fintechconnectlive.com/fintech-connect-live-2017/" target="_blank" class="btn btn-success pull-right">Read more...</a>
+                            <p>
+                                The conference is organized around two days dedicated to payment technologies in French speaking Africa.
+                            </p>
+                            <a href="http://i-conferences.org/cartes-afrique/" target="_blank" class="btn btn-success pull-right">Read more...</a>
                         </div>
                     </div>
                 </div>
--->
 
+<?php */ ?>
 
 
 
@@ -223,7 +222,110 @@
             <div class="col-xs-1 hidden-xs"></div>
 
             <div class="col-xs-12 col-sm-10">
-    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td colspan="2"><a name="2018"></a>
+                            <h1 class="noline">2018</h1>
+                        </td>
+                    </tr>
+                    <td style="padding: 5px 5px 5px 10px; background-color: #05599c">
+                        <strong style="color: #ffffff;">&nbsp;&nbsp;Event Details</strong></td>
+                    <td style="padding: 5px 0px 5px 15px; border: 1px Solid #05599c;"><strong>Description</strong></td>
+                    </tr>
+                    <tr>
+
+                        <td valign="top" width="225" style="padding: 5px;">
+
+                            <br/>
+                            <strong>Date:</strong> Mar 22-23, 2018 <br/>
+                            <div>
+                                <img class="img-responsive" src="<?php echo base_url('assets/images/company/news/cartes-logo.png')?>" alt=""><br/></div>
+                            <br/>
+                            <!--<b>Location: </b><br/>  London, UK-->
+                            <br/><br/>
+                        </td>
+
+                        <td valign="top"
+                            style="padding: 5px 0px 5px 15px; border-left: 1px Solid #CCCCCC;">
+                            <h3 style="padding:5px 0px; font-size: 15px">
+                                Cartes Afrique 2018
+                            </h3>
+                            <p>
+                                Cartes Afrique is the B2B platform, combining debates and networking, for all card, payment, identification, and mobile professionals.
+                                 The conference is organized around two days dedicated to payment technologies in French speaking Africa.
+
+                            </p>
+
+                            <p>
+                                <a href="http://i-conferences.org/cartes-afrique/" target="_blank"
+                                   rel="nofollow">Learn More &raquo;</a></p>
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr>
+
+                        <td valign="top" width="225" style="padding: 5px;">
+
+                            <br/>
+                            <strong>Date:</strong> Feb 21-22, 2018 <br/>
+                            <div>
+                                <img class="img-responsive" src="<?php echo base_url('assets/images/events/dotFinance/dotnetFinance.jpg')?>" alt=""><br/></div>
+                            <br/>
+                            <!--<b>Location: </b><br/>  London, UK-->
+                            <br/><br/>
+                        </td>
+
+                        <td valign="top"
+                            style="padding: 5px 0px 5px 15px; border-left: 1px Solid #CCCCCC;">
+                            <h3 style="padding:5px 0px; font-size: 15px">
+                                Dot Finance Summit Africa
+                            </h3>
+                            <p>
+                                Dot Finance Summit Africa brings together the entire African FinTech eco-system for two days of ideas, inspiration and networking.
+                                This is where incumbents, technology partners, startups, investors and regulators come together to foster collaborative innovation.
+                                From AI to biometrics, and blockchain to RegTech, DFS Africa showcases
+                                the industry's biggest and brightest ideas, serving as a catalyst for the digital transformation of Africa's financial services industry.
+                            </p>
+
+                            <p>
+                                <a href="http://www.dotfinancelive.com/" target="_blank"
+                                   rel="nofollow">Learn More &raquo;</a></p>
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr>
+
+                        <td valign="top" width="225" style="padding: 5px;">
+
+                            <br/>
+                            <strong>Date:</strong> Feb 13, 2018 <br/>
+                            <div>
+                                <img class="img-responsive" src="<?php echo base_url('assets/images/fiorano_logo.png')?>" alt=""><br/></div>
+                            <br/>
+                            <!--<b>Location: </b><br/>  London, UK-->
+                            <br/><br/>
+                        </td>
+
+                        <td valign="top"
+                            style="padding: 5px 0px 5px 15px; border-left: 1px Solid #CCCCCC;">
+                            <h3 style="padding:5px 0px; font-size: 15px">
+                                Nigeria Breakfast event
+                            </h3>
+                            <p>
+                                Today’s banking demands services that can meet the expectations of tech-savvy customers. Digital transformation is moving traditional banking to a digital world making banks understand digital customer behavior, preferences and needs.
+                                Fiorano, a Silicon Valley based leading global provider of API Management and enterprise middleware, provides the perfect platform for digital transformation in banking.
+                            </p>
+
+
+                        </td>
+                    </tr>
+                </table>
+
+
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
             <td colspan="2"><a name="2017"></a>
                 <h1 class="noline">2017</h1>
@@ -233,6 +335,8 @@
             <strong style="color: #ffffff;">&nbsp;&nbsp;Event Details</strong></td>
         <td style="padding: 5px 0px 5px 15px; border: 1px Solid #05599c;"><strong>Description</strong></td>
         </tr>
+
+
         <tr>
 
             <td valign="top" width="225" style="padding: 5px;">

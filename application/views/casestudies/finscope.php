@@ -32,7 +32,7 @@
 
             <div class="col-xs-12">
                 <h3 class="casestudyh3">
-                    Fiorano ESB enables Aboitiz Power to streamline power distribution and introduce mobile services for its customers
+                    FINSCOPE USES FIORANOMQ AS THE CORE MESSAGING BACKBONE
                 </h3>
                 <hr>
                 <h4>Customer Profile</h4>

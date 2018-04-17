@@ -32,7 +32,7 @@
         </div>
     </div>
     <a href="#"> &nbsp;</a>
-    <div class="bs-example pull-right">
+    <div class="bs-example pull-left">
         <ul class="breadcrumb">
             <li> <a href="<?php echo site_url(''); ?>">Home</a></li>
             <li> <a href="<?php echo site_url('products'); ?>">Products</a></li>
@@ -40,7 +40,26 @@
         </ul>
     </div>
 </section>
-<section id="integration" class="about-section">
+
+<section>
+    <div class="container">
+        <div class="col-xs-12 text-center submenu-main">
+            <div class="col-sm-4 ">
+                <a class=" animated-button victoria-four" href="#overview">Overview <i class="fa fa-arrow-down"></i></a>
+            </div>
+            <div class="col-sm-4 ">
+                <a class=" animated-button victoria-four" href="#transformation">Digital Transformation  <i class="fa fa-arrow-down"></i></a>
+            </div>
+            <div class="col-sm-4">
+                <a class=" animated-button victoria-four" href="#enablers">Chief Enablers<i class="fa fa-arrow-down"></i></a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section id="overview" class="about-section">
     <div class="content-section-a">
         <div class="container padding-bottom-50">
             <div class="row">
@@ -83,7 +102,7 @@
     </div>
 </section>
 
-<section  class="even-section">
+<section id="transformation" class="even-section">
     <div class="content-section-a">
         <div class="container">
             <div class="row">
@@ -114,7 +133,7 @@
     </div>
 </section>
 <section>
-    <div class="container">
+    <div id="enablers" class="container">
         <div class="row">
             <div class="col-xs-12 padding-top-50 padding-bottom-50">
                  <h1 class="section-title text-center">Chief Enablers of Digital Transformation </h1>
@@ -154,7 +173,6 @@
                         <div class="padding-top-10">
                             <h3 class="white text-center"> FioranoMQ & MQTT</h3>
                         </div>
-
                         <div class="col-xs-12 padding-top-20">
                             <p class="white">  Fiorano MQ brings the power of seamless messaging to enterprises with the industry’s fastest JMS messaging engine. <br><br>
                                 MQTT is a light weight event and message oriented protocol that allows devices/sensors to communicate with remote systems in an efficient and asynchronous fashion; specially designed for resource constrained devices over unreliable networks with low-bandwidth and high-latency issues. </p>
@@ -286,3 +304,16 @@
 
     </div>
 </section>
+
+<div class="icon-bar-left">
+
+    <a class="" href="#overview" >Overview</a>
+    <a class="" href="#transformation" >Digital Transformation </a>
+    <a class="" href="#enablers" >Chief Enablers</a>
+
+</div>
+
+
+
+
+

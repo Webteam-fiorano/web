@@ -11,6 +11,8 @@ class Products extends CI_Controller {
      * Time: 10:14 AM
      *
      */
+
+
     public function index()
     {
         $data['qmain']='pro';
@@ -35,12 +37,14 @@ class Products extends CI_Controller {
     }
         public function open_source_fiorano_esb()
     {
+
+        redirect('home');
         $data['qmain']='pro';
         $data['qsub']='oesb';
         $data['heading']="Fiorano Opensource ESB | Fiorano Software";
         $data['title']="Fiorano Opensource ESB | Fiorano Software";
         $this->load->view('common/header',$data);
-        $this->load->view('products/fiorano_esb');
+        $this->load->view('products/open_source_fiorano_esb');
         $this->load->view('common/footer');
 
     }
@@ -200,6 +204,8 @@ class Products extends CI_Controller {
     Public function digital_transformation ($page=null){
         $data['qmain']='pro';
         $data['qsub']='dig';
+
+       // $data['seo']= seo_details();
         $data['meta']='
         <meta name="viewport" content="width=device-width">
         <meta name="keywords" content="business architecture, BPM, operational intelligence, Application Architecture, business integration, IT Governance, real-time analytics, real-time big data, Platform-as-a-service, digital Transformation" />
@@ -217,5 +223,17 @@ class Products extends CI_Controller {
         $this->load->view('products/digital_transformation');
         $this->load->view('common/footer');
     }
+
+    public function cloud_platform(){
+
+        $data['heading']="Fiorano Cloud Platform  | Fiorano ";
+        $data['title']="Fiorano Cloud Platform | Fiorano ";
+        $this->load->view('common/header',$data);
+        $this->load->view('products/cloud_platform');
+        $this->load->view('common/footer');
+
+    }
+
+
     /*Closed*/
 }

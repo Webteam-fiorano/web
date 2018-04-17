@@ -19,7 +19,7 @@
         </div>
     </div>
     <a href="#"> &nbsp;</a>
-    <div class="bs-example pull-right">
+    <div class="bs-example pull-left">
         <ul class="breadcrumb">
             <li> <a href="<?php echo site_url(''); ?>">Home</a></li>
             <li><a href="<?php echo site_url(''); ?>"> Products</a></li>
@@ -28,8 +28,34 @@
         </ul>
     </div>
 </section>
+
+
+<section>
+    <div class="container">
+        <div class="col-xs-12 text-center submenu-main">
+            <div class="col-sm-2  ">
+                <a class=" animated-button victoria-four" href="#Overview">Overview <i class="fa fa-arrow-down"></i></a>
+            </div>
+            <div class="col-sm-2 ">
+                <a class=" animated-button victoria-four" href="#eventProcess">  Event Process <i class="fa fa-arrow-down"></i></a>
+            </div>
+            <div class="col-sm-2">
+                <a class=" animated-button victoria-four" href="#synthesize">Synthesize  <i class="fa fa-arrow-down"></i></a>
+            </div>
+            <div class="col-sm-2 ">
+                <a class=" animated-button victoria-four" href="#deploy">Deploy  <i class="fa fa-arrow-down"></i> </a>
+            </div>
+            <div class="col-sm-2  ">
+                <a class=" animated-button victoria-four" href="#dynamically">Modify <i class="fa fa-arrow-down"></i></a>
+            </div>
+            <div class="col-sm-2">
+                <a class=" animated-button victoria-four"href="#monitor">Monitoring <i class="fa fa-arrow-down"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
 <!--First section - Introduction-->
-<section  class="about-section">
+<section  class="about-section" id="Overview">
 
     <div class="content-section-a">
 
@@ -90,7 +116,7 @@
         </div>
     </div>
 </section>
-<section class="even-section">
+<section class="even-section" id="eventProcess">
     <div class="container">
         <div class="section-header">
             <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Event Process Choreography</h2>
@@ -169,3 +195,34 @@
         </div>
     </div>
 </section>
+<div class="container">
+    <div class="col-xs-12 text-center submenu-main">
+        <div class="col-sm-2  ">
+            <a class=" animated-button victoria-four" href="#Overview">Overview <i class="fa fa-arrow-down"></i></a>
+        </div>
+        <div class="col-sm-2 ">
+            <a class=" animated-button victoria-four" href="#eventProcess">  Event Process <i class="fa fa-arrow-down"></i></a>
+        </div>
+        <div class="col-sm-2">
+            <a class=" animated-button victoria-four" href="#synthesize">Synthesize  <i class="fa fa-arrow-down"></i></a>
+        </div>
+        <div class="col-sm-2 ">
+            <a class=" animated-button victoria-four" href="#deploy">Deploy  <i class="fa fa-arrow-down"></i> </a>
+        </div>
+        <div class="col-sm-2  ">
+            <a class=" animated-button victoria-four" href="#dynamically">Modify <i class="fa fa-arrow-down"></i></a>
+        </div>
+        <div class="col-sm-2">
+            <a class=" animated-button victoria-four"href="#monitor">Monitoring <i class="fa fa-arrow-down"></i></a>
+        </div>
+    </div>
+</div>
+
+<div class="icon-bar-left">
+    <a class="" href="#Overview" >Overview</a>
+    <a class="" href="#eventProcess" >Event Process</a>
+    <a class="" href="#synthesize" >Synthesize</a>
+    <a class="" href="#deploy" >Deploy</a>
+    <a class="" href="#dynamically" >Modify</a>
+    <a class="" href="#monitor" >Monitoring</a>
+</div>

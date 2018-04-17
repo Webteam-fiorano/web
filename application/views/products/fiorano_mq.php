@@ -17,7 +17,7 @@
         </div>
     </div>
     <a href="#"> &nbsp;</a>
-    <div class="bs-example pull-right">
+    <div class="bs-example pull-left">
         <ul class="breadcrumb">
             <li> <a href="<?php echo site_url(''); ?>">Home</a></li>
             <li> <a href="<?php echo site_url('products'); ?>">Products</a></li>
@@ -25,11 +25,28 @@
         </ul>
     </div>
 </section>
+<section>
+    <div class="container">
+        <div class="col-xs-12 text-center submenu-main">
+            <div class="col-sm-3  ">
+                <a class=" animated-button victoria-four" href="#Overview">Overview <i class="fa fa-arrow-down"></i></a>
+            </div>
+            <div class="col-sm-3">
+                <a class=" animated-button victoria-four" href="#Keyfeatures">Key Features <i class="fa fa-arrow-down"></i></a>
+            </div>
+            <div class="col-sm-3 ">
+                <a class=" animated-button victoria-four" href="#mq10">Similar Products <i class="fa fa-arrow-down"></i> </a>
 
+            </div>
+            <div class="col-sm-3">
+                <a class=" animated-button victoria-four col-xs-12"href="#mqPerform">MQ Performance<i class="fa fa-arrow-down"></i></a>
+            </div>
+        </div>
+    </div>
 <section>
 
 
-<section id="integration" class="about-section">
+<section id="Overview" class="about-section">
 
     <div class="content-section-a">
 
@@ -55,7 +72,7 @@
     </div>
 </section>
 
-<section id="benifits">
+<section id="Keyfeatures" class="even-section">
     <div class="container">
         <div class="section-header">
             <h2 class="section-title text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">FioranoMQ – Key Features</h2>
@@ -315,7 +332,7 @@
                    <!-- <p class="text-center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>-->
                 </div>
                 <div class="col-md-6">
-                    <a href="" title="Download Performance Sheet"><img  src="<?php echo base_url('assets/images/products/MQperformance.png')?>" width="200"/></a>
+                    <a href="<?php echo __ROOT__ ?>/downloads/login.php?action=jms_performance_comparison&s=whitepapers"  target="_blank"  title="Download Performance Sheet"><img  src="<?php echo base_url('assets/images/products/MQperformance.png')?>" width="200"/></a>
                 </div>
                 <div class="col-md-6 padding-bottom-50 padding-top-50 padding-bottom-hidxs padding-top-hidxs">
                     <h3> Executive Summary</h3>
@@ -333,3 +350,9 @@
         </div>
     </div>
 </section>
+    <div class="icon-bar-left">
+        <a class="" href="#Overview" >Overview</a>
+        <a class="" href="#Keyfeatures" >Key Features</a>
+        <a class="" href="#mq10" >Similar Products</a>
+        <a class="" href="#mqPerform" >MQ Performance</a>
+    </div>
