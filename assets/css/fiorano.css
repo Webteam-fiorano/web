@@ -435,7 +435,7 @@ productHeadTitle{
         font-size: 22px;
     }
 
-    
+
 }
 @media(min-width:767px) {
     .productHead{padding-top: 50px;}
@@ -705,6 +705,13 @@ padding-top:3% !important;
     -webkit-transition: .35s;
     transition: .35s;
 }
+
+
+
+
+
+
+
 
 .offer-section-two .offer-icon {
     float: none;
