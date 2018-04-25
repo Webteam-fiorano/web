@@ -16,6 +16,8 @@ class Webinar extends CI_Controller
 
     public function psd2_compliance_stressing_you_out_old($source=null)
     {
+
+
         $data['reg']=0;
         $data['qmain'] = 'cus';
         $data['qsub'] = '';

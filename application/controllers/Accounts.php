@@ -162,7 +162,7 @@ class Accounts extends CI_Controller
     {
         $this->session->unset_userdata('logged_in');
         $this->session->sess_destroy();
-        redirect(base_url('home'), 'location');
+        redirect('home', 'location');
     }
 
     /* REGISTRATION IS ONGOING */
@@ -365,8 +365,8 @@ class Accounts extends CI_Controller
                    );
                    $thanksbody = $this->load->view('templates/email/forgot', $dat1, TRUE);
                    $this->email->message($thanksbody);
-                   print_r($this->email->message($thanksbody));
-                   exit();
+                   //print_r($this->email->message($thanksbody));
+                  // exit();
                     }else{
                     $data['act']='2';/*error email not found*/
                 }
