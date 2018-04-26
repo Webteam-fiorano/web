@@ -6,11 +6,11 @@
  * Date: 6/20/2017
  * Time: 11:31 AM
  */?>
-<section class="casestudy-energy">
+<section class="casestudy-finance">
     <div class="container ">
         <div class="col-xs-12 padding-top-20">
             <h2 class="white">
-                Financial Services – Bajaj Finserv
+                Financial Services â€“ Bajaj Finserv
             </h2>
         </div>
     </div>
@@ -124,7 +124,7 @@
                     manner; Fiorano's peer-to-peer architecture was a perfect
                     fit to overcome the growing business demands of a
                     financial service conglomerate like itself.
-                    The solution was achieved by building various “Fiorano flows” to address
+                    The solution was achieved by building various â€œFiorano flowsâ€� to address
                     each integration problem.
                 </p><p>
                     The point-to-point connections of customized programmed
@@ -299,7 +299,7 @@
                 <p>
                     Founded in 1995, Fiorano is a trusted provider of enterprise integration middleware, high performance messaging and distributed systems. Fiorano's innovative event-driven SOA platform integrates applications and complex technologies into an enterprise nervous system. Fiorano's hybrid Cloud-ESB integrates applications across SaaS, PaaS and on-premise worlds.
 
-                    Global leaders including Federal Bank, Commercial Bank of Africa, NASA, US Coast Guard, POSCO, British Telecom, AT&T Labs, Vodafone and L'Oréal have deployed Fiorano's solutions to drive innovation through open, standards-based, event-driven SOA applications yielding unprecedented productivity.
+                    Global leaders including Federal Bank, Commercial Bank of Africa, NASA, US Coast Guard, POSCO, British Telecom, AT&T Labs, Vodafone and L'OrÃ©al have deployed Fiorano's solutions to drive innovation through open, standards-based, event-driven SOA applications yielding unprecedented productivity.
                 </p>
             </div>
         </div>
@@ -327,7 +327,7 @@
 
             </div>
             <div class="col-sm-12 col-xs-6 padding-top-20 padding-bottom-20">
-                <a href="<?php  echo __ROOT__ ?>/customers/casestudies/bajaj-finserv.pdf" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/bajaj-finserv.pdf')?>" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 

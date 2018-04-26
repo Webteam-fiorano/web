@@ -51,7 +51,7 @@
                     <li>All data transmissions are encrypted, and all users accessing the system are authenticated.</li>
                 </ul>
                 <p>The diagram below illustrates a real-life example on some of the issues that Commonwealth of Pennsylvania wanted to solve within the JNET Project. The problem involved four state agencies: the Pennsylvania State Police (PSP), the Department of Corrections (DOC), Pennsylvania Board of Pardons (PBPP), and the AOPC.</p>
-                <p class="c b"><img class="img-responsive" src="<?php echo __IMAGES__?>/CS_JNET_1.jpg"><br/><br/>FIGURE 1: Real life issue pre-implementation</p>
+                <p class="c b text-center"><img class="img-responsive" src="<?php echo base_url('assets/images/casestudies/Commonwealth_diagram2.jpg')?>"><br/><br/>FIGURE 1: Real life issue pre-implementation</p>
                 <ol>
                     <li>The offender is arrested for some reason, and is fingerprinted by police on a Live Scan machine.</li>
                     <li>The Live Scan machine immediately communicates with PSP and National systems, creating an arrest record. PSP 'publishes' this arrest record on the JNET Network.</li>
@@ -65,7 +65,7 @@
                 <h4>Solution</h4>
                 <p>
                     KPMG Consulting Services (now Bearing Point Inc.) was engaged by the Commonwealth of Pennsylvania to develop numerous applications for all the justice related agencies, this initiative was entitled The 'JNET' Project JNET's mandate was to provide various applications enabling the sharing on data across justice related agencies e.g. State Police, Department of Probation, Department of Corrections, Board of Pardons, and Courts etc. </p>
-                <p class="c b"><img class="img-responsive" src="<?php echo __IMAGES__?>/CS_JNET_2.jpg"><br/><br/>FIGURE 2: Application architecture for JNET using FioranoMQ
+                <p class="c b text-center"><img class="img-responsive" src="<?php echo base_url('assets/images/casestudies/Commonwealth_diagram1.jpg')?>"><br/><br/>FIGURE 2: Application architecture for JNET using FioranoMQ
                 <p>Ultimately, we settled on publish/subscribe messaging; where departments could subscribe to any individual they were interested in. Should the suspect show up at a welfare agency or be pulled over for a traffic stop, this information would be published to all subscribing parties in real time." said KPMG's Chief Architect on the Project, Woolfenden</p>
                 <h4>Benefits</h4>
                 <ul>
@@ -94,7 +94,7 @@
 
         <div class="col-sm-3 col-xs-12 padding-top-50 margintop-50">
             <div class="cs-quot">
-                <div class="cs-logo"><img src="<?php echo __IMAGES__?>/jnet.gif" /></div>
+                <div class="cs-logo"><img src="<?php echo base_url('assets/images/casestudies/Commonwealth_logo.jpg')?>" /></div>
                 "We wanted to tie in the State Police, motor vehicles agency, the Parole department, Board of Pardons, Department of Corrections and other agencies so when an arrest was made, for example, anyone looking for the suspect would be immediately notified."
                 <div class="cs-author">
                     Linda Rosenberg, Executive Director,<br/>
@@ -102,7 +102,7 @@
                 </div>
             </div>
             <div class="col-sm-12 padding-top-20 padding-bottom-20">
-                <a href="/customers/casestudies/PS_Gov_FMQ_USA_JNetPennsylvania.pdf" title="Download PDF" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/PS_Gov_FMQ_USA_JNetPennsylvania.pdf')?>" title="Download PDF" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 

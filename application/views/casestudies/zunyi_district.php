@@ -24,7 +24,7 @@
 <section>
     <div class="container">
         <div class="col-xs-12  ">
-            <h3> Zunyi District drives through efficiency gain with Fiorano</h3>
+            <h3 class="casestudyh3"> Zunyi District drives through efficiency gain with Fiorano</h3>
             <hr>
         </div>
         <div class="col-sm-9 col-xs-12  nopadding">
@@ -63,7 +63,7 @@
         <div class="col-sm-3 padding-top-50">
             <div class="col-sm-12 col-xs-6 user-casestudy padding-top-20 padding-bottom-20">
 
-               <img style=" padding-left: 23%;" src="<?php echo base_url('assets/images/casestudies/xzunyi_logo.jpg')?>" class="img-responsive align-right"/>
+               <img style=" padding-left: 19%;" src="<?php echo base_url('assets/images/casestudies/ZUNYI _logo.jpg')?>" class="img-responsive align-right"/>
                 <p class="Ucomments padding-top-20">
                     "Fiorano SOA platform is a future-proof solution which provides the value of time saved, reduced effort and flexibility for the customer."
                 </p>
@@ -76,7 +76,7 @@
 
             </div>
             <div class="col-sm-12 col-xs-6 padding-top-20 padding-bottom-20">
-                <a href="http://fiorano.com/customers/casestudies/PS_Gov_FSOA_APAC_ZunyiDistrict.pdf" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/PS_Gov_FSOA_APAC_ZunyiDistrict.pdf')?>" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 

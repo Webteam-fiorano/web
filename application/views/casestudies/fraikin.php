@@ -203,7 +203,7 @@
         <div class="col-sm-3 padding-top-50 margintop-50">
             <div class="col-sm-12 col-xs-6 user-casestudy padding-top-20 padding-bottom-20">
 
-                <img style=" padding-left: 19%;" src="<?php echo __IMAGES__?>/fraikin_logo.jpg" class="img-responsive align-right"/>
+                <img style=" padding-left: 19%;" src="<?php echo base_url('assets/images/casestudies/Fraikin-logo.jpg')?>" class="img-responsive align-right"/>
                 <p class="Ucomments padding-top-20">
                     "We worked closely with Fiorano while implementing the integration platform
                     at Fraikin. With Fiorano, we were able to meet Government-mandated
@@ -214,14 +214,14 @@
                 </p>
                 <p class="text-right">
                     <b>
-                        Franck Lerivrain<br/>
-                        Development Manager<br/>Fraikin<br/>
+                        Franck Lerivrain.<br/>
+                        Development Manager,<br/>Fraikin<br/>
                     </b>
                 </p>
 
             </div>
             <div class="col-sm-12 col-xs-6 padding-top-20 padding-bottom-20">
-                <a href="<?php  echo __ROOT__ ?>/customers/casestudies/CS_Logistics_FSOA_EMEA_Fraikin.pdf" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/CS_Logistics_FSOA_EMEA_Fraikin.pdf')?>" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 

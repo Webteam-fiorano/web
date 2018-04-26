@@ -35,11 +35,9 @@
                     Logistics leader GlobalTranz Digitizes with
                     the Fiorano Integration/API Platform.
                 </h3>
+                <h4>Fiorano ESB coupled with Fiorano API Management streamline
+                        operations at GlobalTranz</h4>
                 <hr>
-                <h4><small>Fiorano ESB coupled with Fiorano API Management streamline
-                        operations at GlobalTranz</small></h4>
-                <hr>
-
                 <h4>Customer Profile</h4>
                 <p>
                     GlobalTranz is a US based logistics technology innovator and
@@ -153,7 +151,7 @@
                     details using regular expressions and match these from a
                     database. Upon finding a match, multiple Restful services are
                     invoked to update information in the TMS.</p>
-                <h2>Solution Highlights</h2>
+                <h4>Solution Highlights</h4>
                 <p>
                     Fiorano ESB provides the interoperability and acts a unified
                     business backplane for GlobalTranz. Additionally, Fiorano API
@@ -204,7 +202,7 @@
                         Integration Specialist,<br>
                         GlobalTranz</b></p>
 
-                <h2>Result and Benefits</h2>
+                <h4>Result and Benefits</h4>
 
                 <p>
                     <b>Mission-critical Integrations </b> -
@@ -251,7 +249,7 @@
         <div class="col-sm-3 padding-top-50 margintop-50">
             <div class="col-sm-12 col-xs-6 user-casestudy padding-top-20 padding-bottom-20">
 
-                <img style="" src="<?php echo __IMAGES__?>/globalTranz-logo.png" class="img-responsive align-right"/>
+                <img style="padding-left: 19%;" src="<?php echo base_url('assets/images/casestudies/GlobalTranz-logo.jpg')?>" class="img-responsive align-right"/>
                 <p class="Ucomments padding-top-20">
                     "GlobalTranz decided on use of the Fiorano platform
                     as a mechanism for alleviating the pain points of our
@@ -269,15 +267,15 @@
                 </p>
                 <p class="text-right">
                     <b>
-                        Mr. Brett Garrick<br>
-                        Integration Specialist<br>
+                        Mr. Brett Garrick,<br>
+                        Integration Specialist,<br>
                         GlobalTranz<br>
                     </b>
                 </p>
 
             </div>
             <div class="col-sm-12 col-xs-6 padding-top-20 padding-bottom-20">
-                <a href="<?php  echo __ROOT__ ?>/customers/casestudies/globalTranz-case-study.pdf" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/global-tranz-case-study.pdf')?>" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 

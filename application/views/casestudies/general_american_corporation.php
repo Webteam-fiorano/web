@@ -19,7 +19,7 @@
         <ul class="breadcrumb">
             <li> <a href="<?php echo site_url(''); ?>">Home</a></li>
             <li> <a href="<?php echo site_url('resources/casestudies'); ?>">Case Studies</a></li>
-            <li class="active">Fujinami</li>
+            <li class="active">General American Corporation</li>
         </ul>
     </div>
 </section>
@@ -90,30 +90,32 @@
             <div class="col-xs-12 padding-top-20">
                 <h4>About Fiorano Software</h4>
                 <p>
-                    Founded in 1995, Fiorano is a trusted provider of enterprise integration middleware, high performance messaging and distributed systems. Fiorano's innovative event-driven SOA platform integrates applications and complex technologies into an enterprise nervous system. Fiorano's hybrid Cloud-ESB integrates applications across SaaS, PaaS and on-premise worlds.
-
-                    Global leaders including Federal Bank, Commercial Bank of Africa, NASA, US Coast Guard, POSCO, British Telecom, AT&T Labs, Vodafone and L'Oréal have deployed Fiorano's solutions to drive innovation through open, standards-based, event-driven SOA applications yielding unprecedented productivity.
+                	Fiorano Software (<a href="/">www.fiorano.com</a>) is a leading provider of enterprise class business process integration and messaging infrastructure technology. Fiorano's network-centric solutions set a new paradigm in ROI, performance, interoperability and scalability. Global leaders including Fortune 500 companies such as Boeing, British Telecom, Credit Agricole Titres, Lockheed Martin, NASA, POSCO, Qwest Communications, Schlumberger and Vodafone among others have used Fiorano technology to deploy their enterprise nervous systems.
                 </p>
+                <p>
+                To find out more about how Fiorano can help you meet your enterprise integration objectives, visit <a href="/">www.fiorano.com</a> or <a onclick="showContactUs();" href="javascript: void(0);">Email us, we will contact you!</a>
+                </p>
+                
             </div>
         </div>
 
         <div class="col-sm-3 padding-top-50 margintop-50">
             <div class="col-sm-12 col-xs-6 user-casestudy padding-top-20 padding-bottom-20">
 
-                <img style=" padding-left: 28%;" src="<?php echo __IMAGES__?>/gac_mortgage.jpg" class="img-responsive align-right"/>
+                <img style=" padding-left: 19%;" src="<?php echo base_url('assets/images/casestudies/General_American_logo.jpg')?>" class="img-responsive align-right"/>
                 <p class="Ucomments padding-top-20">
                     "Fiorano ESB provides us with a flexible platform for future expansion with some major value adds like Real Time error notification. This solution has brought us closer to achieving real-time competencies, enabling us to drive revenues, drastically cut costs and achieve a significant ROI.."
                 </p>
                 <p class="text-right">
                     <b>
-                        Norman Gottschalk<br/>
-                        VP of IT<br/>General American Corporation<br/>
+                        Norman Gottschalk,<br/>
+                        VP of IT,<br/>General American Corporation<br/>
                     </b>
                 </p>
 
             </div>
             <div class="col-sm-12 col-xs-6 padding-top-20 padding-bottom-20">
-                <a href="<?php  echo __ROOT__ ?>/customers/casestudies/CS_Mortgage_FESB_USA_GeneralAmerican.pdf" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/CS_Mortgage_FESB_USA_GeneralAmerican.pdf')?>" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 

@@ -167,7 +167,7 @@
         <div class="col-sm-3 padding-top-50 margintop-50">
             <div class="col-sm-12 col-xs-6 user-casestudy padding-top-20 padding-bottom-20">
 
-                <img style=" padding-left: 17%;" src="<?php echo base_url('assets/images/casestudies/canadia-logo.jpg')?>" class="img-responsive align-right"/>
+                <img style=" padding-left: 17%;" src="<?php echo base_url('assets/images/casestudies/Canadia_Bank_Logo.jpg')?>" class="img-responsive align-right"/>
                 <p class="Ucomments padding-top-20">
                     "Fiorano provides a highly scalable integration platform enabling us to standardize and service enable all applications built on different technologies. Fiorano ESB will become part of our core infrastructure serving multiple applications"
                 </p>
@@ -181,7 +181,7 @@
 
             </div>
             <div class="col-sm-12 col-xs-6 padding-top-20 padding-bottom-20">
-                <a href="<?php  echo __ROOT__ ?>/customers/casestudies/canadia-bank.pdf" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/canadia-bank.pdf')?>" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 

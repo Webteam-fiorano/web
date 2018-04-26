@@ -94,7 +94,7 @@
         <div class="col-sm-3 padding-top-50 margintop-50">
             <div class="col-sm-12 col-xs-6 user-casestudy padding-top-20 padding-bottom-20">
 
-                <img style=" padding-left: 19%;" src="<?php echo __IMAGES__?>/finscope.gif" class="img-responsive align-right"/>
+                <img style=" padding-left: 19%;" src="<?php echo base_url('assets/images/casestudies/finscope-logo.jpg')?>" class="img-responsive align-right"/>
                 <p class="Ucomments padding-top-20">
                     "With a mission critical auto-trading software product message reliability and performance throughput is vital to the overall product success and thus far FioranoMQ has proved to be a more than able base for our messaging backbone. Through evaluations of other JMS servers FioranoMQ has met our both business and technical demands yet providing many other features that our application may grow to use."
                 </p>
@@ -109,7 +109,7 @@
 
             </div>
             <div class="col-sm-12 col-xs-6 padding-top-20 padding-bottom-20">
-                <a href="<?php  echo __ROOT__ ?>/customers/casestudies/CS_Fin_FMQ_UK_FinScope.pdf" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/CS_Fin_FMQ_UK_FinScope.pdf')?>" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 

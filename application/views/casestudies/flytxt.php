@@ -77,21 +77,21 @@
         <div class="col-sm-3 padding-top-50 margintop-50">
             <div class="col-sm-12 col-xs-6 user-casestudy padding-top-20 padding-bottom-20">
 
-                <img style=" padding-left: 19%;" src="<?php echo __IMAGES__?>/flytxt_logo.jpg" class="img-responsive align-right col-sm-offset-1"/>
+                <img style=" padding-left: 10%;" src="<?php echo base_url('assets/images/casestudies/Flytxt-logo.jpg')?>" class="img-responsive align-right col-sm-offset-1"/>
                 <p class="Ucomments padding-top-20">
                     "Flytxt needed a reliable and high performance messaging system to handle processing hundreds of messages per second. Fiorano showed the highest performance of any we tested, and has operated flawlessly in our production environment since the day we installed it."
                 </p>
                 <p class="text-right">
                     <b>
-                        James Harker-Syren<br/>
-                        Chief Technical Officer<br/>
+                        James Harker-Syren,<br/>
+                        Chief Technical Officer,<br/>
                         Flytxt<br/>
                     </b>
                 </p>
 
             </div>
             <div class="col-sm-12 col-xs-6 padding-top-20 padding-bottom-20">
-                <a href="<?php  echo __ROOT__ ?>/customers/casestudies/CS_Technology_FMQ_UK_Flytxt.pdf" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/CS_Technology_FMQ_UK_Flytxt.pdf')?>" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 

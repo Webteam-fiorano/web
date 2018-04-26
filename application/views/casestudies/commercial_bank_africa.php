@@ -18,7 +18,7 @@
         <ul class="breadcrumb">
             <li> <a href="<?php echo site_url(''); ?>">Home</a></li>
             <li> <a href="<?php echo site_url('resources/casestudies'); ?>">Case Studies</a></li>
-            <li class="active">Aboitiz Power</li>
+            <li class="active">Commercial Bank of Africa</li>
         </ul>
     </div>
 </section>
@@ -104,7 +104,7 @@
         <div class="col-sm-3 padding-top-50 margintop-50">
             <div class="col-sm-12 col-xs-6 user-casestudy padding-top-20 padding-bottom-20">
 
-                <img style=" padding-left: 26%;" src="<?php echo base_url('assets/images/casestudies/commercial-bank-africa-logo.png')?>" class="img-responsive align-right"/>
+                <img style=" padding-left: 19%;" src="<?php echo base_url('assets/images/casestudies/Commercial_Bank_of_Africa_Logo.jpg')?>" class="img-responsive align-right"/>
                 <p class="Ucomments padding-top-20">
                     "Fiorano has been critical in enabling the speed and efficiency with which we have been able to roll out this innovative product (M-Shwari) and handle the unexpected large volume of transactions and data. <br/>M-Shwari has exceeded all the performance KPIs that we set out to achieve in the first 90 days."
                 </p>
@@ -118,7 +118,7 @@
 
             </div>
             <div class="col-sm-12 col-xs-6 padding-top-20 padding-bottom-20">
-                <a href="<?php  echo __ROOT__ ?>/customers/casestudies/CBA-Mobile-Banking.pdf" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/CBA-Mobile-Banking.pdf')?>" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 

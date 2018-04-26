@@ -70,7 +70,7 @@
         <div class="col-sm-3 padding-top-50 margintop-50">
             <div class="col-sm-12 col-xs-6 user-casestudy padding-top-20 padding-bottom-20">
 
-                <img style="padding-left:22%" src="<?php echo __IMAGES__?>/hireright.jpg" class="img-responsive align-right"/>
+                <img style="padding-left:19%" src="<?php echo base_url('assets/images/casestudies/Hireright-logo.jpg')?>" class="img-responsive align-right"/>
 
                 <p class="Ucomments padding-top-20">
                     "HireRight's development staff was also impressed with the ease with which Fiorano ESB installed in HireRight's network, the short learning curve, the richness of prepackaged adapters, the unique debugging capabilities and, last but not least, with the Fiorano's customer support responsiveness."
@@ -84,7 +84,7 @@
 
             </div>
             <div class="col-sm-12 col-xs-6 padding-top-20 padding-bottom-20">
-                <a href="<?php  echo __ROOT__ ?>/customers/casestudies/CS_Services_FESB_USA_HireRight.pdf" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/CS_Services_FESB_USA_HireRight.pdf')?>" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 

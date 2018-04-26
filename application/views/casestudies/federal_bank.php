@@ -220,7 +220,7 @@
         <div class="col-sm-3 padding-top-50 margintop-50">
             <div class="col-sm-12 col-xs-6 user-casestudy padding-top-20 padding-bottom-20">
 
-                <img style=" padding-left: 19%;" src="<?php echo __IMAGES__?>/federal-bank-logo.jpg" class="img-responsive align-right"/>
+                <img style=" padding-left: 17%;" src="<?php echo base_url('assets/images/casestudies/Federal_Bank_Logo.jpg')?>" class="img-responsive align-right"/>
                 <p class="Ucomments padding-top-20">
                     There is no doubt in my mind that competing in the
                     banking and financial services market today requires
@@ -244,7 +244,7 @@
 
             </div>
             <div class="col-sm-12 col-xs-6 padding-top-20 padding-bottom-20">
-                <a href="<?php  echo __ROOT__ ?>/customers/casestudies/CS_Federal_Bank.pdf" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/Federal_Bank.pdf')?>" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 

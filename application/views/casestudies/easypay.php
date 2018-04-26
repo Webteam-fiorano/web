@@ -49,7 +49,7 @@
                     EasyPay required a solution to optimize customer services, which meant providing agility to its infrastructure, together with visibility, ease of use, and data control. EasyPay had identified that a Service Oriented Architecture (SOA) was needed which would allow easy integration of existing infrastructure and reduce management issues, enabling the delivery of dynamic business processes with short turn-around times.
                 </p>
                 <p>EasyPay began the search for a business integration software package that would cater to higher message volumes and also have the agility to easily accommodate new customers and services with a robust underlying infrastructure. After looking at several alternative platforms they chose Fiorano ESB, the Enterprise Service Bus (ESB) product from Fiorano Software, as the key enabling technology. The SOA is now being introduced. The illustration below shows how various servers at EasyPay provide services to clients. The ESB provides a messaging backbone, and client devices such as point of sale (POS) terminals, web browser clients and mobile (GSM - Global System for Mobile communication) devices originate requests that are published as messages on the ESB. These messages are translated, if necessary, and routed to the EFT Switch or to an appropriate Value Added Service (VAS) Response messages from the back-end services are routed back to the clients that made the requests. Trans							action data is sent to the Recon service for reconciliation while system problems generate events to the Escalation service for operator intervention. Systems that need to send messages such as email or FAX use the Notification service. A FAX device is shown as an example of a recipient. Data files are transferred by Connect Direct as a result of messages received via the ESB. All these activities can now be monitored and managed conveniently from a centralized management console.</p>
-                <div class="c"><img src="<?php echo __IMAGES__?>/CS_EasyPay.jpg" ><br/>
+                <div class="c text-center"><img src="<?php echo __IMAGES__?>/CS_EasyPay.jpg" ><br/>
                     FIGURE 1: TECHNICAL ARCHITECTURE WITH FIORANO ESB</div>
                 <h4>Benefits</h4>
                 <p>
@@ -88,15 +88,17 @@
 
         <div class="col-sm-3 col-xs-12 padding-top-50 margintop-50">
             <div class="cs-quot">
-                <div class="cs-logo"><img src="<?php echo __IMAGES__?>/easypay_logo.jpg" /></div>
+                <div class="cs-logo"><img src="<?php echo base_url('assets/images/casestudies/EasyPay logo.jpg')?>" /></div>
                 &quot;EasyPay selected Fiorano ESB because it outperformed the competition in performance and ease of use. These criteria are important to us because of the high volume of transactions that we process and because we need the agility to be able to respond quickly to opportunities and threats&quot;
                 <div class="cs-author">
+                	<b>
                     Anthony Ferguson,<br/>
                     CTO,<br/>EasyPay<br/>
+                   </b>
                 </div>
             </div>
             <div class="col-sm-12 padding-top-20 padding-bottom-20">
-                <a href="/customers/casestudies/CS_Fin_FESB_USA_EasyPay.pdf" title="Download PDF" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/CS_Fin_FESB_USA_EasyPay.pdf')?>" title="Download PDF" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 

@@ -32,7 +32,7 @@
 <section>
     <div class="container">
         <div class="col-xs-12">
-            <h3> Fiorano remedies Business Integration challenges at SJS District</h3>
+            <h3 class="casestudyh3"> Fiorano remedies Business Integration challenges at SJS District</h3>
             <hr>
         </div>
         <div class="col-sm-9 col-xs-12  nopadding">
@@ -85,7 +85,7 @@
 
             </div>
             <div class="col-sm-12 col-xs-6 padding-top-20 padding-bottom-20">
-                <a href="http://fiorano.com/customers/casestudies/PS_Gov_FSOA_APAC_SJSDistrict.pdf" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/PS_Gov_FSOA_APAC_SJSDistrict.pdf')?>" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 

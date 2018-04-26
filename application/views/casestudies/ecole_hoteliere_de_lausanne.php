@@ -77,16 +77,18 @@
 
         <div class="col-sm-3 col-xs-12 padding-top-50 margintop-50">
             <div class="cs-quot">
-                <div class="cs-logo"><img src="<?php echo __IMAGES__?>/ehl_logo.jpg" /></div>
+                <div class="cs-logo"><img src="<?php echo base_url('assets/images/casestudies/CS_Education_Swiss_logo.jpg')?>" /></div>
                 "We found that developing and deploying new processes, as well as modifying and redeploying existing processes, was much faster with Fiorano in comparison with BizTalk and Mule. Fiorano also had a lower learning curve, decreasing our time to deployment significantly."
                 <div class="cs-author">
+                	<b>
                     Ganasekharan Thoppe,<br/>
                     Application Engineer,<br/>
                     Ecole h&#244;teli&#232;re de Lausanne.
+                    </b>
                 </div>
             </div>
             <div class="col-sm-12 padding-top-20 padding-bottom-20">
-                <a href="/customers/casestudies/CS_Education_Swiss_EHL.pdf" title="Download PDF" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/CS_Education_Swiss_EHL.pdf')?>" title="Download PDF" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 

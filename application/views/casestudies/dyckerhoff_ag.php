@@ -55,12 +55,14 @@
 
         <div class="col-sm-3 col-xs-12 padding-top-50 margintop-50">
             <div class="cs-quot">
-                <div class="cs-logo"><img width="200" src="<?php echo __IMAGES__?>/dyckerhoffAG_logo.jpg" /></div>
+                <div class="cs-logo"><img  src="<?php echo base_url('assets/images/casestudies/Dyckerhoff_AG_logo.jpg')?>" /></div>
                 "The most evident advantage of Fiorano is the ability to "halt" the whole communication/choreography scenario at any state of a process for debugging. This very helpful debugging feature is implemented in Fiorano in a very intelligent manner. Under our stress tests, Fiorano has shown superiority in a majority of aspects and is the product of our choice, technically and commercially"
                 <div class="cs-author">
+                	<b>
                     Stefan Boetticher,<br/>
                     IT architect infrastructure,<br/>
                     Dyckerhoff
+                    </b>
                 </div>
             </div>
 

@@ -49,7 +49,7 @@
                 <p>Tulare County's current architecture based on the Fiorano SOA framework functions in a two-step process. First, when an individual has to go to court, the District Attorney's office receives a packet of information regarding the case to help them determine whether they would like to prosecute or not. The DA then files the claim using its internal data architecture, including the necessary data and documents for the Court to review. That information is fed into the Fiorano system, which translates the data and bridges the DA and Court electronic systems. Second, the Court can accept or reject the claim and shoot it back to the DA. If the claim is rejected, emails are sent to everyone involved explaining why the claim was rejected.</p>
                 <p>Tulare County is in the process of introducing the Fiorano SOA Platform into other areas such as integrated scheduling and financial processing. </p>
                 <p>"As we get more and more familiar with Fiorano SOA, we'll begin using it for more applications," remarks Beal. "Eventually, we'll extend the solution beyond the justice system and into other Tulare County departments."</p>
-                <p class="c b"><img src="<?php echo __IMAGES__?>/cs_tulare_county_fig1.jpg" alt="Integration of various justice departments using Fiorano SOA Platform" /><br/><br/>FIGURE 1 : Integration of various justice departments using Fiorano SOA Platform</p>
+                <p class="c b text-center" style="margin:auto;width:70%;"><img src="<?php echo __IMAGES__?>/cs_tulare_county_fig1.jpg" alt="Integration of various justice departments using Fiorano SOA Platform" /><br/><br/>FIGURE 1 : Integration of various justice departments using Fiorano SOA Platform</p>
                 <h4>Benefits</h4>
                 <p>
                     "When it comes to initiating a case in the court system, we've eliminated double entries that would often occur from simple oversight," says Beal. "Accuracy as a whole has improved. We've eliminated the potential for human error because the information is passed electronically, rather than being keyed into two separate systems by different people."
@@ -68,16 +68,18 @@
 
         <div class="col-sm-3 padding-top-50 margintop-50">
             <div class="cs-quot">
-                <div class="cs-logo"><img src="<?php echo __IMAGES__?>/customer_county_of_tulare.jpg" /></div>
+                <div class="cs-logo"><img src="<?php echo base_url('assets/images/casestudies/CS_Gov_FSOA_USA_TulareCounty-logo.jpg')?>" /></div>
                 "Fiorano was selected for its ease of use, inherent design advantages and affordability. With the Fiorano SOA Platform, the County will establish a solid foundation for an incremental move to a Service-Oriented-Architecture, based on standards and maximize utilization of its existing IT infrastructure investment."
                 <div class="cs-author">
-                    Eric Prosser, <br/>
-                    Head EAI Team<br/>
-                    County of Tulare<br/>
+                	<b>
+                        Eric Prosser, <br/>
+                        Head EAI Team,<br/>
+                        County of Tulare<br/>
+                   </b>
                 </div>
             </div>
             <div class="col-sm-12 col-xs-6 padding-top-20 padding-bottom-20">
-                <a href="<?php echo __ROOT__?>/customers/casestudies/CS_Gov_FSOA_USA_TulareCounty.pdf" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/CS_Gov_FSOA_USA_TulareCounty.pdf')?>" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 

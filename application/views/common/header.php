@@ -295,7 +295,15 @@
                                             <li class="menu-submenu"><a href="<?php echo site_url('company/pressreleases'); ?>">News & Press</a></li>
                                             <li class="menu-submenu"><a href="<?php echo site_url('company/events'); ?>">Events</a></li>
                                             <li class="menu-submenu"><a href="<?php echo __ROOT__ ?>/blog" target="_blank">Blog</a></li>
-                                            <li class="menu-submenu"><a href="<?php echo __ROOT__?>/Accounts/Login/">Login</a></li>
+
+                                            <?php  if($this->session->userdata('logged_in')){ ?>
+                                                <li class="menu-submenu"><a href="<?php  echo site_url('Accounts/signOut'); ?>">Log Out</a></li>
+
+                                            <?php  }else{ ?>
+                                                <li class="menu-submenu"><a href="<?php  echo site_url('accounts/login'); ?>">Login</a></li>
+                                            <?php   } ?>
+
+
                                             <li class="menu-submenu"><a href="<?php echo site_url('company/contacts'); ?>">Contact Us</a></li>
                                         </ul>
                                         <!--<h4>Composite Applications</h4>

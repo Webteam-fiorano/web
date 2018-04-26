@@ -6,7 +6,7 @@
  * Date: 6/20/2017
  * Time: 11:31 AM
  */?>
-<section class="casestudy-finance">
+<section class="casestudy-service">
     <div class="container ">
         <div class="col-xs-12 padding-top-20">
             <h2 class="white">
@@ -80,7 +80,7 @@
 
             </div>
             <div class="col-sm-12 col-xs-6 padding-top-20 padding-bottom-20">
-                <a href="<?php  echo __ROOT__ ?>/customers/casestudies/CS_Services_FMQ_USA_CommissionJunction.pdf" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/CS_Services_FMQ_USA_CommissionJunction.pdf')?>" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 

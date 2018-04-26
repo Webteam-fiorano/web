@@ -105,7 +105,7 @@
         <div class="col-sm-3 padding-top-50 margintop-50">
             <div class="col-sm-12 col-xs-6 user-casestudy padding-top-20 padding-bottom-20">
 
-                <img style=" padding-left: 19%;" src="<?php echo __IMAGES__?>/forex_logo.jpg" class="img-responsive align-right"/>
+                <img style=" padding-left: 17%;" src="<?php echo base_url('assets/images/casestudies/Forex-logo.jpg')?>" class="img-responsive align-right"/>
                 <p class="Ucomments padding-top-20">
                     "Fiorano ESB deployment forces and supports strict separation between functional roles of software architect, developer and user, which makes the whole life-cycle so well managed. Coarse grained components residing on top of the Fiorano messaging layer leave the designer with the responsibility of taking care of the business logic implementation only."
                 </p>
@@ -118,7 +118,7 @@
 
             </div>
             <div class="col-sm-12 col-xs-6 padding-top-20 padding-bottom-20">
-                <a href="<?php  echo __ROOT__ ?>/customers/casestudies/CS_Fin_FESB_USA_GlobalForex.pdf" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/CS_Fin_FESB_USA_GlobalForex.pdf')?>" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 

@@ -45,7 +45,7 @@
                                             <div class="col-sm-12  padding-top-50">
                                                 <div class="col-sm-2 col-xs-12">
                                                     <input name="profId" value="<?php echo $userDet['0']->id; ?>" type="hidden">
-                                                    <label for="salutation" class="col-sm-12 nopadding control-label text-left black-color"><span
+                                                    <label for="salutation" class="col-sm-12 nopadding control-label text-left black-color">Salutation<span
                                                                 class="reqMention"> *</span> </label>
                                                     <div class="input-group">
                                                   <!--  <span class="input-group-addon">
@@ -76,7 +76,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 padding-top-15 ">
-                                                <div class="col-sm-6 col-xs-12">
+                                                <div class="col-sm-6 col-xs-12  padding-top-15">
                                                     <label for="company" class="col-sm-12 nopadding control-label text-left black-color">Company<span
                                                                 class="reqMention"> *</span> </label>
                                                     <div class="input-group">
@@ -187,7 +187,14 @@
                                     </div>
                                     <div class="well col-xs-12" id="lower_arrow_div">
 
-
+                                        <div class="pull-left">
+                                            <div class="form-group ">
+                                                <a id="toLogin" class="btn btn-primary" href="<?php echo site_url('home')?>">
+                                                	Go Back
+                                                </a>
+                                            </div>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;
+                                        </div>
                                         <div class="col-sm-3 pull-right">
                                             <div class="form-group ">
                                                 <button id="regSubmuit" type="submit" class="btn btn-success btn-md btn-block login-button">
@@ -196,14 +203,14 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-sm-3 pull-right">
+                                        <!-- <div class="col-sm-3 pull-right">
                                             <div class="form-group ">
                                                 <button type="reset" id="reset"
                                                         class="btn btn-default btn-md btn-block login-button">Reset
                                                 </button>
                                             </div>
                                             &nbsp;&nbsp;&nbsp;&nbsp;
-                                        </div>
+                                        </div> -->
                                     </div>
 
                                     <?php echo form_close(); ?>

@@ -10,7 +10,7 @@
     <div class="container ">
         <div class="col-xs-12 padding-top-20">
             <h2 class="white">
-                Finance – I&M Bank
+                Finance - I&M Bank
             </h2>
         </div>
     </div>
@@ -66,7 +66,8 @@
                     I&M Bank CEO said that the move was in line with its
                     aspiration - “to become a banking powerhouse in East
                     Africa for middle to large businesses and premium
-                    clients.”</p>
+                    clients.”
+                </p>
                 <h4> Business Challenge</h4>
                 <p>
                     I&M Bank had a complex IT
@@ -299,14 +300,14 @@
                 <h4>About Fiorano Software</h4>
                 <p>
                     Founded in 1995, Fiorano is a trusted provider of enterprise integration middleware, high performance messaging and distributed systems. Fiorano's innovative event-driven SOA platform integrates applications and complex technologies into an enterprise nervous system. Fiorano's hybrid Cloud-ESB integrates applications across SaaS, PaaS and on-premise worlds.
-                    Global leaders including Federal Bank, Commercial Bank of Africa, NASA, US Coast Guard, POSCO, British Telecom, AT&T Labs, Vodafone and L'Oréal have deployed Fiorano's solutions to drive innovation through open, standards-based, event-driven SOA applications yielding unprecedented productivity.
+                    Global leaders including Federal Bank, Commercial Bank of Africa, NASA, US Coast Guard, POSCO, British Telecom, AT&T Labs, Vodafone and L'OrÃ©al have deployed Fiorano's solutions to drive innovation through open, standards-based, event-driven SOA applications yielding unprecedented productivity.
                 </p>
             </div>
         </div>
         <div class="col-sm-3 padding-top-50 margintop-50">
             <div class="col-sm-12 col-xs-6 user-casestudy padding-top-20 padding-bottom-20">
 
-                <img style="" src="<?php echo base_url('assets/images/company/news/I-M-Bank.png')?>" class="img-responsive align-right"/>
+                <img style="padding-left: 19%;" src="<?php echo base_url('assets/images/casestudies/I&M-Diagaram-logo.jpg')?>" class="img-responsive align-right"/>
                 <p class="Ucomments padding-top-20">
                     "Fiorano has made our digital journey easy and
                     cost effective."
@@ -320,7 +321,7 @@
 
             </div>
             <div class="col-sm-12 col-xs-6 padding-top-20 padding-bottom-20">
-                <a href="<?php echo base_url('assets/pdf/casestudy/IM-Case-Study.pdf')?>" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/IM-Case-Study.pdf')?>" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 

@@ -146,7 +146,7 @@
                     so that servers could be quickly added without much rework
                     or performance trade-off.
                 </p>
-                <h2>Benefits</h2>
+                <h4>Benefits</h4>
                 <span style="color:#CC4400">1. Out of the box functionality: </span>
                 <p>
                     Since Elektrobit's environment incorporated several
@@ -227,7 +227,7 @@
         <div class="col-sm-3 padding-top-50 margintop-50">
             <div class="col-sm-12 col-xs-6 user-casestudy padding-top-20 padding-bottom-20">
 
-                <img style=" padding-left: 19%;" src="<?php echo __IMAGES__?>/elektrobit_logo.jpg" class="img-responsive align-right col-sm-offset-1"/>
+                <img style=" padding-left: 8%;" src="<?php echo base_url('assets/images/casestudies/electrobit_logo.jpg')?>" class="img-responsive align-right col-sm-offset-1"/>
                 <p class="Ucomments padding-top-20">
                     "Our target was to enable a flexible mesh of
                     applications, where the legacy apps and new
@@ -247,7 +247,7 @@
 
             </div>
             <div class="col-sm-12 col-xs-6 padding-top-20 padding-bottom-20">
-                <a href="<?php  echo __ROOT__ ?>/customers/casestudies/CS_Elektrobit.pdf" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/CS_Elektrobit.pdf')?>" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive ">
                 </a>
 

@@ -66,15 +66,17 @@
 
         <div class="col-sm-3 padding-top-50 margintop-50">
             <div class="cs-quot">
-                <div class="cs-logo"><img src="<?php echo __IMAGES__?>/credit_agricole_logo.jpg" /></div>
+                <div class="cs-logo"><img src="<?php echo base_url('assets/images/casestudies/Credit_agricole_logo.jpg')?>" /></div>
                 "To be a leading market player, we ought to act fast to gain benefit of market trends. FioranoMQ<sup>&reg;</sup> enables us to put into practice strategic schemes that would have been too expensive in the past - we can use FioranoMQ<sup>&reg;</sup> to provide desired service to the customer at a reasonable cost."
                 <div class="cs-author">
-                    Software Architect,<br/>
-                    Credit Agricole Titres<br/>
+                	<b>
+                   	 	Software Architect,<br/>
+                    	Credit Agricole Titres<br/>
+                    </b>
                 </div>
             </div>
             <div class="col-sm-12 col-xs-6 padding-top-20 padding-bottom-20">
-                <a href="/customers/casestudies/CS_Fin_FMQ_EMEA_CreditAgricole.pdf" title="Download PDF" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/CS_Fin_FMQ_EMEA_CreditAgricole.pdf')?>" title="Download PDF" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 

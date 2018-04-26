@@ -66,7 +66,7 @@
         <div class="col-sm-3 padding-top-50 margintop-50">
             <div class="col-sm-12 col-xs-6 user-casestudy padding-top-20 padding-bottom-20">
 
-                <img style=" padding-left: 26%;" src="<?php echo base_url('assets/images/casestudies/beijing_logo.jpg')?>" class="img-responsive align-right"/>
+                <img style=" padding-left: 19%;" src="<?php echo base_url('assets/images/casestudies/Beijing Shubei Software Technology logo.jpg')?>" class="img-responsive align-right"/>
                 <p class="Ucomments padding-top-20">
                     "Fiorano SOA platform is a future-proof solution which provides the value of time saved, reduced effort and flexibility for the customer."
                 </p>
@@ -79,7 +79,7 @@
 
             </div>
             <div class="col-sm-12 col-xs-6 padding-top-20 padding-bottom-20">
-                <a href="<?php  echo __ROOT__ ?>/customers/casestudies/PS_Gov_FSOA_APAC_WaterBureau.pdf" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/PS_Gov_FSOA_APAC_WaterBureau.pdf')?>" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 

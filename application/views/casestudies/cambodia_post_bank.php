@@ -10,7 +10,7 @@
     <div class="container ">
         <div class="col-xs-12 padding-top-20">
             <h2 class="white">
-                Financial Services – Cambodia Post Bank
+                Financial Services â€“ Cambodia Post Bank
             </h2>
         </div>
     </div>
@@ -39,7 +39,7 @@
                 <h4> Customer Profile</h4>
                 <p>Cambodia Post Bank (CPB) is a Phnom-Penh, Cambodia based licensed commercial bank, offering financial solutions to aspiring individuals and
                     enterprises in Cambodia. Established as a strategic partnership between Canadia Investment Holding Plc, Cambodia's Ministry of Post and
-                    Telecommunications and Fullerton Financial Holdings Pte. Ltd., CPB received the â€œOutstanding Banking Growth Awardâ€ from International
+                    Telecommunications and Fullerton Financial Holdings Pte. Ltd., CPB received the Ã¢â‚¬Å“Outstanding Banking Growth AwardÃ¢â‚¬Â� from International
                     Data Group (IDG) ASEAN, recognized as a strong, profitable, and sustainable growth bank in Cambodia. </p>
                 <h4> Business Challenge</h4>
                 <p>
@@ -116,7 +116,7 @@
                 <p><b>ATM Integration:</b></p>
                 <p>
                     Scaling its ATM Operations was a major priority for the bank
-                    not only to meet customer’s cash needs but as a revenue
+                    not only to meet customerâ€™s cash needs but as a revenue
                     generator by rolling out multiple value added services. ATMs
                     are the second most accessible touch points for customers to
                     reach out to their banks.
@@ -124,7 +124,7 @@
                 <p>
                     Fiorano's Socket Adapter and ISO8583 Microservices helped
                     in receiving, parsing, transformation of messages between
-                    CPB’s SmartVista ATM switch and Temenos T24 core.
+                    CPBâ€™s SmartVista ATM switch and Temenos T24 core.
                 </p>
                 <p>
                     The services that are now accessible via ATM transactions
@@ -159,7 +159,7 @@
                     efficient.
                 </p>
                 <p><b>
-                        Improved productivity with “Citizen Integrators”
+                        Improved productivity with â€œCitizen Integratorsâ€�
                     </b>
                 </p>
                 <p>
@@ -235,7 +235,7 @@
                 <p>
                     Founded in 1995, Fiorano is a trusted provider of enterprise integration middleware, high performance messaging and distributed systems. Fiorano's innovative event-driven SOA platform integrates applications and complex technologies into an enterprise nervous system. Fiorano's hybrid Cloud-ESB integrates applications across SaaS, PaaS and on-premise worlds.
 
-                    Global leaders including Federal Bank, Commercial Bank of Africa, NASA, US Coast Guard, POSCO, British Telecom, AT&T Labs, Vodafone and L'Oréal have deployed Fiorano's solutions to drive innovation through open, standards-based, event-driven SOA applications yielding unprecedented productivity.
+                    Global leaders including Federal Bank, Commercial Bank of Africa, NASA, US Coast Guard, POSCO, British Telecom, AT&T Labs, Vodafone and L'OrÃ©al have deployed Fiorano's solutions to drive innovation through open, standards-based, event-driven SOA applications yielding unprecedented productivity.
                 </p>
             </div>
         </div>
@@ -243,7 +243,7 @@
         <div class="col-sm-3 padding-top-50 margintop-50">
             <div class="col-sm-12 col-xs-6 user-casestudy padding-top-20 padding-bottom-20">
 
-                <img style=" padding-left: 17%;" src="<?php echo base_url('assets/images/casestudies/cambodia_logo.jpg')?>" class="img-responsive align-right"/>
+                <img style=" padding-left: 17%;" src="<?php echo base_url('assets/images/casestudies/Cambodia_Logo.jpg')?>" class="img-responsive align-right"/>
                 <p class="Ucomments padding-top-20">
                     "Fiorano's efficient integration solution provides us the agility to rapidly roll out new services for our customers. After implementing the current integrations, Fiorano will serve as the backbone of IT infrastructure for all our future services and applications"
                 </p>
@@ -257,7 +257,7 @@
 
             </div>
             <div class="col-sm-12 col-xs-6 padding-top-20 padding-bottom-20">
-                <a href="<?php  echo __ROOT__ ?>/customers/casestudies/CPB_Casestudy.pdf" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/CPB_Casestudy.pdf')?>" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 

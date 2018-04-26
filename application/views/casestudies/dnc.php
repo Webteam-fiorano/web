@@ -76,16 +76,19 @@
 
         <div class="col-sm-3 padding-top-50 margintop-50">
             <div class="cs-quot">
-                <div class="cs-logo"><img src="<?php echo __IMAGES__?>/delaware-north-new-logo.jpg" width="200px"/></div>
+             <img style=" padding-left: 19%;" src="<?php echo base_url('assets/images/casestudies/Delaware North logo.jpg')?>" class="img-responsive align-right"/>
+                
                 "Our partners and clients love the speed at which we get data back to them and the near-real-time analytics it can provide. This enables them to judge the efficacy of their marketing campaigns, assess operational efficiency and make adjustments to improve top line revenues. "Fiorano professional services act as an extension to our team for both new development and support. Fiorano's development team is very responsive, with changes to functionality turned around sometimes within a week, which would be unheard of with larger vendors. This allows my team to keep our focus on architecture and design."
                 <div class="cs-author">
+                	<b>
                     Scott Mercer, <br/>
-                    Manager of the Service-Oriented Architecture (SOA)<br/>
+                    Manager of the Service-Oriented Architecture (SOA),<br/>
                     Solutions Team at Delaware North<br/>
+                   </b>
                 </div>
             </div>
             <div class="col-sm-12 col-xs-6 padding-top-20 padding-bottom-20">
-                <a href="/customers/casestudies/Delaware-North-Case-Study.pdf" title="Download PDF" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/Delaware-North-Case-Study.pdf')?>" title="Download PDF" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 

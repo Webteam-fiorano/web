@@ -63,7 +63,7 @@
                 </ul>
                 <p>In intensive evaluations conducted by FairEx, FioranoMQ proved to be the fastest and most scalable JMS server for guaranteed message delivery. It performed reliably under heavy load conditions making FioranoMQ the Backbone Middleware solution of choice for FariEx.</p>
                 <p>FioranoMQ provided precisely the kind of messaging solution that FairEx needed. Fiorano's file based data store delivers guaranteed messages significantly faster in publish/subscribe mode than any other JMS implementation, which was a key requirement of FairEx's trading infrastructure. In addition, Fiorano's highly configurable, multi-level security system added Java REALMS support to improve security management by centralizing and combining user authentication sources. Another key feature was FioranoMQ's reliability. The ability to withstand heavy load to tune and configure the transport details to monitor the Server performance was seen as something unique to FioranoMQ.</p>
-                <div class="c"><img src="<?php echo __IMAGES__?>/CS_FAIREX.jpg"><br/>FIGURE1: FairEx Trading Engine Overall Architecture</div>
+                <div class="c b text-center"><img src="<?php echo __IMAGES__?>/CS_FAIREX.jpg"><br/>FIGURE1: FairEx Trading Engine Overall Architecture</div>
                 <p>Only FioranoMQ used a Scalable Connection Management Module (SCM) to achieve scalability levels unmatched by any other JMS (Java Message Service) vendor.</p>
                 <p>The FioranoMQ cluster can share destinations and provide load-balancing facilities. The FioranoMQ clustering architecture incorporates automatic failover protection thereby reducing, ot the point of eliminating. Server downtime. If other Servers in a cluster go down, the client application automatically reconnects to the dispatcher FairEx's trading engine deployed on Java 2 Enterprise Edition, using technologies such as JSP, EJB, JMS, JNDI and so on. In some cases, FairEx also uses JMS to integrate two partner systems.</p>
 
@@ -91,20 +91,20 @@
         <div class="col-sm-3 padding-top-50 margintop-50">
             <div class="col-sm-12 col-xs-6 user-casestudy padding-top-20 padding-bottom-20">
 
-                <img style=" padding-left: 19%;" src="<?php echo __IMAGES__?>/fairEx_logo.gif" class="img-responsive align-right"/>
+                <img style=" padding-left: 19%;" src="<?php echo base_url('assets/images/casestudies/FairEx-logo.jpg')?>" class="img-responsive align-right"/>
                 <p class="Ucomments padding-top-20">
                     "Our online trading system makes extensive use of JMS to send different types of messages among the different components, these components are deployed on several hardware, and it is critical that we have a high performance messaging backbone to dispatch the messages. We have tested several JMS servers, and Fiorano is among the top in terms of performance/throughput in our evaluation, and we are also very satisfied with their technical support, the response is fast whenever we have any queries."
                 </p>
                 <p class="text-right">
                     <b>
-                        C.K Lim <br/>Chief Architect<br/>
+                        C.K Lim, <br/>Chief Architect,<br/>
                         FairEx International Financial Systems<br/>
                     </b>
                 </p>
 
             </div>
             <div class="col-sm-12 col-xs-6 padding-top-20 padding-bottom-20">
-                <a href="<?php  echo __ROOT__ ?>/customers/casestudies/CS_Fin_FMQ_APAC_FairEx.pdf" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/CS_Fin_FMQ_APAC_FairEx.pdf')?>" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 

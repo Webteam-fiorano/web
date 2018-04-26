@@ -41,7 +41,7 @@
                 <p>
                     Connect First implemented the Fiorano Messaging Queue to solve the requirements for high performance inter server/process messaging. The FioranoMQ Server was deployed in High Availability mode to help achieve the 99.999% uptime guarantee given to clients.
                 </p>
-                <div class="c"><img src="<?php echo __IMAGES__?>/cs_connect_first.jpg"><br/> <br/> Various Applications Connected Using FioranoMQ<br/><br/></div>
+                <div class="c b text-center"><img src="<?php echo __IMAGES__?>/cs_connect_first.jpg"><br/> <br/>Figure1 : Various Applications Connected Using FioranoMQ<br/><br/></div>
                 <p>
                 <h4>Why Fiorano</h4>
                 Connect First chose Fiorano for a couple of reasons:
@@ -62,7 +62,7 @@
 
         <div class="col-sm-3 padding-top-50 margintop-50">
             <div class="col-sm-12 col-xs-6 user-casestudy padding-top-20 padding-bottom-20">
-                <div class="cs-logo"><img src="<?php echo __IMAGES__?>/connectfirst.jpg" /></div>
+                <div class="cs-logo"><img src="<?php echo base_url('assets/images/casestudies/CS_Technology_ConnectFirst logo.jpg')?>" /></div>
                 "Connect First is happy with the decision to partner with Fiorano for this mission critical component of our platform.  FMQ performs as advertised and has helped our company scale to meet the demands of our clients. If given the option to do it over again, I would stick with Fiorano."
                 <div class="cs-author">
                     Geoff MINA,<br/>
@@ -70,7 +70,7 @@
                 </div>
             </div>
             <div class="col-sm-12 col-xs-6 padding-top-20 padding-bottom-20">
-                <a href="/customers/casestudies/CS_Technology_FMQ_USA_ConnectFirst.pdf" title="Download PDF" target="_blank">
+                <a href="<?php echo  base_url('assets/pdf/casestudy/CS_Technology_FMQ_USA_ConnectFirst.pdf')?>" title="Download PDF" target="_blank">
                     <img src="<?php echo base_url('assets/images/casestudies/casestudy-download-pdf.jpg')?>" class="img-responsive">
                 </a>
 
